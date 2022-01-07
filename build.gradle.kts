@@ -20,7 +20,6 @@ dependencies {
             attribute(Bundling.BUNDLING_ATTRIBUTE, objects.named(Bundling::class, Bundling.EXTERNAL))
         }
     }
-    enigmaRuntime("org.quiltmc:stitch:0.6.3")
 }
 
 publishing {
