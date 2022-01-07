@@ -1,0 +1,3 @@
+CLASS ts net/minecraft/server/EntityOcelot
+	METHOD ct getCatType ()I
+	METHOD r setCatType (I)V

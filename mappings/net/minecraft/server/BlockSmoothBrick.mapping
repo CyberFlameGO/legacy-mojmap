@@ -1,0 +1,7 @@
+CLASS ajz net/minecraft/server/BlockSmoothBrick
+	FIELD a VARIANT Lamm;
+	CLASS a EnumStonebrickType
+		FIELD a DEFAULT Lajz$a;
+		FIELD b MOSSY Lajz$a;
+		FIELD c CRACKED Lajz$a;
+		FIELD d CHISELED Lajz$a;

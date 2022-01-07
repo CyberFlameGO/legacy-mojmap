@@ -1,0 +1,2 @@
+CLASS afs net/minecraft/server/BlockChest
+	FIELD a FACING Laml;

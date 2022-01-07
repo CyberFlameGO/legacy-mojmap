@@ -1,0 +1,5 @@
+CLASS vz net/minecraft/server/EntitySilverfish
+	CLASS a PathfinderGoalSilverfishHideInBlock
+		FIELD a silverfish Lvz;
+	CLASS b PathfinderGoalSilverfishWakeOthers
+		FIELD a silverfish Lvz;

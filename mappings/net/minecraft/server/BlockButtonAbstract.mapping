@@ -1,0 +1,4 @@
+CLASS afn net/minecraft/server/BlockButtonAbstract
+	FIELD a FACING Laml;
+	FIELD b POWERED Lamk;
+	CLASS 1 1

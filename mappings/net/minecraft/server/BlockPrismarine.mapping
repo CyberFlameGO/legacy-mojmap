@@ -1,0 +1,6 @@
+CLASS aiu net/minecraft/server/BlockPrismarine
+	FIELD a VARIANT Lamm;
+	CLASS a EnumPrismarineVariant
+		FIELD a ROUGH Laiu$a;
+		FIELD b BRICKS Laiu$a;
+		FIELD c DARK Laiu$a;

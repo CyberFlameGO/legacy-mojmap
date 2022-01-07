@@ -1,0 +1,3 @@
+CLASS tt net/minecraft/server/EntityPig
+	METHOD cl hasSaddle ()Z
+	METHOD l setSaddle (Z)V

@@ -1,0 +1,2 @@
+CLASS dt net/minecraft/server/NBTTagInt
+	FIELD b data I

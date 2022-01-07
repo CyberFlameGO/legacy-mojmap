@@ -1,0 +1,3 @@
+CLASS aik net/minecraft/server/BlockLeaves1
+	FIELD Q VARIANT Lamm;
+	CLASS 1 1

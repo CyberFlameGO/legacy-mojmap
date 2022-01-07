@@ -1,0 +1,2 @@
+CLASS tx net/minecraft/server/EntitySquid
+	CLASS a PathfinderGoalSquid

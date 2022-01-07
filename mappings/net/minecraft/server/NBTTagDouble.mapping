@@ -1,0 +1,2 @@
+CLASS dp net/minecraft/server/NBTTagDouble
+	FIELD b data D

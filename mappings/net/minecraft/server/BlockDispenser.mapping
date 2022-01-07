@@ -1,0 +1,5 @@
+CLASS agg net/minecraft/server/BlockDispenser
+	FIELD N REGISTRY Lcp;
+	FIELD a FACING Laml;
+	FIELD b TRIGGERED Lamk;
+	METHOD f dispense (Ladm;Lcj;)V

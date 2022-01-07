@@ -1,0 +1,9 @@
+CLASS aki net/minecraft/server/BlockTripwire
+	FIELD N ATTACHED Lamk;
+	FIELD O DISARMED Lamk;
+	FIELD P NORTH Lamk;
+	FIELD Q EAST Lamk;
+	FIELD R SOUTH Lamk;
+	FIELD S WEST Lamk;
+	FIELD a POWERED Lamk;
+	FIELD b SUSPENDED Lamk;

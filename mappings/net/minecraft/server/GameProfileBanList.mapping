@@ -1,0 +1,2 @@
+CLASS mc net/minecraft/server/GameProfileBanList
+	METHOD a isBanned (Lcom/mojang/authlib/GameProfile;)Z

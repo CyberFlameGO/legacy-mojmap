@@ -1,0 +1,6 @@
+CLASS akc net/minecraft/server/BlockLongGrass
+	FIELD a TYPE Lamm;
+	CLASS a EnumTallGrassType
+		FIELD a DEAD_BUSH Lakc$a;
+		FIELD b GRASS Lakc$a;
+		FIELD c FERN Lakc$a;

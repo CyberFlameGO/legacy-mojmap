@@ -1,0 +1,6 @@
+CLASS ya net/minecraft/server/InventoryMerchant
+	FIELD a merchant Lacy;
+	FIELD b itemsInSlots [Lzx;
+	FIELD c player Lwn;
+	FIELD d recipe Lacz;
+	METHOD i getRecipe ()Lacz;

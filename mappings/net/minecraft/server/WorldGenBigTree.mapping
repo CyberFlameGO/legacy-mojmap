@@ -1,0 +1,2 @@
+CLASS aoi net/minecraft/server/WorldGenBigTree
+	CLASS a Position

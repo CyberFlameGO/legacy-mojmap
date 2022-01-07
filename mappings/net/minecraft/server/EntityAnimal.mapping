@@ -1,0 +1,3 @@
+CLASS tm net/minecraft/server/EntityAnimal
+	METHOD a mate (Ltm;)Z
+	METHOD cr isInLove ()Z

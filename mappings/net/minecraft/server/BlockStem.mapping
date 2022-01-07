@@ -1,0 +1,5 @@
+CLASS ajx net/minecraft/server/BlockStem
+	FIELD N blockFruit Lafh;
+	FIELD a AGE Lamn;
+	FIELD b FACING Laml;
+	CLASS 1 1

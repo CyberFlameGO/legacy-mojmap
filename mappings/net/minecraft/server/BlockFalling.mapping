@@ -1,0 +1,3 @@
+CLASS agr net/minecraft/server/BlockFalling
+	FIELD N instaFall Z
+	METHOD e canFall (Ladm;Lcj;)Z

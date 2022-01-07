@@ -1,0 +1,2 @@
+CLASS ye net/minecraft/server/InventoryCraftResult
+	FIELD a items [Lzx;

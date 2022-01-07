@@ -1,0 +1,2 @@
+CLASS afl net/minecraft/server/BlockBrewingStand
+	FIELD a HAS_BOTTLE [Lamk;

@@ -1,0 +1,2 @@
+CLASS ags net/minecraft/server/BlockSoil
+	FIELD a MOISTURE Lamn;

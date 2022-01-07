@@ -1,0 +1,5 @@
+CLASS ajj net/minecraft/server/BlockSapling
+	FIELD a TYPE Lamm;
+	FIELD b STAGE Lamn;
+	METHOD d grow (Ladm;Lcj;Lalz;Ljava/util/Random;)V
+	CLASS 1 1

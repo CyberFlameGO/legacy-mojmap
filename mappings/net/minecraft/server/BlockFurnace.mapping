@@ -1,0 +1,2 @@
+CLASS ahb net/minecraft/server/BlockFurnace
+	FIELD a FACING Laml;

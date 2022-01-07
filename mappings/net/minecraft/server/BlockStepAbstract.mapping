@@ -1,0 +1,5 @@
+CLASS ahh net/minecraft/server/BlockStepAbstract
+	FIELD a HALF Lamm;
+	CLASS a EnumSlabHalf
+		FIELD a TOP Lahh$a;
+		FIELD b BOTTOM Lahh$a;

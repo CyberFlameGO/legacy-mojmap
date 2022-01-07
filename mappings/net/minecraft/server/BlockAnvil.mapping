@@ -1,0 +1,4 @@
+CLASS aez net/minecraft/server/BlockAnvil
+	FIELD a FACING Laml;
+	FIELD b DAMAGE Lamn;
+	CLASS a TileEntityContainerAnvil

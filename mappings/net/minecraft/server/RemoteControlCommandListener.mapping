@@ -1,0 +1,3 @@
+CLASS mj net/minecraft/server/RemoteControlCommandListener
+	FIELD a instance Lmj;
+	METHOD h getInstance ()Lmj;

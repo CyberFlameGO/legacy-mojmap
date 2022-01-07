@@ -1,0 +1,5 @@
+CLASS als net/minecraft/server/BlockPiston
+	FIELD N sticky Z
+	FIELD a FACING Laml;
+	FIELD b EXTENDED Lamk;
+	CLASS 1 1

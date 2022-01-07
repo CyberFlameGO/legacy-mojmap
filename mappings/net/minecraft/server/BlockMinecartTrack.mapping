@@ -1,0 +1,2 @@
+CLASS aix net/minecraft/server/BlockMinecartTrack
+	FIELD b SHAPE Lamm;

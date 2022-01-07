@@ -1,0 +1,2 @@
+CLASS akr net/minecraft/server/BlockWoodenStep
+	FIELD b VARIANT Lamm;

@@ -1,0 +1,4 @@
+CLASS xm net/minecraft/server/ContainerBrewingStand
+	FIELD a brewingStand Log;
+	CLASS a SlotBrewing
+	CLASS b SlotPotionBottle

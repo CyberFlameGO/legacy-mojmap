@@ -1,0 +1,10 @@
+CLASS ajy net/minecraft/server/BlockStone
+	FIELD a VARIANT Lamm;
+	CLASS a EnumStoneVariant
+		FIELD a STONE Lajy$a;
+		FIELD b GRANITE Lajy$a;
+		FIELD c GRANITE_SMOOTH Lajy$a;
+		FIELD d DIORITE Lajy$a;
+		FIELD e DIORITE_SMOOTH Lajy$a;
+		FIELD f ANDESITE Lajy$a;
+		FIELD g ANDESITE_SMOOTH Lajy$a;

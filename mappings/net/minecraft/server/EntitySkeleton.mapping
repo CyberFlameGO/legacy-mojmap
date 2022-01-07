@@ -1,0 +1,3 @@
+CLASS wa net/minecraft/server/EntitySkeleton
+	METHOD a setSkeletonType (I)V
+	METHOD cm getSkeletonType ()I

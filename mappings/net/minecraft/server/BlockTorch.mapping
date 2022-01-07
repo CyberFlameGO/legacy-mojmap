@@ -1,0 +1,4 @@
+CLASS akf net/minecraft/server/BlockTorch
+	FIELD a FACING Laml;
+	CLASS 1 1
+	CLASS 2 2

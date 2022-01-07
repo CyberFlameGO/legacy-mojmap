@@ -1,0 +1,11 @@
+CLASS ajb net/minecraft/server/BlockRedstoneWire
+	FIELD N SOUTH Lamm;
+	FIELD O WEST Lamm;
+	FIELD P POWER Lamn;
+	FIELD a NORTH Lamm;
+	FIELD b EAST Lamm;
+	METHOD a getPower (Ladm;Lcj;I)I
+	CLASS a EnumRedstoneWireConnection
+		FIELD a UP Lajb$a;
+		FIELD b SIDE Lajb$a;
+		FIELD c NONE Lajb$a;

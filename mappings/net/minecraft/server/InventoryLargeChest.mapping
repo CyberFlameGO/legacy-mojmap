@@ -1,0 +1,3 @@
+CLASS of net/minecraft/server/InventoryLargeChest
+	FIELD b left Loo;
+	FIELD c right Loo;

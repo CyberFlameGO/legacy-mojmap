@@ -1,0 +1,2 @@
+CLASS ajr net/minecraft/server/BlockSponge
+	FIELD a WET Lamk;

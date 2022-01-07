@@ -1,0 +1,3 @@
+CLASS akx net/minecraft/server/TileEntityBrewingStand
+	FIELD g items [Lzx;
+	FIELD h brewTime I

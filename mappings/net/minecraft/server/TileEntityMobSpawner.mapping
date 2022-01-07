@@ -1,0 +1,3 @@
+CLASS all net/minecraft/server/TileEntityMobSpawner
+	METHOD b getSpawner ()Ladd;
+	CLASS 1 1

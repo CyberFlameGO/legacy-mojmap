@@ -1,0 +1,2 @@
+CLASS afd net/minecraft/server/BlockPressurePlateAbstract
+	METHOD a getBoundingBox (Lcj;)Laug;

@@ -1,0 +1,8 @@
+CLASS akh net/minecraft/server/BlockTrapdoor
+	FIELD N HALF Lamm;
+	FIELD a FACING Laml;
+	FIELD b OPEN Lamk;
+	CLASS 1 1
+	CLASS a EnumTrapdoorHalf
+		FIELD a TOP Lakh$a;
+		FIELD b BOTTOM Lakh$a;

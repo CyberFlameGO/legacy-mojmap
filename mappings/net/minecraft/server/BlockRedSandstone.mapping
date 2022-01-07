@@ -1,0 +1,6 @@
+CLASS aiz net/minecraft/server/BlockRedSandstone
+	FIELD a TYPE Lamm;
+	CLASS a EnumRedSandstoneVariant
+		FIELD a DEFAULT Laiz$a;
+		FIELD b CHISELED Laiz$a;
+		FIELD c SMOOTH Laiz$a;

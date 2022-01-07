@@ -1,0 +1,3 @@
+CLASS alc net/minecraft/server/TileEntityDispenser
+	FIELD g items [Lzx;
+	METHOD a addItem (Lzx;)I

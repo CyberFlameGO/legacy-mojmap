@@ -1,0 +1,7 @@
+CLASS du net/minecraft/server/NBTTagList
+	FIELD c list Ljava/util/List;
+	FIELD d type B
+	METHOD a add (Leb;)V
+	METHOD b get (I)Ldn;
+	METHOD c size ()I
+	METHOD f getString (I)Ljava/lang/String;

@@ -1,0 +1,8 @@
+CLASS wb net/minecraft/server/EntitySlime
+	METHOD a setSize (I)V
+	METHOD cm getSize ()I
+	CLASS a PathfinderGoalSlimeNearestPlayer
+	CLASS b PathfinderGoalSlimeRandomJump
+	CLASS c PathfinderGoalSlimeIdle
+	CLASS d ControllerMoveSlime
+	CLASS e PathfinderGoalSlimeRandomDirection

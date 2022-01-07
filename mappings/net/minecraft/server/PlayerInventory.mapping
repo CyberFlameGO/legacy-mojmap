@@ -1,0 +1,13 @@
+CLASS wm net/minecraft/server/PlayerInventory
+	FIELD a items [Lzx;
+	FIELD b armor [Lzx;
+	FIELD c itemInHandIndex I
+	FIELD d player Lwn;
+	METHOD a pickup (Lzx;)Z
+	METHOD b setCarried (Lzx;)V
+	METHOD d firstPartial (Lzx;)I
+	METHOD h getItemInHand ()Lzx;
+	METHOD i getHotbarSize ()I
+	METHOD j getFirstEmptySlotIndex ()I
+	METHOD p getCarried ()Lzx;
+	CLASS 1 1

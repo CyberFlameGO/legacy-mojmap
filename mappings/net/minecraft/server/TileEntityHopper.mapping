@@ -1,0 +1,4 @@
+CLASS alj net/minecraft/server/TileEntityHopper
+	FIELD a items [Lzx;
+	METHOD a addItem (Log;Lzx;Lcq;)Lzx;
+	METHOD n isCooledDown ()Z

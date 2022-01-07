@@ -1,0 +1,9 @@
+CLASS aio net/minecraft/server/BlockWood
+	FIELD a VARIANT Lamm;
+	CLASS a EnumLogVariant
+		FIELD a OAK Laio$a;
+		FIELD b SPRUCE Laio$a;
+		FIELD c BIRCH Laio$a;
+		FIELD d JUNGLE Laio$a;
+		FIELD e ACACIA Laio$a;
+		FIELD f DARK_OAK Laio$a;

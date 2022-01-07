@@ -1,0 +1,13 @@
+CLASS aju net/minecraft/server/BlockStairs
+	FIELD N SHAPE Lamm;
+	FIELD a FACING Laml;
+	FIELD b HALF Lamm;
+	CLASS a EnumHalf
+		FIELD a TOP Laju$a;
+		FIELD b BOTTOM Laju$a;
+	CLASS b EnumStairShape
+		FIELD a STRAIGHT Laju$b;
+		FIELD b INNER_LEFT Laju$b;
+		FIELD c INNER_RIGHT Laju$b;
+		FIELD d OUTER_LEFT Laju$b;
+		FIELD e OUTER_RIGHT Laju$b;

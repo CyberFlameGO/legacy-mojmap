@@ -1,0 +1,2 @@
+CLASS dr net/minecraft/server/NBTTagFloat
+	FIELD b data F

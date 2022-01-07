@@ -1,0 +1,2 @@
+CLASS yb net/minecraft/server/ContainerMerchant
+	FIELD a merchant Lacy;

@@ -1,0 +1,30 @@
+# Gradle
+.gradle
+/build
+/buildSrc/build
+
+# intellij
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
+
+# Linux temp files
+*~
+
+# Mac filesystem dust
+.DS_Store/
+.DS_Store
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VSCode
+.vscode/
+
+# Netbeans
+nbproject/
+nbactions.xml

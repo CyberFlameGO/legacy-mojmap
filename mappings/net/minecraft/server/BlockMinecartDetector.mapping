@@ -1,0 +1,4 @@
+CLASS agc net/minecraft/server/BlockMinecartDetector
+	FIELD N POWERED Lamk;
+	FIELD b SHAPE Lamm;
+	CLASS 1 1

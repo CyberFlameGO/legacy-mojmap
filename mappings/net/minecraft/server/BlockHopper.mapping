@@ -1,0 +1,4 @@
+CLASS ahn net/minecraft/server/BlockHopper
+	FIELD a FACING Laml;
+	FIELD b ENABLED Lamk;
+	CLASS 1 1

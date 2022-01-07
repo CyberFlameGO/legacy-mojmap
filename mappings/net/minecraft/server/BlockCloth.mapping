@@ -1,0 +1,2 @@
+CLASS afv net/minecraft/server/BlockCloth
+	FIELD a COLOR Lamm;

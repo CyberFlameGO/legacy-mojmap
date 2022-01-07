@@ -1,0 +1,2 @@
+CLASS eh net/minecraft/server/PacketEncrypter
+	FIELD a cipher Lef;

@@ -1,0 +1,6 @@
+CLASS ua net/minecraft/server/EntityWolf
+	METHOD a setCollarColor (Lzd;)V
+	METHOD cv isAngry ()Z
+	METHOD cw getCollarColor ()Lzd;
+	METHOD o setAngry (Z)V
+	CLASS 1 1

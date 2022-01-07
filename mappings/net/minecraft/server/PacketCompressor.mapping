@@ -1,0 +1,5 @@
+CLASS ej net/minecraft/server/PacketCompressor
+	FIELD a encodeBuf [B
+	FIELD b deflater Ljava/util/zip/Deflater;
+	FIELD c threshold I
+	METHOD a setThreshold (I)V

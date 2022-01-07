@@ -1,0 +1,7 @@
+CLASS ahq net/minecraft/server/BlockJukeBox
+	FIELD a HAS_RECORD Lamk;
+	METHOD e dropRecord (Ladm;Lcj;Lalz;)V
+	CLASS a TileEntityRecordPlayer
+		FIELD a record Lzx;
+		METHOD a getRecord ()Lzx;
+		METHOD a setRecord (Lzx;)V

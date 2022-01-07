@@ -1,0 +1,10 @@
+CLASS ko net/minecraft/server/DedicatedServer
+	FIELD k LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD o propertyManager Lkl;
+	FIELD q generateStructures Z
+	METHOD a issueCommand (Ljava/lang/String;Lm;)V
+	CLASS 1 1
+	CLASS 2 2
+		FIELD a server Lko;
+	CLASS 3 3
+	CLASS 4 4

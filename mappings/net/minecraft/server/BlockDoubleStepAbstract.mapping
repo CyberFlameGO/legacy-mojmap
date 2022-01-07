@@ -1,0 +1,12 @@
+CLASS akb net/minecraft/server/BlockDoubleStepAbstract
+	FIELD N VARIANT Lamm;
+	FIELD b SEAMLESS Lamk;
+	CLASS a EnumStoneSlabVariant
+		FIELD a STONE Lakb$a;
+		FIELD b SAND Lakb$a;
+		FIELD c WOOD Lakb$a;
+		FIELD d COBBLESTONE Lakb$a;
+		FIELD e BRICK Lakb$a;
+		FIELD f SMOOTHBRICK Lakb$a;
+		FIELD g NETHERBRICK Lakb$a;
+		FIELD h QUARTZ Lakb$a;

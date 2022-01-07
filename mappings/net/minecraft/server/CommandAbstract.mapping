@@ -1,0 +1,2 @@
+CLASS i net/minecraft/server/CommandAbstract
+	CLASS a CommandNumber

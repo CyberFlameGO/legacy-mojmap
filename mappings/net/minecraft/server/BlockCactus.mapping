@@ -1,0 +1,2 @@
+CLASS afo net/minecraft/server/BlockCactus
+	FIELD a AGE Lamn;

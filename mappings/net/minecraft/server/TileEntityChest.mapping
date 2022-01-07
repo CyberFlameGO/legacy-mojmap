@@ -1,0 +1,3 @@
+CLASS aky net/minecraft/server/TileEntityChest
+	FIELD m items [Lzx;
+	CLASS 1 1

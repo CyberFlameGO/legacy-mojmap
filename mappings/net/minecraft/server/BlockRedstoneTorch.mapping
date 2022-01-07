@@ -1,0 +1,4 @@
+CLASS ajd net/minecraft/server/BlockRedstoneTorch
+	FIELD N isOn Z
+	CLASS a RedstoneUpdateInfo
+		FIELD b time J

@@ -1,0 +1,2 @@
+CLASS aga net/minecraft/server/BlockDaylightDetector
+	FIELD a POWER Lamn;

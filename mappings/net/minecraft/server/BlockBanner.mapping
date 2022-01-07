@@ -1,0 +1,6 @@
+CLASS afa net/minecraft/server/BlockBanner
+	FIELD a FACING Laml;
+	FIELD b ROTATION Lamn;
+	CLASS 1 1
+	CLASS a BlockStandingBanner
+	CLASS b BlockWallBanner

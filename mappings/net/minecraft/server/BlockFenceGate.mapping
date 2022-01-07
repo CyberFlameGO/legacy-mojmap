@@ -1,0 +1,4 @@
+CLASS agu net/minecraft/server/BlockFenceGate
+	FIELD N IN_WALL Lamk;
+	FIELD a OPEN Lamk;
+	FIELD b POWERED Lamk;

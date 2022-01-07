@@ -1,0 +1,3 @@
+CLASS akm net/minecraft/server/BlockWallSign
+	FIELD a FACING Laml;
+	CLASS 1 1

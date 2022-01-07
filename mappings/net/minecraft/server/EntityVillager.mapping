@@ -1,0 +1,15 @@
+CLASS wi net/minecraft/server/EntityVillager
+	FIELD bB inventory Loq;
+	FIELD bm village Ltf;
+	FIELD bn profession I
+	FIELD bq tradingPlayer Lwn;
+	FIELD bv riches I
+	METHOD cl getProfession ()I
+	METHOD r setProfession (I)V
+	CLASS a MerchantRecipeOptionBuy
+	CLASS b MerchantRecipeOptionBook
+	CLASS c MerchantRecipeOptionEnchant
+	CLASS d MerchantRecipeOptionProcess
+	CLASS e MerchantRecipeOptionSell
+	CLASS f IMerchantRecipeOption
+	CLASS g MerchantOptionRandomRange

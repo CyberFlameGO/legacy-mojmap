@@ -1,0 +1,15 @@
+CLASS ek net/minecraft/server/NetworkManager
+	FIELD k channel Lio/netty/channel/Channel;
+	FIELD o encrypted Z
+	FIELD p isDisconnectionHandled Z
+	METHOD a setupCompression (I)V
+	METHOD a close (Leu;)V
+	METHOD a handle (Lff;)V
+	METHOD a setEncryptionKey (Ljavax/crypto/SecretKey;)V
+	METHOD b getSocketAddress ()Ljava/net/SocketAddress;
+	METHOD i getPacketListener ()Lep;
+	CLASS 1 1
+	CLASS 2 2
+	CLASS 3 3
+	CLASS 4 4
+	CLASS a QueuedPacket

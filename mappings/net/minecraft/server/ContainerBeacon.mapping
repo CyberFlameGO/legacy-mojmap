@@ -1,0 +1,3 @@
+CLASS xl net/minecraft/server/ContainerBeacon
+	FIELD a beacon Log;
+	CLASS a SlotBeacon

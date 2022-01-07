@@ -1,0 +1,2 @@
+CLASS atk net/minecraft/server/WorldLoaderServer
+	CLASS 1 ChunkFilenameFilter

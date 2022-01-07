@@ -1,0 +1,8 @@
+CLASS n net/minecraft/server/CommandObjectiveExecutor
+	CLASS 1 1
+	CLASS a EnumCommandResult
+		FIELD a SUCCESS_COUNT Ln$a;
+		FIELD b AFFECTED_BLOCKS Ln$a;
+		FIELD c AFFECTED_ENTITIES Ln$a;
+		FIELD d AFFECTED_ITEMS Ln$a;
+		FIELD e QUERY_RESULT Ln$a;

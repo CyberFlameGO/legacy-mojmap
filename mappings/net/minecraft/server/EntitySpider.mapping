@@ -1,0 +1,4 @@
+CLASS wc net/minecraft/server/EntitySpider
+	CLASS a PathfinderGoalSpiderMeleeAttack
+	CLASS b GroupDataSpider
+	CLASS c PathfinderGoalSpiderNearestAttackableTarget

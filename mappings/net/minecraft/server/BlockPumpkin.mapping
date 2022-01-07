@@ -1,0 +1,10 @@
+CLASS aiv net/minecraft/server/BlockPumpkin
+	FIELD N ironGolemPart Lamd;
+	FIELD P ironGolem Lamd;
+	FIELD a snowGolemPart Lamd;
+	FIELD b snowGolem Lamd;
+	METHOD T getDetectorIronGolemPart ()Lamd;
+	METHOD U getDetectorIronGolem ()Lamd;
+	METHOD l getDetectorSnowGolemPart ()Lamd;
+	METHOD n getDetectorSnowGolem ()Lamd;
+	CLASS 1 1

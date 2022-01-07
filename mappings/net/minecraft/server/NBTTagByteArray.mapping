@@ -1,0 +1,2 @@
+CLASS dl net/minecraft/server/NBTTagByteArray
+	FIELD b data [B

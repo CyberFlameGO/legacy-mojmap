@@ -1,0 +1,6 @@
+CLASS aji net/minecraft/server/BlockSandStone
+	FIELD a TYPE Lamm;
+	CLASS a EnumSandstoneVariant
+		FIELD a DEFAULT Laji$a;
+		FIELD b CHISELED Laji$a;
+		FIELD c SMOOTH Laji$a;

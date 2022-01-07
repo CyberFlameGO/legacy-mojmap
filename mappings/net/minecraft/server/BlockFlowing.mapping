@@ -1,0 +1,2 @@
+CLASS agl net/minecraft/server/BlockFlowing
+	METHOD a flow (Ladm;Lcj;Lalz;I)V

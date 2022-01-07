@@ -1,0 +1,5 @@
+CLASS aih net/minecraft/server/BlockDoubleStoneStepAbstract
+	FIELD N VARIANT Lamm;
+	FIELD b SEAMLESS Lamk;
+	CLASS a EnumStoneSlab2Variant
+		FIELD a RED_SANDSTONE Laih$a;

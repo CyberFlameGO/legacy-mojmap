@@ -1,0 +1,9 @@
+CLASS xs net/minecraft/server/ContainerEnchantTable
+	FIELD a enchantSlots Log;
+	FIELD g costs [I
+	FIELD i world Ladm;
+	FIELD j position Lcj;
+	CLASS 1 1
+		FIELD a enchantTable Lxs;
+	CLASS 2 2
+	CLASS 3 3

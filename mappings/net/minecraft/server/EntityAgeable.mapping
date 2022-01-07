@@ -1,0 +1,6 @@
+CLASS ph net/minecraft/server/EntityAgeable
+	METHOD a setAge (I)V
+	METHOD a setAge (IZ)V
+	METHOD a createChild (Lph;)Lph;
+	METHOD b setAgeRaw (I)V
+	METHOD l getAge ()I

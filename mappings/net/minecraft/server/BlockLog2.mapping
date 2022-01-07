@@ -1,0 +1,4 @@
+CLASS aig net/minecraft/server/BlockLog2
+	FIELD b VARIANT Lamm;
+	CLASS 1 1
+	CLASS 2 2

@@ -1,0 +1,6 @@
+CLASS akj net/minecraft/server/BlockTripwireHook
+	FIELD N ATTACHED Lamk;
+	FIELD O SUSPENDED Lamk;
+	FIELD a FACING Laml;
+	FIELD b POWERED Lamk;
+	CLASS 1 1
