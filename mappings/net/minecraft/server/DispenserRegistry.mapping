@@ -1,4 +1,7 @@
 CLASS kb net/minecraft/server/DispenserRegistry
+	FIELD a STDOUT Ljava/io/PrintStream;
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD d wrapStreams ()V
 	CLASS 1 1
 	CLASS 2 10
 	CLASS 3 11

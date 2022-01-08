@@ -1,1 +1,11 @@
 CLASS ct net/minecraft/server/RegistryID
+	FIELD a idMap Ljava/util/IdentityHashMap;
+	FIELD b list Ljava/util/List;
+	METHOD a byId (I)Ljava/lang/Object;
+		ARG 1 index
+	METHOD a set (Ljava/lang/Object;I)V
+		ARG 1 value
+		ARG 2 index
+	METHOD b getId (Ljava/lang/Object;)I
+		ARG 1 value
+	METHOD iterator iterator ()Ljava/util/Iterator;
