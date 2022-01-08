@@ -1,0 +1,5 @@
+CLASS bpo net/minecraft/client/server/IntergratedServer
+	FIELD k LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD l client Lave;
+	METHOD <init> (Lave;)V
+		ARG 1 client

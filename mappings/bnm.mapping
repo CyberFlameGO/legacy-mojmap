@@ -1,0 +1,7 @@
+CLASS bnm
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d packFilter Ljava/io/FileFilter;
+	METHOD a downloadResourcePack (Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/util/concurrent/ListenableFuture;
+		ARG 1 url
+		ARG 2 hash
+	METHOD f clearResourcePack ()V

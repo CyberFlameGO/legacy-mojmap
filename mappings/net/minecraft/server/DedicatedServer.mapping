@@ -1,8 +1,11 @@
 CLASS ko net/minecraft/server/DedicatedServer
 	FIELD k LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD o propertyManager Lkl;
+	FIELD p eula Lkf;
 	FIELD q generateStructures Z
 	METHOD a issueCommand (Ljava/lang/String;Lm;)V
+	METHOD aS getMaxTickTime ()J
+	METHOD aU sleepFor5 ()V
 	CLASS 1 1
 	CLASS 2 2
 		FIELD a server Lko;

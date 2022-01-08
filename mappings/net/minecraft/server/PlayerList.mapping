@@ -2,6 +2,8 @@ CLASS lx net/minecraft/server/PlayerList
 	FIELD e maxPlayers I
 	FIELD h server Lnet/minecraft/server/MinecraftServer;
 	FIELD i players Ljava/util/List;
+	FIELD k profileBanList Lmc;
+	FIELD l ipBans Llu;
 	FIELD m operators Lly;
 	FIELD n whitelist Lme;
 	FIELD p playerFileData Laty;
@@ -9,6 +11,7 @@ CLASS lx net/minecraft/server/PlayerList
 	METHOD a reloadWhitelist ()V
 	METHOD a sendPacketNearby (DDDDILff;)V
 	METHOD a addOp (Lcom/mojang/authlib/GameProfile;)V
+		ARG 1 profile
 	METHOD a sendMessage (Leu;)V
 	METHOD a sendMessage (Leu;Z)V
 	METHOD a sendAll (Lff;)V
@@ -22,6 +25,7 @@ CLASS lx net/minecraft/server/PlayerList
 	METHOD a setHasWhitelist (Z)V
 	METHOD a setPlayerFileData ([Lle;)V
 	METHOD b removeOp (Lcom/mojang/authlib/GameProfile;)V
+		ARG 1 profile
 	METHOD b savePlayerFile (Llf;)V
 	METHOD c getServer ()Lnet/minecraft/server/MinecraftServer;
 	METHOD c removeWhitelist (Lcom/mojang/authlib/GameProfile;)V
@@ -30,10 +34,13 @@ CLASS lx net/minecraft/server/PlayerList
 	METHOD e tick ()V
 	METHOD e isWhitelisted (Lcom/mojang/authlib/GameProfile;)Z
 	METHOD e disconnect (Llf;)V
+	METHOD f getPlayerNames ()[Ljava/lang/String;
 	METHOD f updateClient (Llf;)V
+	METHOD g getPlayerProfiles ()[Lcom/mojang/authlib/GameProfile;
 	METHOD g processLogin (Lcom/mojang/authlib/GameProfile;)Llf;
 	METHOD h getProfileBans ()Lmc;
 	METHOD h isOp (Lcom/mojang/authlib/GameProfile;)Z
+		ARG 1 profile
 	METHOD i getIPBans ()Llu;
 	METHOD j savePlayers ()V
 	METHOD k getWhitelist ()Lme;

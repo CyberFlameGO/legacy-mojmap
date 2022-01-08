@@ -48,6 +48,6 @@ tasks.create("build") {
 }
 
 val mappings: Task by tasks.creating(EnigmaMappingsTask::class) {
-    dependsOn(tasks.getByName("downloadMinecraftServer"))
-    jarToMap.set(FileConstants.INSTANCE.minecraftJar)
+    dependsOn(tasks.getByName("mergeJars"))
+    jarToMap.set(FileConstants.INSTANCE.mergedJar)
 }

@@ -1,10 +1,26 @@
 CLASS mb net/minecraft/server/JsonList
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b gson Lcom/google/gson/Gson;
+	FIELD c jsonFile Ljava/io/File;
+	FIELD d map Ljava/util/Map;
+	FIELD e enabled Z
+	METHOD <init> (Ljava/io/File;)V
+		ARG 1 opsFile
 	METHOD a getEntries ()[Ljava/lang/String;
+	METHOD a getEntryFromObject (Lcom/google/gson/JsonObject;)Lma;
+		ARG 1 object
+	METHOD a getProfileUUID (Ljava/lang/Object;)Ljava/lang/String;
+		ARG 1 profile
 	METHOD a add (Lma;)V
+	METHOD a setEnabled (Z)V
+		ARG 1 enabled
 	METHOD b isEnabled ()Z
 	METHOD b get (Ljava/lang/Object;)Lma;
+		ARG 1 key
+	METHOD c getJsonFile ()Ljava/io/File;
 	METHOD c remove (Ljava/lang/Object;)V
 	METHOD d isEmpty ()Z
+	METHOD e getMap ()Ljava/util/Map;
 	METHOD f save ()V
 	METHOD g load ()V
 	CLASS 1 1

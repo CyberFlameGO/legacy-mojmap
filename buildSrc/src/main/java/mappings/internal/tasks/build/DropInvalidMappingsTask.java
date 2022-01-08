@@ -1,10 +1,10 @@
 package mappings.internal.tasks.build;
 
 import cuchaz.enigma.command.DropInvalidMappingsCommand;
-import org.gradle.api.tasks.TaskAction;
 import mappings.internal.Constants;
 import mappings.internal.tasks.DefaultMappingsTask;
-import mappings.internal.tasks.setup.DownloadMinecraftServerTask;
+import mappings.internal.tasks.setup.MergeJarsTask;
+import org.gradle.api.tasks.TaskAction;
 
 import java.io.File;
 
@@ -15,7 +15,7 @@ public class DropInvalidMappingsTask extends DefaultMappingsTask {
     public DropInvalidMappingsTask() {
         super(Constants.Groups.BUILD_MAPPINGS_GROUP);
         getInputs().dir(mappings);
-        this.dependsOn(DownloadMinecraftServerTask.TASK_NAME);
+        this.dependsOn(MergeJarsTask.TASK_NAME);
     }
 
     @TaskAction
@@ -23,7 +23,7 @@ public class DropInvalidMappingsTask extends DefaultMappingsTask {
         getLogger().info(":dropping invalid mappings");
 
         String[] args = new String[]{
-                fileConstants.minecraftJar.getAbsolutePath(),
+                fileConstants.mergedJar.getAbsolutePath(),
                 mappings.getAbsolutePath()
         };
 

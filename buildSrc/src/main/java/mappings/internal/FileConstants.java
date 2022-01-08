@@ -8,12 +8,12 @@ public class FileConstants {
     public static FileConstants INSTANCE = null;
     public final File cacheFilesMinecraft;
     public final File tempDir;
-    public final File minecraftJar;
+    public final File mergedJar;
 
     public FileConstants(Project project) {
         INSTANCE = this;
         cacheFilesMinecraft = project.file(".gradle/minecraft");
         tempDir = project.file(".gradle/temp");
-        minecraftJar = new File(cacheFilesMinecraft, Constants.MINECRAFT_VERSION + "-server.jar");
+        mergedJar = new File(cacheFilesMinecraft, Constants.MINECRAFT_VERSION + "-merged.jar");
     }
 }

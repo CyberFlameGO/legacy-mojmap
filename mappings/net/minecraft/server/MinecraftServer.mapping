@@ -4,13 +4,24 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 	FIELD C pvpMode Z
 	FIELD D allowFlight Z
 	FIELD E motd Ljava/lang/String;
+	FIELD F maxBuildHeight I
+	FIELD G idleTimeout I
 	FIELD L demoMode Z
+	FIELD U forceGamemode Z
+	FIELD W sessionService Lcom/mojang/authlib/minecraft/MinecraftSessionService;
+	FIELD Y gameProfileRepository Lcom/mojang/authlib/GameProfileRepository;
+	FIELD Z userCache Llt;
+	FIELD a userCacheFile Ljava/io/File;
 	FIELD aa serverThread Ljava/lang/Thread;
 	FIELD c methodProfiler Lnt;
 	FIELD d worldServer [Lle;
+	FIELD e proxy Ljava/net/Proxy;
 	FIELD k LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD l INSTANCE Lnet/minecraft/server/MinecraftServer;
 	FIELD m convertable Latr;
 	FIELD o universe Ljava/io/File;
+	FIELD r serverPing Ljs;
+	FIELD s random Ljava/util/Random;
 	FIELD t serverIp Ljava/lang/String;
 	FIELD u port I
 	FIELD v playerList Llx;
@@ -19,8 +30,13 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 	FIELD y ticks I
 	FIELD z onlineMode Z
 	METHOD C getAllowNether ()Z
+	METHOD D startThread ()V
+	METHOD F getServerPort ()I
+	METHOD G getServerMotd ()Ljava/lang/String;
 	METHOD H getVersion ()Ljava/lang/String;
-	METHOD K getPlayers ()[Ljava/lang/String;
+	METHOD I getPlayerCount ()I
+	METHOD J getMaxPlayers ()I
+	METHOD K getPlayersNames ()[Ljava/lang/String;
 	METHOD M isDebugging ()Z
 	METHOD N getServer ()Lnet/minecraft/server/MinecraftServer;
 	METHOD P getCommandHandler ()Ll;
@@ -29,11 +45,18 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 	METHOD Y getConvertable ()Latr;
 	METHOD a getWorldServer (I)Lle;
 	METHOD a setGamemode (Ladp$a;)V
+	METHOD a setPlayerList (Llx;)V
+		ARG 1 playerList
 	METHOD a tabCompleteCommand (Lm;Ljava/lang/String;Lcj;)Ljava/util/List;
 	METHOD a saveChunks (Z)V
 	METHOD aA getIdleTimeout ()I
+	METHOD aB announcePlayerAchievements ()Z
+	METHOD aD getSessionService ()Lcom/mojang/authlib/minecraft/MinecraftSessionService;
 	METHOD aE getGameProfileRepository ()Lcom/mojang/authlib/GameProfileRepository;
 	METHOD aF getUserCache ()Llt;
+	METHOD aG getServerPing ()Ljs;
+	METHOD aK getNetworkCompressionThreshold ()I
+	METHOD aM getMainThread ()Ljava/lang/Thread;
 	METHOD aN getLogger ()Lorg/apache/logging/log4j/Logger;
 	METHOD a_ setResourcePack (Ljava/lang/String;Ljava/lang/String;)V
 	METHOD ab getResourcePack ()Ljava/lang/String;
@@ -50,23 +73,43 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 	METHOD ap getPlayerList ()Llx;
 	METHOD aw getSpawnProtection ()I
 	METHOD ax getForceGamemode ()Z
+	METHOD ay getProxy ()Ljava/net/Proxy;
+	METHOD az currentTimeMillis ()J
 	METHOD b setPort (I)V
+	METHOD c setMaxBuildHeight (I)V
+		ARG 1 maxBuildHeight
 	METHOD d setIdleTimeout (I)V
+		ARG 1 idleTimeout
 	METHOD d setOnlineMode (Z)V
 	METHOD e info (Ljava/lang/String;)V
+		ARG 1 message
 	METHOD e setSpawnAnimals (Z)V
 	METHOD f warning (Ljava/lang/String;)V
+		ARG 1 message
 	METHOD f setSpawnNPCs (Z)V
+		ARG 1 spawnNPCs
+	METHOD g error (Ljava/lang/String;)V
+		ARG 1 message
 	METHOD g setPVP (Z)V
+		ARG 1 pvp
+	METHOD getServerModName getServerModName ()Ljava/lang/String;
+	METHOD h debug (Ljava/lang/String;)V
+		ARG 1 message
 	METHOD h setAllowFlight (Z)V
+		ARG 1 allowFlight
 	METHOD i init ()Z
 	METHOD i setForceGamemode (Z)V
+		ARG 1 forceGamemode
 	METHOD j setWorld (Ljava/lang/String;)V
 	METHOD l getGenerateStructures ()Z
 	METHOD l setMotd (Ljava/lang/String;)V
+		ARG 1 motd
 	METHOD m getGamemode ()Ladp$a;
 	METHOD n getDifficulty ()Loj;
 	METHOD o isHardcore ()Z
+	METHOD p getOpPermissionLevel ()I
+	METHOD q broadcastRconToOps ()Z
+	METHOD r broadcastConsoleToOps ()Z
 	METHOD t stop ()V
 	METHOD u getServerIp ()Ljava/lang/String;
 	METHOD v isRunning ()Z

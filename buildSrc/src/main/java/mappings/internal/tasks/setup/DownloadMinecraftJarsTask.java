@@ -5,6 +5,7 @@ import com.google.common.hash.Hashing;
 import com.google.common.io.Files;
 import mappings.internal.Constants;
 import mappings.internal.tasks.DefaultMappingsTask;
+import org.gradle.api.tasks.OutputFile;
 import org.gradle.api.tasks.TaskAction;
 import org.quiltmc.launchermeta.version.v1.Version;
 
@@ -13,21 +14,28 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 
 @SuppressWarnings("OptionalGetWithoutIsPresent")
-public class DownloadMinecraftServerTask extends DefaultMappingsTask {
-    public static final String TASK_NAME = "downloadMinecraftServer";
+public class DownloadMinecraftJarsTask extends DefaultMappingsTask {
+    public static final String TASK_NAME = "downloadMinecraftJars";
+    @OutputFile
+    private final File clientJar;
+
+    @OutputFile
+    private final File serverJar;
 
     private Version file;
 
-    public DownloadMinecraftServerTask() {
+    public DownloadMinecraftJarsTask() {
         super(Constants.Groups.SETUP_GROUP);
         this.dependsOn(DownloadWantedVersionManifestTask.TASK_NAME);
 
-        File serverJar = fileConstants.minecraftJar;
-        getOutputs().file(serverJar);
+        clientJar = new File(fileConstants.cacheFilesMinecraft, Constants.MINECRAFT_VERSION + "-client.jar");
+        serverJar = new File(fileConstants.cacheFilesMinecraft, Constants.MINECRAFT_VERSION + "-server.jar");
+        getOutputs().files(clientJar, serverJar);
 
         getOutputs().upToDateWhen(_input -> {
             try {
-                return serverJar.exists()
+                return clientJar.exists() && serverJar.exists()
+                        && validateChecksum(clientJar, getVersionFile().getDownloads().getClient().getSha1())
                         && validateChecksum(serverJar, getVersionFile().getDownloads().getServer().get().getSha1());
             } catch (Exception e) {
                 return false;
@@ -40,8 +48,14 @@ public class DownloadMinecraftServerTask extends DefaultMappingsTask {
         getLogger().lifecycle(":downloading minecraft jars");
 
         startDownload()
+                .src(getVersionFile().getDownloads().getClient().getUrl())
+                .dest(clientJar)
+                .overwrite(false)
+                .download();
+
+        startDownload()
                 .src(getVersionFile().getDownloads().getServer().get().getUrl())
-                .dest(fileConstants.minecraftJar)
+                .dest(serverJar)
                 .overwrite(false)
                 .download();
     }
@@ -65,5 +79,13 @@ public class DownloadMinecraftServerTask extends DefaultMappingsTask {
         }
 
         return file;
+    }
+
+    public File getClientJar() {
+        return clientJar;
+    }
+
+    public File getServerJar() {
+        return serverJar;
     }
 }

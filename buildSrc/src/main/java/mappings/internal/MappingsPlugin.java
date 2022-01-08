@@ -19,8 +19,9 @@ public class MappingsPlugin implements Plugin<Project> {
         tasks.create(CompressTinyTask.TASK_NAME, CompressTinyTask.class);
         tasks.create(DownloadVersionsManifestTask.TASK_NAME, DownloadVersionsManifestTask.class);
         tasks.create(DownloadWantedVersionManifestTask.TASK_NAME, DownloadWantedVersionManifestTask.class);
-        tasks.create(DownloadMinecraftServerTask.TASK_NAME, DownloadMinecraftServerTask.class);
+        tasks.create(DownloadMinecraftJarsTask.TASK_NAME, DownloadMinecraftJarsTask.class);
         tasks.create(DropInvalidMappingsTask.TASK_NAME, DropInvalidMappingsTask.class);
+        tasks.create(MergeJarsTask.TASK_NAME, MergeJarsTask.class);
         tasks.create(TinyJarTask.TASK_NAME, TinyJarTask.class);
     }
 }

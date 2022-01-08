@@ -1,0 +1,18 @@
+CLASS ave net/minecraft/client/MinecraftClient
+	FIELD K LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD S INSTANCE Lave;
+	FIELD X connectedToRealms Z
+	FIELD aK sessionService Lcom/mojang/authlib/minecraft/MinecraftSessionService;
+	FIELD aO mainThread Ljava/lang/Thread;
+	FIELD a isOSX Z
+	FIELD am proxy Ljava/net/Proxy;
+	FIELD v gameDirectory Ljava/io/File;
+	METHOD A getInstance ()Lave;
+	METHOD J currentTimeMillis ()J
+	METHOD O getProxy ()Ljava/net/Proxy;
+	METHOD a init ()V
+	METHOD a setScreen (Laxu;)V
+	METHOD a setConnectedToRealms (Z)V
+		ARG 1 connectedToRealms
+	METHOD aa getSessionService ()Lcom/mojang/authlib/minecraft/MinecraftSessionService;
+	METHOD al isConnectedToRealms ()Z

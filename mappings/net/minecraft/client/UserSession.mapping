@@ -1,0 +1,23 @@
+CLASS avm net/minecraft/client/UserSession
+	FIELD a name Ljava/lang/String;
+	FIELD b uuid Ljava/lang/String;
+	FIELD c accessToken Ljava/lang/String;
+	FIELD d type Lavm$a;
+	METHOD <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 name
+		ARG 2 uuid
+		ARG 3 accessToken
+		ARG 4 accountType
+	METHOD a getSessionId ()Ljava/lang/String;
+	METHOD b getUUID ()Ljava/lang/String;
+	METHOD c getName ()Ljava/lang/String;
+	METHOD d getAccessToken ()Ljava/lang/String;
+	METHOD e getGameProfile ()Lcom/mojang/authlib/GameProfile;
+	METHOD f getAccountType ()Lavm$a;
+	CLASS a AccountType
+		FIELD c map Ljava/util/Map;
+		FIELD d type Ljava/lang/String;
+		METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+			ARG 3 type
+		METHOD a byName (Ljava/lang/String;)Lavm$a;
+			ARG 0 name
