@@ -17,7 +17,7 @@ dependencies {
     val enigmaVersion: String by project
     enigmaRuntime("cuchaz:enigma-swing:${enigmaVersion}") {
         attributes {
-            attribute(Bundling.BUNDLING_ATTRIBUTE, objects.named(Bundling::class, Bundling.EXTERNAL))
+            attribute(Bundling.BUNDLING_ATTRIBUTE, objects.named(Bundling.EXTERNAL))
         }
     }
 }
