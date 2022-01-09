@@ -1,6 +1,10 @@
-CLASS kb net/minecraft/server/DispenserRegistry
+CLASS kb net/minecraft/server/Bootstrap
 	FIELD a STDOUT Ljava/io/PrintStream;
+	FIELD b isBootstrapped Z
 	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a isBootstrapped ()Z
+	METHOD a realStdoutPrintln (Ljava/lang/String;)V
+		ARG 0 message
 	METHOD d wrapStreams ()V
 	CLASS 1 1
 	CLASS 2 10

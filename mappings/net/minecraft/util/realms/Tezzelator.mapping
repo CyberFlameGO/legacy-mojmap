@@ -1,0 +1,11 @@
+CLASS net/minecraft/realms/Tezzelator net/minecraft/util/realms/Tezzelator
+	FIELD instance INSTANCE Lnet/minecraft/realms/Tezzelator;
+	METHOD begin begin (ILnet/minecraft/realms/RealmsVertexFormat;)V
+	METHOD color color (FFFF)V
+	METHOD color color (IIII)Lnet/minecraft/realms/RealmsBufferBuilder;
+	METHOD endVertex endVertex ()V
+	METHOD normal normal (FFF)V
+	METHOD offset offset (DDD)V
+	METHOD tex tex (DD)Lnet/minecraft/realms/Tezzelator;
+	METHOD tex2 tex2 (SS)V
+	METHOD vertex vertex (DDD)Lnet/minecraft/realms/Tezzelator;

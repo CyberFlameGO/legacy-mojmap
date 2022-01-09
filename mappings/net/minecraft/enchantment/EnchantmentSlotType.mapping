@@ -1,4 +1,4 @@
-CLASS acj net/minecraft/server/EnchantmentSlotType
+CLASS acj net/minecraft/enchantment/EnchantmentSlotType
 	FIELD a ALL Lacj;
 	FIELD b ARMOR Lacj;
 	FIELD c ARMOR_FEET Lacj;
