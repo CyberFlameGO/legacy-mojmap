@@ -1,6 +1,0 @@
-CLASS g net/minecraft/util/SystemUtils
-	METHOD a getOperatingSystem ()Lg$a;
-	METHOD a executeTask (Ljava/util/concurrent/FutureTask;Lorg/apache/logging/log4j/Logger;)Ljava/lang/Object;
-		ARG 0 task
-		ARG 1 logger
-	CLASS a OperatingSystem
