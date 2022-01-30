@@ -1,4 +1,5 @@
 CLASS ack net/minecraft/server/EnchantmentManager
+	FIELD a random Ljava/util/Random;
 	METHOD a getEnchantmentLevel (ILzx;)I
 	METHOD a getOxygenEnchantmentLevel (Lpk;)I
 	METHOD b getFireAspectEnchantmentLevel (Lpr;)I

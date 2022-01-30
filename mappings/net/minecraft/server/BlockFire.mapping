@@ -11,4 +11,4 @@ CLASS agv net/minecraft/server/BlockFire
 	METHOD a registerFlammable (Lafh;II)V
 		ARG 1 block
 		ARG 2 flammabilty
-	METHOD l registerFlammables ()V
+	METHOD l bootStrap ()V

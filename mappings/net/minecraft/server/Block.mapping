@@ -18,6 +18,7 @@ CLASS afh net/minecraft/server/Block
 	FIELD x durability F
 	METHOD O isComplexRedstone ()Z
 	METHOD Q getBlockData ()Lalz;
+	METHOD S bootStrap ()V
 	METHOD a fromLegacyData (I)Lalz;
 	METHOD a getDropCount (ILjava/util/Random;)I
 	METHOD a wasExploded (Ladm;Lcj;Ladi;)V

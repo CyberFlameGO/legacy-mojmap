@@ -30,9 +30,12 @@ CLASS aci net/minecraft/server/Enchantment
 	FIELD y ARROW_INFINITE Laci;
 	FIELD z LUCK Laci;
 	METHOD a canEnchant (Lzx;)Z
+		ARG 1 item
 	METHOD b getMaxLevel ()I
 	METHOD b getByName (Ljava/lang/String;)Laci;
 	METHOD c getEffects ()Ljava/util/Set;
 	METHOD c getById (I)Laci;
+	METHOD c setName (Ljava/lang/String;)Laci;
+		ARG 1 name
 	METHOD d getRandomWeight ()I
 	METHOD e getStartLevel ()I

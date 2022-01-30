@@ -1,4 +1,4 @@
-CLASS net/minecraft/realms/Realms net/minecraft/client/realms/RealmsMethods
+CLASS net/minecraft/realms/Realms net/minecraft/realms/Realms
 	COMMENT Helper methods for Realms
 	METHOD adventureId getAdventureModeId ()I
 	METHOD clearResourcePack clearResourcePack ()V

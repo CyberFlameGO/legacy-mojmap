@@ -8,6 +8,7 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 	FIELD G idleTimeout I
 	FIELD L demoMode Z
 	FIELD U forceGamemode Z
+	FIELD V authenticationService Lcom/mojang/authlib/yggdrasil/YggdrasilAuthenticationService;
 	FIELD W sessionService Lcom/mojang/authlib/minecraft/MinecraftSessionService;
 	FIELD Y gameProfileRepository Lcom/mojang/authlib/GameProfileRepository;
 	FIELD Z userCache Llt;

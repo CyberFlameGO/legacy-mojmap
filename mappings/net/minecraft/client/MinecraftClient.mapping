@@ -5,10 +5,15 @@ CLASS ave net/minecraft/client/MinecraftClient
 	FIELD aK sessionService Lcom/mojang/authlib/minecraft/MinecraftSessionService;
 	FIELD aO mainThread Ljava/lang/Thread;
 	FIELD a isOSX Z
+	FIELD ae session Lavm;
+	FIELD aj intergratedServer Lbpo;
 	FIELD am proxy Ljava/net/Proxy;
 	FIELD v gameDirectory Ljava/io/File;
 	METHOD A getInstance ()Lave;
+	METHOD G getIntergratedServer ()Lbpo;
+	METHOD H stopIntergratedServer ()V
 	METHOD J currentTimeMillis ()J
+	METHOD L getSession ()Lavm;
 	METHOD O getProxy ()Ljava/net/Proxy;
 	METHOD a init ()V
 	METHOD a setScreen (Laxu;)V
