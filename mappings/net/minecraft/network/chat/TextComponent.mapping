@@ -1,0 +1,6 @@
+CLASS fa net/minecraft/network/chat/TextComponent
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD e getText ()Ljava/lang/String;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD h f ()Lfa;
+	METHOD toString toString ()Ljava/lang/String;

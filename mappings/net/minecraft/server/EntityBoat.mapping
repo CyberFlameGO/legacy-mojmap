@@ -1,2 +1,5 @@
 CLASS ux net/minecraft/server/EntityBoat
+	METHOD <init> <init> (Ladm;)V
+	METHOD <init> <init> (Ladm;DDD)V
 	METHOD a setDamage (F)V
+	METHOD a damageEntity (Low;F)Z

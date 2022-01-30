@@ -1,1 +1,2 @@
 CLASS abl net/minecraft/server/RecipesDyes
+	METHOD <init> <init> ()V

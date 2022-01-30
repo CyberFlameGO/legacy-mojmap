@@ -1,0 +1,2 @@
+CLASS bfs bfs
+	METHOD <init> <init> ()V

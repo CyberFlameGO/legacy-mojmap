@@ -41,3 +41,8 @@ CLASS cy net/minecraft/server/EnumParticle
 	FIELD x NOTE Lcy;
 	FIELD y PORTAL Lcy;
 	FIELD z ENCHANTMENT_TABLE Lcy;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;IZ)V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;IZI)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcy;
+	METHOD values values ()[Lcy;

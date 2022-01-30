@@ -1,1 +1,4 @@
 CLASS atj net/minecraft/server/ServerNBTManager
+	METHOD <init> <init> (Ljava/io/File;Ljava/lang/String;Z)V
+	METHOD a createChunkLoader (Lanm;)Land;
+	METHOD a saveWorldData (Lato;Ldn;)V

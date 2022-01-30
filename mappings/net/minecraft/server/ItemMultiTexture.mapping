@@ -1,2 +1,8 @@
 CLASS aae net/minecraft/server/ItemMultiTexture
+	METHOD <init> <init> (Lafh;Lafh;Lcom/google/common/base/Function;)V
+	METHOD <init> <init> (Lafh;Lafh;[Ljava/lang/String;)V
+	METHOD a filterData (I)I
 	CLASS 1 1
+		METHOD <init> <init> ([Ljava/lang/String;)V
+		METHOD a apply (Lzx;)Ljava/lang/String;
+		METHOD apply apply (Ljava/lang/Object;)Ljava/lang/Object;

@@ -1,1 +1,3 @@
 CLASS yi net/minecraft/server/ItemAnvil
+	METHOD <init> <init> (Lafh;)V
+	METHOD a filterData (I)I

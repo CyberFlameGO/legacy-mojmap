@@ -1,0 +1,2 @@
+CLASS aqr net/minecraft/world/level/levelgen/structure/StructureFeatureIO
+	METHOD <clinit> <clinit> ()V

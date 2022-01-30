@@ -1,0 +1,26 @@
+CLASS el net/minecraft/network/ConnectionProtocol
+	FIELD a HANDSHAKING Lel;
+	FIELD b PLAY Lel;
+	FIELD c STATUS Lel;
+	FIELD d LOGIN Lel;
+	FIELD g STATES [Lel;
+	FIELD h stateMap Ljava/util/Map;
+	FIELD i stateId I
+	FIELD j packetMap Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;II)V
+	METHOD <init> <init> (Ljava/lang/String;IILel$1;)V
+	METHOD a getStateId ()I
+	METHOD a isValidIntention (I)Lel;
+	METHOD a getProtocolForPacket (Lff;)Lel;
+	METHOD a createPacket (Lfg;I)Lff;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lel;
+	METHOD values values ()[Lel;
+	CLASS 1 1
+		METHOD <init> <init> (Ljava/lang/String;II)V
+	CLASS 2 2
+		METHOD <init> <init> (Ljava/lang/String;II)V
+	CLASS 3 3
+		METHOD <init> <init> (Ljava/lang/String;II)V
+	CLASS 4 4
+		METHOD <init> <init> (Ljava/lang/String;II)V

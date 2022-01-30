@@ -1,0 +1,4 @@
+CLASS bal bal
+	METHOD <init> <init> ()V
+	CLASS a a
+		METHOD <init> <init> (Lbal;Laul;)V

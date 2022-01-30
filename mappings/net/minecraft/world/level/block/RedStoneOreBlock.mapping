@@ -1,0 +1,7 @@
+CLASS aja net/minecraft/world/level/block/RedStoneOreBlock
+	METHOD <init> <init> (Z)V
+	METHOD a getDropCount (ILjava/util/Random;)I
+	METHOD a dropNaturally (Ladm;Lcj;Lalz;FI)V
+	METHOD a interact (Ladm;Lcj;Lalz;Lwn;Lcq;FFF)Z
+	METHOD a attack (Ladm;Lcj;Lwn;)V
+	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;

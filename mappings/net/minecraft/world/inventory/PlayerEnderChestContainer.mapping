@@ -1,0 +1,4 @@
+CLASS yd net/minecraft/world/inventory/PlayerEnderChestContainer
+	METHOD <init> <init> ()V
+	METHOD b startOpen (Lwn;)V
+	METHOD c closeContainer (Lwn;)V

@@ -1,0 +1,5 @@
+CLASS wo wo
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lwo;
+	METHOD values values ()[Lwo;

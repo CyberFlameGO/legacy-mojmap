@@ -1,0 +1,31 @@
+CLASS lw net/minecraft/server/players/OldUsersConverter
+	METHOD <clinit> <clinit> ()V
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a apply (Ljava/lang/String;)Z
+		METHOD apply apply (Ljava/lang/Object;)Z
+	CLASS 2 2
+		METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Ljava/util/Map;Lmc;)V
+		METHOD onProfileLookupFailed onProfileLookupFailed (Lcom/mojang/authlib/GameProfile;Ljava/lang/Exception;)V
+		METHOD onProfileLookupSucceeded onProfileLookupSucceeded (Lcom/mojang/authlib/GameProfile;)V
+	CLASS 3 3
+		METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Lly;)V
+		METHOD onProfileLookupFailed onProfileLookupFailed (Lcom/mojang/authlib/GameProfile;Ljava/lang/Exception;)V
+		METHOD onProfileLookupSucceeded onProfileLookupSucceeded (Lcom/mojang/authlib/GameProfile;)V
+	CLASS 4 4
+		METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Lme;)V
+		METHOD onProfileLookupFailed onProfileLookupFailed (Lcom/mojang/authlib/GameProfile;Ljava/lang/Exception;)V
+		METHOD onProfileLookupSucceeded onProfileLookupSucceeded (Lcom/mojang/authlib/GameProfile;)V
+	CLASS 5 5
+		METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Ljava/util/List;)V
+		METHOD onProfileLookupFailed onProfileLookupFailed (Lcom/mojang/authlib/GameProfile;Ljava/lang/Exception;)V
+		METHOD onProfileLookupSucceeded onProfileLookupSucceeded (Lcom/mojang/authlib/GameProfile;)V
+	CLASS 6 6
+		METHOD <init> <init> (Lko;Ljava/io/File;Ljava/io/File;Ljava/io/File;[Ljava/lang/String;)V
+		METHOD onProfileLookupFailed onProfileLookupFailed (Lcom/mojang/authlib/GameProfile;Ljava/lang/Exception;)V
+		METHOD onProfileLookupSucceeded onProfileLookupSucceeded (Lcom/mojang/authlib/GameProfile;)V
+	CLASS a ConversionError
+		METHOD <init> <init> (Ljava/lang/String;)V
+		METHOD <init> <init> (Ljava/lang/String;Ljava/lang/Throwable;)V
+		METHOD <init> <init> (Ljava/lang/String;Ljava/lang/Throwable;Llw$1;)V
+		METHOD <init> <init> (Ljava/lang/String;Llw$1;)V

@@ -1,1 +1,2 @@
 CLASS abz net/minecraft/server/RecipesWeapons
+	METHOD <init> <init> ()V

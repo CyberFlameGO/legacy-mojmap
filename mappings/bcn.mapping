@@ -1,0 +1,4 @@
+CLASS bcn bcn
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (FFII)V
+	METHOD <init> <init> (FZ)V

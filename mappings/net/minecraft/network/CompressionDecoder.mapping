@@ -1,0 +1,6 @@
+CLASS ei net/minecraft/network/CompressionDecoder
+	FIELD a inflater Ljava/util/zip/Inflater;
+	FIELD b threshold I
+	METHOD <init> <init> (I)V
+	METHOD a setThreshold (I)V
+	METHOD decode decode (Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Ljava/util/List;)V

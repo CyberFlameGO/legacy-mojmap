@@ -1,1 +1,2 @@
 CLASS rw net/minecraft/server/PathfinderGoalPlay
+	METHOD <init> <init> (Lwi;D)V

@@ -1,0 +1,2 @@
+CLASS sh net/minecraft/world/entity/ai/goal/TemptGoal
+	METHOD <init> <init> (Lpy;DLzw;Z)V

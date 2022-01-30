@@ -1,1 +1,3 @@
 CLASS ob net/minecraft/server/StructurePieceTreasure
+	METHOD <init> <init> (Lzw;IIII)V
+	METHOD <init> <init> (Lzx;III)V

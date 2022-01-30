@@ -1,0 +1,29 @@
+CLASS bjh bjh
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmj;Lbou;)V
+	CLASS 1 1
+		METHOD <init> <init> (Lbjh;Lzx;)V
+		METHOD a call ()Ljava/lang/String;
+		METHOD call call ()Ljava/lang/Object;
+	CLASS 2 2
+		METHOD <init> <init> (Lbjh;Lzx;)V
+		METHOD a call ()Ljava/lang/String;
+		METHOD call call ()Ljava/lang/Object;
+	CLASS 3 3
+		METHOD <init> <init> (Lbjh;Lzx;)V
+		METHOD a call ()Ljava/lang/String;
+		METHOD call call ()Ljava/lang/Object;
+	CLASS 4 4
+		METHOD <init> <init> (Lbjh;Lzx;)V
+		METHOD a call ()Ljava/lang/String;
+		METHOD call call ()Ljava/lang/Object;
+	CLASS 5 5
+		METHOD <init> <init> (Lbjh;)V
+	CLASS 6 6
+		METHOD <init> <init> (Lbjh;)V
+	CLASS 7 7
+		METHOD <init> <init> (Lbjh;)V
+	CLASS 8 8
+		METHOD <init> <init> (Lbjh;)V
+	CLASS 9 9
+		METHOD <init> <init> (Lbjh;)V

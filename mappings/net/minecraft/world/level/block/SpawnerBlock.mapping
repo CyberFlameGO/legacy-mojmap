@@ -1,0 +1,4 @@
+CLASS ahy net/minecraft/world/level/block/SpawnerBlock
+	METHOD <init> <init> ()V
+	METHOD a dropNaturally (Ladm;Lcj;Lalz;FI)V
+	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;

@@ -1,1 +1,3 @@
 CLASS aph net/minecraft/server/WorldGenMelon
+	METHOD <init> <init> ()V
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

@@ -1,0 +1,23 @@
+CLASS afg net/minecraft/world/level/block/BedBlock
+	FIELD a PART Lamm;
+	FIELD b OCCUPIED Lamk;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a dropNaturally (Ladm;Lcj;Lalz;FI)V
+	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
+	METHOD a interact (Ladm;Lcj;Lalz;Lwn;Lcq;FFF)Z
+	METHOD a updateShape (Ladq;Lcj;)V
+	METHOD a updateState (Lalz;Ladq;Lcj;)Lalz;
+	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
+	METHOD c toLegacyData (Lalz;)I
+	METHOD e getStateList ()Lama;
+	CLASS a EnumBedPart
+		FIELD a HEAD Lafg$a;
+		FIELD b FOOT Lafg$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+		METHOD l getName ()Ljava/lang/String;
+		METHOD toString toString ()Ljava/lang/String;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lafg$a;
+		METHOD values values ()[Lafg$a;

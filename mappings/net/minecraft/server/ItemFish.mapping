@@ -1,6 +1,14 @@
 CLASS zp net/minecraft/server/ItemFish
+	METHOD <init> <init> (Z)V
+	METHOD h getNutrition (Lzx;)I
+	METHOD i getSaturationModifier (Lzx;)F
 	CLASS a EnumFish
 		FIELD a COD Lzp$a;
 		FIELD b SALMON Lzp$a;
 		FIELD c CLOWNFISH Lzp$a;
 		FIELD d PUFFERFISH Lzp$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;IF)V
+		METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;IFIF)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lzp$a;
+		METHOD values values ()[Lzp$a;

@@ -1,0 +1,3 @@
+CLASS gu net/minecraft/network/protocol/game/ClientboundMapItemDataPacket
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (IBLjava/util/Collection;[BIIII)V

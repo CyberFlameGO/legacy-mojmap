@@ -1,0 +1,7 @@
+CLASS dj net/minecraft/locale/Language
+	FIELD c SINGLETON Ldj;
+	FIELD d storage Ljava/util/Map;
+	FIELD e lastUpdateTime J
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getInstance ()Ldj;

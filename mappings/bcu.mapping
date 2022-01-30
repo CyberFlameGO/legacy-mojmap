@@ -1,0 +1,2 @@
+CLASS bcu bcu
+	METHOD <init> <init> (II)V

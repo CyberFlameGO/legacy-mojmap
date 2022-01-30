@@ -1,1 +1,3 @@
 CLASS aft net/minecraft/server/BlockClay
+	METHOD <init> <init> ()V
+	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;

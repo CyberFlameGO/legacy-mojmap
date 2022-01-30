@@ -1,0 +1,2 @@
+CLASS qo net/minecraft/world/entity/ai/control/JumpControl
+	METHOD <init> <init> (Lps;)V

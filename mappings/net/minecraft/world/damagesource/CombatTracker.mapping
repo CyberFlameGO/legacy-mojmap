@@ -1,0 +1,2 @@
+CLASS ov net/minecraft/world/damagesource/CombatTracker
+	METHOD <init> <init> (Lpr;)V

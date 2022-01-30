@@ -1,0 +1,24 @@
+CLASS afa net/minecraft/world/level/block/BannerBlock
+	FIELD a FACING Laml;
+	FIELD b ROTATION Lamn;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a dropNaturally (Ladm;Lcj;Lalz;FI)V
+	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
+	METHOD d canPlace (Ladm;Lcj;)Z
+	METHOD f getName ()Ljava/lang/String;
+	CLASS 1 1
+		METHOD <clinit> <clinit> ()V
+	CLASS a BlockStandingBanner
+		METHOD <init> <init> ()V
+		METHOD a fromLegacyData (I)Lalz;
+		METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
+		METHOD c toLegacyData (Lalz;)I
+		METHOD e getStateList ()Lama;
+	CLASS b BlockWallBanner
+		METHOD <init> <init> ()V
+		METHOD a fromLegacyData (I)Lalz;
+		METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
+		METHOD a updateShape (Ladq;Lcj;)V
+		METHOD c toLegacyData (Lalz;)I
+		METHOD e getStateList ()Lama;

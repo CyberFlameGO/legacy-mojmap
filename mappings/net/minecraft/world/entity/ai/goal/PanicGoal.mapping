@@ -1,0 +1,2 @@
+CLASS rv net/minecraft/world/entity/ai/goal/PanicGoal
+	METHOD <init> <init> (Lpy;D)V

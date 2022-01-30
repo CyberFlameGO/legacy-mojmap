@@ -1,0 +1,3 @@
+CLASS ate net/minecraft/world/level/saveddata/SavedData
+	FIELD a id Ljava/lang/String;
+	METHOD <init> <init> (Ljava/lang/String;)V

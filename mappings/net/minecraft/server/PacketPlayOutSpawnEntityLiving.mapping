@@ -1,1 +1,3 @@
 CLASS fn net/minecraft/server/PacketPlayOutSpawnEntityLiving
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lpr;)V

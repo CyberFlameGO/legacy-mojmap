@@ -1,0 +1,8 @@
+CLASS ajv net/minecraft/world/level/block/StandingSignBlock
+	FIELD a ROTATION Lamn;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
+	METHOD c toLegacyData (Lalz;)I
+	METHOD e getStateList ()Lama;

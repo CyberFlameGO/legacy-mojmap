@@ -1,0 +1,14 @@
+CLASS ais net/minecraft/world/level/block/PoweredRailBlock
+	FIELD N POWERED Lamk;
+	FIELD b SHAPE Lamm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD c toLegacyData (Lalz;)I
+	METHOD e getStateList ()Lama;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a apply (Lafe$b;)Z
+		METHOD apply apply (Ljava/lang/Object;)Z
+	CLASS 2 2
+		METHOD <clinit> <clinit> ()V

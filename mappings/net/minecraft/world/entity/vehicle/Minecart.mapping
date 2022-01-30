@@ -1,0 +1,3 @@
+CLASS vg net/minecraft/world/entity/vehicle/Minecart
+	METHOD <init> <init> (Ladm;)V
+	METHOD <init> <init> (Ladm;DDD)V

@@ -1,9 +1,16 @@
 CLASS hg net/minecraft/server/PacketPlayOutWorldBorder
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lams;Lhg$a;)V
 	CLASS 1 1
-	CLASS a EnumWorldBorderAction
+		METHOD <clinit> <clinit> ()V
+	CLASS a Type
 		FIELD a SET_SIZE Lhg$a;
 		FIELD b LERP_SIZE Lhg$a;
 		FIELD c SET_CENTER Lhg$a;
 		FIELD d INITIALIZE Lhg$a;
 		FIELD e SET_WARNING_TIME Lhg$a;
 		FIELD f SET_WARNING_BLOCKS Lhg$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lhg$a;
+		METHOD values values ()[Lhg$a;

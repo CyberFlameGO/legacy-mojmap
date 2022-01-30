@@ -1,0 +1,27 @@
+CLASS afx net/minecraft/world/level/block/ComparatorBlock
+	FIELD a POWERED Lamk;
+	FIELD b MODE Lamm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Z)V
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a interact (Ladm;Lcj;Lalz;Lwn;Lcq;FFF)Z
+	METHOD a getPlacedState (Ladm;Lcj;Lcq;FFFILpr;)Lalz;
+	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
+	METHOD b remove (Ladm;Lcj;Lalz;)V
+	METHOD c onPlace (Ladm;Lcj;Lalz;)V
+	METHOD c toLegacyData (Lalz;)I
+	METHOD e getStateList ()Lama;
+	METHOD f getName ()Ljava/lang/String;
+	CLASS 1 1
+		METHOD <init> <init> (Lafx;Lcq;)V
+		METHOD a apply (Lpk;)Z
+		METHOD apply apply (Ljava/lang/Object;)Z
+	CLASS a EnumComparatorMode
+		FIELD a COMPARE Lafx$a;
+		FIELD b SUBTRACT Lafx$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+		METHOD l getName ()Ljava/lang/String;
+		METHOD toString toString ()Ljava/lang/String;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lafx$a;
+		METHOD values values ()[Lafx$a;

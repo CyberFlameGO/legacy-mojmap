@@ -1,0 +1,2 @@
+CLASS ro net/minecraft/world/entity/ai/goal/MoveToBlockGoal
+	METHOD <init> <init> (Lpy;DI)V

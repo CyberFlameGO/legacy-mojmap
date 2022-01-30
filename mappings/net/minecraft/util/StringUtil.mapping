@@ -1,0 +1,2 @@
+CLASS nx net/minecraft/util/StringUtil
+	METHOD <clinit> <clinit> ()V

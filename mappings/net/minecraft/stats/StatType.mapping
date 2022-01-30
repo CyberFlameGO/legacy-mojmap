@@ -1,0 +1,2 @@
+CLASS my net/minecraft/stats/StatType
+	METHOD <init> <init> ()V

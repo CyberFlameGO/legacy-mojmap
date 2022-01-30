@@ -1,1 +1,2 @@
 CLASS ain net/minecraft/server/BlockPackedIce
+	METHOD <init> <init> ()V

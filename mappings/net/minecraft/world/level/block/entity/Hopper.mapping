@@ -1,0 +1,2 @@
+CLASS ali net/minecraft/world/level/block/entity/Hopper
+	METHOD z getWorld ()Ladm;

@@ -1,2 +1,4 @@
 CLASS iq net/minecraft/server/PacketPlayInAbilities
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lwl;)V
 	METHOD b isFlying ()Z

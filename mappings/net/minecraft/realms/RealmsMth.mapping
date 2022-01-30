@@ -1,4 +1,5 @@
 CLASS net/minecraft/realms/RealmsMth net/minecraft/realms/RealmsMth
+	METHOD <init> <init> ()V
 	METHOD abs abs (F)F
 	METHOD abs abs (I)I
 	METHOD absFloor absFloor (D)I
@@ -20,7 +21,6 @@ CLASS net/minecraft/realms/RealmsMth net/minecraft/realms/RealmsMth
 	METHOD getInt getInt (Ljava/lang/String;II)I
 	METHOD intFloorDiv intFloorDiv (II)I
 	METHOD isEmpty isEmpty (Ljava/lang/String;)Z
-		ARG 0 str
 	METHOD lfloor lfloor (D)J
 	METHOD log2 log2 (I)I
 	METHOD nextDouble nextDouble (Ljava/util/Random;DD)D

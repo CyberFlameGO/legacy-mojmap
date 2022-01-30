@@ -1,0 +1,4 @@
+CLASS aml net/minecraft/world/level/block/state/properties/DirectionProperty
+	METHOD <init> <init> (Ljava/lang/String;Ljava/util/Collection;)V
+	METHOD a of (Ljava/lang/String;)Laml;
+	METHOD a of (Ljava/lang/String;Lcom/google/common/base/Predicate;)Laml;

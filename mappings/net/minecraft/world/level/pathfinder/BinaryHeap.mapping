@@ -1,0 +1,2 @@
+CLASS asu net/minecraft/world/level/pathfinder/BinaryHeap
+	METHOD <init> <init> ()V

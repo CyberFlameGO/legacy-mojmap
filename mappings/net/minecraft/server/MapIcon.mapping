@@ -3,7 +3,11 @@ CLASS atf net/minecraft/server/MapIcon
 	FIELD b x B
 	FIELD c y B
 	FIELD d rotation B
+	METHOD <init> <init> (BBBB)V
+	METHOD <init> <init> (Latf;)V
 	METHOD a getType ()B
 	METHOD b getX ()B
 	METHOD c getY ()B
 	METHOD d getRotation ()B
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I

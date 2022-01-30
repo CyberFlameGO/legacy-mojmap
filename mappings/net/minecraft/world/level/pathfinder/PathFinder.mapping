@@ -1,0 +1,2 @@
+CLASS asy net/minecraft/world/level/pathfinder/PathFinder
+	METHOD <init> <init> (Lasw;)V

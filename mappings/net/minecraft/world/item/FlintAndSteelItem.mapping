@@ -1,0 +1,3 @@
+CLASS zr net/minecraft/world/item/FlintAndSteelItem
+	METHOD <init> <init> ()V
+	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z

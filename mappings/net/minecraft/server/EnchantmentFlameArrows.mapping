@@ -1,1 +1,3 @@
 CLASS acc net/minecraft/server/EnchantmentFlameArrows
+	METHOD <init> <init> (ILjy;I)V
+	METHOD b getMaxLevel ()I

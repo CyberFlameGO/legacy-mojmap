@@ -1,0 +1,2 @@
+CLASS ahp net/minecraft/world/level/block/IceBlock
+	METHOD <init> <init> ()V

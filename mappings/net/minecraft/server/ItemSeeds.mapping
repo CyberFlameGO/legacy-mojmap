@@ -1,1 +1,3 @@
 CLASS aao net/minecraft/server/ItemSeeds
+	METHOD <init> <init> (Lafh;Lafh;)V
+	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z

@@ -1,0 +1,4 @@
+CLASS adt net/minecraft/world/level/NaturalSpawner
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getRandomPosition (Ladm;II)Lcj;

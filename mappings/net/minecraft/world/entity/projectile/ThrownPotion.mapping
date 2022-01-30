@@ -1,0 +1,9 @@
+CLASS xc net/minecraft/world/entity/projectile/ThrownPotion
+	FIELD c item Lzx;
+	METHOD <init> <init> (Ladm;)V
+	METHOD <init> <init> (Ladm;DDDI)V
+	METHOD <init> <init> (Ladm;DDDLzx;)V
+	METHOD <init> <init> (Ladm;Lpr;I)V
+	METHOD <init> <init> (Ladm;Lpr;Lzx;)V
+	METHOD a setPotionValue (I)V
+	METHOD o getPotionValue ()I

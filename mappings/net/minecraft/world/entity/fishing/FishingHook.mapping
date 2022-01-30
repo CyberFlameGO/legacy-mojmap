@@ -1,0 +1,8 @@
+CLASS ur net/minecraft/world/entity/fishing/FishingHook
+	FIELD b owner Lwn;
+	FIELD c hooked Lpk;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ladm;)V
+	METHOD <init> <init> (Ladm;DDDLwn;)V
+	METHOD <init> <init> (Ladm;Lwn;)V
+	METHOD J die ()V

@@ -1,0 +1,5 @@
+CLASS lp net/minecraft/server/network/ServerStatusPacketListenerImpl
+	FIELD b minecraftServer Lnet/minecraft/server/MinecraftServer;
+	FIELD c networkManager Lek;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Lek;)V

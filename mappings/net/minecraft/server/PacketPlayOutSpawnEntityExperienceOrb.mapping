@@ -1,1 +1,3 @@
 CLASS fl net/minecraft/server/PacketPlayOutSpawnEntityExperienceOrb
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lpp;)V

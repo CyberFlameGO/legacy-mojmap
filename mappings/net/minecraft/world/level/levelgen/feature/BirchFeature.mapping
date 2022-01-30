@@ -1,0 +1,4 @@
+CLASS aoj net/minecraft/world/level/levelgen/feature/BirchFeature
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ZZ)V
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

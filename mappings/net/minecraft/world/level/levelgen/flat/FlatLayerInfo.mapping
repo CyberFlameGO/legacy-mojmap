@@ -1,0 +1,5 @@
+CLASS aqa net/minecraft/world/level/levelgen/flat/FlatLayerInfo
+	METHOD <init> <init> (IILafh;)V
+	METHOD <init> <init> (IILafh;I)V
+	METHOD <init> <init> (ILafh;)V
+	METHOD toString toString ()Ljava/lang/String;

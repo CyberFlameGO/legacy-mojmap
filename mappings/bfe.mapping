@@ -1,0 +1,4 @@
+CLASS bfe bfe
+	METHOD <init> <init> ()V
+	CLASS 1 1
+		METHOD <clinit> <clinit> ()V

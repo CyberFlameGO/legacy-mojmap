@@ -1,0 +1,2 @@
+CLASS bpe bpe
+	METHOD <init> <init> (Lwn;Lva;)V

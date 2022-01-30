@@ -1,0 +1,6 @@
+CLASS bdn bdn
+	METHOD <init> <init> (Ladm;DDDLarm;)V
+	CLASS a a
+		METHOD <init> <init> ()V
+	CLASS b b
+		METHOD <init> <init> ()V

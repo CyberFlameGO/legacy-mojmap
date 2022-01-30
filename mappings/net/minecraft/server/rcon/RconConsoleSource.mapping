@@ -1,0 +1,11 @@
+CLASS mj net/minecraft/server/rcon/RconConsoleSource
+	FIELD a instance Lmj;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a sendMessage (Leu;)V
+	METHOD c getChunkCoordinates ()Lcj;
+	METHOD e getWorld ()Ladm;
+	METHOD e_ getName ()Ljava/lang/String;
+	METHOD f_ getScoreboardDisplayName ()Leu;
+	METHOD h getInstance ()Lmj;
+	METHOD u_ getSendCommandFeedback ()Z

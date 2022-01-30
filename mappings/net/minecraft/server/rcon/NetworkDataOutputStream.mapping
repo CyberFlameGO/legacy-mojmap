@@ -1,0 +1,4 @@
+CLASS mh net/minecraft/server/rcon/NetworkDataOutputStream
+	FIELD a buffer Ljava/io/ByteArrayOutputStream;
+	FIELD b stream Ljava/io/DataOutputStream;
+	METHOD <init> <init> (I)V

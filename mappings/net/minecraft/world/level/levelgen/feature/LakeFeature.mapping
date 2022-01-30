@@ -1,0 +1,3 @@
+CLASS apc net/minecraft/world/level/levelgen/feature/LakeFeature
+	METHOD <init> <init> (Lafh;)V
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

@@ -1,0 +1,4 @@
+CLASS vv net/minecraft/world/entity/monster/Monster
+	METHOD <init> <init> (Ladm;)V
+	METHOD a damageEntity (Low;F)Z
+	METHOD aX initAttributes ()V

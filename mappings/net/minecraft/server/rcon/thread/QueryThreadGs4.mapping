@@ -1,0 +1,9 @@
+CLASS mm net/minecraft/server/rcon/thread/QueryThreadGs4
+	METHOD <init> <init> (Lkj;)V
+	METHOD run run ()V
+	CLASS a RequestChallenge
+		FIELD b time J
+		FIELD c token I
+		FIELD d identity [B
+		FIELD e response [B
+		METHOD <init> <init> (Lmm;Ljava/net/DatagramPacket;)V

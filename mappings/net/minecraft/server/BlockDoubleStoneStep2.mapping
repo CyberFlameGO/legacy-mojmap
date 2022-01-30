@@ -1,1 +1,2 @@
 CLASS agy net/minecraft/server/BlockDoubleStoneStep2
+	METHOD <init> <init> ()V

@@ -1,1 +1,3 @@
 CLASS acq net/minecraft/server/EnchantmentOxygen
+	METHOD <init> <init> (ILjy;I)V
+	METHOD b getMaxLevel ()I

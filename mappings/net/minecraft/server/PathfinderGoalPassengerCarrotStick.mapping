@@ -1,1 +1,2 @@
 CLASS qw net/minecraft/server/PathfinderGoalPassengerCarrotStick
+	METHOD <init> <init> (Lps;F)V

@@ -1,0 +1,17 @@
+CLASS akf net/minecraft/world/level/block/TorchBlock
+	FIELD a FACING Laml;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
+	METHOD a getPlacedState (Ladm;Lcj;Lcq;FFFILpr;)Lalz;
+	METHOD c onPlace (Ladm;Lcj;Lalz;)V
+	METHOD c toLegacyData (Lalz;)I
+	METHOD d canPlace (Ladm;Lcj;)Z
+	METHOD e getStateList ()Lama;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a apply (Lcq;)Z
+		METHOD apply apply (Ljava/lang/Object;)Z
+	CLASS 2 2
+		METHOD <clinit> <clinit> ()V

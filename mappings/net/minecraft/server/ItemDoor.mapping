@@ -1,1 +1,3 @@
 CLASS zb net/minecraft/server/ItemDoor
+	METHOD <init> <init> (Lafh;)V
+	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z

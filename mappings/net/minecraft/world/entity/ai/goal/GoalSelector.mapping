@@ -1,0 +1,5 @@
+CLASS re net/minecraft/world/entity/ai/goal/GoalSelector
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lnt;)V
+	CLASS a PathfinderGoalSelectorItem
+		METHOD <init> <init> (Lre;ILrd;)V

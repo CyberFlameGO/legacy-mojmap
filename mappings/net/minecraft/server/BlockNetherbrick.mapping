@@ -1,1 +1,2 @@
 CLASS aic net/minecraft/server/BlockNetherbrick
+	METHOD <init> <init> ()V

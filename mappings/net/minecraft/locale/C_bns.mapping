@@ -1,0 +1,4 @@
+CLASS bns net/minecraft/locale/C_bns
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbny;Ljava/lang/String;)V

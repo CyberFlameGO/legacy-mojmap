@@ -2,3 +2,7 @@ CLASS amr net/minecraft/server/EnumWorldBorderState
 	FIELD a GROWING Lamr;
 	FIELD b SHRINKING Lamr;
 	FIELD c STATIONARY Lamr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;II)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lamr;
+	METHOD values values ()[Lamr;

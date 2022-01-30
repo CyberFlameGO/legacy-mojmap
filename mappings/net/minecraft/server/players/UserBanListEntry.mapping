@@ -1,0 +1,4 @@
+CLASS md net/minecraft/server/players/UserBanListEntry
+	METHOD <init> <init> (Lcom/google/gson/JsonObject;)V
+	METHOD <init> <init> (Lcom/mojang/authlib/GameProfile;)V
+	METHOD <init> <init> (Lcom/mojang/authlib/GameProfile;Ljava/util/Date;Ljava/lang/String;Ljava/util/Date;Ljava/lang/String;)V

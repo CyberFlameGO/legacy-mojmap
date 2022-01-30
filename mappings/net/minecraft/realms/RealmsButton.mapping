@@ -1,0 +1,20 @@
+CLASS net/minecraft/realms/RealmsButton net/minecraft/realms/RealmsButton
+	FIELD WIDGETS_LOCATION WIDGETS_LOCATION Ljy;
+	FIELD proxy proxy Lawp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (IIIIILjava/lang/String;)V
+	METHOD <init> <init> (IIILjava/lang/String;)V
+	METHOD active active ()Z
+	METHOD active active (Z)V
+	METHOD blit blit (IIIIII)V
+	METHOD clicked clicked (II)V
+	METHOD getHeight getHeight ()I
+	METHOD getProxy getProxy ()Lavs;
+	METHOD getWidth getWidth ()I
+	METHOD getYImage getYImage (Z)I
+	METHOD id id ()I
+	METHOD msg msg (Ljava/lang/String;)V
+	METHOD released released (II)V
+	METHOD render render (II)V
+	METHOD renderBg renderBg (II)V
+	METHOD y y ()I

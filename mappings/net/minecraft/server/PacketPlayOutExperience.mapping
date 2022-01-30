@@ -1,1 +1,3 @@
 CLASS ho net/minecraft/server/PacketPlayOutExperience
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (FII)V

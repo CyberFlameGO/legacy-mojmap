@@ -1,0 +1,5 @@
+CLASS amj net/minecraft/world/level/block/state/properties/AbstractProperty
+	METHOD <init> <init> (Ljava/lang/String;Ljava/lang/Class;)V
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

@@ -1,0 +1,5 @@
+CLASS beg beg
+	METHOD <init> <init> (Ladm;DDDFFF)V
+	METHOD <init> <init> (Ladm;DDDFFFF)V
+	CLASS a a
+		METHOD <init> <init> ()V

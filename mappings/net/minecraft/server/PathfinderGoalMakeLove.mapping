@@ -1,1 +1,2 @@
 CLASS rk net/minecraft/server/PathfinderGoalMakeLove
+	METHOD <init> <init> (Lwi;)V

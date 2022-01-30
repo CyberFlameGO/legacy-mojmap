@@ -1,1 +1,3 @@
 CLASS aan net/minecraft/server/ItemSeedFood
+	METHOD <init> <init> (IFLafh;Lafh;)V
+	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z

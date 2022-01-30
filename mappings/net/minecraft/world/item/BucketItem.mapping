@@ -1,0 +1,2 @@
+CLASS yv net/minecraft/world/item/BucketItem
+	METHOD <init> <init> (Lafh;)V

@@ -1,2 +1,4 @@
 CLASS iv net/minecraft/server/PacketPlayInHeldItemSlot
 	FIELD a itemInHandIndex I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (I)V

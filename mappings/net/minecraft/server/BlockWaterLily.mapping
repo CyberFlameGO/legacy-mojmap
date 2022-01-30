@@ -1,1 +1,3 @@
 CLASS akn net/minecraft/server/BlockWaterLily
+	METHOD <init> <init> ()V
+	METHOD c toLegacyData (Lalz;)I

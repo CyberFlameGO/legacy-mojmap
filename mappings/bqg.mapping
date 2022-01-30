@@ -1,0 +1,2 @@
+CLASS bqg bqg
+	METHOD <init> <init> (Lpr;Lpr;)V

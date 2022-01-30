@@ -1,3 +1,5 @@
 CLASS jc net/minecraft/server/PacketHandshakingInSetProtocol
 	FIELD b hostname Ljava/lang/String;
 	FIELD c port I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILjava/lang/String;ILel;)V

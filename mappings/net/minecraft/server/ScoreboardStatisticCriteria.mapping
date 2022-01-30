@@ -1,1 +1,2 @@
 CLASS auv net/minecraft/server/ScoreboardStatisticCriteria
+	METHOD <init> <init> (Lmw;)V

@@ -1,1 +1,2 @@
 CLASS zg net/minecraft/server/ItemEgg
+	METHOD <init> <init> ()V

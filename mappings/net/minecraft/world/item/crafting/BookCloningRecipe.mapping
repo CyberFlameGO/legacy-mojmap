@@ -1,0 +1,3 @@
+CLASS abk net/minecraft/world/item/crafting/BookCloningRecipe
+	METHOD <init> <init> ()V
+	METHOD a craftItem (Lxp;)Lzx;

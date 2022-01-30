@@ -1,0 +1,13 @@
+CLASS auu net/minecraft/world/scores/criteria/ObjectiveCriteria
+	FIELD a criteria Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a getScoreModifier (Ljava/util/List;)I
+	METHOD b isReadOnly ()Z
+	CLASS a RenderType
+		FIELD a INTEGER Lauu$a;
+		FIELD b HEARTS Lauu$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lauu$a;
+		METHOD values values ()[Lauu$a;

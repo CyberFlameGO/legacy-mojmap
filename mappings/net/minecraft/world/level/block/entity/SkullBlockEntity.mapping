@@ -1,0 +1,9 @@
+CLASS alo net/minecraft/world/level/block/entity/SkullBlockEntity
+	FIELD f rotation I
+	METHOD <init> <init> ()V
+	METHOD a setSkullType (I)V
+	METHOD a setGameProfile (Lcom/mojang/authlib/GameProfile;)V
+	METHOD b getGameProfile ()Lcom/mojang/authlib/GameProfile;
+	METHOD b setRotation (I)V
+	METHOD c getSkullType ()I
+	METHOD y_ getUpdatePacket ()Lff;

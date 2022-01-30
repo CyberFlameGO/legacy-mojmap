@@ -1,0 +1,2 @@
+CLASS sf net/minecraft/world/entity/ai/goal/SwellGoal
+	METHOD <init> <init> (Lvn;)V

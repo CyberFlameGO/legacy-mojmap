@@ -1,0 +1,10 @@
+CLASS aqe net/minecraft/world/level/levelgen/structure/BoundingBox
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (IIII)V
+	METHOD <init> <init> (IIIIII)V
+	METHOD <init> <init> (Laqe;)V
+	METHOD <init> <init> (Ldf;Ldf;)V
+	METHOD <init> <init> ([I)V
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS 1 1
+		METHOD <clinit> <clinit> ()V

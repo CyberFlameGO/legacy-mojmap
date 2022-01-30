@@ -1,1 +1,2 @@
 CLASS ahl net/minecraft/server/BlockHardenedClay
+	METHOD <init> <init> ()V

@@ -1,0 +1,3 @@
+CLASS atz atz
+	METHOD <init> <init> ()V
+	METHOD a get (Ljava/lang/Class;Ljava/lang/String;)Late;

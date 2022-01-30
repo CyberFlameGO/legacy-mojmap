@@ -1,0 +1,6 @@
+CLASS bcx bcx
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lek;Lave;Laxu;)V
+	CLASS 1 1
+		METHOD <init> <init> (Lbcx;Ljavax/crypto/SecretKey;)V
+		METHOD operationComplete operationComplete (Lio/netty/util/concurrent/Future;)V

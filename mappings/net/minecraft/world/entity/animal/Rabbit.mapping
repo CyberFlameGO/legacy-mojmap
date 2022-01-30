@@ -1,0 +1,35 @@
+CLASS tu net/minecraft/world/entity/animal/Rabbit
+	METHOD <init> <init> (Ladm;)V
+	METHOD a prepare (Lok;Lpu;)Lpu;
+	METHOD a damageEntity (Low;F)Z
+	METHOD a createChild (Lph;)Lph;
+	METHOD aX initAttributes ()V
+	METHOD b createChild (Lph;)Ltu;
+	METHOD b dropDeathLoot (ZI)V
+	METHOD bq getRareDrop ()V
+	METHOD cn getRabbitType ()I
+	METHOD r setRabbitType (I)V
+	CLASS a EvilRabbitAttackGoal
+		METHOD <init> <init> (Ltu;)V
+	CLASS b EnumRabbitState
+		FIELD a NONE Ltu$b;
+		FIELD b HOP Ltu$b;
+		FIELD c STEP Ltu$b;
+		FIELD d SPRINT Ltu$b;
+		FIELD e ATTACK Ltu$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;IFFII)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Ltu$b;
+		METHOD values values ()[Ltu$b;
+	CLASS c RabbitAvoidEntityGoal
+		METHOD <init> <init> (Ltu;Ljava/lang/Class;FDD)V
+	CLASS d GroupDataRabbit
+		METHOD <init> <init> (I)V
+	CLASS e RabbitJumpControl
+		METHOD <init> <init> (Ltu;Ltu;)V
+	CLASS f RabbitMoveControl
+		METHOD <init> <init> (Ltu;)V
+	CLASS g PathfinderGoalRabbitPanic
+		METHOD <init> <init> (Ltu;D)V
+	CLASS h RaidGardenGoal
+		METHOD <init> <init> (Ltu;)V

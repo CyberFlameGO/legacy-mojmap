@@ -1,0 +1,13 @@
+CLASS df net/minecraft/core/Vec3i
+	FIELD b ZERO Ldf;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (DDD)V
+	METHOD <init> <init> (III)V
+	METHOD compareTo compareTo (Ljava/lang/Object;)I
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD g compareTo (Ldf;)I
+	METHOD hashCode hashCode ()I
+	METHOD n getX ()I
+	METHOD o getY ()I
+	METHOD p getZ ()I
+	METHOD toString toString ()Ljava/lang/String;

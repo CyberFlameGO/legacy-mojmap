@@ -1,0 +1,3 @@
+CLASS apa net/minecraft/world/level/levelgen/feature/IcePatchFeature
+	METHOD <init> <init> (I)V
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

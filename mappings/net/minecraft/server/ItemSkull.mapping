@@ -1,1 +1,5 @@
 CLASS aat net/minecraft/server/ItemSkull
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a filterData (I)I
+	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z

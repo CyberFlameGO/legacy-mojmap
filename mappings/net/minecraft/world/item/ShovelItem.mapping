@@ -1,0 +1,4 @@
+CLASS aaq net/minecraft/world/item/ShovelItem
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lzw$a;)V
+	METHOD b canDestroySpecialBlock (Lafh;)Z

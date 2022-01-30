@@ -1,0 +1,30 @@
+CLASS bql bql
+	METHOD <init> <init> (Ltv/twitch/broadcast/Stream;Ltv/twitch/broadcast/IngestList;)V
+	CLASS 1 1
+		METHOD <init> <init> (Lbql;)V
+		METHOD bufferUnlockCallback bufferUnlockCallback (J)V
+		METHOD getArchivingStateCallback getArchivingStateCallback (Ltv/twitch/ErrorCode;Ltv/twitch/broadcast/ArchivingState;)V
+		METHOD getGameNameListCallback getGameNameListCallback (Ltv/twitch/ErrorCode;Ltv/twitch/broadcast/GameInfoList;)V
+		METHOD getIngestServersCallback getIngestServersCallback (Ltv/twitch/ErrorCode;Ltv/twitch/broadcast/IngestList;)V
+		METHOD getStreamInfoCallback getStreamInfoCallback (Ltv/twitch/ErrorCode;Ltv/twitch/broadcast/StreamInfo;)V
+		METHOD getUserInfoCallback getUserInfoCallback (Ltv/twitch/ErrorCode;Ltv/twitch/broadcast/UserInfo;)V
+		METHOD loginCallback loginCallback (Ltv/twitch/ErrorCode;Ltv/twitch/broadcast/ChannelInfo;)V
+		METHOD requestAuthTokenCallback requestAuthTokenCallback (Ltv/twitch/ErrorCode;Ltv/twitch/AuthToken;)V
+		METHOD runCommercialCallback runCommercialCallback (Ltv/twitch/ErrorCode;)V
+		METHOD sendActionMetaDataCallback sendActionMetaDataCallback (Ltv/twitch/ErrorCode;)V
+		METHOD sendEndSpanMetaDataCallback sendEndSpanMetaDataCallback (Ltv/twitch/ErrorCode;)V
+		METHOD sendStartSpanMetaDataCallback sendStartSpanMetaDataCallback (Ltv/twitch/ErrorCode;)V
+		METHOD setStreamInfoCallback setStreamInfoCallback (Ltv/twitch/ErrorCode;)V
+		METHOD startCallback startCallback (Ltv/twitch/ErrorCode;)V
+		METHOD stopCallback stopCallback (Ltv/twitch/ErrorCode;)V
+	CLASS 2 2
+		METHOD <init> <init> (Lbql;)V
+		METHOD statCallback statCallback (Ltv/twitch/broadcast/StatType;J)V
+	CLASS 3 3
+		METHOD <clinit> <clinit> ()V
+	CLASS a a
+	CLASS b b
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbql$b;
+		METHOD values values ()[Lbql$b;

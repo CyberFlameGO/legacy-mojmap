@@ -1,1 +1,2 @@
 CLASS mr net/minecraft/server/AchievementList
+	METHOD <clinit> <clinit> ()V

@@ -1,0 +1,3 @@
+CLASS abm net/minecraft/world/item/crafting/FireworkRocketRecipe
+	METHOD <init> <init> ()V
+	METHOD a craftItem (Lxp;)Lzx;

@@ -1,0 +1,3 @@
+CLASS st net/minecraft/world/entity/ai/goal/target/TargetGoal
+	METHOD <init> <init> (Lpy;Z)V
+	METHOD <init> <init> (Lpy;ZZ)V

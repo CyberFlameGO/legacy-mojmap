@@ -1,1 +1,2 @@
 CLASS ec net/minecraft/server/MojangsonParseException
+	METHOD <init> <init> (Ljava/lang/String;)V

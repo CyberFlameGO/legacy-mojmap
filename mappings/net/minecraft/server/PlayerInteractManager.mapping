@@ -4,6 +4,7 @@ CLASS lg net/minecraft/server/PlayerInteractManager
 	FIELD c gamemode Ladp$a;
 	FIELD e lastDigTick I
 	FIELD g currentTick I
+	METHOD <init> <init> (Ladm;)V
 	METHOD a setGameMode (Ladp$a;)V
 	METHOD a useItem (Lwn;Ladm;Lzx;)Z
 	METHOD a interact (Lwn;Ladm;Lzx;Lcj;Lcq;FFF)Z

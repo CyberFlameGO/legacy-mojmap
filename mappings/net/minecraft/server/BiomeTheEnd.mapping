@@ -1,1 +1,2 @@
 CLASS aev net/minecraft/server/BiomeTheEnd
+	METHOD <init> <init> (I)V

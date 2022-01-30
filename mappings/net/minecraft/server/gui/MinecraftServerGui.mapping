@@ -1,0 +1,18 @@
+CLASS kr net/minecraft/server/gui/MinecraftServerGui
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lko;)V
+	CLASS 1 1
+		METHOD <init> <init> (Lko;)V
+		METHOD windowClosing windowClosing (Ljava/awt/event/WindowEvent;)V
+	CLASS 2 2
+		METHOD <init> <init> (Lkr;Ljavax/swing/JTextField;)V
+		METHOD actionPerformed actionPerformed (Ljava/awt/event/ActionEvent;)V
+	CLASS 3 3
+		METHOD <init> <init> (Lkr;)V
+		METHOD focusGained focusGained (Ljava/awt/event/FocusEvent;)V
+	CLASS 4 4
+		METHOD <init> <init> (Lkr;Ljavax/swing/JTextArea;Ljavax/swing/JScrollPane;)V
+		METHOD run run ()V
+	CLASS 5 5
+		METHOD <init> <init> (Lkr;Ljavax/swing/JTextArea;Ljavax/swing/JScrollPane;Ljava/lang/String;)V
+		METHOD run run ()V

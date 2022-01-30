@@ -1,1 +1,3 @@
 CLASS aiq net/minecraft/server/BlockPotatoes
+	METHOD <init> <init> ()V
+	METHOD a dropNaturally (Ladm;Lcj;Lalz;FI)V

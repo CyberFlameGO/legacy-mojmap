@@ -1,0 +1,3 @@
+CLASS air net/minecraft/world/level/block/PoweredBlock
+	METHOD <init> <init> (Larm;Larn;)V
+	METHOD i isPowerSource ()Z

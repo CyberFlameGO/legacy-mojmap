@@ -35,6 +35,8 @@ CLASS arm net/minecraft/server/Material
 	FIELD x SNOW_LAYER Larm;
 	FIELD y PACKED_ICE Larm;
 	FIELD z SNOW_BLOCK Larm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Larn;)V
 	METHOD a isBuildable ()Z
 	METHOD b blocksLight ()Z
 	METHOD c isSolid ()Z
@@ -44,3 +46,5 @@ CLASS arm net/minecraft/server/Material
 	METHOD l isAlwaysDestroyable ()Z
 	METHOD m getPushReaction ()I
 	CLASS 1 1
+		METHOD <init> <init> (Larn;)V
+		METHOD c isSolid ()Z

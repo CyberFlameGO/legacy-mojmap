@@ -1,2 +1,18 @@
-CLASS avh
+CLASS avh avh
 	FIELD A isTouchScreen Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lave;Ljava/io/File;)V
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD getActualTypeArguments getActualTypeArguments ()[Ljava/lang/reflect/Type;
+		METHOD getOwnerType getOwnerType ()Ljava/lang/reflect/Type;
+		METHOD getRawType getRawType ()Ljava/lang/reflect/Type;
+	CLASS 2 2
+		METHOD <clinit> <clinit> ()V
+	CLASS a a
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;ZZ)V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;ZZFFF)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lavh$a;
+		METHOD values values ()[Lavh$a;

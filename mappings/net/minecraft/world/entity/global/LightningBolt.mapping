@@ -1,0 +1,3 @@
+CLASS uv net/minecraft/world/entity/global/LightningBolt
+	FIELD b lifeTicks I
+	METHOD <init> <init> (Ladm;DDD)V

@@ -1,1 +1,3 @@
 CLASS yc net/minecraft/server/SlotMerchantResult
+	METHOD <init> <init> (Lwn;Lacy;Lya;III)V
+	METHOD a isAllowed (Lzx;)Z

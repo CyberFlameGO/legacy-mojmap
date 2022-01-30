@@ -1,0 +1,11 @@
+CLASS ne net/minecraft/util/ClassInstanceMultiMap
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/Class;)V
+	METHOD add add (Ljava/lang/Object;)Z
+	METHOD contains contains (Ljava/lang/Object;)Z
+	METHOD iterator iterator ()Ljava/util/Iterator;
+	METHOD remove remove (Ljava/lang/Object;)Z
+	METHOD size size ()I
+	CLASS 1 1
+		METHOD <init> <init> (Lne;Ljava/lang/Class;)V
+		METHOD iterator iterator ()Ljava/util/Iterator;

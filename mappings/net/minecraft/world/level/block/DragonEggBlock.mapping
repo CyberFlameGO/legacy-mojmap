@@ -1,0 +1,6 @@
+CLASS agj net/minecraft/world/level/block/DragonEggBlock
+	METHOD <init> <init> ()V
+	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
+	METHOD a interact (Ladm;Lcj;Lalz;Lwn;Lcq;FFF)Z
+	METHOD a attack (Ladm;Lcj;Lwn;)V
+	METHOD c onPlace (Ladm;Lcj;Lalz;)V

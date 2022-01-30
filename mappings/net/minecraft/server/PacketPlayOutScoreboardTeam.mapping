@@ -1,1 +1,4 @@
 CLASS hr net/minecraft/server/PacketPlayOutScoreboardTeam
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Laul;I)V
+	METHOD <init> <init> (Laul;Ljava/util/Collection;I)V

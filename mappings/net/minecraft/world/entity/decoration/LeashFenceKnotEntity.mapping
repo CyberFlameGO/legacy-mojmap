@@ -1,0 +1,6 @@
+CLASS up net/minecraft/world/entity/decoration/LeashFenceKnotEntity
+	METHOD <init> <init> (Ladm;)V
+	METHOD <init> <init> (Ladm;Lcj;)V
+	METHOD a setDirection (Lcq;)V
+	METHOD aS getHeadHeight ()F
+	METHOD j survives ()Z

@@ -1,0 +1,41 @@
+CLASS le net/minecraft/server/level/ServerLevel
+	FIELD I server Lnet/minecraft/server/MinecraftServer;
+	FIELD J tracker Lla;
+	FIELD K manager Llc;
+	FIELD N entitiesByUUID Ljava/util/Map;
+	FIELD P emptyTime I
+	FIELD b chunkProviderServer Lld;
+	FIELD c savingDisabled Z
+	FIELD d siegeManager Ltg;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Latp;Lato;ILnt;)V
+	METHOD a getTileEntities (IIIIII)Ljava/util/List;
+	METHOD a postToMainThread (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;
+	METHOD a getEntity (Ljava/util/UUID;)Lpk;
+	METHOD a broadcastEntityEffect (Lpk;B)V
+	METHOD a createExplosion (Lpk;DDDFZZ)Ladi;
+	METHOD a entityJoinedWorld (Lpk;Z)V
+	METHOD a save (ZLnu;)V
+	METHOD aJ isMainThread ()Z
+	METHOD ah getSpawnNPCs ()Z
+	METHOD ai getSpawnAnimals ()Z
+	METHOD c doTick ()V
+	METHOD c playBlockAction (Lcj;Lafh;II)V
+	METHOD c strikeLightning (Lpk;)Z
+	METHOD d everyoneSleeping ()V
+	METHOD f everyoneDeeplySleeping ()Z
+	METHOD i tickEntities ()V
+	METHOD m getDimensionSpawn ()Lcj;
+	METHOD n flushSave ()V
+	METHOD o saveLevel ()V
+	METHOD r getMinecraftServer ()Lnet/minecraft/server/MinecraftServer;
+	METHOD s getTracker ()Lla;
+	METHOD t getPlayerChunkMap ()Llc;
+	METHOD u getTravelAgent ()Ladu;
+	CLASS 1 1
+		METHOD <init> <init> (Lle;)V
+		METHOD a apply (Lpr;)Z
+		METHOD apply apply (Ljava/lang/Object;)Z
+	CLASS a BlockActionDataList
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lle$1;)V

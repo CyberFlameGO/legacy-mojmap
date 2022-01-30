@@ -1,0 +1,22 @@
+CLASS bdb bdb
+	METHOD <init> <init> (Lbcy;Ladp;ILoj;Lnt;)V
+	METHOD b setDayTime (J)V
+	METHOD c doTick ()V
+	METHOD d addEntity (Lpk;)Z
+	METHOD e kill (Lpk;)V
+	CLASS 1 1
+		METHOD <init> <init> (Lbdb;)V
+		METHOD a call ()Ljava/lang/String;
+		METHOD call call ()Ljava/lang/Object;
+	CLASS 2 2
+		METHOD <init> <init> (Lbdb;)V
+		METHOD a call ()Ljava/lang/String;
+		METHOD call call ()Ljava/lang/Object;
+	CLASS 3 3
+		METHOD <init> <init> (Lbdb;)V
+		METHOD a call ()Ljava/lang/String;
+		METHOD call call ()Ljava/lang/Object;
+	CLASS 4 4
+		METHOD <init> <init> (Lbdb;)V
+		METHOD a call ()Ljava/lang/String;
+		METHOD call call ()Ljava/lang/Object;

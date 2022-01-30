@@ -1,1 +1,2 @@
 CLASS yx net/minecraft/server/ItemCoal
+	METHOD <init> <init> ()V

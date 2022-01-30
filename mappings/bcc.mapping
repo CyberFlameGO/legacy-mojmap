@@ -1,0 +1,2 @@
+CLASS bcc bcc
+	METHOD <init> <init> (I)V

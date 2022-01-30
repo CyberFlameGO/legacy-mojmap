@@ -1,1 +1,2 @@
 CLASS asj net/minecraft/server/GenLayerRiver
+	METHOD <init> <init> (JLase;)V

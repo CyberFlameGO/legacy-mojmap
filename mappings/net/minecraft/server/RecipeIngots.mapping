@@ -1,1 +1,2 @@
 CLASS abr net/minecraft/server/RecipeIngots
+	METHOD <init> <init> ()V

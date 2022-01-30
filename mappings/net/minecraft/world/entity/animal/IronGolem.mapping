@@ -1,0 +1,13 @@
+CLASS ty net/minecraft/world/entity/animal/IronGolem
+	METHOD <init> <init> (Ladm;)V
+	METHOD a die (Low;)V
+	METHOD aX initAttributes ()V
+	METHOD b dropDeathLoot (ZI)V
+	METHOD cn isPlayerCreated ()Z
+	METHOD l setPlayerCreated (Z)V
+	CLASS a PathfinderGoalNearestGolemTarget
+		METHOD <init> <init> (Lpy;Ljava/lang/Class;IZZLcom/google/common/base/Predicate;)V
+		CLASS 1 1
+			METHOD <init> <init> (Lty$a;Lcom/google/common/base/Predicate;Lpy;)V
+			METHOD a apply (Lpr;)Z
+			METHOD apply apply (Ljava/lang/Object;)Z

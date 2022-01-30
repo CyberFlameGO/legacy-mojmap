@@ -1,0 +1,6 @@
+CLASS fz net/minecraft/network/protocol/game/ClientboundChunkBlocksUpdatePacket
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (I[SLamy;)V
+	CLASS a BlockUpdate
+		METHOD <init> <init> (Lfz;SLalz;)V
+		METHOD <init> <init> (Lfz;SLamy;)V

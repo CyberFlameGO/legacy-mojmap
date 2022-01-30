@@ -1,0 +1,3 @@
+CLASS hb net/minecraft/network/protocol/game/ClientboundRemoveEntitiesPacket
+	METHOD <init> <init> ()V
+	METHOD <init> <init> ([I)V

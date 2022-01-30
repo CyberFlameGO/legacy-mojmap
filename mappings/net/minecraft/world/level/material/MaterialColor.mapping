@@ -1,0 +1,3 @@
+CLASS arn net/minecraft/world/level/material/MaterialColor
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (II)V

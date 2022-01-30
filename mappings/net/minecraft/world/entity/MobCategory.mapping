@@ -1,0 +1,9 @@
+CLASS pt net/minecraft/world/entity/MobCategory
+	FIELD a MONSTER Lpt;
+	FIELD b CREATURE Lpt;
+	FIELD c AMBIENT Lpt;
+	FIELD d WATER_CREATURE Lpt;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/Class;ILarm;ZZ)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lpt;
+	METHOD values values ()[Lpt;

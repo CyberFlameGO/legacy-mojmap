@@ -1,0 +1,4 @@
+CLASS amg net/minecraft/world/level/block/state/predicate/BlockPredicate
+	METHOD <init> <init> (Lafh;)V
+	METHOD a apply (Lalz;)Z
+	METHOD apply apply (Ljava/lang/Object;)Z

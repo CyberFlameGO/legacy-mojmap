@@ -6,12 +6,22 @@ CLASS lm net/minecraft/server/PlayerConnection
 	FIELD j lastPing J
 	FIELD l chatThrottle I
 	FIELD r checkMovement Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Lek;Llf;)V
 	METHOD a getNetworkManager ()Lek;
 	METHOD a sendPacket (Lff;)V
 	METHOD c disconnect (Ljava/lang/String;)V
 	METHOD d getCurrentMillis ()J
 	METHOD d handleCommand (Ljava/lang/String;)V
 	CLASS 1 1
+		METHOD <init> <init> (Llm;Lfa;)V
+		METHOD operationComplete operationComplete (Lio/netty/util/concurrent/Future;)V
 	CLASS 2 2
+		METHOD <init> <init> (Llm;)V
+		METHOD run run ()V
 	CLASS 3 3
+		METHOD <init> <init> (Llm;Lff;)V
+		METHOD a call ()Ljava/lang/String;
+		METHOD call call ()Ljava/lang/Object;
 	CLASS 4 4
+		METHOD <clinit> <clinit> ()V

@@ -1,1 +1,3 @@
 CLASS acm net/minecraft/server/EnchantmentFire
+	METHOD <init> <init> (ILjy;I)V
+	METHOD b getMaxLevel ()I

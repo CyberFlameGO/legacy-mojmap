@@ -1,0 +1,4 @@
+CLASS avs avs
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (IIIIILjava/lang/String;)V
+	METHOD <init> <init> (IIILjava/lang/String;)V

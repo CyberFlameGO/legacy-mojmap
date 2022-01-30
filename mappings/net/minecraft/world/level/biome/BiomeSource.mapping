@@ -1,0 +1,9 @@
+CLASS aec net/minecraft/world/level/biome/BiomeSource
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (JLadr;Ljava/lang/String;)V
+	METHOD <init> <init> (Ladm;)V
+	METHOD a getBiome (Lcj;)Lady;
+	METHOD a getBiome (Lcj;Lady;)Lady;
+	METHOD a getWetness ([FIIII)[F
+	METHOD a getBiomes ([Lady;IIII)[Lady;
+	METHOD b getBiomeBlock ([Lady;IIII)[Lady;

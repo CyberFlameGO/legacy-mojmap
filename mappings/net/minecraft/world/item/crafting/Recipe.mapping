@@ -1,0 +1,2 @@
+CLASS abs net/minecraft/world/item/crafting/Recipe
+	METHOD a craftItem (Lxp;)Lzx;

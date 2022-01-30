@@ -1,1 +1,4 @@
 CLASS ahx net/minecraft/server/BlockMelon
+	METHOD <init> <init> ()V
+	METHOD a getDropCount (ILjava/util/Random;)I
+	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;

@@ -1,1 +1,4 @@
 CLASS hz net/minecraft/server/PacketPlayOutEntityTeleport
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (IIIIBBZ)V
+	METHOD <init> <init> (Lpk;)V

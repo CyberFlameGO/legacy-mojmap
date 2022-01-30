@@ -1,0 +1,22 @@
+CLASS pf net/minecraft/world/effect/MobEffectInstance
+	FIELD b effectId I
+	FIELD c duration I
+	FIELD d amplification I
+	FIELD e splash Z
+	FIELD f ambient Z
+	FIELD h particles Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (II)V
+	METHOD <init> <init> (III)V
+	METHOD <init> <init> (IIIZZ)V
+	METHOD <init> <init> (Lpf;)V
+	METHOD a getEffectId ()I
+	METHOD a tick (Lpr;)Z
+	METHOD a setSplash (Z)V
+	METHOD b getDuration ()I
+	METHOD c getAmplifier ()I
+	METHOD e isAmbient ()Z
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD f isShowParticles ()Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

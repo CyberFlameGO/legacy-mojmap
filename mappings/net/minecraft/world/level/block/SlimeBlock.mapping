@@ -1,0 +1,3 @@
+CLASS ajn net/minecraft/world/level/block/SlimeBlock
+	METHOD <init> <init> ()V
+	METHOD a fallOn (Ladm;Lcj;Lpk;F)V

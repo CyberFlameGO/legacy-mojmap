@@ -1,0 +1,2 @@
+CLASS aet net/minecraft/world/level/biome/SwampBiome
+	METHOD <init> <init> (I)V

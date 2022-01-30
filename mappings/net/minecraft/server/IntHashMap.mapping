@@ -1,3 +1,8 @@
 CLASS nm net/minecraft/server/IntHashMap
+	METHOD <init> <init> ()V
 	METHOD a get (I)Ljava/lang/Object;
 	CLASS a IntHashMapEntry
+		METHOD <init> <init> (IILjava/lang/Object;Lnm$a;)V
+		METHOD equals equals (Ljava/lang/Object;)Z
+		METHOD hashCode hashCode ()I
+		METHOD toString toString ()Ljava/lang/String;

@@ -1,0 +1,4 @@
+CLASS rz net/minecraft/world/entity/ai/goal/RandomStrollGoal
+	METHOD <init> <init> (Lpy;D)V
+	METHOD <init> <init> (Lpy;DI)V
+	METHOD b setTimeBetweenMovement (I)V

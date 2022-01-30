@@ -1,5 +1,11 @@
 CLASS ig net/minecraft/server/PacketPlayInClientCommand
-	CLASS a EnumClientCommand
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lig$a;)V
+	CLASS a Action
 		FIELD a PERFORM_RESPAWN Lig$a;
 		FIELD b REQUEST_STATS Lig$a;
 		FIELD c OPEN_INVENTORY_ACHIEVEMENT Lig$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lig$a;
+		METHOD values values ()[Lig$a;

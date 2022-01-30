@@ -1,0 +1,2 @@
+CLASS yw net/minecraft/world/item/CarrotOnAStickItem
+	METHOD <init> <init> ()V

@@ -1,0 +1,67 @@
+CLASS aqp net/minecraft/world/level/levelgen/structure/StrongholdPieces
+	METHOD <clinit> <clinit> ()V
+	CLASS 1 1
+		METHOD <init> <init> (Ljava/lang/Class;II)V
+	CLASS 2 2
+		METHOD <init> <init> (Ljava/lang/Class;II)V
+	CLASS 3 3
+		METHOD <clinit> <clinit> ()V
+	CLASS a WorldGenStrongholdChestCorridor
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (ILjava/util/Random;Laqe;Lcq;)V
+	CLASS b FillerCorridor
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (ILjava/util/Random;Laqe;Lcq;)V
+	CLASS c FiveCrossing
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (ILjava/util/Random;Laqe;Lcq;)V
+	CLASS d WorldGenStrongholdLeftTurn
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (ILjava/util/Random;Laqe;Lcq;)V
+	CLASS e Library
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (ILjava/util/Random;Laqe;Lcq;)V
+	CLASS f PieceWeight
+		METHOD <init> <init> (Ljava/lang/Class;II)V
+	CLASS g PortalRoom
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (ILjava/util/Random;Laqe;Lcq;)V
+	CLASS h WorldGenStrongholdPrison
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (ILjava/util/Random;Laqe;Lcq;)V
+	CLASS i WorldGenStrongholdRightTurn
+		METHOD <init> <init> ()V
+	CLASS j RoomCrossing
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (ILjava/util/Random;Laqe;Lcq;)V
+	CLASS k WorldGenStrongholdStones
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Laqp$1;)V
+	CLASS l StairsDown
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (ILjava/util/Random;II)V
+		METHOD <init> <init> (ILjava/util/Random;Laqe;Lcq;)V
+	CLASS m StartPiece
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (ILjava/util/Random;II)V
+	CLASS n Straight
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (ILjava/util/Random;Laqe;Lcq;)V
+	CLASS o WorldGenStrongholdStairsStraight
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (ILjava/util/Random;Laqe;Lcq;)V
+	CLASS p StrongholdPiece
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (I)V
+		CLASS a SmallDoorType
+			FIELD a OPENING Laqp$p$a;
+			FIELD b WOOD_DOOR Laqp$p$a;
+			FIELD c GRATES Laqp$p$a;
+			FIELD d IRON_DOOR Laqp$p$a;
+			METHOD <clinit> <clinit> ()V
+			METHOD <init> <init> (Ljava/lang/String;I)V
+			METHOD valueOf valueOf (Ljava/lang/String;)Laqp$p$a;
+			METHOD values values ()[Laqp$p$a;

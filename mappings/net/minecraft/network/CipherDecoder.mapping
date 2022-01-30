@@ -1,0 +1,5 @@
+CLASS eg net/minecraft/network/CipherDecoder
+	FIELD a cipher Lef;
+	METHOD <init> <init> (Ljavax/crypto/Cipher;)V
+	METHOD a decode (Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Ljava/util/List;)V
+	METHOD decode decode (Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;Ljava/util/List;)V

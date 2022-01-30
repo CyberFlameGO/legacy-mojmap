@@ -1,3 +1,7 @@
 CLASS adg net/minecraft/server/ChunkCoordIntPair
 	FIELD a x I
 	FIELD b z I
+	METHOD <init> <init> (II)V
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

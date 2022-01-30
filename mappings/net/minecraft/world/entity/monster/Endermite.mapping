@@ -1,0 +1,6 @@
+CLASS vp net/minecraft/world/entity/monster/Endermite
+	METHOD <init> <init> (Ladm;)V
+	METHOD A getLoot ()Lzw;
+	METHOD aS getHeadHeight ()F
+	METHOD aX initAttributes ()V
+	METHOD bz getMonsterType ()Lpw;

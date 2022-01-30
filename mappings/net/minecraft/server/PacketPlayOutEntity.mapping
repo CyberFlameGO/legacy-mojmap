@@ -1,4 +1,13 @@
 CLASS gv net/minecraft/server/PacketPlayOutEntity
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (I)V
+	METHOD toString toString ()Ljava/lang/String;
 	CLASS a PacketPlayOutRelEntityMove
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (IBBBZ)V
 	CLASS b PacketPlayOutRelEntityMoveLook
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (IBBBBBZ)V
 	CLASS c PacketPlayOutEntityLook
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (IBBZ)V

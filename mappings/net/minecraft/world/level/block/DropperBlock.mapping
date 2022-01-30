@@ -1,0 +1,3 @@
+CLASS agk net/minecraft/world/level/block/DropperBlock
+	METHOD <init> <init> ()V
+	METHOD f dispense (Ladm;Lcj;)V

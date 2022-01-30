@@ -1,4 +1,6 @@
 CLASS adp net/minecraft/server/WorldSettings
+	METHOD <init> <init> (JLadp$a;ZZLadr;)V
+	METHOD <init> <init> (Lato;)V
 	METHOD a setGeneratorSettings (Ljava/lang/String;)Ladp;
 	CLASS a EnumGamemode
 		FIELD a NOT_SET Ladp$a;
@@ -6,5 +8,9 @@ CLASS adp net/minecraft/server/WorldSettings
 		FIELD c CREATIVE Ladp$a;
 		FIELD d ADVENTURE Ladp$a;
 		FIELD e SPECTATOR Ladp$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;)V
 		METHOD a getId ()I
 		METHOD a getById (I)Ladp$a;
+		METHOD valueOf valueOf (Ljava/lang/String;)Ladp$a;
+		METHOD values values ()[Ladp$a;

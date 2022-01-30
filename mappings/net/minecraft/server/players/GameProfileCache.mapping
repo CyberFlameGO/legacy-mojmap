@@ -1,0 +1,24 @@
+CLASS lt net/minecraft/server/players/GameProfileCache
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Ljava/io/File;)V
+	METHOD a getProfile (Ljava/lang/String;)Lcom/mojang/authlib/GameProfile;
+	METHOD a lookupGameProfile (Lnet/minecraft/server/MinecraftServer;Ljava/lang/String;)Lcom/mojang/authlib/GameProfile;
+	CLASS 1 1
+		METHOD <init> <init> ([Lcom/mojang/authlib/GameProfile;)V
+		METHOD onProfileLookupFailed onProfileLookupFailed (Lcom/mojang/authlib/GameProfile;Ljava/lang/Exception;)V
+		METHOD onProfileLookupSucceeded onProfileLookupSucceeded (Lcom/mojang/authlib/GameProfile;)V
+	CLASS 2 2
+		METHOD <init> <init> ()V
+		METHOD getActualTypeArguments getActualTypeArguments ()[Ljava/lang/reflect/Type;
+		METHOD getOwnerType getOwnerType ()Ljava/lang/reflect/Type;
+		METHOD getRawType getRawType ()Ljava/lang/reflect/Type;
+	CLASS a GameProfileInfo
+		METHOD <init> <init> (Llt;Lcom/mojang/authlib/GameProfile;Ljava/util/Date;)V
+		METHOD <init> <init> (Llt;Lcom/mojang/authlib/GameProfile;Ljava/util/Date;Llt$1;)V
+	CLASS b Serializer
+		METHOD <init> <init> (Llt;)V
+		METHOD <init> <init> (Llt;Llt$1;)V
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Llt$a;
+		METHOD a serialize (Llt$a;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD serialize serialize (Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;

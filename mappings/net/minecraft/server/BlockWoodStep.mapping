@@ -1,1 +1,2 @@
 CLASS ahk net/minecraft/server/BlockWoodStep
+	METHOD <init> <init> ()V

@@ -1,0 +1,2 @@
+CLASS awq awq
+	METHOD <init> <init> (Lnet/minecraft/realms/RealmsClickableScrolledSelectionList;IIIII)V

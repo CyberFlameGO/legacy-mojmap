@@ -1,0 +1,2 @@
+CLASS qm net/minecraft/world/entity/ai/control/BodyRotationControl
+	METHOD <init> <init> (Lpr;)V

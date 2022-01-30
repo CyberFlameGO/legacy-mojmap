@@ -1,1 +1,3 @@
 CLASS gr net/minecraft/server/PacketPlayOutWorldParticles
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lcy;ZFFFFFFFI[I)V

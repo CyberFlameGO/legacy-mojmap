@@ -1,1 +1,3 @@
 CLASS gx net/minecraft/server/PacketPlayOutAbilities
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lwl;)V

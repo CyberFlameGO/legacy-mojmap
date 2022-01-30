@@ -1,0 +1,7 @@
+CLASS ads net/minecraft/world/level/LightLayer
+	FIELD a SKY Lads;
+	FIELD b BLOCK Lads;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;II)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lads;
+	METHOD values values ()[Lads;

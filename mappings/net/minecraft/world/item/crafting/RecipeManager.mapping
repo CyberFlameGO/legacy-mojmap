@@ -1,0 +1,13 @@
+CLASS abt net/minecraft/world/item/crafting/RecipeManager
+	FIELD b recipes Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getInstance ()Labt;
+	METHOD a craft (Lxp;Ladm;)Lzx;
+	METHOD a registerShapedRecipe (Lzx;[Ljava/lang/Object;)Labv;
+	METHOD b getRecipes ()Ljava/util/List;
+	METHOD b registerShapelessRecipe (Lzx;[Ljava/lang/Object;)V
+	CLASS 1 1
+		METHOD <init> <init> (Labt;)V
+		METHOD a compare (Labs;Labs;)I
+		METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I

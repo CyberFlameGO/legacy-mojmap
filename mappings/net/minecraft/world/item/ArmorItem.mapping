@@ -1,0 +1,15 @@
+CLASS yj net/minecraft/world/item/ArmorItem
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lyj$a;II)V
+	CLASS 1 1
+		METHOD <init> <init> ()V
+	CLASS a EnumArmorMaterial
+		FIELD a LEATHER Lyj$a;
+		FIELD b CHAIN Lyj$a;
+		FIELD c IRON Lyj$a;
+		FIELD d GOLD Lyj$a;
+		FIELD e DIAMOND Lyj$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;I[II)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lyj$a;
+		METHOD values values ()[Lyj$a;

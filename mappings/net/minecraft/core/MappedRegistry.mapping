@@ -1,0 +1,12 @@
+CLASS cx net/minecraft/core/MappedRegistry
+	FIELD a ids Lct;
+	FIELD b invertedMap Ljava/util/Map;
+	METHOD <init> <init> ()V
+	METHOD a getById (I)Ljava/lang/Object;
+	METHOD a register (ILjava/lang/Object;Ljava/lang/Object;)V
+	METHOD a get (Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD b createMap ()Ljava/util/Map;
+	METHOD b getIdForValue (Ljava/lang/Object;)I
+	METHOD c getKeyForValue (Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD d contains (Ljava/lang/Object;)Z
+	METHOD iterator iterator ()Ljava/util/Iterator;

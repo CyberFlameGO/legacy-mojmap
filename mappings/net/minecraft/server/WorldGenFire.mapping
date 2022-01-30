@@ -1,1 +1,3 @@
 CLASS aow net/minecraft/server/WorldGenFire
+	METHOD <init> <init> ()V
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

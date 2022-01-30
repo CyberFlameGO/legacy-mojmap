@@ -1,2 +1,5 @@
 CLASS alu net/minecraft/server/TileEntityPiston
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lalz;Lcq;ZZ)V
 	CLASS 1 1
+		METHOD <clinit> <clinit> ()V

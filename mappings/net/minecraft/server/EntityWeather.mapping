@@ -1,1 +1,2 @@
 CLASS uu net/minecraft/server/EntityWeather
+	METHOD <init> <init> (Ladm;)V

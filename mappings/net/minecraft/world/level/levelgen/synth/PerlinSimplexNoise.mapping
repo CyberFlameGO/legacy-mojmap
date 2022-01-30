@@ -1,0 +1,2 @@
+CLASS ard net/minecraft/world/level/levelgen/synth/PerlinSimplexNoise
+	METHOD <init> <init> (Ljava/util/Random;I)V

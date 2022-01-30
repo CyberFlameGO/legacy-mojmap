@@ -1,0 +1,7 @@
+CLASS jy net/minecraft/resources/ResourceLocation
+	METHOD <init> <init> (I[Ljava/lang/String;)V
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

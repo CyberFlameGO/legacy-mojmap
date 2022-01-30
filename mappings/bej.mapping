@@ -1,0 +1,13 @@
+CLASS bej bej
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ladm;DDDDDD)V
+	CLASS a a
+		METHOD <init> <init> ()V
+	CLASS b b
+		METHOD <init> <init> ()V
+	CLASS c c
+		METHOD <init> <init> ()V
+	CLASS d d
+		METHOD <init> <init> ()V
+	CLASS e e
+		METHOD <init> <init> ()V

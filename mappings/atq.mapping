@@ -1,0 +1,2 @@
+CLASS atq atq
+	METHOD <init> <init> (Ljava/lang/String;)V

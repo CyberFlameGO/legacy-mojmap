@@ -1,1 +1,2 @@
 CLASS aha net/minecraft/server/BlockDoubleWoodStep
+	METHOD <init> <init> ()V

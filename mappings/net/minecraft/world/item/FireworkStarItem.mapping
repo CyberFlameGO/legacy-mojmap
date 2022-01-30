@@ -1,0 +1,2 @@
+CLASS zn net/minecraft/world/item/FireworkStarItem
+	METHOD <init> <init> ()V

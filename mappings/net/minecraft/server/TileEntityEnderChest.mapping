@@ -1,1 +1,2 @@
 CLASS alf net/minecraft/server/TileEntityEnderChest
+	METHOD <init> <init> ()V

@@ -1,0 +1,27 @@
+CLASS zd net/minecraft/world/item/DyeColor
+	FIELD a WHITE Lzd;
+	FIELD b ORANGE Lzd;
+	FIELD c MAGENTA Lzd;
+	FIELD d LIGHT_BLUE Lzd;
+	FIELD e YELLOW Lzd;
+	FIELD f LIME Lzd;
+	FIELD g PINK Lzd;
+	FIELD h GRAY Lzd;
+	FIELD i SILVER Lzd;
+	FIELD j CYAN Lzd;
+	FIELD k PURPLE Lzd;
+	FIELD l BLUE Lzd;
+	FIELD m BROWN Lzd;
+	FIELD n GREEN Lzd;
+	FIELD o RED Lzd;
+	FIELD p BLACK Lzd;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;IIILjava/lang/String;Ljava/lang/String;Larn;La;)V
+	METHOD a getColorIndex ()I
+	METHOD a fromInvColorIndex (I)Lzd;
+	METHOD b getInvColorIndex ()I
+	METHOD b fromColorIndex (I)Lzd;
+	METHOD l getName ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lzd;
+	METHOD values values ()[Lzd;

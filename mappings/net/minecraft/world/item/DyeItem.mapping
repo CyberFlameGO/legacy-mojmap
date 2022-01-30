@@ -1,0 +1,4 @@
+CLASS ze net/minecraft/world/item/DyeItem
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z

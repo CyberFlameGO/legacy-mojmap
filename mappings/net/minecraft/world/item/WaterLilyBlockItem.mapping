@@ -1,0 +1,2 @@
+CLASS abb net/minecraft/world/item/WaterLilyBlockItem
+	METHOD <init> <init> (Lafh;)V

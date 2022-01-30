@@ -1,1 +1,3 @@
 CLASS iz net/minecraft/server/PacketPlayInSpectate
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/util/UUID;)V

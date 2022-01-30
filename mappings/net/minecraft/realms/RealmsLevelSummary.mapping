@@ -1,0 +1,14 @@
+CLASS net/minecraft/realms/RealmsLevelSummary net/minecraft/realms/RealmsLevelSummary
+	FIELD levelSummary levelSummary Lats;
+	METHOD <init> <init> (Lats;)V
+	METHOD compareTo compareTo (Lats;)I
+	METHOD compareTo compareTo (Ljava/lang/Object;)I
+	METHOD compareTo compareTo (Lnet/minecraft/realms/RealmsLevelSummary;)I
+	METHOD getGameMode getGameMode ()I
+	METHOD getLastPlayed getLastPlayed ()J
+	METHOD getLevelId getLevelId ()Ljava/lang/String;
+	METHOD getLevelName getLevelName ()Ljava/lang/String;
+	METHOD getSizeOnDisk getSizeOnDisk ()J
+	METHOD hasCheats hasCheats ()Z
+	METHOD isHardcore isHardcore ()Z
+	METHOD isRequiresConversion isRequiresConversion ()Z

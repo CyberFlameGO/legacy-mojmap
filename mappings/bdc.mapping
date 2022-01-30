@@ -1,0 +1,7 @@
+CLASS bdc bdc
+	METHOD <init> <init> (Lcom/mojang/authlib/GameProfile;)V
+	METHOD <init> <init> (Lgz$b;)V
+	CLASS 1 1
+		METHOD <init> <init> (Lbdc;)V
+	CLASS 2 2
+		METHOD <clinit> <clinit> ()V

@@ -1,0 +1,7 @@
+CLASS tm net/minecraft/world/entity/animal/Animal
+	METHOD <init> <init> (Ladm;)V
+	METHOD C isTypeNotPersistent ()Z
+	METHOD a damageEntity (Low;F)Z
+	METHOD a mate (Ltm;)Z
+	METHOD b getExpValue (Lwn;)I
+	METHOD cr isInLove ()Z

@@ -1,0 +1,2 @@
+CLASS bcd bcd
+	METHOD <init> <init> ()V

@@ -1,0 +1,25 @@
+CLASS lo net/minecraft/server/network/ServerLoginPacketListenerImpl
+	FIELD a networkManager Lek;
+	FIELD d random Ljava/util/Random;
+	FIELD f server Lnet/minecraft/server/MinecraftServer;
+	FIELD k loginKey Ljavax/crypto/SecretKey;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Lek;)V
+	METHOD a disconnect (Ljava/lang/String;)V
+	CLASS 1 1
+		METHOD <init> <init> (Llo;)V
+		METHOD a operationComplete (Lio/netty/channel/ChannelFuture;)V
+		METHOD operationComplete operationComplete (Lio/netty/util/concurrent/Future;)V
+	CLASS 2 2
+		METHOD <init> <init> (Llo;Ljava/lang/String;)V
+		METHOD run run ()V
+	CLASS a State
+		FIELD a HELLO Llo$a;
+		FIELD b KEY Llo$a;
+		FIELD c AUTHENTICATING Llo$a;
+		FIELD d READY_TO_ACCEPT Llo$a;
+		FIELD f ACCEPTED Llo$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Llo$a;
+		METHOD values values ()[Llo$a;

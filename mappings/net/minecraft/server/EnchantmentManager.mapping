@@ -1,5 +1,6 @@
 CLASS ack net/minecraft/server/EnchantmentManager
 	FIELD a random Ljava/util/Random;
+	METHOD <clinit> <clinit> ()V
 	METHOD a getEnchantmentLevel (ILzx;)I
 	METHOD a getOxygenEnchantmentLevel (Lpk;)I
 	METHOD b getFireAspectEnchantmentLevel (Lpr;)I
@@ -9,7 +10,15 @@ CLASS ack net/minecraft/server/EnchantmentManager
 	METHOD i getBonusMonsterLootEnchantmentLevel (Lpr;)I
 	CLASS 1 1
 	CLASS a EnchantmentModifierArthropods
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lack$1;)V
 	CLASS b EnchantmentModifierThorns
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lack$1;)V
 	CLASS c EnchantmentModifier
 	CLASS d EnchantmentModifierDamage
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lack$1;)V
 	CLASS e EnchantmentModifierProtection
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lack$1;)V

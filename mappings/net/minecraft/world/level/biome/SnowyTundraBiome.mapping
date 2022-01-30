@@ -1,0 +1,2 @@
+CLASS aei net/minecraft/world/level/biome/SnowyTundraBiome
+	METHOD <init> <init> (IZ)V

@@ -3,3 +3,5 @@ CLASS ik net/minecraft/server/PacketPlayInWindowClick
 	FIELD c button I
 	FIELD e item Lzx;
 	FIELD f shift I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (IIIILzx;S)V

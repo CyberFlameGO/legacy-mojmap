@@ -1,1 +1,4 @@
 CLASS id net/minecraft/server/PacketPlayInTabComplete
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD <init> <init> (Ljava/lang/String;Lcj;)V

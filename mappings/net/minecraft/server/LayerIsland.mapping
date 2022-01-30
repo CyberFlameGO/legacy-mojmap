@@ -1,1 +1,2 @@
 CLASS asd net/minecraft/server/LayerIsland
+	METHOD <init> <init> (J)V

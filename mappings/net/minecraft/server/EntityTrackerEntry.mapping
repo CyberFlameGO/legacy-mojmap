@@ -7,9 +7,13 @@ CLASS lh net/minecraft/server/EntityTrackerEntry
 	FIELD h xRot I
 	FIELD o trackedPlayers Ljava/util/Set;
 	FIELD t isMoving Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lpk;IIZ)V
 	METHOD a broadcast (Lff;)V
 	METHOD a track (Ljava/util/List;)V
 	METHOD b broadcastIncludingSelf (Lff;)V
 	METHOD b scanPlayers (Ljava/util/List;)V
 	METHOD b updatePlayer (Llf;)V
 	METHOD d clear (Llf;)V
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I

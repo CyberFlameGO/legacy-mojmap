@@ -186,4 +186,5 @@ CLASS zy net/minecraft/server/Items
 	FIELD x DIAMOND_AXE Lzw;
 	FIELD y STICK Lzw;
 	FIELD z BOWL Lzw;
+	METHOD <clinit> <clinit> ()V
 	METHOD a get (Ljava/lang/String;)Lzw;

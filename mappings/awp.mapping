@@ -1,0 +1,3 @@
+CLASS awp awp
+	METHOD <init> <init> (Lnet/minecraft/realms/RealmsButton;IIILjava/lang/String;)V
+	METHOD <init> <init> (Lnet/minecraft/realms/RealmsButton;IIILjava/lang/String;II)V

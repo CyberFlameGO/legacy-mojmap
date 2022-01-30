@@ -1,0 +1,3 @@
+CLASS apw net/minecraft/world/level/levelgen/feature/VinesFeature
+	METHOD <init> <init> ()V
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

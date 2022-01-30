@@ -1,1 +1,2 @@
 CLASS aoh net/minecraft/server/WorldGenTreeAbstract
+	METHOD <init> <init> (Z)V

@@ -1,0 +1,21 @@
+CLASS aiv net/minecraft/world/level/block/PumpkinBlock
+	FIELD N ironGolemPart Lamd;
+	FIELD P ironGolem Lamd;
+	FIELD a snowGolemPart Lamd;
+	FIELD b snowGolem Lamd;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD T getDetectorIronGolemPart ()Lamd;
+	METHOD U getDetectorIronGolem ()Lamd;
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a getPlacedState (Ladm;Lcj;Lcq;FFFILpr;)Lalz;
+	METHOD c onPlace (Ladm;Lcj;Lalz;)V
+	METHOD c toLegacyData (Lalz;)I
+	METHOD d canPlace (Ladm;Lcj;)Z
+	METHOD e getStateList ()Lama;
+	METHOD l getDetectorSnowGolemPart ()Lamd;
+	METHOD n getDetectorSnowGolem ()Lamd;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a apply (Lalz;)Z
+		METHOD apply apply (Ljava/lang/Object;)Z

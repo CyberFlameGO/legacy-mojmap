@@ -1,1 +1,2 @@
 CLASS gl net/minecraft/server/PacketPlayOutSetCompression
+	METHOD <init> <init> ()V

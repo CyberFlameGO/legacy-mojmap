@@ -1,0 +1,4 @@
+CLASS xq net/minecraft/world/inventory/CraftingMenu
+	FIELD a craftInventory Lxp;
+	FIELD f resultInventory Log;
+	METHOD <init> <init> (Lwm;Ladm;Lcj;)V

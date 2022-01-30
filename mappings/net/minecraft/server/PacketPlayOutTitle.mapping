@@ -1,7 +1,15 @@
 CLASS hv net/minecraft/server/PacketPlayOutTitle
-	CLASS a EnumTitleAction
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (III)V
+	METHOD <init> <init> (Lhv$a;Leu;)V
+	METHOD <init> <init> (Lhv$a;Leu;III)V
+	CLASS a Type
 		FIELD a TITLE Lhv$a;
 		FIELD b SUBTITLE Lhv$a;
 		FIELD c TIMES Lhv$a;
 		FIELD d CLEAR Lhv$a;
 		FIELD e RESET Lhv$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lhv$a;
+		METHOD values values ()[Lhv$a;

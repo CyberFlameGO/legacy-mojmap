@@ -1,0 +1,5 @@
+CLASS net/minecraft/realms/RealmsServerPing net/minecraft/realms/RealmsServerPing
+	FIELD lastPingSnapshot lastPingSnapshot J
+	FIELD nrOfPlayers nrOfPlayers Ljava/lang/String;
+	FIELD playerList playerList Ljava/lang/String;
+	METHOD <init> <init> ()V

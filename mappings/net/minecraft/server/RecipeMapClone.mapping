@@ -1,1 +1,3 @@
 CLASS abp net/minecraft/server/RecipeMapClone
+	METHOD <init> <init> ()V
+	METHOD a craftItem (Lxp;)Lzx;

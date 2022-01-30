@@ -1,0 +1,2 @@
+CLASS wv net/minecraft/world/entity/projectile/Projectile
+	METHOD c shoot (DDDFF)V

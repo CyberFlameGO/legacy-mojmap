@@ -1,0 +1,5 @@
+CLASS oy net/minecraft/world/damagesource/IndirectEntityDamageSource
+	FIELD r owner Lpk;
+	METHOD <init> <init> (Ljava/lang/String;Lpk;Lpk;)V
+	METHOD b getLocalizedDeathMessage (Lpr;)Leu;
+	METHOD j getEntity ()Lpk;

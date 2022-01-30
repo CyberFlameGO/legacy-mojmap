@@ -6,3 +6,4 @@ CLASS wl net/minecraft/server/PlayerAbilities
 	FIELD e mayBuild Z
 	FIELD f flySpeed F
 	FIELD g walkSpeed F
+	METHOD <init> <init> ()V

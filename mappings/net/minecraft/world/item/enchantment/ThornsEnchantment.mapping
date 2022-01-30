@@ -1,0 +1,4 @@
+CLASS acs net/minecraft/world/item/enchantment/ThornsEnchantment
+	METHOD <init> <init> (ILjy;I)V
+	METHOD a canEnchant (Lzx;)Z
+	METHOD b getMaxLevel ()I

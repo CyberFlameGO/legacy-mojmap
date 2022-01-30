@@ -1,0 +1,5 @@
+CLASS wu net/minecraft/world/entity/projectile/LargeFireball
+	FIELD e yield I
+	METHOD <init> <init> (Ladm;)V
+	METHOD <init> <init> (Ladm;DDDDDD)V
+	METHOD <init> <init> (Ladm;Lpr;DDD)V

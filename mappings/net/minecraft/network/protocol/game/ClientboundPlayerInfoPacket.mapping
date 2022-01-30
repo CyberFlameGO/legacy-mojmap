@@ -1,0 +1,20 @@
+CLASS gz net/minecraft/network/protocol/game/ClientboundPlayerInfoPacket
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lgz$a;Ljava/lang/Iterable;)V
+	METHOD <init> <init> (Lgz$a;[Llf;)V
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS 1 1
+		METHOD <clinit> <clinit> ()V
+	CLASS a Action
+		FIELD a ADD_PLAYER Lgz$a;
+		FIELD b UPDATE_GAME_MODE Lgz$a;
+		FIELD c UPDATE_LATENCY Lgz$a;
+		FIELD d UPDATE_DISPLAY_NAME Lgz$a;
+		FIELD e REMOVE_PLAYER Lgz$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lgz$a;
+		METHOD values values ()[Lgz$a;
+	CLASS b PlayerUpdate
+		METHOD <init> <init> (Lgz;Lcom/mojang/authlib/GameProfile;ILadp$a;Leu;)V
+		METHOD toString toString ()Ljava/lang/String;

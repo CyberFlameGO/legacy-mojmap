@@ -1,0 +1,3 @@
+CLASS mo net/minecraft/server/rcon/thread/RconThread
+	METHOD <init> <init> (Lkj;)V
+	METHOD run run ()V

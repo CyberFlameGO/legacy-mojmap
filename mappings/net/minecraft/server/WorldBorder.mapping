@@ -1,4 +1,5 @@
 CLASS ams net/minecraft/server/WorldBorder
+	METHOD <init> <init> ()V
 	METHOD a getState ()Lamr;
 	METHOD a setSize (D)V
 	METHOD a transitionSizeBetween (DDJ)V

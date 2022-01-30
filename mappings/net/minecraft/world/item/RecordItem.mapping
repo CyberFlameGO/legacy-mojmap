@@ -1,0 +1,4 @@
+CLASS aak net/minecraft/world/item/RecordItem
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z

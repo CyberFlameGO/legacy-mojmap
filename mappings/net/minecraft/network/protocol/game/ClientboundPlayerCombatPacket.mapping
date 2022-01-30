@@ -1,0 +1,13 @@
+CLASS gy net/minecraft/network/protocol/game/ClientboundPlayerCombatPacket
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lov;Lgy$a;)V
+	CLASS 1 1
+		METHOD <clinit> <clinit> ()V
+	CLASS a Event
+		FIELD a ENTER_COMBAT Lgy$a;
+		FIELD b END_COMBAT Lgy$a;
+		FIELD c ENTITY_DIED Lgy$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lgy$a;
+		METHOD values values ()[Lgy$a;

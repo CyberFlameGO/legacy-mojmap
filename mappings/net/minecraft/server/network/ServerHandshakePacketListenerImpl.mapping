@@ -1,0 +1,4 @@
+CLASS ln net/minecraft/server/network/ServerHandshakePacketListenerImpl
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Lek;)V
+	CLASS 1 1
+		METHOD <clinit> <clinit> ()V

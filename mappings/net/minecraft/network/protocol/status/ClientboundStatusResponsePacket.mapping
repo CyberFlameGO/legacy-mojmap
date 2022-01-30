@@ -1,0 +1,4 @@
+CLASS jr net/minecraft/network/protocol/status/ClientboundStatusResponsePacket
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljs;)V

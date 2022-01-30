@@ -1,0 +1,2 @@
+CLASS pv net/minecraft/world/entity/SpawnPlacements
+	METHOD <clinit> <clinit> ()V

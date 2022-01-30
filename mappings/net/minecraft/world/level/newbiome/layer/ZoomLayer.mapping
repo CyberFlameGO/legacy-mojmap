@@ -1,0 +1,2 @@
+CLASS asr net/minecraft/world/level/newbiome/layer/ZoomLayer
+	METHOD <init> <init> (JLase;)V

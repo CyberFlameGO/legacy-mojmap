@@ -1,0 +1,2 @@
+CLASS bga bga
+	METHOD <init> <init> (Ladm;ILbfr;Lbhu;)V

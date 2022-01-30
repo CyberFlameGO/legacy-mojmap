@@ -1,1 +1,2 @@
 CLASS aka net/minecraft/server/BlockStoneButton
+	METHOD <init> <init> ()V

@@ -1,0 +1,2 @@
+CLASS tj net/minecraft/world/entity/ambient/AmbientCreature
+	METHOD <init> <init> (Ladm;)V

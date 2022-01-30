@@ -1,0 +1,2 @@
+CLASS apg net/minecraft/world/level/levelgen/feature/MegaTreeFeature
+	METHOD <init> <init> (ZIILalz;Lalz;)V

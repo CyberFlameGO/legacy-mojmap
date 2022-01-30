@@ -1,0 +1,11 @@
+CLASS aff net/minecraft/world/level/block/BeaconBlock
+	METHOD <init> <init> ()V
+	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
+	METHOD a postPlace (Ladm;Lcj;Lalz;Lpr;Lzx;)V
+	METHOD a interact (Ladm;Lcj;Lalz;Lwn;Lcq;FFF)Z
+	CLASS 1 1
+		METHOD <init> <init> (Ladm;Lcj;)V
+		METHOD run run ()V
+		CLASS 1 1
+			METHOD <init> <init> (Laff$1;Lcj;)V
+			METHOD run run ()V

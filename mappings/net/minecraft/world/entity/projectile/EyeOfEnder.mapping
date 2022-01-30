@@ -1,0 +1,3 @@
+CLASS wr net/minecraft/world/entity/projectile/EyeOfEnder
+	METHOD <init> <init> (Ladm;)V
+	METHOD <init> <init> (Ladm;DDD)V

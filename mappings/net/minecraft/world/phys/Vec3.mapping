@@ -1,0 +1,6 @@
+CLASS aui net/minecraft/world/phys/Vec3
+	METHOD <init> <init> (DDD)V
+	METHOD <init> <init> (Ldf;)V
+	METHOD b add (DDD)Laui;
+	METHOD g distanceSquared (Laui;)D
+	METHOD toString toString ()Ljava/lang/String;

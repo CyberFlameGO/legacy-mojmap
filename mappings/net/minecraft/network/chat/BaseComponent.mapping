@@ -1,0 +1,17 @@
+CLASS es net/minecraft/network/chat/BaseComponent
+	METHOD <init> <init> ()V
+	METHOD a addSibling (Leu;)Leu;
+	METHOD a setChatModifier (Lez;)Leu;
+	METHOD b getChatModifier ()Lez;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD iterator iterator ()Ljava/util/Iterator;
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a apply (Leu;)Ljava/util/Iterator;
+		METHOD apply apply (Ljava/lang/Object;)Ljava/lang/Object;
+	CLASS 2 2
+		METHOD <init> <init> ()V
+		METHOD a apply (Leu;)Leu;
+		METHOD apply apply (Ljava/lang/Object;)Ljava/lang/Object;

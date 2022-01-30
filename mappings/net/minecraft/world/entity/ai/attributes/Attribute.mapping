@@ -1,0 +1,2 @@
+CLASS qb net/minecraft/world/entity/ai/attributes/Attribute
+	METHOD a getName ()Ljava/lang/String;

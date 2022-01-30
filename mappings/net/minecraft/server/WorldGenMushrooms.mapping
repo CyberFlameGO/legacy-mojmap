@@ -1,1 +1,3 @@
 CLASS aom net/minecraft/server/WorldGenMushrooms
+	METHOD <init> <init> (Lafm;)V
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

@@ -1,1 +1,3 @@
 CLASS hu net/minecraft/server/PacketPlayOutUpdateTime
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (JJZ)V

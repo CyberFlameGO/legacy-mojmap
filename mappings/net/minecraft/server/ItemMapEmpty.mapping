@@ -1,1 +1,2 @@
 CLASS zh net/minecraft/server/ItemMapEmpty
+	METHOD <init> <init> ()V

@@ -1,0 +1,19 @@
+CLASS bew bew
+	METHOD <init> <init> (Lave;Ladm;Lbcy;Lnb;)V
+	METHOD a openTrade (Lacy;)V
+	METHOD a openSign (Laln;)V
+	METHOD a sendMessage (Leu;)V
+	METHOD a makeSound (Ljava/lang/String;FF)V
+	METHOD a openContainer (Log;)V
+	METHOD a openTileEntity (Lol;)V
+	METHOD a damageEntity (Low;F)Z
+	METHOD a mount (Lpk;)V
+	METHOD a openHorseInventory (Ltp;Log;)V
+	METHOD a openBook (Lzx;)V
+	METHOD av isSneaking ()Z
+	METHOD bK doTick ()V
+	METHOD c getChunkCoordinates ()Lcj;
+	METHOD d setSprinting (Z)V
+	METHOD h heal (F)V
+	METHOD n closeInventory ()V
+	METHOD t updateAbilities ()V

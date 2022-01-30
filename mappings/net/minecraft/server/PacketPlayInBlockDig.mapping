@@ -1,8 +1,14 @@
 CLASS ir net/minecraft/server/PacketPlayInBlockDig
-	CLASS a EnumPlayerDigType
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lir$a;Lcj;Lcq;)V
+	CLASS a Action
 		FIELD a START_DESTROY_BLOCK Lir$a;
 		FIELD b ABORT_DESTROY_BLOCK Lir$a;
 		FIELD c STOP_DESTROY_BLOCK Lir$a;
 		FIELD d DROP_ALL_ITEMS Lir$a;
 		FIELD e DROP_ITEM Lir$a;
 		FIELD f RELEASE_USE_ITEM Lir$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lir$a;
+		METHOD values values ()[Lir$a;

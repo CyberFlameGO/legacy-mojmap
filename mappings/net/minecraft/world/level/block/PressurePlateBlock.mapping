@@ -1,0 +1,16 @@
+CLASS ait net/minecraft/world/level/block/PressurePlateBlock
+	FIELD a POWERED Lamk;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Larm;Lait$a;)V
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD c toLegacyData (Lalz;)I
+	METHOD e getStateList ()Lama;
+	CLASS 1 1
+		METHOD <clinit> <clinit> ()V
+	CLASS a Sensitivity
+		FIELD a EVERYTHING Lait$a;
+		FIELD b MOBS Lait$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lait$a;
+		METHOD values values ()[Lait$a;

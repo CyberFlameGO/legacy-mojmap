@@ -1,1 +1,2 @@
 CLASS aen net/minecraft/server/BiomeOcean
+	METHOD <init> <init> (I)V

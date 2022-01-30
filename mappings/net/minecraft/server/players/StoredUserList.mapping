@@ -1,0 +1,33 @@
+CLASS mb net/minecraft/server/players/StoredUserList
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b gson Lcom/google/gson/Gson;
+	FIELD c jsonFile Ljava/io/File;
+	FIELD d map Ljava/util/Map;
+	FIELD e enabled Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/io/File;)V
+	METHOD a getEntries ()[Ljava/lang/String;
+	METHOD a getEntryFromObject (Lcom/google/gson/JsonObject;)Lma;
+	METHOD a getProfileUUID (Ljava/lang/Object;)Ljava/lang/String;
+	METHOD a add (Lma;)V
+	METHOD a setEnabled (Z)V
+	METHOD b isEnabled ()Z
+	METHOD b get (Ljava/lang/Object;)Lma;
+	METHOD c getJsonFile ()Ljava/io/File;
+	METHOD c remove (Ljava/lang/Object;)V
+	METHOD d isEmpty ()Z
+	METHOD e getMap ()Ljava/util/Map;
+	METHOD f save ()V
+	METHOD g load ()V
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD getActualTypeArguments getActualTypeArguments ()[Ljava/lang/reflect/Type;
+		METHOD getOwnerType getOwnerType ()Ljava/lang/reflect/Type;
+		METHOD getRawType getRawType ()Ljava/lang/reflect/Type;
+	CLASS a Serializer
+		METHOD <init> <init> (Lmb;)V
+		METHOD <init> <init> (Lmb;Lmb$1;)V
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lma;
+		METHOD a serialize (Lma;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD serialize serialize (Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;

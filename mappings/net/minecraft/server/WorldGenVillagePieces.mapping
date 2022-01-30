@@ -1,18 +1,51 @@
 CLASS aqw net/minecraft/server/WorldGenVillagePieces
 	CLASS 1 1
+		METHOD <clinit> <clinit> ()V
 	CLASS a WorldGenVillageLibrary
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Laqw$k;ILjava/util/Random;Laqe;Lcq;)V
 	CLASS b WorldGenVillageFarm2
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Laqw$k;ILjava/util/Random;Laqe;Lcq;)V
 	CLASS c WorldGenVillageFarm
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Laqw$k;ILjava/util/Random;Laqe;Lcq;)V
 	CLASS d WorldGenVillageLight
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Laqw$k;ILjava/util/Random;Laqe;Lcq;)V
 	CLASS e WorldGenVillagePieceWeight
+		METHOD <init> <init> (Ljava/lang/Class;II)V
 	CLASS f WorldGenVillageButcher
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Laqw$k;ILjava/util/Random;Laqe;Lcq;)V
 	CLASS g WorldGenVillageHouse
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Laqw$k;ILjava/util/Random;Laqe;Lcq;)V
 	CLASS h WorldGenVillageHut
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Laqw$k;ILjava/util/Random;Laqe;Lcq;)V
 	CLASS i WorldGenVillageTemple
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Laqw$k;ILjava/util/Random;Laqe;Lcq;)V
 	CLASS j WorldGenVillageBlacksmith
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Laqw$k;ILjava/util/Random;Laqe;Lcq;)V
 	CLASS k WorldGenVillageStartPiece
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Laec;ILjava/util/Random;IILjava/util/List;I)V
 	CLASS l WorldGenVillageRoad
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Laqw$k;ILjava/util/Random;Laqe;Lcq;)V
 	CLASS m WorldGenVillageHouse2
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Laqw$k;ILjava/util/Random;Laqe;Lcq;)V
 	CLASS n WorldGenVillagePiece
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Laqw$k;I)V
 	CLASS o WorldGenVillageRoadPiece
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Laqw$k;I)V
 	CLASS p WorldGenVillageWell
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Laqw$k;ILjava/util/Random;II)V

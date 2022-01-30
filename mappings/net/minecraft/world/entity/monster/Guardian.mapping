@@ -1,0 +1,23 @@
+CLASS vt net/minecraft/world/entity/monster/Guardian
+	FIELD br goalRandomStroll Lrz;
+	METHOD <init> <init> (Ladm;)V
+	METHOD a damageEntity (Low;F)Z
+	METHOD a setElder (Z)V
+	METHOD aS getHeadHeight ()F
+	METHOD aX initAttributes ()V
+	METHOD b dropDeathLoot (ZI)V
+	METHOD bS canSpawn ()Z
+	METHOD bq getRareDrop ()V
+	METHOD cn isElder ()Z
+	CLASS 1 1
+		METHOD <init> <init> (Lvt;)V
+		METHOD a apply (Llf;)Z
+		METHOD apply apply (Ljava/lang/Object;)Z
+	CLASS a GuardianAttackGoal
+		METHOD <init> <init> (Lvt;)V
+	CLASS b EntitySelectorGuardianTargetHumanSquid
+		METHOD <init> <init> (Lvt;)V
+		METHOD a apply (Lpr;)Z
+		METHOD apply apply (Ljava/lang/Object;)Z
+	CLASS c ControllerMoveGuardian
+		METHOD <init> <init> (Lvt;)V

@@ -1,2 +1,4 @@
-CLASS bfx
+CLASS bfx bfx
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (I)V
 	METHOD b end ()V

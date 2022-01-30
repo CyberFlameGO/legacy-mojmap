@@ -9,6 +9,9 @@ CLASS adr net/minecraft/server/WorldType
 	FIELD h NORMAL_1_1 Ladr;
 	FIELD j name Ljava/lang/String;
 	FIELD k version I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ILjava/lang/String;)V
+	METHOD <init> <init> (ILjava/lang/String;I)V
 	METHOD a name ()Ljava/lang/String;
 	METHOD a getType (Ljava/lang/String;)Ladr;
 	METHOD d getVersion ()I

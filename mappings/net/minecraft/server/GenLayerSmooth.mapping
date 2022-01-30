@@ -1,1 +1,2 @@
 CLASS asm net/minecraft/server/GenLayerSmooth
+	METHOD <init> <init> (JLase;)V

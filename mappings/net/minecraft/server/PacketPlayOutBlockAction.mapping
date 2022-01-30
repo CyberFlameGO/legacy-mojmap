@@ -1,1 +1,3 @@
 CLASS fu net/minecraft/server/PacketPlayOutBlockAction
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lcj;Lafh;II)V

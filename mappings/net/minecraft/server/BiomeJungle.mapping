@@ -1,1 +1,3 @@
 CLASS aej net/minecraft/server/BiomeJungle
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (IZ)V

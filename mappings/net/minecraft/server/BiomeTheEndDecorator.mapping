@@ -1,1 +1,2 @@
 CLASS aew net/minecraft/server/BiomeTheEndDecorator
+	METHOD <init> <init> ()V

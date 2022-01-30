@@ -1,2 +1,4 @@
 CLASS il net/minecraft/server/PacketPlayInCloseWindow
 	FIELD a id I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (I)V

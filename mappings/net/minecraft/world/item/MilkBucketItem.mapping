@@ -1,0 +1,2 @@
+CLASS aac net/minecraft/world/item/MilkBucketItem
+	METHOD <init> <init> ()V

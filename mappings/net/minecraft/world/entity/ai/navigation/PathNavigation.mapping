@@ -1,0 +1,2 @@
+CLASS sw net/minecraft/world/entity/ai/navigation/PathNavigation
+	METHOD <init> <init> (Lps;Ladm;)V

@@ -1,13 +1,11 @@
 CLASS dd net/minecraft/server/RegistrySimple
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD c map Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
 	METHOD a get (Ljava/lang/Object;)Ljava/lang/Object;
-		ARG 1 key
 	METHOD a put (Ljava/lang/Object;Ljava/lang/Object;)V
-		ARG 1 key
-		ARG 2 values
 	METHOD b createMap ()Ljava/util/Map;
 	METHOD c keySet ()Ljava/util/Set;
 	METHOD d contains (Ljava/lang/Object;)Z
-		ARG 1 key
 	METHOD iterator iterator ()Ljava/util/Iterator;

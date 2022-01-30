@@ -1,1 +1,3 @@
 CLASS hi net/minecraft/server/PacketPlayOutHeldItemSlot
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (I)V

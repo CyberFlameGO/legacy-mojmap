@@ -1,0 +1,2 @@
+CLASS rb net/minecraft/world/entity/ai/goal/FollowOwnerGoal
+	METHOD <init> <init> (Lqa;DFF)V

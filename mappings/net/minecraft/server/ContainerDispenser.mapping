@@ -1,2 +1,3 @@
 CLASS xr net/minecraft/server/ContainerDispenser
 	FIELD a items Log;
+	METHOD <init> <init> (Log;Log;)V

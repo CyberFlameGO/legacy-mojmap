@@ -1,0 +1,30 @@
+CLASS ll net/minecraft/server/network/ServerConnectionListener
+	FIELD g listeningChannels Ljava/util/List;
+	FIELD h connectedChannels Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;)V
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a init ()Lio/netty/channel/nio/NioEventLoopGroup;
+		METHOD b init ()Ljava/lang/Object;
+	CLASS 2 2
+		METHOD <init> <init> ()V
+		METHOD a init ()Lio/netty/channel/epoll/EpollEventLoopGroup;
+		METHOD b init ()Ljava/lang/Object;
+	CLASS 3 3
+		METHOD <init> <init> ()V
+		METHOD a init ()Lio/netty/channel/local/LocalEventLoopGroup;
+		METHOD b init ()Ljava/lang/Object;
+	CLASS 4 4
+		METHOD <init> <init> (Lll;)V
+		METHOD initChannel initChannel (Lio/netty/channel/Channel;)V
+	CLASS 5 5
+		METHOD <init> <init> (Lll;)V
+		METHOD initChannel initChannel (Lio/netty/channel/Channel;)V
+	CLASS 6 6
+		METHOD <init> <init> (Lll;Lek;)V
+		METHOD a call ()Ljava/lang/String;
+		METHOD call call ()Ljava/lang/Object;
+	CLASS 7 7
+		METHOD <init> <init> (Lll;Lek;Lfa;)V
+		METHOD operationComplete operationComplete (Lio/netty/util/concurrent/Future;)V

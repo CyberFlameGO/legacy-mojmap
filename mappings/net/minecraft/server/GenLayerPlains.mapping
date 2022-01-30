@@ -1,1 +1,2 @@
 CLASS asf net/minecraft/server/GenLayerPlains
+	METHOD <init> <init> (JLase;)V

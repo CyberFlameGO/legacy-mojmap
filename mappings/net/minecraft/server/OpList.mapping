@@ -1,5 +1,7 @@
 CLASS ly net/minecraft/server/OpList
+	METHOD <init> <init> (Ljava/io/File;)V
+	METHOD a getEntries ()[Ljava/lang/String;
+	METHOD a getEntryFromObject (Lcom/google/gson/JsonObject;)Lma;
+	METHOD a getProfileUUID (Ljava/lang/Object;)Ljava/lang/String;
 	METHOD a getProfile (Ljava/lang/String;)Lcom/mojang/authlib/GameProfile;
-		ARG 1 name
-	METHOD b (Lcom/mojang/authlib/GameProfile;)Z
-		ARG 1 profile
+	METHOD c getProfileUUID (Lcom/mojang/authlib/GameProfile;)Ljava/lang/String;

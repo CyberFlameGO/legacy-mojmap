@@ -1,0 +1,9 @@
+CLASS akp net/minecraft/world/level/block/WeightedPressurePlateBlock
+	FIELD a POWER Lamn;
+	FIELD b weight I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Larm;I)V
+	METHOD <init> <init> (Larm;ILarn;)V
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD c toLegacyData (Lalz;)I
+	METHOD e getStateList ()Lama;

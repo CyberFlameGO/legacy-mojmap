@@ -1,0 +1,3 @@
+CLASS od net/minecraft/util/thread/BlockableEventLoop
+	METHOD a postToMainThread (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;
+	METHOD aJ isMainThread ()Z

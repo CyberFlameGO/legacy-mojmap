@@ -1,1 +1,2 @@
 CLASS nz net/minecraft/server/Tuple
+	METHOD <init> <init> (Ljava/lang/Object;Ljava/lang/Object;)V

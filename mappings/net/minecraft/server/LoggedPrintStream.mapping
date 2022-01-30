@@ -1,0 +1,5 @@
+CLASS kg net/minecraft/server/LoggedPrintStream
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;Ljava/io/OutputStream;)V
+	METHOD println println (Ljava/lang/Object;)V
+	METHOD println println (Ljava/lang/String;)V

@@ -1,0 +1,3 @@
+CLASS eq net/minecraft/network/Varint21FrameDecoder
+	METHOD <init> <init> ()V
+	METHOD decode decode (Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Ljava/util/List;)V

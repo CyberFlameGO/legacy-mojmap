@@ -1,1 +1,2 @@
 CLASS arw net/minecraft/server/GenLayerBiome
+	METHOD <init> <init> (JLase;Ladr;Ljava/lang/String;)V

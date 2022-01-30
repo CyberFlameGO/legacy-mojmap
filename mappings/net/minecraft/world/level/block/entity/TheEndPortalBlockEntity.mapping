@@ -1,0 +1,2 @@
+CLASS alp net/minecraft/world/level/block/entity/TheEndPortalBlockEntity
+	METHOD <init> <init> ()V

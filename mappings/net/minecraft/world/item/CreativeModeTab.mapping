@@ -1,0 +1,27 @@
+CLASS yz net/minecraft/world/item/CreativeModeTab
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ILjava/lang/String;)V
+	CLASS 1 1
+		METHOD <init> <init> (ILjava/lang/String;)V
+	CLASS 2 10
+		METHOD <init> <init> (ILjava/lang/String;)V
+	CLASS 3 11
+		METHOD <init> <init> (ILjava/lang/String;)V
+	CLASS 4 12
+		METHOD <init> <init> (ILjava/lang/String;)V
+	CLASS 5 2
+		METHOD <init> <init> (ILjava/lang/String;)V
+	CLASS 6 11
+		METHOD <init> <init> (ILjava/lang/String;)V
+	CLASS 7 4
+		METHOD <init> <init> (ILjava/lang/String;)V
+	CLASS 8 5
+		METHOD <init> <init> (ILjava/lang/String;)V
+	CLASS 9 6
+		METHOD <init> <init> (ILjava/lang/String;)V
+	CLASS 10 7
+		METHOD <init> <init> (ILjava/lang/String;)V
+	CLASS 11 8
+		METHOD <init> <init> (ILjava/lang/String;)V
+	CLASS 12 9
+		METHOD <init> <init> (ILjava/lang/String;)V

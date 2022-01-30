@@ -1,2 +1,4 @@
 CLASS ht net/minecraft/server/PacketPlayOutSpawnPosition
 	FIELD a position Lcj;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lcj;)V

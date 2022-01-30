@@ -1,0 +1,58 @@
+CLASS bfl bfl
+	METHOD <clinit> <clinit> ()V
+	CLASS 1 1
+		METHOD <clinit> <clinit> ()V
+	CLASS a a
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lbfl$1;)V
+	CLASS b b
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lbfl$1;)V
+	CLASS c c
+		METHOD <init> <init> (I)V
+	CLASS d d
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lbfl$1;)V
+	CLASS e e
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (FFFF)V
+	CLASS f f
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lbfl$1;)V
+	CLASS g g
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lbfl$1;)V
+	CLASS h h
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lbfl$1;)V
+	CLASS i i
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lbfl$1;)V
+	CLASS j j
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lbfl$1;)V
+	CLASS k k
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lbfl$1;)V
+	CLASS l l
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lbfl$1;)V
+	CLASS m m
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lbfl$1;)V
+	CLASS n n
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lbfl$1;)V
+	CLASS o o
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbfl$o;
+		METHOD values values ()[Lbfl$o;
+	CLASS p p
+		METHOD <init> <init> (II)V
+	CLASS q q
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lbfl$1;)V
+	CLASS r r
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lbfl$1;)V

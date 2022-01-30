@@ -1,0 +1,7 @@
+CLASS aix net/minecraft/world/level/block/RailBlock
+	FIELD b SHAPE Lamm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD c toLegacyData (Lalz;)I
+	METHOD e getStateList ()Lama;

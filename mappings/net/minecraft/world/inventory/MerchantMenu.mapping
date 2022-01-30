@@ -1,0 +1,4 @@
+CLASS yb net/minecraft/world/inventory/MerchantMenu
+	FIELD a merchant Lacy;
+	METHOD <init> <init> (Lwm;Lacy;Ladm;)V
+	METHOD a addSlotListener (Lxn;)V

@@ -1,0 +1,8 @@
+CLASS xl net/minecraft/world/inventory/BeaconMenu
+	FIELD a beacon Log;
+	METHOD <init> <init> (Log;Log;)V
+	METHOD a addSlotListener (Lxn;)V
+	CLASS a PaymentSlot
+		METHOD <init> <init> (Lxl;Log;III)V
+		METHOD a getMaxStackSize ()I
+		METHOD a isAllowed (Lzx;)Z

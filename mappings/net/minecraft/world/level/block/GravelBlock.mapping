@@ -1,0 +1,3 @@
+CLASS ahf net/minecraft/world/level/block/GravelBlock
+	METHOD <init> <init> ()V
+	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;

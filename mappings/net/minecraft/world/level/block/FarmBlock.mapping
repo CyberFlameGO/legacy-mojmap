@@ -1,0 +1,12 @@
+CLASS ags net/minecraft/world/level/block/FarmBlock
+	FIELD a MOISTURE Lamn;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
+	METHOD a fallOn (Ladm;Lcj;Lpk;F)V
+	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
+	METHOD c toLegacyData (Lalz;)I
+	METHOD e getStateList ()Lama;
+	CLASS 1 1
+		METHOD <clinit> <clinit> ()V

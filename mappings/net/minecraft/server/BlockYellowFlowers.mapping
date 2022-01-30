@@ -1,1 +1,2 @@
 CLASS akt net/minecraft/server/BlockYellowFlowers
+	METHOD <init> <init> ()V

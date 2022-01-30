@@ -1,1 +1,4 @@
 CLASS aau net/minecraft/server/ItemStep
+	METHOD <init> <init> (Lafh;Lahh;Lahh;)V
+	METHOD a filterData (I)I
+	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z

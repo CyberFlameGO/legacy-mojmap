@@ -1,0 +1,2 @@
+CLASS nw net/minecraft/util/StringRepresentable
+	METHOD l getName ()Ljava/lang/String;

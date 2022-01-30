@@ -1,1 +1,4 @@
 CLASS auc net/minecraft/server/FileIOThread
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD run run ()V

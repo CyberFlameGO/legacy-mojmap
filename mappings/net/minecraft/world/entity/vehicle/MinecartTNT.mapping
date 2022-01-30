@@ -1,0 +1,4 @@
+CLASS vi net/minecraft/world/entity/vehicle/MinecartTNT
+	METHOD <init> <init> (Ladm;)V
+	METHOD <init> <init> (Ladm;DDD)V
+	METHOD a damageEntity (Low;F)Z

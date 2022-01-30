@@ -1,0 +1,5 @@
+CLASS age net/minecraft/world/level/block/DirectionalBlock
+	FIELD O FACING Laml;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Larm;)V
+	METHOD <init> <init> (Larm;Larn;)V

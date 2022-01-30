@@ -1,1 +1,3 @@
 CLASS hl net/minecraft/server/PacketPlayOutAttachEntity
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILpk;Lpk;)V

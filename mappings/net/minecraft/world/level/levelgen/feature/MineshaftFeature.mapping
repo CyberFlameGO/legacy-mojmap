@@ -1,0 +1,3 @@
+CLASS aqf net/minecraft/world/level/levelgen/feature/MineshaftFeature
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/util/Map;)V

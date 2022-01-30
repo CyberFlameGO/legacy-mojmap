@@ -1,0 +1,6 @@
+CLASS ey net/minecraft/network/chat/SelectorComponent
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD e getText ()Ljava/lang/String;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD h f ()Ley;
+	METHOD toString toString ()Ljava/lang/String;

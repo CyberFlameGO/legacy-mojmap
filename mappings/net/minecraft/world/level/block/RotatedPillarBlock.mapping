@@ -1,0 +1,5 @@
+CLASS ajg net/minecraft/world/level/block/RotatedPillarBlock
+	FIELD N AXIS Lamm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Larm;)V
+	METHOD <init> <init> (Larm;Larn;)V

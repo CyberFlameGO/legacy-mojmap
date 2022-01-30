@@ -1,3 +1,6 @@
 CLASS aug net/minecraft/server/AxisAlignedBB
+	METHOD <init> <init> (DDDDDD)V
+	METHOD <init> <init> (Lcj;Lcj;)V
 	METHOD b grow (DDD)Laug;
 	METHOD d shrink (DDD)Laug;
+	METHOD toString toString ()Ljava/lang/String;

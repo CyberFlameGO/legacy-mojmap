@@ -1,1 +1,3 @@
 CLASS abh net/minecraft/server/RecipeArmorDye
+	METHOD <init> <init> ()V
+	METHOD a craftItem (Lxp;)Lzx;

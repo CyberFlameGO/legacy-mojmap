@@ -1,0 +1,6 @@
+CLASS qd net/minecraft/world/entity/ai/attributes/AttributeModifier
+	METHOD <init> <init> (Ljava/lang/String;DI)V
+	METHOD <init> <init> (Ljava/util/UUID;Ljava/lang/String;DI)V
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

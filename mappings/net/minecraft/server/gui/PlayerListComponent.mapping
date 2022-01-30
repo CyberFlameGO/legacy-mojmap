@@ -1,0 +1,2 @@
+CLASS ks net/minecraft/server/gui/PlayerListComponent
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;)V

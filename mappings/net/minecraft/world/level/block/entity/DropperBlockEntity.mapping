@@ -1,0 +1,4 @@
+CLASS ald net/minecraft/world/level/block/entity/DropperBlockEntity
+	METHOD <init> <init> ()V
+	METHOD e_ getName ()Ljava/lang/String;
+	METHOD k getContainerName ()Ljava/lang/String;

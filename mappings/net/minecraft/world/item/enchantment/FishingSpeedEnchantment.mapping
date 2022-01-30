@@ -1,0 +1,3 @@
+CLASS acn net/minecraft/world/item/enchantment/FishingSpeedEnchantment
+	METHOD <init> <init> (ILjy;ILacj;)V
+	METHOD b getMaxLevel ()I

@@ -1,5 +1,7 @@
 CLASS abo net/minecraft/server/RecipesFurnace
 	FIELD b recipes Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
 	METHOD a getInstance ()Labo;
 	METHOD a registerRecipe (Lafh;Lzx;F)V
 	METHOD a getResult (Lzx;)Lzx;

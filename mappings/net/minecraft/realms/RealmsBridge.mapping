@@ -1,0 +1,7 @@
+CLASS net/minecraft/realms/RealmsBridge net/minecraft/realms/RealmsBridge
+	FIELD LOGGER LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD previousScreen previousScreen Laxu;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD init init ()V
+	METHOD switchToRealms switchToRealms (Laxu;)V

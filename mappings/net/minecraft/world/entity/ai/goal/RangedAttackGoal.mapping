@@ -1,0 +1,3 @@
+CLASS sa net/minecraft/world/entity/ai/goal/RangedAttackGoal
+	METHOD <init> <init> (Lvx;DIF)V
+	METHOD <init> <init> (Lvx;DIIF)V

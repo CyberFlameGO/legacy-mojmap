@@ -1,0 +1,2 @@
+CLASS rt net/minecraft/world/entity/ai/goal/OfferFlowerGoal
+	METHOD <init> <init> (Lty;)V

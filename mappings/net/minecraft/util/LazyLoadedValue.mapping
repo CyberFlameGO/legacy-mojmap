@@ -1,0 +1,3 @@
+CLASS no net/minecraft/util/LazyLoadedValue
+	METHOD <init> <init> ()V
+	METHOD b init ()Ljava/lang/Object;

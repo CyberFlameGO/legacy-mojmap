@@ -1,0 +1,20 @@
+CLASS xs net/minecraft/world/inventory/EnchantmentMenu
+	FIELD a enchantSlots Log;
+	FIELD g costs [I
+	FIELD i world Ladm;
+	FIELD j position Lcj;
+	METHOD <init> <init> (Lwm;Ladm;)V
+	METHOD <init> <init> (Lwm;Ladm;Lcj;)V
+	METHOD a addSlotListener (Lxn;)V
+	CLASS 1 1
+		FIELD a enchantTable Lxs;
+		METHOD <init> <init> (Lxs;Ljava/lang/String;ZI)V
+		METHOD p_ update ()V
+		METHOD q_ getMaxStackSize ()I
+	CLASS 2 2
+		METHOD <init> <init> (Lxs;Log;III)V
+		METHOD a getMaxStackSize ()I
+		METHOD a isAllowed (Lzx;)Z
+	CLASS 3 3
+		METHOD <init> <init> (Lxs;Log;III)V
+		METHOD a isAllowed (Lzx;)Z

@@ -1,1 +1,2 @@
 CLASS aem net/minecraft/server/BiomeBaseSub
+	METHOD <init> <init> (ILady;)V

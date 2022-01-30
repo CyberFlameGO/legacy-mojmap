@@ -1,0 +1,12 @@
+CLASS ajd net/minecraft/world/level/block/RedstoneTorchBlock
+	FIELD N isOn Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Z)V
+	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
+	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
+	METHOD b remove (Ladm;Lcj;Lalz;)V
+	METHOD c onPlace (Ladm;Lcj;Lalz;)V
+	METHOD i isPowerSource ()Z
+	CLASS a Toggle
+		FIELD b time J
+		METHOD <init> <init> (Lcj;J)V

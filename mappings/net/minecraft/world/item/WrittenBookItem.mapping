@@ -1,0 +1,2 @@
+CLASS abd net/minecraft/world/item/WrittenBookItem
+	METHOD <init> <init> ()V

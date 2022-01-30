@@ -1,1 +1,2 @@
 CLASS abn net/minecraft/server/RecipesFood
+	METHOD <init> <init> ()V

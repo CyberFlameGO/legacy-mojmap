@@ -1,0 +1,2 @@
+CLASS arh net/minecraft/world/level/levelgen/synth/SurfaceNoise
+	METHOD <init> <init> ()V

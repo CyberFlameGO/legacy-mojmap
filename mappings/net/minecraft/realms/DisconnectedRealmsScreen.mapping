@@ -1,0 +1,11 @@
+CLASS net/minecraft/realms/DisconnectedRealmsScreen net/minecraft/realms/DisconnectedRealmsScreen
+	FIELD lines lines Ljava/util/List;
+	FIELD parent parent Lnet/minecraft/realms/RealmsScreen;
+	FIELD reason reason Leu;
+	FIELD textHeight textHeight I
+	FIELD title title Ljava/lang/String;
+	METHOD <init> <init> (Lnet/minecraft/realms/RealmsScreen;Ljava/lang/String;Leu;)V
+	METHOD buttonClicked buttonClicked (Lnet/minecraft/realms/RealmsButton;)V
+	METHOD init init ()V
+	METHOD keyPressed keyPressed (CI)V
+	METHOD render render (IIF)V

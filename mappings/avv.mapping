@@ -1,0 +1,4 @@
+CLASS avv avv
+	METHOD <init> <init> (Lave;)V
+	CLASS 1 1
+		METHOD <clinit> <clinit> ()V

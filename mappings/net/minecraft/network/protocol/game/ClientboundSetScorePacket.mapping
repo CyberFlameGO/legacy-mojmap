@@ -1,0 +1,12 @@
+CLASS hs net/minecraft/network/protocol/game/ClientboundSetScorePacket
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Laum;)V
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD <init> <init> (Ljava/lang/String;Lauk;)V
+	CLASS a EnumScoreboardAction
+		FIELD a CHANGE Lhs$a;
+		FIELD b REMOVE Lhs$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lhs$a;
+		METHOD values values ()[Lhs$a;

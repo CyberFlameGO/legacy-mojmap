@@ -1,1 +1,4 @@
 CLASS afc net/minecraft/server/BlockContainer
+	METHOD <init> <init> (Larm;)V
+	METHOD <init> <init> (Larm;Larn;)V
+	METHOD b remove (Ladm;Lcj;Lalz;)V

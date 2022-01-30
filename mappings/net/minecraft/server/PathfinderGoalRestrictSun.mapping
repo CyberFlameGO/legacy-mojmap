@@ -1,1 +1,2 @@
 CLASS sc net/minecraft/server/PathfinderGoalRestrictSun
+	METHOD <init> <init> (Lpy;)V

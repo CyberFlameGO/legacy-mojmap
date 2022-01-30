@@ -1,0 +1,5 @@
+CLASS aer net/minecraft/world/level/biome/SavannaBiome
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (I)V
+	CLASS a BiomeSavannaSub
+		METHOD <init> <init> (ILady;)V

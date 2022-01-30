@@ -1,1 +1,3 @@
 CLASS mt net/minecraft/server/CounterStatistic
+	METHOD <init> <init> (Ljava/lang/String;Leu;)V
+	METHOD <init> <init> (Ljava/lang/String;Leu;Lmx;)V

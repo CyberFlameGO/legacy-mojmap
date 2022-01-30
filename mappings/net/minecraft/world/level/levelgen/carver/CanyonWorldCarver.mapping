@@ -1,0 +1,2 @@
+CLASS anr net/minecraft/world/level/levelgen/carver/CanyonWorldCarver
+	METHOD <init> <init> ()V

@@ -1,0 +1,3 @@
+CLASS ix net/minecraft/network/protocol/game/ServerboundSignUpdatePacket
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lcj;[Leu;)V

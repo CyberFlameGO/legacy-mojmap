@@ -1,0 +1,4 @@
+CLASS aap net/minecraft/world/item/ShearsItem
+	METHOD <init> <init> ()V
+	METHOD a getDestroySpeed (Lzx;Lafh;)F
+	METHOD b canDestroySpecialBlock (Lafh;)Z

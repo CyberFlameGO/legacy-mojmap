@@ -2,6 +2,9 @@ CLASS dc net/minecraft/server/Vector3f
 	FIELD a x F
 	FIELD b y F
 	FIELD c z F
+	METHOD <init> <init> (FFF)V
+	METHOD <init> <init> (Ldu;)V
 	METHOD b getX ()F
 	METHOD c getY ()F
 	METHOD d getZ ()F
+	METHOD equals equals (Ljava/lang/Object;)Z

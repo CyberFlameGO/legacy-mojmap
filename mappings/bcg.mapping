@@ -1,0 +1,4 @@
+CLASS bcg bcg
+	METHOD <init> <init> (FFFFF)V
+	METHOD <init> <init> (Laui;FF)V
+	METHOD <init> <init> (Lbcg;FF)V

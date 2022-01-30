@@ -1,0 +1,2 @@
+CLASS cn net/minecraft/core/dispenser/DefaultDispenseItemBehavior
+	METHOD <init> <init> ()V

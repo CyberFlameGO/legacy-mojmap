@@ -1,0 +1,3 @@
+CLASS blz blz
+	METHOD <init> <init> (II)V
+	METHOD <init> <init> (Ljava/awt/image/BufferedImage;)V

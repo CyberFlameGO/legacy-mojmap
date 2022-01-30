@@ -1,1 +1,3 @@
 CLASS hq net/minecraft/server/PacketPlayOutScoreboardObjective
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lauk;I)V

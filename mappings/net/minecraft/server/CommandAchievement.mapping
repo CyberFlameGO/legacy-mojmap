@@ -1,2 +1,11 @@
 CLASS p net/minecraft/server/CommandAchievement
+	METHOD <init> <init> ()V
+	METHOD a execute (Lm;[Ljava/lang/String;)V
+	METHOD a tabComplete (Lm;[Ljava/lang/String;Lcj;)Ljava/util/List;
+	METHOD b isListStart ([Ljava/lang/String;I)Z
+	METHOD c getCommand ()Ljava/lang/String;
+	METHOD c getUsage (Lm;)Ljava/lang/String;
 	CLASS 1 1
+		METHOD <init> <init> (Lp;Llf;Lmw;)V
+		METHOD a apply (Lmq;)Z
+		METHOD apply apply (Ljava/lang/Object;)Z

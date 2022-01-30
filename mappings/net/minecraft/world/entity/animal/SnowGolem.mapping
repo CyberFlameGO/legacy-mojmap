@@ -1,0 +1,6 @@
+CLASS tw net/minecraft/world/entity/animal/SnowGolem
+	METHOD <init> <init> (Ladm;)V
+	METHOD A getLoot ()Lzw;
+	METHOD aS getHeadHeight ()F
+	METHOD aX initAttributes ()V
+	METHOD b dropDeathLoot (ZI)V

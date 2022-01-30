@@ -1,0 +1,15 @@
+CLASS vr net/minecraft/world/entity/monster/Ghast
+	METHOD <init> <init> (Ladm;)V
+	METHOD A getLoot ()Lzw;
+	METHOD a damageEntity (Low;F)Z
+	METHOD aS getHeadHeight ()F
+	METHOD aX initAttributes ()V
+	METHOD b dropDeathLoot (ZI)V
+	CLASS a GhastLookGoal
+		METHOD <init> <init> (Lvr;)V
+	CLASS b GhastMoveControl
+		METHOD <init> <init> (Lvr;)V
+	CLASS c GhastShootFireballGoal
+		METHOD <init> <init> (Lvr;)V
+	CLASS d RandomFloatAroundGoal
+		METHOD <init> <init> (Lvr;)V

@@ -1,0 +1,7 @@
+CLASS aqt net/minecraft/world/level/levelgen/structure/StructurePiece
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (I)V
+	CLASS 1 1
+		METHOD <clinit> <clinit> ()V
+	CLASS a BlockSelector
+		METHOD <init> <init> ()V

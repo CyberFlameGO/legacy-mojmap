@@ -1,0 +1,16 @@
+CLASS mw net/minecraft/stats/Stat
+	FIELD e name Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;Leu;)V
+	METHOD <init> <init> (Ljava/lang/String;Leu;Lmx;)V
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+	CLASS 2 2
+		METHOD <init> <init> ()V
+	CLASS 3 3
+		METHOD <init> <init> ()V
+	CLASS 4 4
+		METHOD <init> <init> ()V

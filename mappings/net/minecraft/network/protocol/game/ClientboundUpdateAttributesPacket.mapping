@@ -1,0 +1,5 @@
+CLASS ia net/minecraft/network/protocol/game/ClientboundUpdateAttributesPacket
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILjava/util/Collection;)V
+	CLASS a AttributeSnapshot
+		METHOD <init> <init> (Lia;Ljava/lang/String;DLjava/util/Collection;)V

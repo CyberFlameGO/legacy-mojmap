@@ -1,0 +1,19 @@
+CLASS net/minecraft/realms/RealmsServerStatusPinger net/minecraft/realms/RealmsServerStatusPinger
+	FIELD LOGGER LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD connections connections Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD access$000 access$000 ()Lorg/apache/logging/log4j/Logger;
+	METHOD pingServer pingServer (Ljava/lang/String;Lnet/minecraft/realms/RealmsServerPing;)V
+	METHOD removeAll removeAll ()V
+	METHOD tick tick ()V
+	CLASS 1 1
+		FIELD a a Lnet/minecraft/realms/RealmsServerPing;
+		FIELD b b Lek;
+		FIELD c c Ljava/lang/String;
+		FIELD d d Lnet/minecraft/realms/RealmsServerStatusPinger;
+		FIELD e e Z
+		METHOD <init> <init> (Lnet/minecraft/realms/RealmsServerStatusPinger;Lnet/minecraft/realms/RealmsServerPing;Lek;Ljava/lang/String;)V
+		METHOD a a (Leu;)V
+		METHOD a a (Ljq;)V
+		METHOD a a (Ljr;)V

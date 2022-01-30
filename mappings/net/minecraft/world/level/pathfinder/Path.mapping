@@ -1,0 +1,2 @@
+CLASS asx net/minecraft/world/level/pathfinder/Path
+	METHOD <init> <init> ([Lasv;)V

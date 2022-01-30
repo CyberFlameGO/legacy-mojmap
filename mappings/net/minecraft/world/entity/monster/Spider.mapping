@@ -1,0 +1,14 @@
+CLASS wc net/minecraft/world/entity/monster/Spider
+	METHOD <init> <init> (Ladm;)V
+	METHOD A getLoot ()Lzw;
+	METHOD a prepare (Lok;Lpu;)Lpu;
+	METHOD aS getHeadHeight ()F
+	METHOD aX initAttributes ()V
+	METHOD b dropDeathLoot (ZI)V
+	METHOD bz getMonsterType ()Lpw;
+	CLASS a SpiderAttackGoal
+		METHOD <init> <init> (Lwc;Ljava/lang/Class;)V
+	CLASS b SpiderEffectsGroupData
+		METHOD <init> <init> ()V
+	CLASS c SpiderTargetGoal
+		METHOD <init> <init> (Lwc;Ljava/lang/Class;)V

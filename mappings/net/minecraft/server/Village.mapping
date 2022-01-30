@@ -1,2 +1,5 @@
 CLASS tf net/minecraft/server/Village
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ladm;)V
 	CLASS a Aggressor
+		METHOD <init> <init> (Ltf;Lpr;I)V

@@ -1,0 +1,5 @@
+CLASS vh net/minecraft/world/entity/vehicle/MinecartSpawner
+	METHOD <init> <init> (Ladm;)V
+	METHOD <init> <init> (Ladm;DDD)V
+	CLASS 1 1
+		METHOD <init> <init> (Lvh;)V

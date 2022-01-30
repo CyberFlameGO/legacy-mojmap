@@ -1,0 +1,2 @@
+CLASS rn net/minecraft/world/entity/ai/goal/MoveThroughVillageGoal
+	METHOD <init> <init> (Lpy;DZ)V

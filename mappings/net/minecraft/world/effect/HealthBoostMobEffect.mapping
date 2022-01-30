@@ -1,0 +1,2 @@
+CLASS pc net/minecraft/world/effect/HealthBoostMobEffect
+	METHOD <init> <init> (ILjy;ZI)V

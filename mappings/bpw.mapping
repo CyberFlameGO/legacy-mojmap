@@ -1,0 +1,3 @@
+CLASS bpw bpw
+	METHOD <init> <init> (Lbpw;)V
+	METHOD <init> <init> (Ljy;DDZ)V

@@ -1,1 +1,4 @@
 CLASS ahd net/minecraft/server/BlockLightStone
+	METHOD <init> <init> (Larm;)V
+	METHOD a getDropCount (ILjava/util/Random;)I
+	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;

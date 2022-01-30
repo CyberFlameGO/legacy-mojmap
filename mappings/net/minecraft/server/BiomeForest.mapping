@@ -1,3 +1,7 @@
 CLASS aeg net/minecraft/server/BiomeForest
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (II)V
 	CLASS 1 1
+		METHOD <init> <init> (Laeg;ILady;)V
 	CLASS 2 2
+		METHOD <init> <init> (Laeg;ILady;)V

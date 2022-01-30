@@ -1,0 +1,13 @@
+CLASS net/minecraft/realms/RealmsAnvilLevelStorageSource net/minecraft/realms/RealmsAnvilLevelStorageSource
+	FIELD levelStorageSource levelStorageSource Latr;
+	METHOD <init> <init> (Latr;)V
+	METHOD clearAll clearAll ()V
+	METHOD convertLevel convertLevel (Ljava/lang/String;Lnu;)Z
+	METHOD deleteLevel deleteLevel (Ljava/lang/String;)Z
+	METHOD getLevelList getLevelList ()Ljava/util/List;
+	METHOD getName getName ()Ljava/lang/String;
+	METHOD isConvertible isConvertible (Ljava/lang/String;)Z
+	METHOD isNewLevelIdAcceptable isNewLevelIdAcceptable (Ljava/lang/String;)Z
+	METHOD levelExists levelExists (Ljava/lang/String;)Z
+	METHOD renameLevel renameLevel (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD requiresConversion requiresConversion (Ljava/lang/String;)Z

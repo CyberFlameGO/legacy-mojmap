@@ -1,1 +1,3 @@
 CLASS gt net/minecraft/server/PacketPlayOutLogin
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILadp$a;ZILoj;ILadr;Z)V

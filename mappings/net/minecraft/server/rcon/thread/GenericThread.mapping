@@ -1,0 +1,6 @@
+CLASS ml net/minecraft/server/rcon/thread/GenericThread
+	FIELD b server Lkj;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lkj;Ljava/lang/String;)V
+	METHOD b logInfo (Ljava/lang/String;)V
+	METHOD c logWarning (Ljava/lang/String;)V

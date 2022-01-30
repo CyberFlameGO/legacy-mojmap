@@ -1,0 +1,4 @@
+CLASS axa axa
+	METHOD <init> <init> (Laxb;Ljava/lang/String;)V
+	CLASS a a
+		METHOD <init> <init> (Laxa;)V

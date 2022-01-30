@@ -1,0 +1,2 @@
+CLASS boa boa
+	METHOD <init> <init> (Ljava/util/List;IIIZ)V

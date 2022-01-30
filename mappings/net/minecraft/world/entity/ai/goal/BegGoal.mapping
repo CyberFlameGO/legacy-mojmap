@@ -1,0 +1,2 @@
+CLASS qt net/minecraft/world/entity/ai/goal/BegGoal
+	METHOD <init> <init> (Lua;F)V

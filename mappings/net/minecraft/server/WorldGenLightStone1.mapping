@@ -1,1 +1,3 @@
 CLASS apd net/minecraft/server/WorldGenLightStone1
+	METHOD <init> <init> ()V
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

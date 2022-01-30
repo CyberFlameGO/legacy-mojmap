@@ -1,0 +1,3 @@
+CLASS ym net/minecraft/world/item/BannerItem
+	METHOD <init> <init> ()V
+	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z

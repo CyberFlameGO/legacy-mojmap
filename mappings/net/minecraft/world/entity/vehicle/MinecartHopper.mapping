@@ -1,0 +1,7 @@
+CLASS vf net/minecraft/world/entity/vehicle/MinecartHopper
+	METHOD <init> <init> (Ladm;)V
+	METHOD <init> <init> (Ladm;DDD)V
+	METHOD a createContainer (Lwm;Lwn;)Lxi;
+	METHOD k getContainerName ()Ljava/lang/String;
+	METHOD o_ getSize ()I
+	METHOD z getWorld ()Ladm;

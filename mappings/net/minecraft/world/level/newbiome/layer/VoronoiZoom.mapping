@@ -1,0 +1,2 @@
+CLASS asq net/minecraft/world/level/newbiome/layer/VoronoiZoom
+	METHOD <init> <init> (JLase;)V

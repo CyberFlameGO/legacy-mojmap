@@ -1,1 +1,5 @@
 CLASS asv net/minecraft/server/PathPoint
+	METHOD <init> <init> (III)V
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

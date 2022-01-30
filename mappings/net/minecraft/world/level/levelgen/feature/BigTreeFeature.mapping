@@ -1,0 +1,5 @@
+CLASS aoi net/minecraft/world/level/levelgen/feature/BigTreeFeature
+	METHOD <init> <init> (Z)V
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z
+	CLASS a FoliageCoords
+		METHOD <init> <init> (Lcj;I)V

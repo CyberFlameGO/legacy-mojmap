@@ -1,1 +1,2 @@
 CLASS aeh net/minecraft/server/BiomeHell
+	METHOD <init> <init> (I)V

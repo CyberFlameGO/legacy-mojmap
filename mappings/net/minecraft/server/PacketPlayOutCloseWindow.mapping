@@ -1,1 +1,3 @@
 CLASS gb net/minecraft/server/PacketPlayOutCloseWindow
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (I)V

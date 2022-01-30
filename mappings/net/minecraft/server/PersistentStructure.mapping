@@ -1,1 +1,2 @@
 CLASS aqs net/minecraft/server/PersistentStructure
+	METHOD <init> <init> (Ljava/lang/String;)V

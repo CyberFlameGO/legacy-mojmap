@@ -1,6 +1,13 @@
 CLASS in net/minecraft/server/PacketPlayInUseEntity
 	FIELD b action Lin$a;
-	CLASS a EnumEntityUseAction
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lpk;Laui;)V
+	METHOD <init> <init> (Lpk;Lin$a;)V
+	CLASS a Action
 		FIELD a INTERACT Lin$a;
 		FIELD b ATTACK Lin$a;
 		FIELD c INTERACT_AT Lin$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lin$a;
+		METHOD values values ()[Lin$a;

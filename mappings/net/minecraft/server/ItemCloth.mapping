@@ -1,1 +1,3 @@
 CLASS zf net/minecraft/server/ItemCloth
+	METHOD <init> <init> (Lafh;)V
+	METHOD a filterData (I)I

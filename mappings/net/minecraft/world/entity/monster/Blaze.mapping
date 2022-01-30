@@ -1,0 +1,8 @@
+CLASS vl net/minecraft/world/entity/monster/Blaze
+	METHOD <init> <init> (Ladm;)V
+	METHOD A getLoot ()Lzw;
+	METHOD aX initAttributes ()V
+	METHOD at isBurning ()Z
+	METHOD b dropDeathLoot (ZI)V
+	CLASS a BlazeAttackGoal
+		METHOD <init> <init> (Lvl;)V

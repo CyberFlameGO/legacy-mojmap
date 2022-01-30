@@ -1,2 +1,7 @@
 CLASS aqm net/minecraft/server/WorldGenLargeFeature
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/util/Map;)V
 	CLASS a WorldGenLargeFeatureStart
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Ladm;Ljava/util/Random;II)V

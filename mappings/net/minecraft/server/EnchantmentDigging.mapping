@@ -1,1 +1,4 @@
 CLASS ach net/minecraft/server/EnchantmentDigging
+	METHOD <init> <init> (ILjy;I)V
+	METHOD a canEnchant (Lzx;)Z
+	METHOD b getMaxLevel ()I

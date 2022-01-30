@@ -1,0 +1,10 @@
+CLASS aba net/minecraft/world/item/UseAnim
+	FIELD a NONE Laba;
+	FIELD b EAT Laba;
+	FIELD c DRINK Laba;
+	FIELD d BLOCK Laba;
+	FIELD e BOW Laba;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Laba;
+	METHOD values values ()[Laba;

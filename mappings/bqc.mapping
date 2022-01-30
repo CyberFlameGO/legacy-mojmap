@@ -1,0 +1,3 @@
+CLASS bqc bqc
+	METHOD <init> <init> (Lbpw;I)V
+	METHOD b g ()Lbpw;

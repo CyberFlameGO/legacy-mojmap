@@ -1,0 +1,4 @@
+CLASS vs net/minecraft/world/entity/monster/Giant
+	METHOD <init> <init> (Ladm;)V
+	METHOD aS getHeadHeight ()F
+	METHOD aX initAttributes ()V

@@ -1,0 +1,6 @@
+CLASS bgx bgx
+	METHOD <init> <init> (Lamo;Ljava/lang/String;Ljava/util/List;)V
+	METHOD <init> <init> (Lamo;Ljava/lang/String;Ljava/util/List;Lbgx$1;)V
+	CLASS 1 1
+	CLASS a a
+		METHOD <init> <init> ()V

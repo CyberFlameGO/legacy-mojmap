@@ -1,0 +1,4 @@
+CLASS adu net/minecraft/world/level/PortalForcer
+	METHOD <init> <init> (Lle;)V
+	CLASS a PortalPosition
+		METHOD <init> <init> (Ladu;Lcj;J)V

@@ -1,0 +1,4 @@
+CLASS ays ays
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lwm;Ladm;)V
+	METHOD <init> <init> (Lwm;Ladm;Lcj;)V

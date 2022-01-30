@@ -1,0 +1,2 @@
+CLASS np np
+	METHOD <init> <init> (Ljava/lang/Class;I)V

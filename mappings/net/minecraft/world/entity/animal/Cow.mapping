@@ -1,0 +1,8 @@
+CLASS to net/minecraft/world/entity/animal/Cow
+	METHOD <init> <init> (Ladm;)V
+	METHOD A getLoot ()Lzw;
+	METHOD a createChild (Lph;)Lph;
+	METHOD aS getHeadHeight ()F
+	METHOD aX initAttributes ()V
+	METHOD b createChild (Lph;)Lto;
+	METHOD b dropDeathLoot (ZI)V

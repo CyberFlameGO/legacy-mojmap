@@ -1,1 +1,2 @@
 CLASS asc net/minecraft/server/IntCache
+	METHOD <clinit> <clinit> ()V

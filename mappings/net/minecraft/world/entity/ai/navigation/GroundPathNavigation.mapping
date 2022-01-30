@@ -1,0 +1,2 @@
+CLASS sv net/minecraft/world/entity/ai/navigation/GroundPathNavigation
+	METHOD <init> <init> (Lps;Ladm;)V

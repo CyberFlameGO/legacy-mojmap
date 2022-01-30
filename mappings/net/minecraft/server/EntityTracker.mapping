@@ -1,6 +1,8 @@
 CLASS la net/minecraft/server/EntityTracker
 	FIELD b world Lle;
 	FIELD d trackedEntities Lnm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lle;)V
 	METHOD a updatePlayers ()V
 	METHOD a track (Lpk;)V
 	METHOD a addEntity (Lpk;II)V
@@ -9,3 +11,6 @@ CLASS la net/minecraft/server/EntityTracker
 	METHOD b untrackEntity (Lpk;)V
 	METHOD b sendPacketToEntity (Lpk;Lff;)V
 	CLASS 1 1
+		METHOD <init> <init> (Lla;I)V
+		METHOD a call ()Ljava/lang/String;
+		METHOD call call ()Ljava/lang/Object;

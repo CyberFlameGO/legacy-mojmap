@@ -1,0 +1,2 @@
+CLASS rh net/minecraft/world/entity/ai/goal/LeapAtTargetGoal
+	METHOD <init> <init> (Lps;F)V

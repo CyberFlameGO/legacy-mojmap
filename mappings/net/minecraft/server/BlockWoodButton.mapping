@@ -1,1 +1,2 @@
 CLASS akq net/minecraft/server/BlockWoodButton
+	METHOD <init> <init> ()V

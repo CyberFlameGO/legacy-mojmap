@@ -1,0 +1,2 @@
+CLASS rc net/minecraft/world/entity/ai/goal/FollowParentGoal
+	METHOD <init> <init> (Ltm;D)V

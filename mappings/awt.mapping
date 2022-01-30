@@ -1,0 +1,2 @@
+CLASS awt awt
+	METHOD <init> <init> (Lnet/minecraft/realms/RealmsSimpleScrolledSelectionList;IIIII)V

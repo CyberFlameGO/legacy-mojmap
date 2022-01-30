@@ -1,0 +1,6 @@
+CLASS bpj bpj
+	CLASS a a
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;II)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbpj$a;
+		METHOD values values ()[Lbpj$a;

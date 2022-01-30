@@ -1,0 +1,19 @@
+CLASS bfk bfk
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lave;Lbni;)V
+	CLASS 1 1
+		METHOD <init> <init> (Lbfk;)V
+		METHOD a apply (Lpk;)Z
+		METHOD apply apply (Ljava/lang/Object;)Z
+	CLASS 2 2
+		METHOD <init> <init> (Lbfk;)V
+		METHOD a call ()Ljava/lang/String;
+		METHOD call call ()Ljava/lang/Object;
+	CLASS 3 3
+		METHOD <init> <init> (Lbfk;II)V
+		METHOD a call ()Ljava/lang/String;
+		METHOD call call ()Ljava/lang/Object;
+	CLASS 4 4
+		METHOD <init> <init> (Lbfk;Lavr;)V
+		METHOD a call ()Ljava/lang/String;
+		METHOD call call ()Ljava/lang/Object;

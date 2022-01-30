@@ -1,0 +1,3 @@
+CLASS bjs bjs
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbiu;Lbbo;F)V

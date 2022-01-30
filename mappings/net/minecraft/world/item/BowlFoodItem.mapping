@@ -1,0 +1,2 @@
+CLASS yu net/minecraft/world/item/BowlFoodItem
+	METHOD <init> <init> (I)V

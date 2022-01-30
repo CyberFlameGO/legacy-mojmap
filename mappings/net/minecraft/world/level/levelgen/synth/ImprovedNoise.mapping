@@ -1,0 +1,4 @@
+CLASS arb net/minecraft/world/level/levelgen/synth/ImprovedNoise
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/util/Random;)V

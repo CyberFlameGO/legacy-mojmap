@@ -1,0 +1,13 @@
+CLASS qa net/minecraft/world/entity/TamableAnimal
+	METHOD <init> <init> (Ladm;)V
+	METHOD a die (Low;)V
+	METHOD b getOwnerUUID ()Ljava/lang/String;
+	METHOD b setOwnerUUID (Ljava/lang/String;)V
+	METHOD bO getScoreboardTeam ()Lauq;
+	METHOD cl isTamed ()Z
+	METHOD cn isSitting ()Z
+	METHOD co getOwner ()Lpr;
+	METHOD cp getGoalSit ()Lse;
+	METHOD m setTamed (Z)V
+	METHOD m_ getOwner ()Lpk;
+	METHOD n setSitting (Z)V

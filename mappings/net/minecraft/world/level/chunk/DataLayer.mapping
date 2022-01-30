@@ -1,0 +1,3 @@
+CLASS amw net/minecraft/world/level/chunk/DataLayer
+	METHOD <init> <init> ()V
+	METHOD <init> <init> ([B)V

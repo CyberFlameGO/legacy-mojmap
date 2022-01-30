@@ -1,1 +1,3 @@
 CLASS gd net/minecraft/server/PacketPlayOutWindowItems
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILjava/util/List;)V

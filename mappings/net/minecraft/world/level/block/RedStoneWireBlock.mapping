@@ -1,0 +1,29 @@
+CLASS ajb net/minecraft/world/level/block/RedStoneWireBlock
+	FIELD N SOUTH Lamm;
+	FIELD O WEST Lamm;
+	FIELD P POWER Lamn;
+	FIELD a NORTH Lamm;
+	FIELD b EAST Lamm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a getPower (Ladm;Lcj;I)I
+	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
+	METHOD a updateState (Lalz;Ladq;Lcj;)Lalz;
+	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
+	METHOD b remove (Ladm;Lcj;Lalz;)V
+	METHOD c onPlace (Ladm;Lcj;Lalz;)V
+	METHOD c toLegacyData (Lalz;)I
+	METHOD d canPlace (Ladm;Lcj;)Z
+	METHOD e getStateList ()Lama;
+	METHOD i isPowerSource ()Z
+	CLASS a EnumRedstoneWireConnection
+		FIELD a UP Lajb$a;
+		FIELD b SIDE Lajb$a;
+		FIELD c NONE Lajb$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+		METHOD l getName ()Ljava/lang/String;
+		METHOD toString toString ()Ljava/lang/String;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lajb$a;
+		METHOD values values ()[Lajb$a;

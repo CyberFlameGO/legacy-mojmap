@@ -1,0 +1,7 @@
+CLASS nr net/minecraft/util/LowerCaseEnumTypeAdapterFactory
+	METHOD <init> <init> ()V
+	METHOD create create (Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;
+	CLASS 1 1
+		METHOD <init> <init> (Lnr;Ljava/util/Map;)V
+		METHOD read read (Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;
+		METHOD write write (Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V

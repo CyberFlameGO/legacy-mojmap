@@ -1,1 +1,2 @@
 CLASS asa net/minecraft/server/GenLayerZoomFuzzy
+	METHOD <init> <init> (JLase;)V

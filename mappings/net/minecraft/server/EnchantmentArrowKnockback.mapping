@@ -1,1 +1,3 @@
 CLASS ace net/minecraft/server/EnchantmentArrowKnockback
+	METHOD <init> <init> (ILjy;I)V
+	METHOD b getMaxLevel ()I

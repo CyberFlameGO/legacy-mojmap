@@ -1,0 +1,3 @@
+CLASS bbq bbq
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (F)V

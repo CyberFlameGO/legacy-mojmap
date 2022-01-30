@@ -1,0 +1,14 @@
+CLASS eb net/minecraft/nbt/Tag
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getTypeId ()B
+	METHOD a createTag (B)Leb;
+	METHOD a load (Ljava/io/DataInput;ILdw;)V
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD b clone ()Leb;
+	METHOD c_ isEmpty ()Z
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS a NBTNumber
+		METHOD <init> <init> ()V

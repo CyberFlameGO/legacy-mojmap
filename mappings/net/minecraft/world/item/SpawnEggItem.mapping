@@ -1,0 +1,3 @@
+CLASS aax net/minecraft/world/item/SpawnEggItem
+	METHOD <init> <init> ()V
+	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z

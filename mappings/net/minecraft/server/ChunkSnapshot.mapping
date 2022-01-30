@@ -1,1 +1,2 @@
 CLASS ans net/minecraft/server/ChunkSnapshot
+	METHOD <init> <init> ()V

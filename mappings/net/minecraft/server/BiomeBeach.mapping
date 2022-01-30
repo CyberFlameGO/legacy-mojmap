@@ -1,1 +1,2 @@
 CLASS adx net/minecraft/server/BiomeBeach
+	METHOD <init> <init> (I)V

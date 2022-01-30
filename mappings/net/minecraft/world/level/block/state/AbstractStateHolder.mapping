@@ -1,0 +1,8 @@
+CLASS aly net/minecraft/world/level/block/state/AbstractStateHolder
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a apply (Ljava/util/Map$Entry;)Ljava/lang/String;
+		METHOD apply apply (Ljava/lang/Object;)Ljava/lang/Object;

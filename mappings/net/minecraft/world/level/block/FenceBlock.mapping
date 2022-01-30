@@ -1,0 +1,13 @@
+CLASS agt net/minecraft/world/level/block/FenceBlock
+	FIELD N SOUTH Lamk;
+	FIELD O WEST Lamk;
+	FIELD a NORTH Lamk;
+	FIELD b EAST Lamk;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Larm;)V
+	METHOD <init> <init> (Larm;Larn;)V
+	METHOD a interact (Ladm;Lcj;Lalz;Lwn;Lcq;FFF)Z
+	METHOD a updateShape (Ladq;Lcj;)V
+	METHOD a updateState (Lalz;Ladq;Lcj;)Lalz;
+	METHOD c toLegacyData (Lalz;)I
+	METHOD e getStateList ()Lama;

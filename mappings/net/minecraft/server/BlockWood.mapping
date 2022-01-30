@@ -1,5 +1,11 @@
 CLASS aio net/minecraft/server/BlockWood
 	FIELD a VARIANT Lamm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a getDropData (Lalz;)I
+	METHOD c toLegacyData (Lalz;)I
+	METHOD e getStateList ()Lama;
 	CLASS a EnumLogVariant
 		FIELD a OAK Laio$a;
 		FIELD b SPRUCE Laio$a;
@@ -7,3 +13,10 @@ CLASS aio net/minecraft/server/BlockWood
 		FIELD d JUNGLE Laio$a;
 		FIELD e ACACIA Laio$a;
 		FIELD f DARK_OAK Laio$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;Larn;)V
+		METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;Larn;)V
+		METHOD l getName ()Ljava/lang/String;
+		METHOD toString toString ()Ljava/lang/String;
+		METHOD valueOf valueOf (Ljava/lang/String;)Laio$a;
+		METHOD values values ()[Laio$a;

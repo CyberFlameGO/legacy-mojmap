@@ -1,1 +1,3 @@
 CLASS hh net/minecraft/server/PacketPlayOutCamera
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lpk;)V

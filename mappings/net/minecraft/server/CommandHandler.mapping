@@ -1,1 +1,4 @@
 CLASS j net/minecraft/server/CommandHandler
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getCommands ()Ljava/util/Map;

@@ -1,0 +1,4 @@
+CLASS ats ats
+	METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;JJLadp$a;ZZZ)V
+	METHOD a compareTo (Lats;)I
+	METHOD compareTo compareTo (Ljava/lang/Object;)I

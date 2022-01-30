@@ -1,0 +1,3 @@
+CLASS bz net/minecraft/commands/CommandRuntimeException
+	METHOD <init> <init> (Ljava/lang/String;[Ljava/lang/Object;)V
+	METHOD a getArgs ()[Ljava/lang/Object;

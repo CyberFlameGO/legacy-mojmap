@@ -1,0 +1,18 @@
+CLASS add net/minecraft/world/level/BaseSpawner
+	FIELD a spawnDelay I
+	FIELD b mobName Ljava/lang/String;
+	FIELD c mobs Ljava/util/List;
+	FIELD d spawnData Ladd$a;
+	FIELD g minSpawnDelay I
+	FIELD h maxSpawnDelay I
+	FIELD i spawnCount I
+	FIELD k maxNearbyEntities I
+	FIELD l requiredPlayerRange I
+	FIELD m spawnRange I
+	METHOD <init> <init> ()V
+	METHOD a setMobName (Ljava/lang/String;)V
+	METHOD f getMobName ()Ljava/lang/String;
+	CLASS a TileEntityMobSpawnerData
+		METHOD <init> <init> (Ladd;Ldn;)V
+		METHOD <init> <init> (Ladd;Ldn;Ljava/lang/String;)V
+		METHOD <init> <init> (Ladd;Ldn;Ljava/lang/String;I)V

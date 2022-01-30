@@ -1,1 +1,2 @@
 CLASS abi net/minecraft/server/RecipesArmor
+	METHOD <init> <init> ()V

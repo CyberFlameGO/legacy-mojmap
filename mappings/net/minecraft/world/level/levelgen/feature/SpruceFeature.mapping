@@ -1,0 +1,4 @@
+CLASS aps net/minecraft/world/level/levelgen/feature/SpruceFeature
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Z)V
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

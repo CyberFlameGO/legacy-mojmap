@@ -1,1 +1,2 @@
 CLASS asw net/minecraft/server/PathfinderAbstract
+	METHOD <init> <init> ()V

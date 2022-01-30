@@ -1,0 +1,9 @@
+CLASS awh awh
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lave;Lavo;)V
+	CLASS 1 1
+	CLASS a a
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lawh$1;)V
+		METHOD a compare (Lbdc;Lbdc;)I
+		METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I

@@ -1,2 +1,3 @@
 CLASS aua net/minecraft/server/PersistentCollection
+	METHOD <init> <init> (Latp;)V
 	METHOD a get (Ljava/lang/Class;Ljava/lang/String;)Late;

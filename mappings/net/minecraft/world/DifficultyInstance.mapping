@@ -1,0 +1,2 @@
+CLASS ok net/minecraft/world/DifficultyInstance
+	METHOD <init> <init> (Loj;JJF)V

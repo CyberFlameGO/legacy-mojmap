@@ -1,0 +1,3 @@
+CLASS ayq ayq
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ladc;)V

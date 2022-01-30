@@ -1,0 +1,2 @@
+CLASS qv net/minecraft/world/entity/ai/goal/BreedGoal
+	METHOD <init> <init> (Ltm;D)V

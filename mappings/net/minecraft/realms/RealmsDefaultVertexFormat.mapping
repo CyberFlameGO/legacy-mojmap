@@ -1,0 +1,21 @@
+CLASS net/minecraft/realms/RealmsDefaultVertexFormat net/minecraft/realms/RealmsDefaultVertexFormat
+	FIELD BLOCK BLOCK Lnet/minecraft/realms/RealmsVertexFormat;
+	FIELD BLOCK_NORMALS BLOCK_NORMALS Lnet/minecraft/realms/RealmsVertexFormat;
+	FIELD ELEMENT_COLOR ELEMENT_COLOR Lnet/minecraft/realms/RealmsVertexFormatElement;
+	FIELD ELEMENT_NORMAL ELEMENT_NORMAL Lnet/minecraft/realms/RealmsVertexFormatElement;
+	FIELD ELEMENT_PADDING ELEMENT_PADDING Lnet/minecraft/realms/RealmsVertexFormatElement;
+	FIELD ELEMENT_POSITION ELEMENT_POSITION Lnet/minecraft/realms/RealmsVertexFormatElement;
+	FIELD ELEMENT_UV0 ELEMENT_UV0 Lnet/minecraft/realms/RealmsVertexFormatElement;
+	FIELD ELEMENT_UV1 ELEMENT_UV1 Lnet/minecraft/realms/RealmsVertexFormatElement;
+	FIELD ENTITY ENTITY Lnet/minecraft/realms/RealmsVertexFormat;
+	FIELD PARTICLE PARTICLE Lnet/minecraft/realms/RealmsVertexFormat;
+	FIELD POSITION POSITION Lnet/minecraft/realms/RealmsVertexFormat;
+	FIELD POSITION_COLOR POSITION_COLOR Lnet/minecraft/realms/RealmsVertexFormat;
+	FIELD POSITION_NORMAL POSITION_NORMAL Lnet/minecraft/realms/RealmsVertexFormat;
+	FIELD POSITION_TEX2_COLOR POSITION_TEX2_COLOR Lnet/minecraft/realms/RealmsVertexFormat;
+	FIELD POSITION_TEX POSITION_TEX Lnet/minecraft/realms/RealmsVertexFormat;
+	FIELD POSITION_TEX_COLOR POSITION_TEX_COLOR Lnet/minecraft/realms/RealmsVertexFormat;
+	FIELD POSITION_TEX_COLOR_NORMAL POSITION_TEX_COLOR_NORMAL Lnet/minecraft/realms/RealmsVertexFormat;
+	FIELD POSITION_TEX_NORMAL POSITION_TEX_NORMAL Lnet/minecraft/realms/RealmsVertexFormat;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V

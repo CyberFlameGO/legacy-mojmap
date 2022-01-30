@@ -1,0 +1,5 @@
+CLASS aag net/minecraft/world/item/PickaxeItem
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lzw$a;)V
+	METHOD a getDestroySpeed (Lzx;Lafh;)F
+	METHOD b canDestroySpecialBlock (Lafh;)Z

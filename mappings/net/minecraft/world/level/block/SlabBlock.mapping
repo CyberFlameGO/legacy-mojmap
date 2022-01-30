@@ -1,0 +1,16 @@
+CLASS ahh net/minecraft/world/level/block/SlabBlock
+	FIELD a HALF Lamm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Larm;)V
+	METHOD a getPlacedState (Ladm;Lcj;Lcq;FFFILpr;)Lalz;
+	METHOD a updateShape (Ladq;Lcj;)V
+	METHOD j getDropData (Ladm;Lcj;)I
+	CLASS a EnumSlabHalf
+		FIELD a TOP Lahh$a;
+		FIELD b BOTTOM Lahh$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+		METHOD l getName ()Ljava/lang/String;
+		METHOD toString toString ()Ljava/lang/String;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lahh$a;
+		METHOD values values ()[Lahh$a;

@@ -1,1 +1,7 @@
 CLASS adv net/minecraft/server/ChunkCache
+	METHOD <init> <init> (Ladm;Lcj;Lcj;I)V
+	METHOD a getBlockPower (Lcj;Lcq;)I
+	METHOD b getBiome (Lcj;)Lady;
+	METHOD d isEmpty (Lcj;)Z
+	METHOD p getType (Lcj;)Lalz;
+	METHOD s getTileEntity (Lcj;)Lakw;

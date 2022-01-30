@@ -1,0 +1,3 @@
+CLASS oa net/minecraft/util/WeighedRandom
+	CLASS a WeighedRandomItem
+		METHOD <init> <init> (I)V

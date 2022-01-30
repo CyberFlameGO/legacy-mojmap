@@ -1,4 +1,5 @@
 CLASS o net/minecraft/server/PlayerSelector
+	METHOD <clinit> <clinit> ()V
 	METHOD a isList (Ljava/lang/String;)Z
 	METHOD a getPlayer (Lm;Ljava/lang/String;)Llf;
 	METHOD a getEntity (Lm;Ljava/lang/String;Ljava/lang/Class;)Lpk;
@@ -6,14 +7,50 @@ CLASS o net/minecraft/server/PlayerSelector
 	METHOD b getPlayerNames (Lm;Ljava/lang/String;)Leu;
 	METHOD b getPlayers (Lm;Ljava/lang/String;Ljava/lang/Class;)Ljava/util/List;
 	CLASS 1 1
+		METHOD <init> <init> (Ljava/lang/String;Z)V
+		METHOD a apply (Lpk;)Z
+		METHOD apply apply (Ljava/lang/Object;)Z
 	CLASS 2 10
+		METHOD <init> <init> (II)V
+		METHOD a apply (Lpk;)Z
+		METHOD apply apply (Ljava/lang/Object;)Z
 	CLASS 3 11
+		METHOD <init> <init> (Laug;)V
+		METHOD a apply (Lpk;)Z
+		METHOD apply apply (Ljava/lang/Object;)Z
 	CLASS 4 12
+		METHOD <init> <init> (Lcj;)V
+		METHOD a compare (Lpk;Lpk;)I
+		METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I
 	CLASS 5 2
+		METHOD <init> <init> ()V
+		METHOD a apply (Lpk;)Z
+		METHOD apply apply (Ljava/lang/Object;)Z
 	CLASS 6 3
+		METHOD <init> <init> (II)V
+		METHOD a apply (Lpk;)Z
+		METHOD apply apply (Ljava/lang/Object;)Z
 	CLASS 7 4
+		METHOD <init> <init> (I)V
+		METHOD a apply (Lpk;)Z
+		METHOD apply apply (Ljava/lang/Object;)Z
 	CLASS 8 5
+		METHOD <init> <init> (Ljava/lang/String;Z)V
+		METHOD a apply (Lpk;)Z
+		METHOD apply apply (Ljava/lang/Object;)Z
 	CLASS 9 6
+		METHOD <init> <init> (Ljava/util/Map;)V
+		METHOD a apply (Lpk;)Z
+		METHOD apply apply (Ljava/lang/Object;)Z
 	CLASS 10 7
+		METHOD <init> <init> (Ljava/lang/String;Z)V
+		METHOD a apply (Lpk;)Z
+		METHOD apply apply (Ljava/lang/Object;)Z
 	CLASS 11 8
+		METHOD <init> <init> (Lcj;IIII)V
+		METHOD a apply (Lpk;)Z
+		METHOD apply apply (Ljava/lang/Object;)Z
 	CLASS 12 9
+		METHOD <init> <init> (II)V
+		METHOD a apply (Lpk;)Z
+		METHOD apply apply (Ljava/lang/Object;)Z

@@ -1,0 +1,3 @@
+CLASS di net/minecraft/locale/I18n
+	METHOD <clinit> <clinit> ()V
+	METHOD a get (Ljava/lang/String;)Ljava/lang/String;

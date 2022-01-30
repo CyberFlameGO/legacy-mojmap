@@ -1,1 +1,2 @@
 CLASS ru net/minecraft/server/PathfinderGoalOpenDoor
+	METHOD <init> <init> (Lps;Z)V

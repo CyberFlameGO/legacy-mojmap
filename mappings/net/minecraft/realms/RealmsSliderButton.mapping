@@ -1,0 +1,18 @@
+CLASS net/minecraft/realms/RealmsSliderButton net/minecraft/realms/RealmsSliderButton
+	FIELD maxValue maxValue F
+	FIELD minValue minValue F
+	FIELD sliding sliding Z
+	FIELD steps steps I
+	FIELD value value F
+	METHOD <init> <init> (IIIIII)V
+	METHOD <init> <init> (IIIIIIFF)V
+	METHOD clamp clamp (F)F
+	METHOD clampSteps clampSteps (F)F
+	METHOD clicked clicked (F)V
+	METHOD clicked clicked (II)V
+	METHOD getMessage getMessage ()Ljava/lang/String;
+	METHOD getYImage getYImage (Z)I
+	METHOD released released (II)V
+	METHOD renderBg renderBg (II)V
+	METHOD toPct toPct (F)F
+	METHOD toValue toValue (F)F

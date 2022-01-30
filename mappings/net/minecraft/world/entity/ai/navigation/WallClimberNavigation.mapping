@@ -1,0 +1,2 @@
+CLASS sx net/minecraft/world/entity/ai/navigation/WallClimberNavigation
+	METHOD <init> <init> (Lps;Ladm;)V

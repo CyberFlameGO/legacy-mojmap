@@ -1,1 +1,2 @@
 CLASS sb net/minecraft/server/PathfinderGoalRestrictOpenDoor
+	METHOD <init> <init> (Lpy;)V

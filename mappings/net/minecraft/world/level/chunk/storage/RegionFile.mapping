@@ -1,0 +1,6 @@
+CLASS anh net/minecraft/world/level/chunk/storage/RegionFile
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/io/File;)V
+	CLASS a ChunkBuffer
+		METHOD <init> <init> (Lanh;II)V
+		METHOD close close ()V

@@ -1,1 +1,2 @@
 CLASS rf net/minecraft/server/PathfinderGoalVillagerFarm
+	METHOD <init> <init> (Lwi;D)V

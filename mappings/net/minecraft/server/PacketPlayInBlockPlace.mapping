@@ -1,3 +1,7 @@
 CLASS ja net/minecraft/server/PacketPlayInBlockPlace
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lcj;ILzx;FFF)V
+	METHOD <init> <init> (Lzx;)V
 	METHOD b getFace ()I
 	METHOD c getItemStack ()Lzx;

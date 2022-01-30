@@ -1,0 +1,2 @@
+CLASS sq net/minecraft/world/entity/ai/goal/target/NonTameRandomTargetGoal
+	METHOD <init> <init> (Lqa;Ljava/lang/Class;ZLcom/google/common/base/Predicate;)V

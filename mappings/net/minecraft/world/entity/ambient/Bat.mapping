@@ -1,0 +1,7 @@
+CLASS tk net/minecraft/world/entity/ambient/Bat
+	METHOD <init> <init> (Ladm;)V
+	METHOD a damageEntity (Low;F)Z
+	METHOD a setAsleep (Z)V
+	METHOD aS getHeadHeight ()F
+	METHOD aX initAttributes ()V
+	METHOD n isAsleep ()Z

@@ -2,6 +2,8 @@ CLASS th net/minecraft/server/PersistentVillage
 	FIELD b world Ladm;
 	FIELD e villages Ljava/util/List;
 	FIELD f time I
+	METHOD <init> <init> (Ladm;)V
+	METHOD <init> <init> (Ljava/lang/String;)V
 	METHOD a tick ()V
 	METHOD a getClosestVillage (Lcj;I)Ltf;
 	METHOD b getVillages ()Ljava/util/List;

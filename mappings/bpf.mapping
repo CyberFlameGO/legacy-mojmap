@@ -1,0 +1,3 @@
+CLASS bpf bpf
+	METHOD <init> <init> (Ljy;FFFFF)V
+	METHOD <init> <init> (Ljy;FFZILbpj$a;FFF)V

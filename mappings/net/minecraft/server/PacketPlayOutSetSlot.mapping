@@ -1,1 +1,3 @@
 CLASS gf net/minecraft/server/PacketPlayOutSetSlot
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (IILzx;)V

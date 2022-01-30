@@ -1,0 +1,19 @@
+CLASS net/minecraft/realms/RealmsSimpleScrolledSelectionList net/minecraft/realms/RealmsSimpleScrolledSelectionList
+	FIELD proxy proxy Lawt;
+	METHOD <init> <init> (IIIII)V
+	METHOD getItemCount getItemCount ()I
+	METHOD getMaxPosition getMaxPosition ()I
+	METHOD getScroll getScroll ()I
+	METHOD getScrollbarPosition getScrollbarPosition ()I
+	METHOD isSelectedItem isSelectedItem (I)Z
+	METHOD mouseEvent mouseEvent ()V
+	METHOD render render (IIF)V
+	METHOD renderBackground renderBackground ()V
+	METHOD renderItem renderItem (IIIIII)V
+	METHOD renderItem renderItem (IIIILnet/minecraft/realms/Tezzelator;II)V
+	METHOD renderList renderList (IIII)V
+	METHOD scroll scroll (I)V
+	METHOD selectItem selectItem (IZII)V
+	METHOD width width ()I
+	METHOD xm xm ()I
+	METHOD ym ym ()I

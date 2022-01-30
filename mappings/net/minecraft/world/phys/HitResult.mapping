@@ -1,0 +1,19 @@
+CLASS auh net/minecraft/world/phys/HitResult
+	FIELD a type Lauh$a;
+	FIELD b direction Lcq;
+	FIELD c pos Laui;
+	FIELD d entity Lpk;
+	METHOD <init> <init> (Lauh$a;Laui;Lcq;Lcj;)V
+	METHOD <init> <init> (Laui;Lcq;)V
+	METHOD <init> <init> (Laui;Lcq;Lcj;)V
+	METHOD <init> <init> (Lpk;)V
+	METHOD <init> <init> (Lpk;Laui;)V
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS a Type
+		FIELD a MISS Lauh$a;
+		FIELD b BLOCK Lauh$a;
+		FIELD c ENTITY Lauh$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lauh$a;
+		METHOD values values ()[Lauh$a;

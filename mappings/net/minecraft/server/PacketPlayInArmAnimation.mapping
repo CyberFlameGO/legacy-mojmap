@@ -1,1 +1,2 @@
 CLASS iy net/minecraft/server/PacketPlayInArmAnimation
+	METHOD <init> <init> ()V

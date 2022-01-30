@@ -1,1 +1,3 @@
 CLASS te net/minecraft/server/VillageDoor
+	METHOD <init> <init> (Lcj;III)V
+	METHOD <init> <init> (Lcj;Lcq;I)V

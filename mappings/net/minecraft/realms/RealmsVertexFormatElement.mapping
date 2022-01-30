@@ -1,0 +1,11 @@
+CLASS net/minecraft/realms/RealmsVertexFormatElement net/minecraft/realms/RealmsVertexFormatElement
+	FIELD v v Lbmv;
+	METHOD <init> <init> (Lbmv;)V
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD getByteSize getByteSize ()I
+	METHOD getCount getCount ()I
+	METHOD getIndex getIndex ()I
+	METHOD getVertexFormatElement getVertexFormatElement ()Lbmv;
+	METHOD hashCode hashCode ()I
+	METHOD isPosition isPosition ()Z
+	METHOD toString toString ()Ljava/lang/String;

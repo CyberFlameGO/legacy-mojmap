@@ -1,0 +1,3 @@
+CLASS bbz bbz
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (IIII)V

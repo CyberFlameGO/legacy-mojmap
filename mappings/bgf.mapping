@@ -1,0 +1,21 @@
+CLASS bgf bgf
+	METHOD <init> <init> ()V
+	CLASS 1 1
+		METHOD <clinit> <clinit> ()V
+	CLASS a a
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I[Lcq;FZ[Lbgf$d;[Lbgf$d;[Lbgf$d;[Lbgf$d;)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbgf$a;
+		METHOD values values ()[Lbgf$a;
+	CLASS b b
+		METHOD <init> <init> (Lbgf;)V
+	CLASS c c
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;IIIII)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbgf$c;
+		METHOD values values ()[Lbgf$c;
+	CLASS d d
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILcq;Z)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbgf$d;
+		METHOD values values ()[Lbgf$d;

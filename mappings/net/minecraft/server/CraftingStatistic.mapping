@@ -1,1 +1,2 @@
 CLASS mu net/minecraft/server/CraftingStatistic
+	METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;Leu;Lzw;)V

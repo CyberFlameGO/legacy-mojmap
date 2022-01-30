@@ -1,0 +1,2 @@
+CLASS rd net/minecraft/world/entity/ai/goal/Goal
+	METHOD <init> <init> ()V

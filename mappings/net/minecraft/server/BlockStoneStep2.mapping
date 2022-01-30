@@ -1,1 +1,2 @@
 CLASS ahg net/minecraft/server/BlockStoneStep2
+	METHOD <init> <init> ()V

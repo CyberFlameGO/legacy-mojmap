@@ -1,0 +1,4 @@
+CLASS amh net/minecraft/world/level/block/state/predicate/BlockStatePredicate
+	METHOD <init> <init> (Lama;)V
+	METHOD a apply (Lalz;)Z
+	METHOD apply apply (Ljava/lang/Object;)Z

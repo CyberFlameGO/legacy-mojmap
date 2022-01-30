@@ -1,0 +1,2 @@
+CLASS ana net/minecraft/world/level/chunk/OldDataLayer
+	METHOD <init> <init> ([BI)V

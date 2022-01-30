@@ -1,1 +1,4 @@
 CLASS aoz net/minecraft/server/WorldGenHugeMushroom
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lafh;)V
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

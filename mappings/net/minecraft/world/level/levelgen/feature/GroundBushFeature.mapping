@@ -1,0 +1,3 @@
+CLASS aov net/minecraft/world/level/levelgen/feature/GroundBushFeature
+	METHOD <init> <init> (Lalz;Lalz;)V
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

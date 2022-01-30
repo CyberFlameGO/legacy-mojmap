@@ -1,0 +1,3 @@
+CLASS ape net/minecraft/world/level/levelgen/feature/MegaJungleTreeFeature
+	METHOD <init> <init> (ZIILalz;Lalz;)V
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

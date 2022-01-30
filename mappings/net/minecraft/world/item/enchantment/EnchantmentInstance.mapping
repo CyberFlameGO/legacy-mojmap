@@ -1,0 +1,4 @@
+CLASS acl net/minecraft/world/item/enchantment/EnchantmentInstance
+	FIELD b enchantment Laci;
+	FIELD c level I
+	METHOD <init> <init> (Laci;I)V

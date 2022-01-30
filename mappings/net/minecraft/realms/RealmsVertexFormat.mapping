@@ -1,0 +1,22 @@
+CLASS net/minecraft/realms/RealmsVertexFormat net/minecraft/realms/RealmsVertexFormat
+	FIELD v v Lbmu;
+	METHOD <init> <init> (Lbmu;)V
+	METHOD addElement addElement (Lnet/minecraft/realms/RealmsVertexFormatElement;)Lnet/minecraft/realms/RealmsVertexFormat;
+	METHOD clear clear ()V
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD from from (Lbmu;)Lnet/minecraft/realms/RealmsVertexFormat;
+	METHOD getColorOffset getColorOffset ()I
+	METHOD getElement getElement (I)Lnet/minecraft/realms/RealmsVertexFormatElement;
+	METHOD getElementCount getElementCount ()I
+	METHOD getElements getElements ()Ljava/util/List;
+	METHOD getIntegerSize getIntegerSize ()I
+	METHOD getNormalOffset getNormalOffset ()I
+	METHOD getOffset getOffset (I)I
+	METHOD getUvOffset getUvOffset (I)I
+	METHOD getVertexFormat getVertexFormat ()Lbmu;
+	METHOD getVertexSize getVertexSize ()I
+	METHOD hasColor hasColor ()Z
+	METHOD hasNormal hasNormal ()Z
+	METHOD hasUv hasUv (I)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

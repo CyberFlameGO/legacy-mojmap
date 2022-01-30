@@ -1,0 +1,2 @@
+CLASS rs net/minecraft/world/entity/ai/goal/CatSitOnBlockGoal
+	METHOD <init> <init> (Lts;D)V

@@ -1,0 +1,2 @@
+CLASS yq net/minecraft/world/item/BoatItem
+	METHOD <init> <init> ()V

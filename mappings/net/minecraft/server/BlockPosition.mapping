@@ -1,5 +1,11 @@
 CLASS cj net/minecraft/server/BlockPosition
 	FIELD a ZERO Lcj;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (DDD)V
+	METHOD <init> <init> (III)V
+	METHOD <init> <init> (Laui;)V
+	METHOD <init> <init> (Ldf;)V
+	METHOD <init> <init> (Lpk;)V
 	METHOD a up ()Lcj;
 	METHOD a fromLong (J)Lcj;
 	METHOD a shift (Lcq;)Lcj;
@@ -8,6 +14,7 @@ CLASS cj net/minecraft/server/BlockPosition
 	METHOD b up (I)Lcj;
 	METHOD c north ()Lcj;
 	METHOD c down (I)Lcj;
+	METHOD c d (Ldf;)Lcj;
 	METHOD d south ()Lcj;
 	METHOD d north (I)Lcj;
 	METHOD e west ()Lcj;
@@ -17,8 +24,23 @@ CLASS cj net/minecraft/server/BlockPosition
 	METHOD g asLong ()J
 	METHOD g east (I)Lcj;
 	CLASS 1 1
+		METHOD <init> <init> (Lcj;Lcj;)V
+		METHOD iterator iterator ()Ljava/util/Iterator;
 		CLASS 1 1
+			METHOD <init> <init> (Lcj$1;)V
+			METHOD a computeNext ()Lcj;
+			METHOD computeNext computeNext ()Ljava/lang/Object;
 	CLASS 2 2
+		METHOD <init> <init> (Lcj;Lcj;)V
+		METHOD iterator iterator ()Ljava/util/Iterator;
 		CLASS 1 1
-	CLASS a MutableBlockPosition
+			METHOD <init> <init> (Lcj$2;)V
+			METHOD a computeNext ()Lcj$a;
+			METHOD computeNext computeNext ()Ljava/lang/Object;
+	CLASS a MutableBlockPos
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (III)V
 		METHOD c setValues (III)Lcj$a;
+		METHOD n getX ()I
+		METHOD o getY ()I
+		METHOD p getZ ()I

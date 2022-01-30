@@ -1,0 +1,5 @@
+CLASS cr net/minecraft/core/dispenser/DispenseItemBehavior
+	FIELD a NONE Lcr;
+	METHOD <clinit> <clinit> ()V
+	CLASS 1 1
+		METHOD <init> <init> ()V

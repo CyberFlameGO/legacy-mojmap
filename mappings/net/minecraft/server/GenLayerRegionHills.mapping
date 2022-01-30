@@ -1,1 +1,3 @@
 CLASS asg net/minecraft/server/GenLayerRegionHills
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (JLase;Lase;)V

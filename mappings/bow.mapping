@@ -1,0 +1,6 @@
+CLASS bow bow
+	METHOD <init> <init> (Ljava/util/List;Ljava/util/List;ZZLbmi;Lbgr;)V
+	CLASS a a
+		METHOD <init> <init> (Lbgl;)V
+		METHOD <init> <init> (Lboq;Lbmi;)V
+		METHOD <init> <init> (ZZLbgr;)V

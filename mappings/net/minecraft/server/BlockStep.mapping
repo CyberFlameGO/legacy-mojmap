@@ -1,1 +1,2 @@
 CLASS ahi net/minecraft/server/BlockStep
+	METHOD <init> <init> ()V

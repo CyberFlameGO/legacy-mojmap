@@ -1,0 +1,16 @@
+CLASS bmh bmh
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD <init> <init> (Ljava/lang/String;Lbmb;)V
+	CLASS 1 1
+		METHOD <init> <init> (Lbmh;Lbmi;)V
+		METHOD a call ()Ljava/lang/String;
+		METHOD call call ()Ljava/lang/Object;
+	CLASS 2 2
+		METHOD <init> <init> (Lbmh;Lbmi;)V
+		METHOD a call ()Ljava/lang/String;
+		METHOD call call ()Ljava/lang/Object;
+	CLASS 3 3
+		METHOD <init> <init> (Lbmh;Lbmi;)V
+		METHOD a call ()Ljava/lang/String;
+		METHOD call call ()Ljava/lang/Object;

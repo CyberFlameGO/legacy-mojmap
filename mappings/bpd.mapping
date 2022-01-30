@@ -1,0 +1,2 @@
+CLASS bpd bpd
+	METHOD <init> <init> (Lva;)V

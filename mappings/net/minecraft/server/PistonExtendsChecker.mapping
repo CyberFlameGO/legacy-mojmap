@@ -1,3 +1,4 @@
 CLASS alw net/minecraft/server/PistonExtendsChecker
+	METHOD <init> <init> (Ladm;Lcj;Lcq;Z)V
 	METHOD c getMovedBlocks ()Ljava/util/List;
 	METHOD d getBrokenBlocks ()Ljava/util/List;

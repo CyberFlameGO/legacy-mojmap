@@ -1,7 +1,13 @@
 CLASS fi net/minecraft/server/PacketPlayOutPosition
-	CLASS a EnumPlayerTeleportFlags
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (DDDFFLjava/util/Set;)V
+	CLASS a RelativeArgument
 		FIELD a X Lfi$a;
 		FIELD b Y Lfi$a;
 		FIELD c Z Lfi$a;
 		FIELD d Y_ROT Lfi$a;
 		FIELD e X_ROT Lfi$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;II)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lfi$a;
+		METHOD values values ()[Lfi$a;

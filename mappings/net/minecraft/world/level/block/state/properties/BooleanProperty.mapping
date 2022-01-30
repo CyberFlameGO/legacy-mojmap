@@ -1,0 +1,3 @@
+CLASS amk net/minecraft/world/level/block/state/properties/BooleanProperty
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD a of (Ljava/lang/String;)Lamk;

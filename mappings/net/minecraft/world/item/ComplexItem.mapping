@@ -1,0 +1,2 @@
+CLASS yy net/minecraft/world/item/ComplexItem
+	METHOD <init> <init> ()V

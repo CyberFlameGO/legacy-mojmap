@@ -1,0 +1,3 @@
+CLASS gg net/minecraft/network/protocol/game/ClientboundCustomPayloadPacket
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/lang/String;Lem;)V

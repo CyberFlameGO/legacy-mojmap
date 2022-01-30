@@ -1,0 +1,3 @@
+CLASS ayr ayr
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Log;Log;)V

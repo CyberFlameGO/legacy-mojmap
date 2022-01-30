@@ -1,0 +1,4 @@
+CLASS f net/minecraft/SharedConstants
+	FIELD a allowedCharacters [C
+	METHOD <clinit> <clinit> ()V
+	METHOD a isAllowedChatCharacter (C)Z

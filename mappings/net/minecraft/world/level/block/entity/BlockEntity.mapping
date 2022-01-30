@@ -1,0 +1,21 @@
+CLASS akw net/minecraft/world/level/block/entity/BlockEntity
+	FIELD b world Ladm;
+	FIELD c position Lcj;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD p_ update ()V
+	METHOD v getPosition ()Lcj;
+	METHOD y_ getUpdatePacket ()Lff;
+	METHOD z getWorld ()Ladm;
+	CLASS 1 1
+		METHOD <init> <init> (Lakw;)V
+		METHOD a call ()Ljava/lang/String;
+		METHOD call call ()Ljava/lang/Object;
+	CLASS 2 2
+		METHOD <init> <init> (Lakw;)V
+		METHOD a call ()Ljava/lang/String;
+		METHOD call call ()Ljava/lang/Object;
+	CLASS 3 3
+		METHOD <init> <init> (Lakw;)V
+		METHOD a call ()Ljava/lang/String;
+		METHOD call call ()Ljava/lang/Object;

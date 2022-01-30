@@ -1,0 +1,2 @@
+CLASS yr net/minecraft/world/item/BookItem
+	METHOD <init> <init> ()V

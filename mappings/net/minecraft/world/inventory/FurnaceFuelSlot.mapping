@@ -1,0 +1,4 @@
+CLASS xt net/minecraft/world/inventory/FurnaceFuelSlot
+	METHOD <init> <init> (Log;III)V
+	METHOD a isAllowed (Lzx;)Z
+	METHOD b getMaxStackSize (Lzx;)I

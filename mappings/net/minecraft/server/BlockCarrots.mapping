@@ -1,1 +1,2 @@
 CLASS afq net/minecraft/server/BlockCarrots
+	METHOD <init> <init> ()V

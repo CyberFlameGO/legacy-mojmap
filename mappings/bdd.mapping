@@ -1,0 +1,2 @@
+CLASS bdd bdd
+	METHOD <init> <init> (Ljava/lang/String;I)V

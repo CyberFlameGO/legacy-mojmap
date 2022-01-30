@@ -1,0 +1,10 @@
+CLASS oj net/minecraft/world/Difficulty
+	FIELD a PEACEFUL Loj;
+	FIELD b EASY Loj;
+	FIELD c NORMAL Loj;
+	FIELD d HARD Loj;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;)V
+	METHOD a getById (I)Loj;
+	METHOD valueOf valueOf (Ljava/lang/String;)Loj;
+	METHOD values values ()[Loj;

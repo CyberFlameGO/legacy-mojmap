@@ -1,0 +1,3 @@
+CLASS ri net/minecraft/world/entity/ai/goal/LookAtPlayerGoal
+	METHOD <init> <init> (Lps;Ljava/lang/Class;F)V
+	METHOD <init> <init> (Lps;Ljava/lang/Class;FF)V

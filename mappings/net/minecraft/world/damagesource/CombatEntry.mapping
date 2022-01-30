@@ -1,0 +1,2 @@
+CLASS ou net/minecraft/world/damagesource/CombatEntry
+	METHOD <init> <init> (Low;IFFLjava/lang/String;F)V

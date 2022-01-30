@@ -1,0 +1,6 @@
+CLASS abe net/minecraft/world/item/alchemy/PotionBrewing
+	FIELD o effectDurations Ljava/util/Map;
+	FIELD p effectAmplifiers Ljava/util/Map;
+	FIELD r appearances [Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD b getEffects (IZ)Ljava/util/List;

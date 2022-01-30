@@ -1,1 +1,3 @@
 CLASS ha net/minecraft/server/PacketPlayOutBed
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lwn;Lcj;)V

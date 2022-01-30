@@ -1,0 +1,7 @@
+CLASS kt net/minecraft/server/gui/StatsComponent
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;)V
+	METHOD paint paint (Ljava/awt/Graphics;)V
+	CLASS 1 1
+		METHOD <init> <init> (Lkt;)V
+		METHOD actionPerformed actionPerformed (Ljava/awt/event/ActionEvent;)V

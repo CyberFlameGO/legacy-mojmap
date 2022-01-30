@@ -1,0 +1,22 @@
+CLASS ama net/minecraft/world/level/block/state/StateDefinition
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lafh;[Lamo;)V
+	METHOD b getBlockData ()Lalz;
+	METHOD c getBlock ()Lafh;
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a apply (Lamo;)Ljava/lang/String;
+		METHOD apply apply (Ljava/lang/Object;)Ljava/lang/Object;
+	CLASS 2 2
+		METHOD <init> <init> (Lama;)V
+		METHOD a compare (Lamo;Lamo;)I
+		METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I
+	CLASS a BlockData
+		METHOD <init> <init> (Lafh;Lcom/google/common/collect/ImmutableMap;)V
+		METHOD <init> <init> (Lafh;Lcom/google/common/collect/ImmutableMap;Lama$1;)V
+		METHOD a set (Lamo;Ljava/lang/Comparable;)Lalz;
+		METHOD b get (Lamo;)Ljava/lang/Comparable;
+		METHOD c getBlock ()Lafh;
+		METHOD equals equals (Ljava/lang/Object;)Z
+		METHOD hashCode hashCode ()I

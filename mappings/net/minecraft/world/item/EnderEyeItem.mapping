@@ -1,0 +1,3 @@
+CLASS zj net/minecraft/world/item/EnderEyeItem
+	METHOD <init> <init> ()V
+	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z

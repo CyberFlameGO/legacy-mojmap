@@ -1,0 +1,6 @@
+CLASS afm net/minecraft/world/level/block/BushBlock
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Larm;)V
+	METHOD <init> <init> (Larm;Larn;)V
+	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
+	METHOD d canPlace (Ladm;Lcj;)Z

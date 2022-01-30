@@ -1,8 +1,21 @@
 CLASS n net/minecraft/server/CommandObjectiveExecutor
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
 	CLASS 1 1
+		METHOD <init> <init> (Ln;Lm;)V
+		METHOD a sendMessage (Leu;)V
+		METHOD c getChunkCoordinates ()Lcj;
+		METHOD e getWorld ()Ladm;
+		METHOD e_ getName ()Ljava/lang/String;
+		METHOD f_ getScoreboardDisplayName ()Leu;
+		METHOD u_ getSendCommandFeedback ()Z
 	CLASS a EnumCommandResult
 		FIELD a SUCCESS_COUNT Ln$a;
 		FIELD b AFFECTED_BLOCKS Ln$a;
 		FIELD c AFFECTED_ENTITIES Ln$a;
 		FIELD d AFFECTED_ITEMS Ln$a;
 		FIELD e QUERY_RESULT Ln$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Ln$a;
+		METHOD values values ()[Ln$a;

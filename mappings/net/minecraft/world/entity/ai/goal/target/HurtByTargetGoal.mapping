@@ -1,0 +1,2 @@
+CLASS sm net/minecraft/world/entity/ai/goal/target/HurtByTargetGoal
+	METHOD <init> <init> (Lpy;Z[Ljava/lang/Class;)V

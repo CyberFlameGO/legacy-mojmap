@@ -1,1 +1,3 @@
 CLASS ft net/minecraft/server/PacketPlayOutTileEntityData
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lcj;ILdn;)V

@@ -1,0 +1,4 @@
+CLASS aot net/minecraft/world/level/levelgen/feature/Feature
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Z)V
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

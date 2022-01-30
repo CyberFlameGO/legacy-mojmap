@@ -1,0 +1,4 @@
+CLASS bdr bdr
+	METHOD <init> <init> (Ladm;DDDDDD)V
+	CLASS a a
+		METHOD <init> <init> ()V

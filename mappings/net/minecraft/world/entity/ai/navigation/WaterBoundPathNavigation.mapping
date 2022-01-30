@@ -1,0 +1,2 @@
+CLASS sy net/minecraft/world/entity/ai/navigation/WaterBoundPathNavigation
+	METHOD <init> <init> (Lps;Ladm;)V

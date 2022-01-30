@@ -1,0 +1,16 @@
+CLASS bgr bgr
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lbgq;Lbgq;Lbgq;Lbgq;Lbgq;Lbgq;)V
+	METHOD <init> <init> (Lbgr;)V
+	CLASS 1 1
+		METHOD <clinit> <clinit> ()V
+	CLASS a a
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lbgr;
+		METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+	CLASS b b
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbgr$b;
+		METHOD values values ()[Lbgr$b;

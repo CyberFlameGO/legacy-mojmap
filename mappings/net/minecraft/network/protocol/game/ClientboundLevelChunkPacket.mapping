@@ -1,0 +1,5 @@
+CLASS go net/minecraft/network/protocol/game/ClientboundLevelChunkPacket
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lamy;ZI)V
+	CLASS a ChunkMap
+		METHOD <init> <init> ()V

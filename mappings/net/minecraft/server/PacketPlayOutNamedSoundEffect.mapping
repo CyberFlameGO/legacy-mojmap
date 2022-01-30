@@ -1,1 +1,3 @@
 CLASS gs net/minecraft/server/PacketPlayOutNamedSoundEffect
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/lang/String;DDDFF)V

@@ -1,1 +1,2 @@
 CLASS any net/minecraft/server/WorldGenBase
+	METHOD <init> <init> ()V

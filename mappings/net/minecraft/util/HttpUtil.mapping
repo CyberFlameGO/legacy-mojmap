@@ -1,0 +1,5 @@
+CLASS nj net/minecraft/util/HttpUtil
+	METHOD <clinit> <clinit> ()V
+	CLASS 1 1
+		METHOD <init> <init> (Lnu;Ljava/lang/String;Ljava/net/Proxy;Ljava/util/Map;Ljava/io/File;I)V
+		METHOD run run ()V

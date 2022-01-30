@@ -1,4 +1,4 @@
 CLASS cp net/minecraft/server/RegistryDefault
 	FIELD a defaultValue Ljava/lang/Object;
-	METHOD <init> (Ljava/lang/Object;)V
-		ARG 1 defaultValue
+	METHOD <init> <init> (Ljava/lang/Object;)V
+	METHOD a get (Ljava/lang/Object;)Ljava/lang/Object;

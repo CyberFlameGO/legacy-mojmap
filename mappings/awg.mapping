@@ -1,0 +1,16 @@
+CLASS awg awg
+	METHOD <init> <init> (Lave;IIIIILawg$b;[[Lawg$f;)V
+	METHOD e b (I)Lawg$d;
+	CLASS a a
+		METHOD <init> <init> (ILjava/lang/String;ZZ)V
+	CLASS b b
+	CLASS c c
+		METHOD <init> <init> (ILjava/lang/String;ZLcom/google/common/base/Predicate;)V
+	CLASS d d
+		METHOD <init> <init> (Lavp;Lavp;)V
+	CLASS e e
+		METHOD <init> <init> (ILjava/lang/String;Z)V
+	CLASS f f
+		METHOD <init> <init> (ILjava/lang/String;Z)V
+	CLASS g g
+		METHOD <init> <init> (ILjava/lang/String;ZLavx$a;FFF)V

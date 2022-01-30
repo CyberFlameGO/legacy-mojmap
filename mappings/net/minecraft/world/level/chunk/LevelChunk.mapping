@@ -1,0 +1,55 @@
+CLASS amy net/minecraft/world/level/chunk/LevelChunk
+	FIELD a locX I
+	FIELD b locZ I
+	FIELD d sections [Lamz;
+	FIELD i world Ladm;
+	FIELD j heightMap [I
+	FIELD l tileEntities Ljava/util/Map;
+	FIELD m entitySlices [Lne;
+	FIELD n done Z
+	FIELD o lit Z
+	FIELD s lastSaved J
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ladm;II)V
+	METHOD <init> <init> (Ladm;Lans;II)V
+	METHOD a getTypeAbs (III)Lafh;
+	METHOD a getBrightness (Lads;Lcj;)I
+	METHOD a loadNearby (Lamv;Lamv;II)V
+	METHOD a getType (Lcj;)Lafh;
+	METHOD a getBiome (Lcj;Laec;)Lady;
+	METHOD a removeEntity (Lpk;I)V
+	METHOD b initLighting ()V
+	METHOD b setLastSaved (J)V
+	METHOD b removeEntity (Lpk;)V
+	METHOD c addEntities ()V
+	METHOD d removeEntities ()V
+	METHOD f isEmpty ()Z
+	METHOD f getType (III)Lafh;
+	METHOD g getBlockData (Lcj;)Lalz;
+	METHOD h getSections ()[Lamz;
+	METHOD i isReady ()Z
+	METHOD k getBiomeIndex ()[B
+	METHOD p getWorld ()Ladm;
+	METHOD r getTileEntities ()Ljava/util/Map;
+	METHOD s getEntitySlices ()[Lne;
+	METHOD t isDone ()Z
+	CLASS 1 1
+		METHOD <init> <init> (Lamy;III)V
+		METHOD a call ()Ljava/lang/String;
+		METHOD call call ()Ljava/lang/Object;
+	CLASS 2 2
+		METHOD <init> <init> (Lamy;Lcj;)V
+		METHOD a call ()Ljava/lang/String;
+		METHOD call call ()Ljava/lang/Object;
+	CLASS 3 3
+		METHOD <init> <init> (Lamy;Lcj;)V
+		METHOD a call ()Ljava/lang/String;
+		METHOD call call ()Ljava/lang/Object;
+	CLASS a EntityCreationType
+		FIELD a IMMEDIATE Lamy$a;
+		FIELD b QUEUED Lamy$a;
+		FIELD c CHECK Lamy$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lamy$a;
+		METHOD values values ()[Lamy$a;

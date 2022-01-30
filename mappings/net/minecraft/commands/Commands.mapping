@@ -1,0 +1,2 @@
+CLASS bd net/minecraft/commands/Commands
+	METHOD <init> <init> ()V

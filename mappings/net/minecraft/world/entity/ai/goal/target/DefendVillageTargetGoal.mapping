@@ -1,0 +1,2 @@
+CLASS sl net/minecraft/world/entity/ai/goal/target/DefendVillageTargetGoal
+	METHOD <init> <init> (Lty;)V

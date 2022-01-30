@@ -1,1 +1,2 @@
 CLASS zl net/minecraft/server/ItemExpBottle
+	METHOD <init> <init> ()V

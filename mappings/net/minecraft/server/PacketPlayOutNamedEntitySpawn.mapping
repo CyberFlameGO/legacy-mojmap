@@ -1,1 +1,3 @@
 CLASS fp net/minecraft/server/PacketPlayOutNamedEntitySpawn
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lwn;)V

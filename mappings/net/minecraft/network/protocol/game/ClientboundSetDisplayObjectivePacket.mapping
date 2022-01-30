@@ -1,0 +1,3 @@
+CLASS hj net/minecraft/network/protocol/game/ClientboundSetDisplayObjectivePacket
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILauk;)V

@@ -1,0 +1,7 @@
+CLASS fg net/minecraft/network/protocol/PacketFlow
+	FIELD a SERVERBOUND Lfg;
+	FIELD b CLIENTBOUND Lfg;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lfg;
+	METHOD values values ()[Lfg;

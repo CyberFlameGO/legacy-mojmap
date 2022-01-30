@@ -1,0 +1,6 @@
+CLASS bqm bqm
+	CLASS a a
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbqm$a;
+		METHOD values values ()[Lbqm$a;

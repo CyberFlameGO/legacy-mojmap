@@ -1,0 +1,22 @@
+CLASS bcy bcy
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lave;Laxu;Lek;Lcom/mojang/authlib/GameProfile;)V
+	CLASS 1 1
+		METHOD <init> <init> (Lbcy;Ljava/lang/String;)V
+		METHOD onFailure onFailure (Ljava/lang/Throwable;)V
+		METHOD onSuccess onSuccess (Ljava/lang/Object;)V
+	CLASS 2 2
+		METHOD <init> <init> (Lbcy;Ljava/lang/String;)V
+		METHOD onFailure onFailure (Ljava/lang/Throwable;)V
+		METHOD onSuccess onSuccess (Ljava/lang/Object;)V
+	CLASS 3 3
+		METHOD <init> <init> (Lbcy;Ljava/lang/String;Ljava/lang/String;)V
+		METHOD run run ()V
+		CLASS 1 1
+			METHOD <init> <init> (Lbcy$3;)V
+			CLASS 1 1
+				METHOD <init> <init> (Lbcy$3$1;)V
+				METHOD onFailure onFailure (Ljava/lang/Throwable;)V
+				METHOD onSuccess onSuccess (Ljava/lang/Object;)V
+	CLASS 4 4
+		METHOD <clinit> <clinit> ()V

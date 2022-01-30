@@ -1,0 +1,4 @@
+CLASS en net/minecraft/network/PacketDecoder
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lfg;)V
+	METHOD decode decode (Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Ljava/util/List;)V

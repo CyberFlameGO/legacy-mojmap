@@ -1,1 +1,2 @@
 CLASS aby net/minecraft/server/RecipesTools
+	METHOD <init> <init> ()V

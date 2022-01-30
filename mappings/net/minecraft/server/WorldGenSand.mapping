@@ -1,1 +1,3 @@
 CLASS apo net/minecraft/server/WorldGenSand
+	METHOD <init> <init> (Lafh;I)V
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

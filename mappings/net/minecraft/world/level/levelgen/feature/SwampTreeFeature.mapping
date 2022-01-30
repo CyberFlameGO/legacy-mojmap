@@ -1,0 +1,4 @@
+CLASS apt net/minecraft/world/level/levelgen/feature/SwampTreeFeature
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

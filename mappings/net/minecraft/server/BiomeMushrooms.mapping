@@ -1,1 +1,2 @@
 CLASS ael net/minecraft/server/BiomeMushrooms
+	METHOD <init> <init> (I)V

@@ -1,1 +1,3 @@
 CLASS gq net/minecraft/server/PacketPlayOutWorldEvent
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILcj;IZ)V

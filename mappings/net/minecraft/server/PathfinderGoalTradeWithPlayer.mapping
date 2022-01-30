@@ -1,1 +1,2 @@
 CLASS si net/minecraft/server/PathfinderGoalTradeWithPlayer
+	METHOD <init> <init> (Lwi;)V

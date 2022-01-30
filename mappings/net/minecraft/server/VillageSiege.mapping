@@ -1,1 +1,2 @@
 CLASS tg net/minecraft/server/VillageSiege
+	METHOD <init> <init> (Ladm;)V

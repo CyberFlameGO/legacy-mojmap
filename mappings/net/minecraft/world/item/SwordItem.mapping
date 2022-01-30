@@ -1,0 +1,4 @@
+CLASS aay net/minecraft/world/item/SwordItem
+	METHOD <init> <init> (Lzw$a;)V
+	METHOD a getDestroySpeed (Lzx;Lafh;)F
+	METHOD b canDestroySpecialBlock (Lafh;)Z

@@ -1,0 +1,3 @@
+CLASS blk blk
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbkl;)V

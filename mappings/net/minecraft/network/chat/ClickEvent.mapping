@@ -1,0 +1,16 @@
+CLASS et net/minecraft/network/chat/ClickEvent
+	METHOD <init> <init> (Let$a;Ljava/lang/String;)V
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS a Action
+		FIELD a OPEN_URL Let$a;
+		FIELD b OPEN_FILE Let$a;
+		FIELD c RUN_COMMAND Let$a;
+		FIELD d TWITCH_USER_INFO Let$a;
+		FIELD e SUGGEST_COMMAND Let$a;
+		FIELD f CHANGE_PAGE Let$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Z)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Let$a;
+		METHOD values values ()[Let$a;

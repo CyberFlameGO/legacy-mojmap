@@ -1,0 +1,2 @@
+CLASS ata net/minecraft/world/level/pathfinder/WalkNodeEvaluator
+	METHOD <init> <init> ()V

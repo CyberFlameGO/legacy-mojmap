@@ -1,0 +1,5 @@
+CLASS axn axn
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Laxu;Lavh;)V
+	CLASS 1 1
+		METHOD <init> <init> (Laxn;IIIIILjava/lang/String;)V

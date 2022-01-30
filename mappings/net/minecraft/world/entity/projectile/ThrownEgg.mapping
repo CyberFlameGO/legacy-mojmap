@@ -1,0 +1,4 @@
+CLASS wz net/minecraft/world/entity/projectile/ThrownEgg
+	METHOD <init> <init> (Ladm;)V
+	METHOD <init> <init> (Ladm;DDD)V
+	METHOD <init> <init> (Ladm;Lpr;)V

@@ -1,0 +1,8 @@
+CLASS ct net/minecraft/util/CrudeIncrementalIntIdentityHashBiMap
+	FIELD a idMap Ljava/util/IdentityHashMap;
+	FIELD b list Ljava/util/List;
+	METHOD <init> <init> ()V
+	METHOD a byId (I)Ljava/lang/Object;
+	METHOD a set (Ljava/lang/Object;I)V
+	METHOD b getId (Ljava/lang/Object;)I
+	METHOD iterator iterator ()Ljava/util/Iterator;

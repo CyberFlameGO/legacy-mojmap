@@ -1,0 +1,4 @@
+CLASS aup net/minecraft/world/scores/ScoreboardSaveData
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/lang/String;)V

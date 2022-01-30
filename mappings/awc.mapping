@@ -1,0 +1,7 @@
+CLASS awc awc
+	METHOD <init> <init> (III)V
+	CLASS a a
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;III)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lawc$a;
+		METHOD values values ()[Lawc$a;

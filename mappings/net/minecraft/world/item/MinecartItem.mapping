@@ -1,0 +1,6 @@
+CLASS aad net/minecraft/world/item/MinecartItem
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lva$a;)V
+	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z
+	CLASS 1 1
+		METHOD <init> <init> ()V

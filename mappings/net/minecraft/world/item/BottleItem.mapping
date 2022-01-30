@@ -1,0 +1,2 @@
+CLASS ys net/minecraft/world/item/BottleItem
+	METHOD <init> <init> ()V

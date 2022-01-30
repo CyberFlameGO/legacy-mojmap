@@ -1,0 +1,13 @@
+CLASS net/minecraft/realms/RealmsEditBox net/minecraft/realms/RealmsEditBox
+	FIELD editBox editBox Lavw;
+	METHOD <init> <init> (IIIII)V
+	METHOD getValue getValue ()Ljava/lang/String;
+	METHOD isFocused isFocused ()Z
+	METHOD keyPressed keyPressed (CI)V
+	METHOD mouseClicked mouseClicked (III)V
+	METHOD render render ()V
+	METHOD setFocus setFocus (Z)V
+	METHOD setIsEditable setIsEditable (Z)V
+	METHOD setMaxLength setMaxLength (I)V
+	METHOD setValue setValue (Ljava/lang/String;)V
+	METHOD tick tick ()V

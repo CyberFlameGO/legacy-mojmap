@@ -1,1 +1,2 @@
 CLASS ask net/minecraft/server/GenLayerRiverMix
+	METHOD <init> <init> (JLase;Lase;)V

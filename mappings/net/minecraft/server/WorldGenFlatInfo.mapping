@@ -1,3 +1,5 @@
 CLASS apz net/minecraft/server/WorldGenFlatInfo
 	FIELD a layers Ljava/util/List;
 	FIELD b structures Ljava/util/Map;
+	METHOD <init> <init> ()V
+	METHOD toString toString ()Ljava/lang/String;

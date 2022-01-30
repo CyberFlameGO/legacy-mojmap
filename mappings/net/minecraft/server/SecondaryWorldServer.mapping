@@ -1,2 +1,4 @@
 CLASS kz net/minecraft/server/SecondaryWorldServer
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Latp;ILle;Lnt;)V
 	CLASS 1 1
+		METHOD <init> <init> (Lkz;)V

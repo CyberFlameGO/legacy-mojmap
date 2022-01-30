@@ -1,0 +1,3 @@
+CLASS ang net/minecraft/world/level/chunk/storage/OldChunkStorage
+	CLASS a OldLevelChunk
+		METHOD <init> <init> (II)V

@@ -1,0 +1,2 @@
+CLASS ta net/minecraft/world/entity/ai/sensing/Sensing
+	METHOD <init> <init> (Lps;)V

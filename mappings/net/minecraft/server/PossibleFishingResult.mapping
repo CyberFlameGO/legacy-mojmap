@@ -1,1 +1,2 @@
 CLASS us net/minecraft/server/PossibleFishingResult
+	METHOD <init> <init> (Lzx;I)V

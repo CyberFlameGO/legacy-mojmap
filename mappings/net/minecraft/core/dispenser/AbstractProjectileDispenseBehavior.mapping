@@ -1,0 +1,3 @@
+CLASS ka net/minecraft/core/dispenser/AbstractProjectileDispenseBehavior
+	METHOD <init> <init> ()V
+	METHOD b getPower ()F

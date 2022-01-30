@@ -1,2 +1,3 @@
 CLASS xw net/minecraft/server/ContainerHopper
 	FIELD a hopper Log;
+	METHOD <init> <init> (Lwm;Log;Lwn;)V

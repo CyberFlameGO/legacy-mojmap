@@ -1,0 +1,5 @@
+CLASS bea bea
+	METHOD <init> <init> (Ladm;DDDDDD)V
+	METHOD <init> <init> (Ladm;DDDDDDF)V
+	CLASS a a
+		METHOD <init> <init> ()V

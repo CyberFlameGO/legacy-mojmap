@@ -1,0 +1,5 @@
+CLASS se net/minecraft/world/entity/ai/goal/SitGoal
+	FIELD a entity Lqa;
+	FIELD b willSit Z
+	METHOD <init> <init> (Lqa;)V
+	METHOD a setSitting (Z)V

@@ -1,3 +1,4 @@
 CLASS alm net/minecraft/server/TileEntityNote
 	FIELD a note B
+	METHOD <init> <init> ()V
 	METHOD a play (Ladm;Lcj;)V

@@ -1,2 +1,3 @@
 CLASS xo net/minecraft/server/ContainerChest
 	FIELD a container Log;
+	METHOD <init> <init> (Log;Log;Lwn;)V

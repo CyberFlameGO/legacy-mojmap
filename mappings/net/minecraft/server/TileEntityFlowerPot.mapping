@@ -1,1 +1,4 @@
 CLASS alg net/minecraft/server/TileEntityFlowerPot
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lzw;I)V
+	METHOD y_ getUpdatePacket ()Lff;

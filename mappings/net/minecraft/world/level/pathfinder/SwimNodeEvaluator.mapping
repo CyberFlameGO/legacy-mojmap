@@ -1,0 +1,2 @@
+CLASS asz net/minecraft/world/level/pathfinder/SwimNodeEvaluator
+	METHOD <init> <init> ()V

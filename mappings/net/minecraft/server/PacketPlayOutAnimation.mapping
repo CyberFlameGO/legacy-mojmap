@@ -1,1 +1,3 @@
 CLASS fq net/minecraft/server/PacketPlayOutAnimation
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lpk;I)V

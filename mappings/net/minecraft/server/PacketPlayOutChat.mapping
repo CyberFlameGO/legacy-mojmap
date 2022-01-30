@@ -1,1 +1,4 @@
 CLASS fy net/minecraft/server/PacketPlayOutChat
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Leu;)V
+	METHOD <init> <init> (Leu;B)V

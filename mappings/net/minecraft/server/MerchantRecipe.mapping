@@ -5,6 +5,11 @@ CLASS acz net/minecraft/server/MerchantRecipe
 	FIELD d uses I
 	FIELD e maxUses I
 	FIELD f rewardExp Z
+	METHOD <init> <init> (Ldn;)V
+	METHOD <init> <init> (Lzx;Lzw;)V
+	METHOD <init> <init> (Lzx;Lzx;)V
+	METHOD <init> <init> (Lzx;Lzx;Lzx;)V
+	METHOD <init> <init> (Lzx;Lzx;Lzx;II)V
 	METHOD a getBuyItem1 ()Lzx;
 	METHOD b getBuyItem2 ()Lzx;
 	METHOD c hasSecondItem ()Z

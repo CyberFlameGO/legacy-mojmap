@@ -1,0 +1,4 @@
+CLASS gm net/minecraft/network/protocol/game/ClientboundGameEventPacket
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (IF)V

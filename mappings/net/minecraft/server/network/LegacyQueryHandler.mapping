@@ -1,0 +1,4 @@
+CLASS lj net/minecraft/server/network/LegacyQueryHandler
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lll;)V
+	METHOD channelRead channelRead (Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;)V

@@ -1,1 +1,2 @@
 CLASS arq net/minecraft/server/GenLayerDeepOcean
+	METHOD <init> <init> (JLase;)V

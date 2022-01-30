@@ -1,1 +1,2 @@
 CLASS aek net/minecraft/server/BiomeMesa
+	METHOD <init> <init> (IZZ)V

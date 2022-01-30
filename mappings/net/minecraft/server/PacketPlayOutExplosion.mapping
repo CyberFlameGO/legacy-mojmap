@@ -1,1 +1,3 @@
 CLASS gk net/minecraft/server/PacketPlayOutExplosion
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (DDDFLjava/util/List;Laui;)V

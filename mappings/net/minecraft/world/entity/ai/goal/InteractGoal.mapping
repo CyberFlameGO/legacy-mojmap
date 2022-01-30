@@ -1,0 +1,2 @@
+CLASS rg net/minecraft/world/entity/ai/goal/InteractGoal
+	METHOD <init> <init> (Lps;Ljava/lang/Class;FF)V

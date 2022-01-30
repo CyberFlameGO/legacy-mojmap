@@ -1,1 +1,2 @@
 CLASS adn net/minecraft/server/ExceptionWorldConflict
+	METHOD <init> <init> (Ljava/lang/String;)V

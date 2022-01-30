@@ -1,0 +1,3 @@
+CLASS bne bne
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V

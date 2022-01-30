@@ -1,1 +1,5 @@
 CLASS gc net/minecraft/server/PacketPlayOutOpenWindow
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILjava/lang/String;Leu;)V
+	METHOD <init> <init> (ILjava/lang/String;Leu;I)V
+	METHOD <init> <init> (ILjava/lang/String;Leu;II)V

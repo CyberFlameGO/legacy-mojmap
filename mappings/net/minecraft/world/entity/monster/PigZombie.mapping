@@ -1,0 +1,16 @@
+CLASS vw net/minecraft/world/entity/monster/PigZombie
+	FIELD bm angerLevel I
+	FIELD bn soundDelay I
+	FIELD bo hurtBy Ljava/util/UUID;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ladm;)V
+	METHOD a prepare (Lok;Lpu;)Lpu;
+	METHOD a damageEntity (Low;F)Z
+	METHOD aX initAttributes ()V
+	METHOD b dropDeathLoot (ZI)V
+	METHOD bS canSpawn ()Z
+	METHOD bq getRareDrop ()V
+	CLASS a PigZombieAngerTargetGoal
+		METHOD <init> <init> (Lvw;)V
+	CLASS b PigZombieHurtByOtherGoal
+		METHOD <init> <init> (Lvw;)V

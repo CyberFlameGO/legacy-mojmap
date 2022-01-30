@@ -1,0 +1,3 @@
+CLASS aeu net/minecraft/world/level/biome/TaigaBiome
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (II)V

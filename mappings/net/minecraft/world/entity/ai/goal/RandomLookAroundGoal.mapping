@@ -1,0 +1,2 @@
+CLASS ry net/minecraft/world/entity/ai/goal/RandomLookAroundGoal
+	METHOD <init> <init> (Lps;)V

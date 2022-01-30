@@ -1,1 +1,4 @@
 CLASS fk net/minecraft/server/PacketPlayOutSpawnEntity
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lpk;I)V
+	METHOD <init> <init> (Lpk;II)V

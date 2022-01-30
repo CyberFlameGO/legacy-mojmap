@@ -1,1 +1,4 @@
 CLASS hm net/minecraft/server/PacketPlayOutEntityVelocity
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (IDDD)V
+	METHOD <init> <init> (Lpk;)V

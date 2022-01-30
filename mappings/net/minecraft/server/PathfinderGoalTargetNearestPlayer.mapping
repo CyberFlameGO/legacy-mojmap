@@ -1,2 +1,7 @@
 CLASS so net/minecraft/server/PathfinderGoalTargetNearestPlayer
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lps;)V
 	CLASS 1 1
+		METHOD <init> <init> (Lso;)V
+		METHOD a apply (Lpk;)Z
+		METHOD apply apply (Ljava/lang/Object;)Z

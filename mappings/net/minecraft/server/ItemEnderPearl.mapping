@@ -1,1 +1,2 @@
 CLASS zk net/minecraft/server/ItemEnderPearl
+	METHOD <init> <init> ()V

@@ -1,0 +1,15 @@
+CLASS aqq net/minecraft/world/level/levelgen/feature/StructureFeature
+	METHOD <init> <init> ()V
+	METHOD b getNearestGeneratedFeature (Ladm;Lcj;)Lcj;
+	CLASS 1 1
+		METHOD <init> <init> (Laqq;II)V
+		METHOD a call ()Ljava/lang/String;
+		METHOD call call ()Ljava/lang/Object;
+	CLASS 2 2
+		METHOD <init> <init> (Laqq;II)V
+		METHOD a call ()Ljava/lang/String;
+		METHOD call call ()Ljava/lang/Object;
+	CLASS 3 3
+		METHOD <init> <init> (Laqq;)V
+		METHOD a call ()Ljava/lang/String;
+		METHOD call call ()Ljava/lang/Object;

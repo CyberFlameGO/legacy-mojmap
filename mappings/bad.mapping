@@ -1,0 +1,2 @@
+CLASS bad bad
+	METHOD <init> <init> (Lcom/mojang/authlib/GameProfile;)V

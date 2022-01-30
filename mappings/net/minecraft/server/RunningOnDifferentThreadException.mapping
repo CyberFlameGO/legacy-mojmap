@@ -1,0 +1,5 @@
+CLASS ki net/minecraft/server/RunningOnDifferentThreadException
+	FIELD a INSTANCE Lki;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD fillInStackTrace fillInStackTrace ()Ljava/lang/Throwable;

@@ -1,0 +1,7 @@
+CLASS bnr
+	METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+	METHOD a compareTo (Lbnr;)I
+	METHOD compareTo compareTo (Ljava/lang/Object;)I
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

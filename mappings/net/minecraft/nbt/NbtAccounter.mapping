@@ -1,0 +1,5 @@
+CLASS dw net/minecraft/nbt/NbtAccounter
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (J)V
+	CLASS 1 1
+		METHOD <init> <init> (J)V

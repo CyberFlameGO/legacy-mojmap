@@ -1,0 +1,12 @@
+CLASS bgp bgp
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	CLASS 1 1
+		METHOD <clinit> <clinit> ()V
+	CLASS a a
+		METHOD <init> <init> (Lbgp$b;II)V
+	CLASS b b
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILcq;II)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbgp$b;
+		METHOD values values ()[Lbgp$b;

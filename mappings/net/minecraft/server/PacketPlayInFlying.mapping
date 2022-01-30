@@ -6,6 +6,14 @@ CLASS ip net/minecraft/server/PacketPlayInFlying
 	FIELD e pitch F
 	FIELD g hasPos Z
 	FIELD h hasLook Z
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Z)V
 	CLASS a PacketPlayInPosition
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (DDDZ)V
 	CLASS b PacketPlayInPositionLook
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (DDDFFZ)V
 	CLASS c PacketPlayInLook
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (FFZ)V

@@ -1,9 +1,10 @@
 CLASS net/minecraft/client/main/Main net/minecraft/client/main/Main
+	METHOD <init> <init> ()V
 	METHOD a isNotNullOrEmpty (Ljava/lang/String;)Z
-		ARG 0 string
 	METHOD main main ([Ljava/lang/String;)V
-		ARG 0 args
-	CLASS 1
+	CLASS 1 1
+		METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;)V
 		METHOD getPasswordAuthentication getPasswordAuthentication ()Ljava/net/PasswordAuthentication;
-	CLASS 2
+	CLASS 2 2
+		METHOD <init> <init> (Ljava/lang/String;)V
 		METHOD run run ()V

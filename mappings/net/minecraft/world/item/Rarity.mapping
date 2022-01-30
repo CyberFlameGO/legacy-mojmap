@@ -1,0 +1,9 @@
+CLASS aaj net/minecraft/world/item/Rarity
+	FIELD a COMMON Laaj;
+	FIELD b UNCOMMON Laaj;
+	FIELD c RARE Laaj;
+	FIELD d EPIC Laaj;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILa;Ljava/lang/String;)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Laaj;
+	METHOD values values ()[Laaj;

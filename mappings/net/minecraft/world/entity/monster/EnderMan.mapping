@@ -1,0 +1,21 @@
+CLASS vo net/minecraft/world/entity/monster/EnderMan
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ladm;)V
+	METHOD A getLoot ()Lzw;
+	METHOD a setCarried (Lalz;)V
+	METHOD a damageEntity (Low;F)Z
+	METHOD aS getHeadHeight ()F
+	METHOD aX initAttributes ()V
+	METHOD b dropDeathLoot (ZI)V
+	METHOD cm getCarried ()Lalz;
+	CLASS 1 1
+		METHOD <init> <init> (Lvo;)V
+		METHOD a apply (Lvp;)Z
+		METHOD apply apply (Ljava/lang/Object;)Z
+	CLASS a EndermanLeaveBlockGoal
+		METHOD <init> <init> (Lvo;)V
+	CLASS b EndermanLookForPlayerGoal
+		METHOD <init> <init> (Lvo;)V
+	CLASS c EndermanTakeBlockGoal
+		FIELD a enderman Lvo;
+		METHOD <init> <init> (Lvo;)V

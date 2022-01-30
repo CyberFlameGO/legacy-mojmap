@@ -1,1 +1,3 @@
 CLASS hc net/minecraft/server/PacketPlayOutRemoveEntityEffect
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILpf;)V

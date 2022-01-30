@@ -1,0 +1,9 @@
+CLASS xg net/minecraft/world/food/FoodData
+	FIELD a foodLevel I
+	FIELD b saturationLevel F
+	FIELD c exhaustionLevel F
+	FIELD d foodTickTimer I
+	METHOD <init> <init> ()V
+	METHOD a getFoodLevel ()I
+	METHOD a eat (IF)V
+	METHOD e getSaturationLevel ()F

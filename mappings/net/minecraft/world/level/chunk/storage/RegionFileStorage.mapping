@@ -1,0 +1,2 @@
+CLASS ani net/minecraft/world/level/chunk/storage/RegionFileStorage
+	METHOD <clinit> <clinit> ()V

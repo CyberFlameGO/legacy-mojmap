@@ -1,0 +1,6 @@
+CLASS g net/minecraft/Util
+	CLASS a a
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lg$a;
+		METHOD values values ()[Lg$a;

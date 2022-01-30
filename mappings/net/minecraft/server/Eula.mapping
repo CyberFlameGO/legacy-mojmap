@@ -1,0 +1,8 @@
+CLASS kf net/minecraft/server/Eula
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b file Ljava/io/File;
+	FIELD c agreed Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/io/File;)V
+	METHOD a agreed ()Z
+	METHOD a load (Ljava/io/File;)Z

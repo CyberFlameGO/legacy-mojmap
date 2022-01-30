@@ -1,1 +1,2 @@
 CLASS aes net/minecraft/server/BiomeStoneBeach
+	METHOD <init> <init> (I)V

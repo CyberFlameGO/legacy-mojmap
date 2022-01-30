@@ -1,0 +1,52 @@
+CLASS cq net/minecraft/core/Direction
+	FIELD a DOWN Lcq;
+	FIELD b UP Lcq;
+	FIELD c NORTH Lcq;
+	FIELD d SOUTH Lcq;
+	FIELD e WEST Lcq;
+	FIELD f EAST Lcq;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;IIIILjava/lang/String;Lcq$b;Lcq$a;Ldf;)V
+	METHOD a fromAngle (D)Lcq;
+	METHOD a fromType1 (I)Lcq;
+	METHOD b fromType2 (I)Lcq;
+	METHOD d opposite ()Lcq;
+	METHOD g getAdjacentX ()I
+	METHOD h getAdjacentY ()I
+	METHOD i getAdjacentZ ()I
+	METHOD l getName ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcq;
+	METHOD values values ()[Lcq;
+	CLASS 1 1
+		METHOD <clinit> <clinit> ()V
+	CLASS a Axis
+		FIELD a X Lcq$a;
+		FIELD b Y Lcq$a;
+		FIELD c Z Lcq$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Lcq$c;)V
+		METHOD a apply (Lcq;)Z
+		METHOD apply apply (Ljava/lang/Object;)Z
+		METHOD l getName ()Ljava/lang/String;
+		METHOD toString toString ()Ljava/lang/String;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcq$a;
+		METHOD values values ()[Lcq$a;
+	CLASS b AxisDirection
+		FIELD a POSITIVE Lcq$b;
+		FIELD b NEGATIVE Lcq$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;)V
+		METHOD toString toString ()Ljava/lang/String;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcq$b;
+		METHOD values values ()[Lcq$b;
+	CLASS c Plane
+		FIELD a HORIZONTAL Lcq$c;
+		FIELD b VERTICAL Lcq$c;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a apply (Lcq;)Z
+		METHOD apply apply (Ljava/lang/Object;)Z
+		METHOD iterator iterator ()Ljava/util/Iterator;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcq$c;
+		METHOD values values ()[Lcq$c;

@@ -1,0 +1,2 @@
+CLASS rr net/minecraft/world/entity/ai/goal/OcelotAttackGoal
+	METHOD <init> <init> (Lps;)V

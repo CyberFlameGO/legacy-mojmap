@@ -1,0 +1,3 @@
+CLASS ako net/minecraft/world/level/block/WebBlock
+	METHOD <init> <init> ()V
+	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;

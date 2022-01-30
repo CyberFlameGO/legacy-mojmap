@@ -1,3 +1,5 @@
 CLASS zs net/minecraft/server/ItemFood
+	METHOD <init> <init> (IFZ)V
+	METHOD <init> <init> (IZ)V
 	METHOD h getNutrition (Lzx;)I
 	METHOD i getSaturationModifier (Lzx;)F

@@ -1,1 +1,2 @@
 CLASS aie net/minecraft/server/BlockBloodStone
+	METHOD <init> <init> ()V

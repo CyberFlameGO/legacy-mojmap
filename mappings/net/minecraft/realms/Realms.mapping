@@ -1,12 +1,10 @@
 CLASS net/minecraft/realms/Realms net/minecraft/realms/Realms
-	COMMENT Helper methods for Realms
+	METHOD <init> <init> ()V
 	METHOD adventureId getAdventureModeId ()I
 	METHOD clearResourcePack clearResourcePack ()V
 	METHOD creativeId getCreativeModeId ()I
 	METHOD currentTimeMillis currentTimeMillis ()J
 	METHOD downloadResourcePack downloadResourcePack (Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/util/concurrent/ListenableFuture;
-		ARG 0 url
-		ARG 1 hash
 	METHOD getGameDirectoryPath getGameDirectoryPath ()Ljava/lang/String;
 	METHOD getName getName ()Ljava/lang/String;
 	METHOD getProxy getProxy ()Ljava/net/Proxy;
@@ -15,11 +13,8 @@ CLASS net/minecraft/realms/Realms net/minecraft/realms/Realms
 	METHOD isTouchScreen isTouchScreen ()Z
 	METHOD sessionId getSessionIdOrNull ()Ljava/lang/String;
 	METHOD setConnectedToRealms setConnectedToRealms (Z)V
-		ARG 0 connectedToRealms
 	METHOD setScreen setScreen (Lnet/minecraft/realms/RealmsScreen;)V
-		ARG 0 screen
 	METHOD spectatorId getSpectatorModeId ()I
 	METHOD survivalId getSurvivalModeId ()I
 	METHOD userName getNameOrNull ()Ljava/lang/String;
 	METHOD uuidToName getNameFromUUID (Ljava/lang/String;)Ljava/lang/String;
-		ARG 0 uuid

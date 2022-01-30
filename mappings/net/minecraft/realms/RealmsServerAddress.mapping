@@ -1,0 +1,7 @@
+CLASS net/minecraft/realms/RealmsServerAddress net/minecraft/realms/RealmsServerAddress
+	FIELD host host Ljava/lang/String;
+	FIELD port port I
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD getHost getHost ()Ljava/lang/String;
+	METHOD getPort getPort ()I
+	METHOD parseString parseString (Ljava/lang/String;)Lnet/minecraft/realms/RealmsServerAddress;

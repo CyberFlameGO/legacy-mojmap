@@ -1,1 +1,2 @@
 CLASS sg net/minecraft/server/PathfinderGoalTakeFlower
+	METHOD <init> <init> (Lwi;)V

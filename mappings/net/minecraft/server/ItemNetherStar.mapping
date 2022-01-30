@@ -1,1 +1,2 @@
 CLASS aas net/minecraft/server/ItemNetherStar
+	METHOD <init> <init> ()V

@@ -1,0 +1,3 @@
+CLASS tq net/minecraft/world/entity/animal/AbstractGolem
+	METHOD <init> <init> (Ladm;)V
+	METHOD C isTypeNotPersistent ()Z

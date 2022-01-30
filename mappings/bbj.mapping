@@ -1,0 +1,4 @@
+CLASS bbj bbj
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (F)V
+	METHOD <init> <init> (FFII)V

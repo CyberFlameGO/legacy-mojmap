@@ -1,0 +1,2 @@
+CLASS rp net/minecraft/world/entity/ai/goal/MoveTowardsRestrictionGoal
+	METHOD <init> <init> (Lpy;D)V

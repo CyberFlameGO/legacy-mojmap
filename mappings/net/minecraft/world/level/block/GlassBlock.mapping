@@ -1,0 +1,2 @@
+CLASS ahc net/minecraft/world/level/block/GlassBlock
+	METHOD <init> <init> (Larm;Z)V

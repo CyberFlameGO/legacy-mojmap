@@ -1,0 +1,5 @@
+CLASS mv net/minecraft/stats/ServerStatsCounter
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Ljava/io/File;)V
+	METHOD a setStatistic (Lwn;Lmw;I)V
+	METHOD b updateStatistics (Llf;)V

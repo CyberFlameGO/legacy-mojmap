@@ -1,0 +1,2 @@
+CLASS avr avr
+	METHOD <init> <init> (Lave;)V

@@ -1,0 +1,4 @@
+CLASS e net/minecraft/ReportedException
+	METHOD <init> <init> (Lb;)V
+	METHOD getCause getCause ()Ljava/lang/Throwable;
+	METHOD getMessage getMessage ()Ljava/lang/String;

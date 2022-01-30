@@ -1,1 +1,3 @@
 CLASS hx net/minecraft/server/PacketPlayOutPlayerListHeaderFooter
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Leu;)V

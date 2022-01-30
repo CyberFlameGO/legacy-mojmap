@@ -1,1 +1,3 @@
 CLASS aox net/minecraft/server/WorldGenLightStone2
+	METHOD <init> <init> ()V
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

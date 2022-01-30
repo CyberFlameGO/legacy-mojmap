@@ -1,0 +1,9 @@
+CLASS ws net/minecraft/world/entity/projectile/AbstractHurtingProjectile
+	FIELD a shooter Lpr;
+	FIELD b dirX D
+	FIELD c dirY D
+	FIELD d dirZ D
+	METHOD <init> <init> (Ladm;)V
+	METHOD <init> <init> (Ladm;DDDDDD)V
+	METHOD <init> <init> (Ladm;Lpr;DDD)V
+	METHOD a damageEntity (Low;F)Z

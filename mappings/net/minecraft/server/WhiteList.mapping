@@ -1,2 +1,7 @@
 CLASS me net/minecraft/server/WhiteList
+	METHOD <init> <init> (Ljava/io/File;)V
+	METHOD a getEntries ()[Ljava/lang/String;
+	METHOD a getEntryFromObject (Lcom/google/gson/JsonObject;)Lma;
 	METHOD a isWhitelisted (Lcom/mojang/authlib/GameProfile;)Z
+	METHOD a getProfileUUID (Ljava/lang/Object;)Ljava/lang/String;
+	METHOD b getProfileUUID (Lcom/mojang/authlib/GameProfile;)Ljava/lang/String;

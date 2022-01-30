@@ -1,1 +1,2 @@
 CLASS aeq net/minecraft/server/BiomeRiver
+	METHOD <init> <init> (I)V

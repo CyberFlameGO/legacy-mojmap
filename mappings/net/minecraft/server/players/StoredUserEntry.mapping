@@ -1,0 +1,5 @@
+CLASS ma net/minecraft/server/players/StoredUserEntry
+	METHOD <init> <init> (Ljava/lang/Object;)V
+	METHOD <init> <init> (Ljava/lang/Object;Lcom/google/gson/JsonObject;)V
+	METHOD e hasExpired ()Z
+	METHOD f getKey ()Ljava/lang/Object;

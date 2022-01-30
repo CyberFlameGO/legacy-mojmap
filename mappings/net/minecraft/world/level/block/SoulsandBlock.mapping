@@ -1,0 +1,2 @@
+CLASS ajq net/minecraft/world/level/block/SoulsandBlock
+	METHOD <init> <init> ()V

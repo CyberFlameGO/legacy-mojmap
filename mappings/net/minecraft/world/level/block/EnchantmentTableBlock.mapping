@@ -1,0 +1,4 @@
+CLASS agm net/minecraft/world/level/block/EnchantmentTableBlock
+	METHOD <init> <init> ()V
+	METHOD a postPlace (Ladm;Lcj;Lalz;Lpr;Lzx;)V
+	METHOD a interact (Ladm;Lcj;Lalz;Lwn;Lcq;FFF)Z

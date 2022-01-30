@@ -1,0 +1,5 @@
+CLASS ayo ayo
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lwn;Lzx;Z)V
+	CLASS a a
+		METHOD <init> <init> (IIIZ)V

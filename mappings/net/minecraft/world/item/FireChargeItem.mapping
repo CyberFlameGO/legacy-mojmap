@@ -1,0 +1,3 @@
+CLASS zm net/minecraft/world/item/FireChargeItem
+	METHOD <init> <init> ()V
+	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z

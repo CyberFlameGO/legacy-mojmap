@@ -1,0 +1,2 @@
+CLASS qz net/minecraft/world/entity/ai/goal/FleeSunGoal
+	METHOD <init> <init> (Lpy;D)V

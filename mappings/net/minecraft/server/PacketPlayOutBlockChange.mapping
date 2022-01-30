@@ -1,2 +1,4 @@
 CLASS fv net/minecraft/server/PacketPlayOutBlockChange
 	FIELD b block Lalz;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ladm;Lcj;)V

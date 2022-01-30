@@ -1,0 +1,10 @@
+CLASS bdk bdk
+	METHOD <init> <init> (Ladm;DDDDDDLzw;I)V
+	METHOD <init> <init> (Ladm;DDDLzw;)V
+	METHOD <init> <init> (Ladm;DDDLzw;I)V
+	CLASS a a
+		METHOD <init> <init> ()V
+	CLASS b b
+		METHOD <init> <init> ()V
+	CLASS c c
+		METHOD <init> <init> ()V

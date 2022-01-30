@@ -1,0 +1,4 @@
+CLASS apf net/minecraft/world/level/levelgen/feature/MegaPineTreeFeature
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ZZ)V
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

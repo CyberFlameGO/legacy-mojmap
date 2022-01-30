@@ -1,0 +1,39 @@
+CLASS ahz net/minecraft/world/level/block/InfestedBlock
+	FIELD a VARIANT Lamm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a dropNaturally (Ladm;Lcj;Lalz;FI)V
+	METHOD c toLegacyData (Lalz;)I
+	METHOD e getStateList ()Lama;
+	METHOD j getDropData (Ladm;Lcj;)I
+	CLASS 1 1
+		METHOD <clinit> <clinit> ()V
+	CLASS a EnumMonsterEggVarient
+		FIELD a STONE Lahz$a;
+		FIELD b COBBLESTONE Lahz$a;
+		FIELD c STONEBRICK Lahz$a;
+		FIELD d MOSSY_STONEBRICK Lahz$a;
+		FIELD e CRACKED_STONEBRICK Lahz$a;
+		FIELD f CHISELED_STONEBRICK Lahz$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;)V
+		METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;Lahz$1;)V
+		METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;)V
+		METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;Lahz$1;)V
+		METHOD l getName ()Ljava/lang/String;
+		METHOD toString toString ()Ljava/lang/String;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lahz$a;
+		METHOD values values ()[Lahz$a;
+		CLASS 1 1
+			METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;)V
+		CLASS 2 2
+			METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;)V
+		CLASS 3 3
+			METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;)V
+		CLASS 4 4
+			METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;)V
+		CLASS 5 5
+			METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;)V
+		CLASS 6 6
+			METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;)V

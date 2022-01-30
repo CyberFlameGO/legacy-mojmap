@@ -1,0 +1,12 @@
+CLASS baa baa
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Laxu;Lbaa$a;)V
+	METHOD <init> <init> (Laxu;Lbaa$a;Ljava/util/List;)V
+	CLASS 1 1
+		METHOD <clinit> <clinit> ()V
+	CLASS a a
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILeu;)V
+		METHOD <init> <init> (Ljava/lang/String;ILeu;Leu;)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbaa$a;
+		METHOD values values ()[Lbaa$a;

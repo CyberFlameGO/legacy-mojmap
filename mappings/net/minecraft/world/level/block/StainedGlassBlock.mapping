@@ -1,0 +1,10 @@
+CLASS ajs net/minecraft/world/level/block/StainedGlassBlock
+	FIELD a COLOR Lamm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Larm;)V
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a getDropData (Lalz;)I
+	METHOD b remove (Ladm;Lcj;Lalz;)V
+	METHOD c onPlace (Ladm;Lcj;Lalz;)V
+	METHOD c toLegacyData (Lalz;)I
+	METHOD e getStateList ()Lama;

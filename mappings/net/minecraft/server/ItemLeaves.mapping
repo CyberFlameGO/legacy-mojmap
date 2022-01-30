@@ -1,1 +1,3 @@
 CLASS aaa net/minecraft/server/ItemLeaves
+	METHOD <init> <init> (Lahs;)V
+	METHOD a filterData (I)I

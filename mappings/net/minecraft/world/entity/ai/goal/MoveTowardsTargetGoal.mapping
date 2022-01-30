@@ -1,0 +1,2 @@
+CLASS rq net/minecraft/world/entity/ai/goal/MoveTowardsTargetGoal
+	METHOD <init> <init> (Lpy;DF)V

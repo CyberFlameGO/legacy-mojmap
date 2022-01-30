@@ -1,1 +1,2 @@
 CLASS agz net/minecraft/server/BlockDoubleStep
+	METHOD <init> <init> ()V

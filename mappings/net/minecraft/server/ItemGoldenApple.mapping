@@ -1,1 +1,2 @@
 CLASS zt net/minecraft/server/ItemGoldenApple
+	METHOD <init> <init> (IFZ)V

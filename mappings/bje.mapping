@@ -1,0 +1,4 @@
+CLASS bje bje
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbiu;Lbbj;F)V
+	METHOD <init> <init> (Lbiu;Lbbj;FF)V

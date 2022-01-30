@@ -1,0 +1,4 @@
+CLASS apk net/minecraft/world/level/levelgen/feature/PineFeature
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

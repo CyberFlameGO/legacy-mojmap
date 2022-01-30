@@ -1,0 +1,8 @@
+CLASS bak bak
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/util/Collection;)V
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a compare (Lbdc;Lbdc;)I
+		METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I

@@ -1,0 +1,4 @@
+CLASS bim bim
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbiu;Lbbo;F)V
+	METHOD a b (Ltn;F)F

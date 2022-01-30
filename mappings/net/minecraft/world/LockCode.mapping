@@ -1,0 +1,3 @@
+CLASS on net/minecraft/world/LockCode
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;)V

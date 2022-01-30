@@ -1,6 +1,12 @@
 CLASS arr net/minecraft/server/GenLayerSpecial
+	METHOD <init> <init> (JLase;Larr$a;)V
 	CLASS 1 1
+		METHOD <clinit> <clinit> ()V
 	CLASS a EnumGenLayerSpecial
 		FIELD a COOL_WARM Larr$a;
 		FIELD b HEAT_ICE Larr$a;
 		FIELD c SPECIAL Larr$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Larr$a;
+		METHOD values values ()[Larr$a;

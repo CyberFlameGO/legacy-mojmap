@@ -1,0 +1,3 @@
+CLASS agn net/minecraft/world/level/block/EndPortalBlock
+	METHOD <init> <init> (Larm;)V
+	METHOD a updateShape (Ladq;Lcj;)V

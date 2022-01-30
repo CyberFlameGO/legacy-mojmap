@@ -1,0 +1,5 @@
+CLASS fh net/minecraft/network/protocol/PacketUtils
+	METHOD a ensureMainThread (Lff;Lep;Lod;)V
+	CLASS 1 1
+		METHOD <init> <init> (Lff;Lep;)V
+		METHOD run run ()V

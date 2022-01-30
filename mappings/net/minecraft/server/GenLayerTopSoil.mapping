@@ -1,1 +1,2 @@
 CLASS aru net/minecraft/server/GenLayerTopSoil
+	METHOD <init> <init> (JLase;)V

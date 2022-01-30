@@ -1,0 +1,3 @@
+CLASS avt avt
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lave;)V

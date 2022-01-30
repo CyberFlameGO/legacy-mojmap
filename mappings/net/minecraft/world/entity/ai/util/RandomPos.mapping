@@ -1,0 +1,2 @@
+CLASS tc net/minecraft/world/entity/ai/util/RandomPos
+	METHOD <clinit> <clinit> ()V

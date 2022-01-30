@@ -1,0 +1,35 @@
+CLASS wi net/minecraft/world/entity/npc/Villager
+	FIELD bB inventory Loq;
+	FIELD bm village Ltf;
+	FIELD bn profession I
+	FIELD bq tradingPlayer Lwn;
+	FIELD bv riches I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ladm;)V
+	METHOD <init> <init> (Ladm;I)V
+	METHOD C isTypeNotPersistent ()Z
+	METHOD a prepare (Lok;Lpu;)Lpu;
+	METHOD a die (Low;)V
+	METHOD a createChild (Lph;)Lph;
+	METHOD a onLightningStrike (Luv;)V
+	METHOD aS getHeadHeight ()F
+	METHOD aX initAttributes ()V
+	METHOD b createChild (Lph;)Lwi;
+	METHOD b_ getOffers (Lwn;)Lada;
+	METHOD cl getProfession ()I
+	METHOD f_ getScoreboardDisplayName ()Leu;
+	METHOD r setProfession (I)V
+	CLASS a MerchantRecipeOptionBuy
+		METHOD <init> <init> (Lzw;Lwi$g;)V
+	CLASS b MerchantRecipeOptionBook
+		METHOD <init> <init> ()V
+	CLASS c MerchantRecipeOptionEnchant
+		METHOD <init> <init> (Lzw;Lwi$g;)V
+	CLASS d MerchantRecipeOptionProcess
+		METHOD <init> <init> (Lzw;Lwi$g;Lzw;Lwi$g;)V
+	CLASS e MerchantRecipeOptionSell
+		METHOD <init> <init> (Lzw;Lwi$g;)V
+		METHOD <init> <init> (Lzx;Lwi$g;)V
+	CLASS f IMerchantRecipeOption
+	CLASS g MerchantOptionRandomRange
+		METHOD <init> <init> (II)V

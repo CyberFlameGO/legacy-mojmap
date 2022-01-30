@@ -1,1 +1,2 @@
 CLASS qx net/minecraft/server/PathfinderGoalDoorInteract
+	METHOD <init> <init> (Lps;)V

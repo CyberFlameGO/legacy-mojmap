@@ -1,0 +1,3 @@
+CLASS zo net/minecraft/world/item/FireworkRocketItem
+	METHOD <init> <init> ()V
+	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z

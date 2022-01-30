@@ -1,6 +1,12 @@
 CLASS iu net/minecraft/server/PacketPlayInResourcePackStatus
-	CLASS a EnumResourcePackStatus
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/lang/String;Liu$a;)V
+	CLASS a Action
 		FIELD a SUCCESSFULLY_LOADED Liu$a;
 		FIELD b DECLINED Liu$a;
 		FIELD c FAILED_DOWNLOAD Liu$a;
 		FIELD d ACCEPTED Liu$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Liu$a;
+		METHOD values values ()[Liu$a;

@@ -1,0 +1,4 @@
+CLASS kd net/minecraft/server/ConsoleInput
+	FIELD a command Ljava/lang/String;
+	FIELD b source Lm;
+	METHOD <init> <init> (Ljava/lang/String;Lm;)V

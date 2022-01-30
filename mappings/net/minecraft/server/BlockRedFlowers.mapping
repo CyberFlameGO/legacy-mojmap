@@ -1,1 +1,2 @@
 CLASS aiy net/minecraft/server/BlockRedFlowers
+	METHOD <init> <init> ()V

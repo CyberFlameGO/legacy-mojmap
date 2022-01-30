@@ -1,6 +1,22 @@
 CLASS po net/minecraft/server/IEntitySelector
+	METHOD <clinit> <clinit> ()V
 	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a apply (Lpk;)Z
+		METHOD apply apply (Ljava/lang/Object;)Z
 	CLASS 2 2
+		METHOD <init> <init> ()V
+		METHOD a apply (Lpk;)Z
+		METHOD apply apply (Ljava/lang/Object;)Z
 	CLASS 3 3
+		METHOD <init> <init> ()V
+		METHOD a apply (Lpk;)Z
+		METHOD apply apply (Ljava/lang/Object;)Z
 	CLASS 4 4
+		METHOD <init> <init> ()V
+		METHOD a apply (Lpk;)Z
+		METHOD apply apply (Ljava/lang/Object;)Z
 	CLASS a EntitySelectorEquipable
+		METHOD <init> <init> (Lzx;)V
+		METHOD a apply (Lpk;)Z
+		METHOD apply apply (Ljava/lang/Object;)Z

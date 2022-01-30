@@ -2,3 +2,7 @@ CLASS pw net/minecraft/server/EnumMonsterType
 	FIELD a UNDEFINED Lpw;
 	FIELD b UNDEAD Lpw;
 	FIELD c ARTHROPOD Lpw;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lpw;
+	METHOD values values ()[Lpw;

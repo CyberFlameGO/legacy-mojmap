@@ -1,0 +1,4 @@
+CLASS mn net/minecraft/server/rcon/thread/RconClient
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lkj;Ljava/net/Socket;)V
+	METHOD run run ()V

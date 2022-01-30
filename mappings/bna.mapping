@@ -1,0 +1,3 @@
+CLASS bna bna
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/Map;)V

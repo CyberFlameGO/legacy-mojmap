@@ -1,5 +1,15 @@
 CLASS cm net/minecraft/server/IteratorUtils
 	CLASS 1 1
 	CLASS a ArrayToList
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lcm$1;)V
+		METHOD apply apply (Ljava/lang/Object;)Ljava/lang/Object;
 	CLASS b ClassIterable
+		METHOD <init> <init> (Ljava/lang/Class;[Ljava/lang/Iterable;)V
+		METHOD <init> <init> (Ljava/lang/Class;[Ljava/lang/Iterable;Lcm$1;)V
+		METHOD iterator iterator ()Ljava/util/Iterator;
 		CLASS a ClassIterator
+			METHOD <init> <init> (Ljava/lang/Class;[Ljava/lang/Iterable;)V
+			METHOD <init> <init> (Ljava/lang/Class;[Ljava/lang/Iterable;Lcm$1;)V
+			METHOD hasNext hasNext ()Z
+			METHOD next next ()Ljava/lang/Object;

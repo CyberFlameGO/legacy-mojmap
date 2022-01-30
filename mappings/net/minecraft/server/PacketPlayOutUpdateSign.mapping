@@ -1,1 +1,3 @@
 CLASS hw net/minecraft/server/PacketPlayOutUpdateSign
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ladm;Lcj;[Leu;)V

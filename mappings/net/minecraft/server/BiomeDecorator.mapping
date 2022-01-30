@@ -1,1 +1,2 @@
 CLASS aeb net/minecraft/server/BiomeDecorator
+	METHOD <init> <init> ()V

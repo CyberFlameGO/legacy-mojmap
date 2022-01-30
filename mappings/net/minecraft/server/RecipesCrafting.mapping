@@ -1,1 +1,2 @@
 CLASS abx net/minecraft/server/RecipesCrafting
+	METHOD <init> <init> ()V

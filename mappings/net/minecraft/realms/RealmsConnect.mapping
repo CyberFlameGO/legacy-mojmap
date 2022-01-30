@@ -1,0 +1,21 @@
+CLASS net/minecraft/realms/RealmsConnect net/minecraft/realms/RealmsConnect
+	FIELD LOGGER LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD aborted aborted Z
+	FIELD connection connection Lek;
+	FIELD onlineScreen onlineScreen Lnet/minecraft/realms/RealmsScreen;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lnet/minecraft/realms/RealmsScreen;)V
+	METHOD abort abort ()V
+	METHOD access$000 access$000 (Lnet/minecraft/realms/RealmsConnect;)Z
+	METHOD access$100 access$100 (Lnet/minecraft/realms/RealmsConnect;)Lek;
+	METHOD access$102 access$102 (Lnet/minecraft/realms/RealmsConnect;Lek;)Lek;
+	METHOD access$200 access$200 (Lnet/minecraft/realms/RealmsConnect;)Lnet/minecraft/realms/RealmsScreen;
+	METHOD access$300 access$300 ()Lorg/apache/logging/log4j/Logger;
+	METHOD connect connect (Ljava/lang/String;I)V
+	METHOD tick tick ()V
+	CLASS 1 1
+		FIELD a a Ljava/lang/String;
+		FIELD b b I
+		FIELD c c Lnet/minecraft/realms/RealmsConnect;
+		METHOD <init> <init> (Lnet/minecraft/realms/RealmsConnect;Ljava/lang/String;Ljava/lang/String;I)V
+		METHOD run run ()V

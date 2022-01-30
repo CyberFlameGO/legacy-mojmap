@@ -1,0 +1,7 @@
+CLASS pm net/minecraft/world/entity/EntityType
+	FIELD a eggInfo Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD a createEntityByName (Ljava/lang/String;Ladm;)Lpk;
+	CLASS a MonsterEggInfo
+		FIELD d killEntityStatistic Lmw;
+		METHOD <init> <init> (III)V

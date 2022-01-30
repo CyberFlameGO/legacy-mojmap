@@ -1,0 +1,7 @@
+CLASS axc axc
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Laxd;)V
+	CLASS a a
+		METHOD <init> <init> (Ljava/lang/String;Ljy;Lant$a;)V
+	CLASS b b
+		METHOD <init> <init> (Laxc;)V

@@ -1,0 +1,3 @@
+CLASS ada net/minecraft/world/item/trading/MerchantOffers
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ldn;)V
