@@ -1,2 +1,0 @@
-CLASS bls bls
-	METHOD <init> <init> (Lbni;Ljava/lang/String;Lbfw;Lbfw;)V

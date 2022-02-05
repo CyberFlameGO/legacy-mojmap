@@ -1,2 +1,0 @@
-CLASS bnd bnd
-	METHOD <init> <init> (Ljava/io/File;)V

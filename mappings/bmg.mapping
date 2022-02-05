@@ -1,2 +1,0 @@
-CLASS bmg bmg
-	METHOD <init> <init> (Lbmf$a;Ljava/lang/String;)V

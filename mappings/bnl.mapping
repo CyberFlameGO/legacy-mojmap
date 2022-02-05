@@ -1,2 +1,0 @@
-CLASS bnl bnl
-	METHOD <init> <init> (Ljava/io/File;Ljava/lang/String;)V

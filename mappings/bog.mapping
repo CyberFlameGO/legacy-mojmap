@@ -1,2 +1,0 @@
-CLASS bog
-	METHOD <init> <init> (Ljava/util/Collection;)V

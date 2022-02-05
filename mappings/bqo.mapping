@@ -1,2 +1,0 @@
-CLASS bqo bqo
-	METHOD <init> <init> (Ljava/lang/Throwable;)V

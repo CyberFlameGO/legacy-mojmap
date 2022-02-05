@@ -1,2 +1,0 @@
-CLASS bgj bgj
-	METHOD <init> <init> (Lorg/lwjgl/util/vector/Vector3f;Lcq$a;FZ)V
