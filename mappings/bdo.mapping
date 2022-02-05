@@ -1,3 +1,0 @@
-CLASS bdo bdo
-	CLASS a a
-		METHOD <init> <init> ()V

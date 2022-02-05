@@ -1,3 +1,0 @@
-CLASS beq beq
-	CLASS a a
-		METHOD <init> <init> ()V

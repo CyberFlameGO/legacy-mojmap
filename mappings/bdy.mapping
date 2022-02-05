@@ -1,3 +1,0 @@
-CLASS bdy bdy
-	CLASS a a
-		METHOD <init> <init> ()V

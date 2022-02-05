@@ -1,3 +1,0 @@
-CLASS bbs bbs
-	METHOD <init> <init> ([Lbcg;)V
-	METHOD <init> <init> ([Lbcg;IIIIFF)V

@@ -1,3 +1,0 @@
-CLASS ber ber
-	CLASS a a
-		METHOD <init> <init> ()V

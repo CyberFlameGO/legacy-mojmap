@@ -1,3 +1,0 @@
-CLASS bcr bcr
-	METHOD <init> <init> (Lbct;IIFFFIIIF)V
-	METHOD <init> <init> (Lbct;IIFFFIIIFZ)V

@@ -1,3 +1,0 @@
-CLASS azb azb
-	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Log;Log;Ltp;)V

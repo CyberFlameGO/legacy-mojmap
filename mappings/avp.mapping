@@ -1,3 +1,0 @@
-CLASS avp avp
-	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> ()V

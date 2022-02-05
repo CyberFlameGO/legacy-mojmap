@@ -1,3 +1,0 @@
-CLASS bci bci
-	METHOD <init> <init> (F)V
-	METHOD <init> <init> (FFII)V
