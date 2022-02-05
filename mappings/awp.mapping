@@ -1,0 +1,8 @@
+CLASS awp
+	METHOD a msg (Ljava/lang/String;)V
+	METHOD b active (Z)V
+	METHOD c id ()I
+	METHOD c getYImage (Z)I
+	METHOD d active ()Z
+	METHOD e y ()I
+	METHOD g getHeight ()I

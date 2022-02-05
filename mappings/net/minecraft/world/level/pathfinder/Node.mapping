@@ -1,4 +1,4 @@
-CLASS asv net/minecraft/server/PathPoint
+CLASS asv net/minecraft/world/level/pathfinder/Node
 	METHOD <init> <init> (III)V
 	METHOD equals equals (Ljava/lang/Object;)Z
 	METHOD hashCode hashCode ()I

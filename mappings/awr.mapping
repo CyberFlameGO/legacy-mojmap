@@ -1,0 +1,6 @@
+CLASS awr
+	METHOD a fontSplit (Ljava/lang/String;I)Ljava/util/List;
+	METHOD a addButton (Lnet/minecraft/realms/RealmsButton;)V
+	METHOD b removeButton (Lnet/minecraft/realms/RealmsButton;)V
+	METHOD i clearButtons ()V
+	METHOD j getButtons ()Ljava/util/List;

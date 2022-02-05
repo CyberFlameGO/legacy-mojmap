@@ -11,6 +11,10 @@ CLASS zw net/minecraft/world/item/Item
 	METHOD a registerItem (ILjava/lang/String;Lzw;)V
 	METHOD a getItemOf (Lafh;)Lzw;
 	METHOD a registerBlock (Lafh;Lzw;)V
+	METHOD a use (Lzx;Ladm;Lwn;)Lzx;
+		ARG 1 item
+		ARG 2 level
+		ARG 3 player
 	METHOD a getDestroySpeed (Lzx;Lafh;)F
 	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z
 	METHOD b getById (I)Lzw;

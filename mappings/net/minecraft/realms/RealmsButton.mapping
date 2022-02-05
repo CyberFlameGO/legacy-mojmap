@@ -6,6 +6,7 @@ CLASS net/minecraft/realms/RealmsButton net/minecraft/realms/RealmsButton
 	METHOD <init> <init> (IIILjava/lang/String;)V
 	METHOD active active ()Z
 	METHOD active active (Z)V
+		ARG 1 active
 	METHOD blit blit (IIIIII)V
 	METHOD clicked clicked (II)V
 	METHOD getHeight getHeight ()I
@@ -14,6 +15,7 @@ CLASS net/minecraft/realms/RealmsButton net/minecraft/realms/RealmsButton
 	METHOD getYImage getYImage (Z)I
 	METHOD id id ()I
 	METHOD msg msg (Ljava/lang/String;)V
+		ARG 1 str
 	METHOD released released (II)V
 	METHOD render render (II)V
 	METHOD renderBg renderBg (II)V

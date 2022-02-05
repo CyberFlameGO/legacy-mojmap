@@ -1,0 +1,3 @@
+CLASS avs
+	METHOD a render (Lave;II)V
+	METHOD b getWidth ()I

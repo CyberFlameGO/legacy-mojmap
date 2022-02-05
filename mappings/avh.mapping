@@ -1,5 +1,6 @@
 CLASS avh
 	FIELD A isTouchScreen Z
+	FIELD ax client Lave;
 	CLASS 1
 		METHOD getActualTypeArguments getActualTypeArguments ()[Ljava/lang/reflect/Type;
 		METHOD getOwnerType getOwnerType ()Ljava/lang/reflect/Type;

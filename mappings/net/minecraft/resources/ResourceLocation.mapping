@@ -1,7 +1,19 @@
 CLASS jy net/minecraft/resources/ResourceLocation
+	FIELD a namespace Ljava/lang/String;
+	FIELD b path Ljava/lang/String;
 	METHOD <init> <init> (I[Ljava/lang/String;)V
+		ARG 1 i
+		ARG 2 str
 	METHOD <init> <init> (Ljava/lang/String;)V
+		ARG 1 fullPath
 	METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 namespace
+		ARG 2 path
+	METHOD a getPath ()Ljava/lang/String;
+	METHOD a decompose (Ljava/lang/String;)[Ljava/lang/String;
+		ARG 0 fullPath
+	METHOD b getNamespace ()Ljava/lang/String;
 	METHOD equals equals (Ljava/lang/Object;)Z
+		ARG 1 other
 	METHOD hashCode hashCode ()I
 	METHOD toString toString ()Ljava/lang/String;

@@ -1,0 +1,2 @@
+CLASS avp
+	METHOD b blit (IIIIII)V
