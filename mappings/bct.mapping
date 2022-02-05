@@ -1,4 +1,0 @@
-CLASS bct bct
-	METHOD <init> <init> (Lbbo;)V
-	METHOD <init> <init> (Lbbo;II)V
-	METHOD <init> <init> (Lbbo;Ljava/lang/String;)V

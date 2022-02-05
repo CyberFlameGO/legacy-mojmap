@@ -1,6 +1,0 @@
-CLASS adf adf
-	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
-	METHOD toString toString ()Ljava/lang/String;
-	METHOD valueOf valueOf (Ljava/lang/String;)Ladf;
-	METHOD values values ()[Ladf;

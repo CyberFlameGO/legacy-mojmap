@@ -1,4 +1,0 @@
-CLASS bnc
-	METHOD <clinit> <clinit> ()V
-	METHOD close close ()V
-	METHOD finalize finalize ()V

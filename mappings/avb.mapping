@@ -1,4 +1,0 @@
-CLASS avb avb
-	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
-	METHOD compareTo compareTo (Ljava/lang/Object;)I

@@ -1,4 +1,0 @@
-CLASS bno
-	METHOD <init> <init> (Ljava/lang/String;Ljy;Ljava/io/InputStream;Ljava/io/InputStream;Lbny;)V
-	METHOD equals equals (Ljava/lang/Object;)Z
-	METHOD hashCode hashCode ()I

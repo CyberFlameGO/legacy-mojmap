@@ -1,4 +1,0 @@
-CLASS bgn bgn
-	METHOD <init> <init> (Lbgg;Lbmi;)V
-	CLASS 1 1
-		METHOD <clinit> <clinit> ()V
