@@ -1,21 +1,21 @@
-CLASS bnm bnm
+CLASS bnm
 	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD d packFilter Ljava/io/FileFilter;
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> (Ljava/io/File;Ljava/io/File;Lbnk;Lbny;Lavh;)V
 	METHOD a downloadResourcePack (Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/util/concurrent/ListenableFuture;
 	METHOD f clearResourcePack ()V
-	CLASS 1 1
+	CLASS 1
 		METHOD <init> <init> ()V
 		METHOD accept accept (Ljava/io/File;)Z
-	CLASS 2 2
+	CLASS 2
 		METHOD <init> <init> (Lbnm;Lave;Laxr;)V
 		METHOD run run ()V
-	CLASS 3 3
+	CLASS 3
 		METHOD <init> <init> (Lbnm;Ljava/io/File;Lcom/google/common/util/concurrent/SettableFuture;)V
 		METHOD onFailure onFailure (Ljava/lang/Throwable;)V
 		METHOD onSuccess onSuccess (Ljava/lang/Object;)V
-	CLASS a a
+	CLASS a
 		METHOD <init> <init> (Lbnm;Ljava/io/File;)V
 		METHOD <init> <init> (Lbnm;Ljava/io/File;Lbnm$1;)V
 		METHOD equals equals (Ljava/lang/Object;)Z

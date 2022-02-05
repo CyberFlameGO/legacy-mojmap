@@ -1,10 +1,10 @@
-CLASS bmf bmf
+CLASS bmf
 	METHOD <init> <init> (IIZII)V
-	CLASS a a
+	CLASS a
 		METHOD <init> <init> (Lbmi;I)V
 		METHOD a compareTo (Lbmf$a;)I
 		METHOD compareTo compareTo (Ljava/lang/Object;)I
 		METHOD toString toString ()Ljava/lang/String;
-	CLASS b b
+	CLASS b
 		METHOD <init> <init> (IIII)V
 		METHOD toString toString ()Ljava/lang/String;

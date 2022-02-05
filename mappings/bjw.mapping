@@ -1,4 +1,4 @@
-CLASS bjw bjw
+CLASS bjw
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> (Lbiu;)V
 	METHOD a b (Lvz;)F

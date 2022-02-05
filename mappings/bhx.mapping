@@ -1,4 +1,0 @@
-CLASS bhx bhx
-	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> ()V
-	METHOD toString toString ()Ljava/lang/String;

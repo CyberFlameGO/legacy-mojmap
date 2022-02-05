@@ -1,3 +1,0 @@
-CLASS bic bic
-	METHOD <init> <init> ()V
-	METHOD <init> <init> (Lbid;)V

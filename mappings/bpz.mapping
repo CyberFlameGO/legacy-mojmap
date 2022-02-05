@@ -1,13 +1,13 @@
-CLASS bpz bpz
+CLASS bpz
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> (Lbni;Lavh;)V
-	CLASS 1 1
+	CLASS 1
 		METHOD <init> <init> ()V
 		METHOD getActualTypeArguments getActualTypeArguments ()[Ljava/lang/reflect/Type;
 		METHOD getOwnerType getOwnerType ()Ljava/lang/reflect/Type;
 		METHOD getRawType getRawType ()Ljava/lang/reflect/Type;
-	CLASS 2 2
+	CLASS 2
 		METHOD <init> <init> (Lbpz;Ljava/lang/String;Lbph$a;)V
 		METHOD b g ()Lbpw;
-	CLASS 3 3
+	CLASS 3
 		METHOD <clinit> <clinit> ()V

@@ -1,4 +1,4 @@
-CLASS bpn bpn
+CLASS bpn
 	METHOD <init> <init> (Lbpo;)V
 	METHOD a attemptLogin (Ljava/net/SocketAddress;Lcom/mojang/authlib/GameProfile;)Ljava/lang/String;
 	METHOD b getServer ()Lbpo;

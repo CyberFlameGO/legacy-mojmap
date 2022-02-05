@@ -1,3 +1,0 @@
-CLASS blq blq
-	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Lbni;Ljava/lang/String;)V

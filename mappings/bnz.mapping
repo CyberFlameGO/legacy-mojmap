@@ -1,3 +1,0 @@
-CLASS bnz bnz
-	METHOD <init> <init> (I)V
-	METHOD <init> <init> (II)V

@@ -1,5 +1,5 @@
-CLASS bqm bqm
-	CLASS a a
+CLASS bqm
+	CLASS a
 		METHOD <clinit> <clinit> ()V
 		METHOD <init> <init> (Ljava/lang/String;I)V
 		METHOD valueOf valueOf (Ljava/lang/String;)Lbqm$a;

@@ -1,7 +1,7 @@
-CLASS bmj bmj
+CLASS bmj
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> (Lbni;)V
-	CLASS 1 1
+	CLASS 1
 		METHOD <init> <init> (Lbmj;Lbmk;)V
 		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;

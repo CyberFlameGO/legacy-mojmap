@@ -1,3 +1,0 @@
-CLASS bmy bmy
-	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Ljava/io/File;Ljava/lang/String;)V

@@ -1,3 +1,3 @@
-CLASS bkd bkd
+CLASS bkd
 	METHOD <init> <init> (Lbiu;Lbjh;)V
 	METHOD a d (Lxc;)Lzx;

@@ -1,12 +1,12 @@
-CLASS bho bho
+CLASS bho
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> ()V
-	CLASS 1 1
+	CLASS 1
 		METHOD <init> <init> (Lbho;Lbhn;)V
 		METHOD run run ()V
-	CLASS 2 2
+	CLASS 2
 		METHOD <init> <init> (Lbho;Lbhn;)V
 		METHOD run run ()V
-	CLASS 3 3
+	CLASS 3
 		METHOD <init> <init> (Lbho;Ladf;Lbfd;Lbht;Lbhq;)V
 		METHOD run run ()V

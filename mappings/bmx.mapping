@@ -1,3 +1,0 @@
-CLASS bmx bmx
-	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Ljava/io/File;)V

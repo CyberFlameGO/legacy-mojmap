@@ -1,19 +1,19 @@
-CLASS bqk bqk
+CLASS bqk
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> ()V
-	CLASS 1 1
+	CLASS 1
 		METHOD <init> <init> (Lbqk;)V
 		METHOD chatEmoticonDataDownloadCallback chatEmoticonDataDownloadCallback (Ltv/twitch/ErrorCode;)V
 		METHOD chatInitializationCallback chatInitializationCallback (Ltv/twitch/ErrorCode;)V
 		METHOD chatShutdownCallback chatShutdownCallback (Ltv/twitch/ErrorCode;)V
-	CLASS 2 2
+	CLASS 2
 		METHOD <clinit> <clinit> ()V
-	CLASS a a
+	CLASS a
 		METHOD <clinit> <clinit> ()V
 		METHOD <init> <init> (Ljava/lang/String;I)V
 		METHOD valueOf valueOf (Ljava/lang/String;)Lbqk$a;
 		METHOD values values ()[Lbqk$a;
-	CLASS b b
+	CLASS b
 		METHOD <init> <init> (Lbqk;Ljava/lang/String;)V
 		METHOD chatBadgeDataDownloadCallback chatBadgeDataDownloadCallback (Ljava/lang/String;Ltv/twitch/ErrorCode;)V
 		METHOD chatChannelMembershipCallback chatChannelMembershipCallback (Ljava/lang/String;Ltv/twitch/chat/ChatEvent;Ltv/twitch/chat/ChatChannelInfo;)V
@@ -22,14 +22,14 @@ CLASS bqk bqk
 		METHOD chatChannelUserChangeCallback chatChannelUserChangeCallback (Ljava/lang/String;[Ltv/twitch/chat/ChatUserInfo;[Ltv/twitch/chat/ChatUserInfo;[Ltv/twitch/chat/ChatUserInfo;)V
 		METHOD chatClearCallback chatClearCallback (Ljava/lang/String;Ljava/lang/String;)V
 		METHOD chatStatusCallback chatStatusCallback (Ljava/lang/String;Ltv/twitch/ErrorCode;)V
-	CLASS c c
+	CLASS c
 		METHOD <clinit> <clinit> ()V
 		METHOD <init> <init> (Ljava/lang/String;I)V
 		METHOD valueOf valueOf (Ljava/lang/String;)Lbqk$c;
 		METHOD values values ()[Lbqk$c;
-	CLASS d d
+	CLASS d
 		METHOD <clinit> <clinit> ()V
 		METHOD <init> <init> (Ljava/lang/String;I)V
 		METHOD valueOf valueOf (Ljava/lang/String;)Lbqk$d;
 		METHOD values values ()[Lbqk$d;
-	CLASS e e
+	CLASS e

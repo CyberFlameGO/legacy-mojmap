@@ -1,5 +1,0 @@
-CLASS bjt bjt
-	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Lbiu;)V
-	CLASS 1 1
-		METHOD <init> <init> (Lbjt;Lbjl;)V

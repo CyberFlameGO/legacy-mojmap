@@ -1,4 +1,4 @@
-CLASS wg wg
+CLASS wg
 	METHOD <init> <init> (Lwn;Leu;)V
 	METHOD b_ getOffers (Lwn;)Lada;
 	METHOD f_ getScoreboardDisplayName ()Leu;

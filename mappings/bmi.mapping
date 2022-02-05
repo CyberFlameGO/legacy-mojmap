@@ -1,8 +1,8 @@
-CLASS bmi bmi
+CLASS bmi
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> (Ljava/lang/String;)V
 	METHOD toString toString ()Ljava/lang/String;
-	CLASS 1 1
+	CLASS 1
 		METHOD <init> <init> (Lbmi;[[I)V
 		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;

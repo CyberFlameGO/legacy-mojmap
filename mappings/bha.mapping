@@ -1,7 +1,0 @@
-CLASS bha bha
-	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> ()V
-	CLASS 1 1
-	CLASS a a
-		METHOD <init> <init> ()V
-		METHOD <init> <init> (Lbha$1;)V

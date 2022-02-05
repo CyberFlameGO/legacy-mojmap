@@ -1,7 +1,7 @@
-CLASS bnb bnb
+CLASS bnb
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> (Lbny;)V
-	CLASS a a
+	CLASS a
 		METHOD <init> <init> (Ljava/io/InputStream;Ljy;Ljava/lang/String;)V
 		METHOD close close ()V
 		METHOD finalize finalize ()V

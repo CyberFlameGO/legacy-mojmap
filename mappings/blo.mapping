@@ -1,4 +1,4 @@
-CLASS blo blo
+CLASS blo
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> ()V
 	METHOD <init> <init> (III)V

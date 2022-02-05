@@ -1,3 +1,0 @@
-CLASS blv blv
-	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Ljava/lang/String;IILblq;)V

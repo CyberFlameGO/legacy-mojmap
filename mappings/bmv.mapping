@@ -1,15 +1,15 @@
-CLASS bmv bmv
+CLASS bmv
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> (ILbmv$a;Lbmv$b;I)V
 	METHOD equals equals (Ljava/lang/Object;)Z
 	METHOD hashCode hashCode ()I
 	METHOD toString toString ()Ljava/lang/String;
-	CLASS a a
+	CLASS a
 		METHOD <clinit> <clinit> ()V
 		METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;I)V
 		METHOD valueOf valueOf (Ljava/lang/String;)Lbmv$a;
 		METHOD values values ()[Lbmv$a;
-	CLASS b b
+	CLASS b
 		METHOD <clinit> <clinit> ()V
 		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
 		METHOD valueOf valueOf (Ljava/lang/String;)Lbmv$b;

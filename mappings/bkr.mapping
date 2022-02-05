@@ -1,3 +1,0 @@
-CLASS bkr bkr
-	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Lbio;)V

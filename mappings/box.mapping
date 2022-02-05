@@ -1,8 +1,8 @@
-CLASS box box
+CLASS box
 	METHOD <init> <init> (Ljava/util/List;)V
-	CLASS a a
+	CLASS a
 		METHOD <init> <init> ()V
-	CLASS b b
+	CLASS b
 		METHOD <init> <init> (Lboq;I)V
 		METHOD a compareTo (Lbox$b;)I
 		METHOD compareTo compareTo (Ljava/lang/Object;)I

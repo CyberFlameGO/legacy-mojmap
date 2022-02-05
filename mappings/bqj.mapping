@@ -1,7 +1,7 @@
-CLASS bqj bqj
+CLASS bqj
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> ()V
-	CLASS 1 1
+	CLASS 1
 		METHOD <init> <init> (Lbqj;)V
 		METHOD bufferUnlockCallback bufferUnlockCallback (J)V
 		METHOD getArchivingStateCallback getArchivingStateCallback (Ltv/twitch/ErrorCode;Ltv/twitch/broadcast/ArchivingState;)V
@@ -18,14 +18,14 @@ CLASS bqj bqj
 		METHOD setStreamInfoCallback setStreamInfoCallback (Ltv/twitch/ErrorCode;)V
 		METHOD startCallback startCallback (Ltv/twitch/ErrorCode;)V
 		METHOD stopCallback stopCallback (Ltv/twitch/ErrorCode;)V
-	CLASS 2 2
+	CLASS 2
 		METHOD <init> <init> (Lbqj;)V
 		METHOD statCallback statCallback (Ltv/twitch/broadcast/StatType;J)V
-	CLASS 3 3
+	CLASS 3
 		METHOD <clinit> <clinit> ()V
-	CLASS a a
+	CLASS a
 		METHOD <clinit> <clinit> ()V
 		METHOD <init> <init> (Ljava/lang/String;I)V
 		METHOD valueOf valueOf (Ljava/lang/String;)Lbqj$a;
 		METHOD values values ()[Lbqj$a;
-	CLASS b b
+	CLASS b

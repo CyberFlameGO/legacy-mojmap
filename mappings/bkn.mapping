@@ -1,5 +1,0 @@
-CLASS bkn bkn
-	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Lbjl;)V
-	CLASS 1 1
-		METHOD <clinit> <clinit> ()V

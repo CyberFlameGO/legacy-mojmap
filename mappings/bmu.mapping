@@ -1,9 +1,9 @@
-CLASS bmu bmu
+CLASS bmu
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> ()V
 	METHOD <init> <init> (Lbmu;)V
 	METHOD equals equals (Ljava/lang/Object;)Z
 	METHOD hashCode hashCode ()I
 	METHOD toString toString ()Ljava/lang/String;
-	CLASS 1 1
+	CLASS 1
 		METHOD <clinit> <clinit> ()V

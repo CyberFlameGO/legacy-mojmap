@@ -1,11 +1,11 @@
-CLASS bhn bhn
+CLASS bhn
 	METHOD <init> <init> (Lbht;Lbhn$b;)V
-	CLASS a a
+	CLASS a
 		METHOD <clinit> <clinit> ()V
 		METHOD <init> <init> (Ljava/lang/String;I)V
 		METHOD valueOf valueOf (Ljava/lang/String;)Lbhn$a;
 		METHOD values values ()[Lbhn$a;
-	CLASS b b
+	CLASS b
 		METHOD <clinit> <clinit> ()V
 		METHOD <init> <init> (Ljava/lang/String;I)V
 		METHOD valueOf valueOf (Ljava/lang/String;)Lbhn$b;

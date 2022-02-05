@@ -1,4 +1,4 @@
-CLASS bln bln
+CLASS bln
 	METHOD <init> <init> (Lbiu;)V
 	METHOD <init> <init> (Lbiu;Z)V
 	METHOD g b ()Lbbr;
