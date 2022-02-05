@@ -6,7 +6,5 @@ CLASS uy net/minecraft/world/entity/item/FallingBlockEntity
 	FIELD f hurtEntities Z
 	FIELD g fallHurtMax I
 	FIELD h fallHurtAmount F
-	METHOD <init> <init> (Ladm;)V
 	METHOD <init> <init> (Ladm;DDDLalz;)V
-	METHOD a appendEntityCrashDetails (Lc;)V
 	METHOD l getBlock ()Lalz;

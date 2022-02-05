@@ -9,7 +9,6 @@ CLASS bgl bgl
 		METHOD <init> <init> (Lbgl;Lbgl$1;)V
 	CLASS b b
 		METHOD <init> <init> ()V
-		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lbgl;
 		METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
 	CLASS c c
 		METHOD <init> <init> ()V

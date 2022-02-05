@@ -3,17 +3,13 @@ CLASS bec bec
 	METHOD <init> <init> (Ladm;Lbmj;)V
 	CLASS 1 1
 		METHOD <init> <init> (Lbec;Lbeb;)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;
 	CLASS 2 2
 		METHOD <init> <init> (Lbec;I)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;
 	CLASS 3 3
 		METHOD <init> <init> (Lbec;Lbeb;)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;
 	CLASS 4 4
 		METHOD <init> <init> (Lbec;I)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;

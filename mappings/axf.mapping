@@ -1,3 +1,2 @@
 CLASS axf axf
 	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> ()V

@@ -18,6 +18,7 @@ CLASS zw net/minecraft/world/item/Item
 	METHOD b getId (Lzw;)I
 	METHOD c registerBlock (Lafh;)V
 	METHOD c setName (Ljava/lang/String;)Lzw;
+		ARG 1 name
 	METHOD d setMaxDurability (I)Lzw;
 	METHOD j getMaxStackSize ()I
 	METHOD l getMaxDurability ()I
@@ -25,39 +26,30 @@ CLASS zw net/minecraft/world/item/Item
 	METHOD t bootStrap ()V
 	CLASS 1 1
 		METHOD <init> <init> ()V
-		METHOD a apply (Lzx;)Ljava/lang/String;
 		METHOD apply apply (Ljava/lang/Object;)Ljava/lang/Object;
 	CLASS 2 10
 		METHOD <init> <init> ()V
-		METHOD a apply (Lzx;)Ljava/lang/String;
 		METHOD apply apply (Ljava/lang/Object;)Ljava/lang/Object;
 	CLASS 3 11
 		METHOD <init> <init> ()V
-		METHOD a apply (Lzx;)Ljava/lang/String;
 		METHOD apply apply (Ljava/lang/Object;)Ljava/lang/Object;
 	CLASS 4 12
 		METHOD <init> <init> ()V
-		METHOD a apply (Lzx;)Ljava/lang/String;
 		METHOD apply apply (Ljava/lang/Object;)Ljava/lang/Object;
 	CLASS 5 13
 		METHOD <init> <init> ()V
-		METHOD a apply (Lzx;)Ljava/lang/String;
 		METHOD apply apply (Ljava/lang/Object;)Ljava/lang/Object;
 	CLASS 6 14
 		METHOD <init> <init> ()V
-		METHOD a apply (Lzx;)Ljava/lang/String;
 		METHOD apply apply (Ljava/lang/Object;)Ljava/lang/Object;
 	CLASS 7 15
 		METHOD <init> <init> ()V
-		METHOD a apply (Lzx;)Ljava/lang/String;
 		METHOD apply apply (Ljava/lang/Object;)Ljava/lang/Object;
 	CLASS 8 16
 		METHOD <init> <init> ()V
-		METHOD a apply (Lzx;)Ljava/lang/String;
 		METHOD apply apply (Ljava/lang/Object;)Ljava/lang/Object;
 	CLASS 9 17
 		METHOD <init> <init> ()V
-		METHOD a apply (Lzx;)Ljava/lang/String;
 		METHOD apply apply (Ljava/lang/Object;)Ljava/lang/Object;
 	CLASS a EnumToolMaterial
 		FIELD a WOOD Lzw$a;
@@ -71,33 +63,25 @@ CLASS zw net/minecraft/world/item/Item
 		METHOD values values ()[Lzw$a;
 	CLASS 10 2
 		METHOD <init> <init> ()V
-		METHOD a apply (Lzx;)Ljava/lang/String;
 		METHOD apply apply (Ljava/lang/Object;)Ljava/lang/Object;
 	CLASS 11 3
 		METHOD <init> <init> ()V
-		METHOD a apply (Lzx;)Ljava/lang/String;
 		METHOD apply apply (Ljava/lang/Object;)Ljava/lang/Object;
 	CLASS 12 4
 		METHOD <init> <init> ()V
-		METHOD a apply (Lzx;)Ljava/lang/String;
 		METHOD apply apply (Ljava/lang/Object;)Ljava/lang/Object;
 	CLASS 13 5
 		METHOD <init> <init> ()V
-		METHOD a apply (Lzx;)Ljava/lang/String;
 		METHOD apply apply (Ljava/lang/Object;)Ljava/lang/Object;
 	CLASS 14 6
 		METHOD <init> <init> ()V
-		METHOD a apply (Lzx;)Ljava/lang/String;
 		METHOD apply apply (Ljava/lang/Object;)Ljava/lang/Object;
 	CLASS 15 7
 		METHOD <init> <init> ()V
-		METHOD a apply (Lzx;)Ljava/lang/String;
 		METHOD apply apply (Ljava/lang/Object;)Ljava/lang/Object;
 	CLASS 16 8
 		METHOD <init> <init> ()V
-		METHOD a apply (Lzx;)Ljava/lang/String;
 		METHOD apply apply (Ljava/lang/Object;)Ljava/lang/Object;
 	CLASS 17 9
 		METHOD <init> <init> ()V
-		METHOD a apply (Lzx;)Ljava/lang/String;
 		METHOD apply apply (Ljava/lang/Object;)Ljava/lang/Object;

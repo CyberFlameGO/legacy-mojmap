@@ -3,15 +3,6 @@ CLASS akh net/minecraft/world/level/block/TrapDoorBlock
 	FIELD a FACING Laml;
 	FIELD b OPEN Lamk;
 	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Larm;)V
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
-	METHOD a interact (Ladm;Lcj;Lalz;Lwn;Lcq;FFF)Z
-	METHOD a getPlacedState (Ladm;Lcj;Lcq;FFFILpr;)Lalz;
-	METHOD a updateShape (Ladq;Lcj;)V
-	METHOD b canPlace (Ladm;Lcj;Lcq;)Z
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;
 	CLASS 1 1
 		METHOD <clinit> <clinit> ()V
 	CLASS a EnumTrapdoorHalf
@@ -19,7 +10,6 @@ CLASS akh net/minecraft/world/level/block/TrapDoorBlock
 		FIELD b BOTTOM Lakh$a;
 		METHOD <clinit> <clinit> ()V
 		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
-		METHOD l getName ()Ljava/lang/String;
 		METHOD toString toString ()Ljava/lang/String;
 		METHOD valueOf valueOf (Ljava/lang/String;)Lakh$a;
 		METHOD values values ()[Lakh$a;

@@ -1,7 +1,5 @@
 CLASS zp net/minecraft/server/ItemFish
 	METHOD <init> <init> (Z)V
-	METHOD h getNutrition (Lzx;)I
-	METHOD i getSaturationModifier (Lzx;)F
 	CLASS a EnumFish
 		FIELD a COD Lzp$a;
 		FIELD b SALMON Lzp$a;

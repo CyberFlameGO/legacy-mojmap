@@ -1,2 +1,0 @@
-CLASS xu net/minecraft/server/ContainerFurnace
-	FIELD a furnace Log;

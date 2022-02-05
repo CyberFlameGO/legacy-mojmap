@@ -1,3 +1,2 @@
 CLASS bbm bbm
-	METHOD <init> <init> ()V
 	METHOD <init> <init> (IIII)V

@@ -1,3 +1,1 @@
 CLASS bet bet
-	METHOD <init> <init> (Ladm;Lcom/mojang/authlib/GameProfile;)V
-	METHOD v isSpectator ()Z

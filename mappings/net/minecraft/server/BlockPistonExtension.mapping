@@ -4,14 +4,6 @@ CLASS alt net/minecraft/server/BlockPistonExtension
 	FIELD b TYPE Lamm;
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> ()V
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
-	METHOD a updateShape (Ladq;Lcj;)V
-	METHOD b remove (Ladm;Lcj;Lalz;)V
-	METHOD b canPlace (Ladm;Lcj;Lcq;)Z
-	METHOD c toLegacyData (Lalz;)I
-	METHOD d canPlace (Ladm;Lcj;)Z
-	METHOD e getStateList ()Lama;
 	CLASS 1 1
 		METHOD <clinit> <clinit> ()V
 	CLASS a EnumPistonType
@@ -19,7 +11,6 @@ CLASS alt net/minecraft/server/BlockPistonExtension
 		FIELD b STICKY Lalt$a;
 		METHOD <clinit> <clinit> ()V
 		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
-		METHOD l getName ()Ljava/lang/String;
 		METHOD toString toString ()Ljava/lang/String;
 		METHOD valueOf valueOf (Ljava/lang/String;)Lalt$a;
 		METHOD values values ()[Lalt$a;

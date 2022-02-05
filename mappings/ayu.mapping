@@ -5,9 +5,3 @@ CLASS ayu ayu
 		METHOD <init> <init> (Lwn;)V
 	CLASS b b
 		METHOD <init> <init> (Layu;Lyg;I)V
-		METHOD a getMaxStackSize ()I
-		METHOD a isAllowed (Lzx;)Z
-		METHOD b getMaxStackSize (Lzx;)I
-		METHOD d getItem ()Lzx;
-		METHOD d set (Lzx;)V
-		METHOD e hasItem ()Z

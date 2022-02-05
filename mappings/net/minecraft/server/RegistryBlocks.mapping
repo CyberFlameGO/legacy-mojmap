@@ -1,6 +1,0 @@
-CLASS co net/minecraft/server/RegistryBlocks
-	FIELD d defaultKey Ljava/lang/Object;
-	FIELD e defaultValue Ljava/lang/Object;
-	METHOD <init> (Ljava/lang/Object;)V
-		ARG 1 defaultKey
-	METHOD a validateDefaultKey ()V

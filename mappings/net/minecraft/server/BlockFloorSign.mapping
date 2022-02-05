@@ -1,2 +1,0 @@
-CLASS ajv net/minecraft/server/BlockFloorSign
-	FIELD a ROTATION Lamn;

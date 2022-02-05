@@ -1,5 +1,0 @@
-CLASS ws net/minecraft/server/EntityFireball
-	FIELD a shooter Lpr;
-	FIELD b dirX D
-	FIELD c dirY D
-	FIELD d dirZ D

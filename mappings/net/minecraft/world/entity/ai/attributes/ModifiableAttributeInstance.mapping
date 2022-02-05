@@ -1,5 +1,2 @@
 CLASS qh net/minecraft/world/entity/ai/attributes/ModifiableAttributeInstance
 	METHOD <init> <init> (Lqf;Lqb;)V
-	METHOD a getAttribute ()Lqb;
-	METHOD a setValue (D)V
-	METHOD e getValue ()D

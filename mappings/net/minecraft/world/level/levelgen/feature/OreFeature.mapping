@@ -1,4 +1,3 @@
 CLASS apj net/minecraft/world/level/levelgen/feature/OreFeature
 	METHOD <init> <init> (Lalz;I)V
 	METHOD <init> <init> (Lalz;ILcom/google/common/base/Predicate;)V
-	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

@@ -2,7 +2,6 @@ CLASS bmf
 	METHOD <init> <init> (IIZII)V
 	CLASS a
 		METHOD <init> <init> (Lbmi;I)V
-		METHOD a compareTo (Lbmf$a;)I
 		METHOD compareTo compareTo (Ljava/lang/Object;)I
 		METHOD toString toString ()Ljava/lang/String;
 	CLASS b

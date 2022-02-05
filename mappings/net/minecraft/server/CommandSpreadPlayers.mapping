@@ -1,2 +1,0 @@
-CLASS bj net/minecraft/server/CommandSpreadPlayers
-	CLASS a Location2D

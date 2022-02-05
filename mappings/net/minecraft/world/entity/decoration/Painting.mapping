@@ -1,9 +1,7 @@
 CLASS uq net/minecraft/world/entity/decoration/Painting
 	FIELD c art Luq$a;
-	METHOD <init> <init> (Ladm;)V
 	METHOD <init> <init> (Ladm;Lcj;Lcq;)V
 	METHOD <init> <init> (Ladm;Lcj;Lcq;Ljava/lang/String;)V
-	METHOD b setPositionRotation (DDDFF)V
 	CLASS a EnumArt
 		FIELD a KEBAB Luq$a;
 		FIELD b AZTEC Luq$a;

@@ -1,5 +1,4 @@
 CLASS awf awf
 	METHOD <init> <init> (Lave;IIIII[Lavh$a;)V
-	METHOD c b (I)Lawf$a;
 	CLASS a a
 		METHOD <init> <init> (Lavs;Lavs;)V

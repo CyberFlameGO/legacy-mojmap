@@ -1,3 +1,0 @@
-CLASS amc net/minecraft/server/ShapeDetectorBlock
-	METHOD d getPosition ()Lcj;
-	CLASS 1 1

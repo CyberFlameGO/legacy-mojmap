@@ -1,2 +1,1 @@
 CLASS pb net/minecraft/world/effect/AttackDamageMobEffect
-	METHOD <init> <init> (ILjy;ZI)V

@@ -1,2 +1,0 @@
-CLASS aqi net/minecraft/server/WorldGenNether
-	CLASS a WorldGenNetherStart

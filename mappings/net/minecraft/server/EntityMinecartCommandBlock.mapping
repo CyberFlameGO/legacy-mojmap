@@ -1,3 +1,0 @@
-CLASS vc net/minecraft/server/EntityMinecartCommandBlock
-	METHOD j getCommandBlock ()Ladc;
-	CLASS 1 1

@@ -1,2 +1,1 @@
 CLASS aeo net/minecraft/world/level/biome/PlainsBiome
-	METHOD <init> <init> (I)V

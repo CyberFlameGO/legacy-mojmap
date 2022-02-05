@@ -1,3 +1,0 @@
-CLASS cr net/minecraft/server/IDispenseBehavior
-	FIELD a NONE Lcr;
-	CLASS 1 1

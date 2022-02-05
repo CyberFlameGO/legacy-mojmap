@@ -1,2 +1,1 @@
 CLASS aaf net/minecraft/world/item/NameTagItem
-	METHOD <init> <init> ()V

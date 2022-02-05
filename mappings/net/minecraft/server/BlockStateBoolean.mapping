@@ -1,2 +1,0 @@
-CLASS amk net/minecraft/server/BlockStateBoolean
-	METHOD a of (Ljava/lang/String;)Lamk;

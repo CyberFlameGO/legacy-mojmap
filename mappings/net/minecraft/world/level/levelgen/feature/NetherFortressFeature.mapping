@@ -1,5 +1,3 @@
 CLASS aqi net/minecraft/world/level/levelgen/feature/NetherFortressFeature
-	METHOD <init> <init> ()V
 	CLASS a WorldGenNetherStart
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (Ladm;Ljava/util/Random;II)V

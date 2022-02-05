@@ -1,2 +1,0 @@
-CLASS ds net/minecraft/server/NBTTagIntArray
-	FIELD b data [I

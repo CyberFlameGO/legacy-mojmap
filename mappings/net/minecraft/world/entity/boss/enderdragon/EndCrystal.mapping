@@ -1,4 +1,2 @@
 CLASS uf net/minecraft/world/entity/boss/enderdragon/EndCrystal
-	METHOD <init> <init> (Ladm;)V
 	METHOD <init> <init> (Ladm;DDD)V
-	METHOD a damageEntity (Low;F)Z

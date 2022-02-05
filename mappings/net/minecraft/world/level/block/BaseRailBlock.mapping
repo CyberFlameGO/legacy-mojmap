@@ -1,10 +1,5 @@
 CLASS afe net/minecraft/world/level/block/BaseRailBlock
 	METHOD <init> <init> (Z)V
-	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
-	METHOD a updateShape (Ladq;Lcj;)V
-	METHOD b remove (Ladm;Lcj;Lalz;)V
-	METHOD c onPlace (Ladm;Lcj;Lalz;)V
-	METHOD d canPlace (Ladm;Lcj;)Z
 	CLASS 1 1
 		METHOD <clinit> <clinit> ()V
 	CLASS a MinecartTrackLogic
@@ -22,7 +17,6 @@ CLASS afe net/minecraft/world/level/block/BaseRailBlock
 		FIELD j NORTH_EAST Lafe$b;
 		METHOD <clinit> <clinit> ()V
 		METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;)V
-		METHOD l getName ()Ljava/lang/String;
 		METHOD toString toString ()Ljava/lang/String;
 		METHOD valueOf valueOf (Ljava/lang/String;)Lafe$b;
 		METHOD values values ()[Lafe$b;

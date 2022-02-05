@@ -1,4 +1,3 @@
 CLASS beb beb
 	METHOD <init> <init> (Ladm;DDD)V
 	METHOD <init> <init> (Ladm;DDDDDD)V
-	METHOD toString toString ()Ljava/lang/String;

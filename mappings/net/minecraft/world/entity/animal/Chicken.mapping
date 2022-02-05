@@ -1,11 +1,2 @@
 CLASS tn net/minecraft/world/entity/animal/Chicken
-	METHOD <init> <init> (Ladm;)V
-	METHOD A getLoot ()Lzw;
-	METHOD C isTypeNotPersistent ()Z
-	METHOD a createChild (Lph;)Lph;
-	METHOD aS getHeadHeight ()F
-	METHOD aX initAttributes ()V
-	METHOD b createChild (Lph;)Ltn;
-	METHOD b getExpValue (Lwn;)I
-	METHOD b dropDeathLoot (ZI)V
 	METHOD cl isChickenJockey ()Z

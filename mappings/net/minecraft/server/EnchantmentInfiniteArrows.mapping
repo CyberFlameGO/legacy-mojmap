@@ -1,3 +1,2 @@
 CLASS acd net/minecraft/server/EnchantmentInfiniteArrows
 	METHOD <init> <init> (ILjy;I)V
-	METHOD b getMaxLevel ()I

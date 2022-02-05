@@ -1,6 +1,2 @@
 CLASS bpn
 	METHOD <init> <init> (Lbpo;)V
-	METHOD a attemptLogin (Ljava/net/SocketAddress;Lcom/mojang/authlib/GameProfile;)Ljava/lang/String;
-	METHOD b getServer ()Lbpo;
-	METHOD b savePlayerFile (Llf;)V
-	METHOD c getServer ()Lnet/minecraft/server/MinecraftServer;

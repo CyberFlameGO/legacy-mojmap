@@ -2,12 +2,5 @@ CLASS ahr net/minecraft/world/level/block/LadderBlock
 	FIELD a FACING Laml;
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> ()V
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
-	METHOD a getPlacedState (Ladm;Lcj;Lcq;FFFILpr;)Lalz;
-	METHOD a updateShape (Ladq;Lcj;)V
-	METHOD c toLegacyData (Lalz;)I
-	METHOD d canPlace (Ladm;Lcj;)Z
-	METHOD e getStateList ()Lama;
 	CLASS 1 1
 		METHOD <clinit> <clinit> ()V

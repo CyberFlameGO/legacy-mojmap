@@ -1,3 +1,0 @@
-CLASS ago net/minecraft/server/BlockEnderPortalFrame
-	FIELD a FACING Laml;
-	FIELD b EYE Lamk;

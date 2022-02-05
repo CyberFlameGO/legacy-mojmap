@@ -1,3 +1,0 @@
-CLASS xq net/minecraft/server/ContainerWorkbench
-	FIELD a craftInventory Lxp;
-	FIELD f resultInventory Log;

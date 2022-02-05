@@ -1,3 +1,2 @@
 CLASS aab net/minecraft/world/item/MapItem
-	METHOD <init> <init> ()V
 	METHOD a getSavedMap (Lzx;Ladm;)Latg;

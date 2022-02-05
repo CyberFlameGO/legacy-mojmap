@@ -2,23 +2,11 @@ CLASS agi net/minecraft/world/level/block/DoublePlantBlock
 	FIELD a VARIANT Lamm;
 	FIELD b HALF Lamm;
 	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> ()V
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a postPlace (Ladm;Lcj;Lalz;Lpr;Lzx;)V
-	METHOD a updateShape (Ladq;Lcj;)V
-	METHOD a getDropData (Lalz;)I
-	METHOD a updateState (Lalz;Ladq;Lcj;)Lalz;
-	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
-	METHOD c toLegacyData (Lalz;)I
-	METHOD d canPlace (Ladm;Lcj;)Z
-	METHOD e getStateList ()Lama;
-	METHOD j getDropData (Ladm;Lcj;)I
 	CLASS a EnumTallPlantHalf
 		FIELD a UPPER Lagi$a;
 		FIELD b LOWER Lagi$a;
 		METHOD <clinit> <clinit> ()V
 		METHOD <init> <init> (Ljava/lang/String;I)V
-		METHOD l getName ()Ljava/lang/String;
 		METHOD toString toString ()Ljava/lang/String;
 		METHOD valueOf valueOf (Ljava/lang/String;)Lagi$a;
 		METHOD values values ()[Lagi$a;
@@ -32,7 +20,6 @@ CLASS agi net/minecraft/world/level/block/DoublePlantBlock
 		METHOD <clinit> <clinit> ()V
 		METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;)V
 		METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;)V
-		METHOD l getName ()Ljava/lang/String;
 		METHOD toString toString ()Ljava/lang/String;
 		METHOD valueOf valueOf (Ljava/lang/String;)Lagi$b;
 		METHOD values values ()[Lagi$b;

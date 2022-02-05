@@ -1,5 +1,2 @@
 CLASS bit
 	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Lbiu;)V
-	METHOD a b (Lvp;)F
-	METHOD b a (Lvp;)Ljy;

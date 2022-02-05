@@ -1,2 +1,0 @@
-CLASS aks net/minecraft/server/BlockCarpet
-	FIELD a COLOR Lamm;

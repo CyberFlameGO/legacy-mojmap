@@ -2,4 +2,3 @@ CLASS abw net/minecraft/world/item/crafting/ShapelessRecipe
 	FIELD a result Lzx;
 	FIELD b ingredients Ljava/util/List;
 	METHOD <init> <init> (Lzx;Ljava/util/List;)V
-	METHOD a craftItem (Lxp;)Lzx;

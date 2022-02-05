@@ -1,3 +1,0 @@
-CLASS ol net/minecraft/server/ITileEntityContainer
-	METHOD a createContainer (Lwm;Lwn;)Lxi;
-	METHOD k getContainerName ()Ljava/lang/String;

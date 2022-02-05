@@ -1,2 +1,0 @@
-CLASS vl net/minecraft/server/EntityBlaze
-	CLASS a PathfinderGoalBlazeFireball

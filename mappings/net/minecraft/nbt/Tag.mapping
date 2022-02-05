@@ -11,4 +11,3 @@ CLASS eb net/minecraft/nbt/Tag
 	METHOD hashCode hashCode ()I
 	METHOD toString toString ()Ljava/lang/String;
 	CLASS a NBTNumber
-		METHOD <init> <init> ()V

@@ -21,7 +21,6 @@ CLASS lm net/minecraft/server/PlayerConnection
 		METHOD run run ()V
 	CLASS 3 3
 		METHOD <init> <init> (Llm;Lff;)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;
 	CLASS 4 4
 		METHOD <clinit> <clinit> ()V

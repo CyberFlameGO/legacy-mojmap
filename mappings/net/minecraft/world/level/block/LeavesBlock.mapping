@@ -3,6 +3,3 @@ CLASS ahs net/minecraft/world/level/block/LeavesBlock
 	FIELD b CHECK_DECAY Lamk;
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> ()V
-	METHOD a dropNaturally (Ladm;Lcj;Lalz;FI)V
-	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
-	METHOD b remove (Ladm;Lcj;Lalz;)V

@@ -1,5 +1,0 @@
-CLASS ajh net/minecraft/server/BlockSand
-	FIELD a VARIANT Lamm;
-	CLASS a EnumSandVariant
-		FIELD a SAND Lajh$a;
-		FIELD b RED_SAND Lajh$a;

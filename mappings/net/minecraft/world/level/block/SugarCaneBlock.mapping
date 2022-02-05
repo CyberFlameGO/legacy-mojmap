@@ -2,9 +2,3 @@ CLASS aje net/minecraft/world/level/block/SugarCaneBlock
 	FIELD a AGE Lamn;
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> ()V
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
-	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
-	METHOD c toLegacyData (Lalz;)I
-	METHOD d canPlace (Ladm;Lcj;)Z
-	METHOD e getStateList ()Lama;

@@ -1,3 +1,0 @@
-CLASS aui net/minecraft/server/Vec3D
-	METHOD b add (DDD)Laui;
-	METHOD g distanceSquared (Laui;)D

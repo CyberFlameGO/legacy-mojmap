@@ -1,3 +1,2 @@
 CLASS aol net/minecraft/server/WorldGenBonusChest
 	METHOD <init> <init> (Ljava/util/List;I)V
-	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

@@ -3,5 +3,4 @@ CLASS bmj
 	METHOD <init> <init> (Lbni;)V
 	CLASS 1
 		METHOD <init> <init> (Lbmj;Lbmk;)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;

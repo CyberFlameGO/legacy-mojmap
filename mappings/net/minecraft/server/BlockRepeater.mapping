@@ -1,3 +1,0 @@
-CLASS ajf net/minecraft/server/BlockRepeater
-	FIELD a LOCKED Lamk;
-	FIELD b DELAY Lamn;

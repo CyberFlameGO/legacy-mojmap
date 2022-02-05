@@ -1,2 +1,0 @@
-CLASS dm net/minecraft/server/NBTTagByte
-	FIELD b data B

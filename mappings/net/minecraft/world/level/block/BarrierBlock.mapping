@@ -1,3 +1,2 @@
 CLASS afb net/minecraft/world/level/block/BarrierBlock
 	METHOD <init> <init> ()V
-	METHOD a dropNaturally (Ladm;Lcj;Lalz;FI)V

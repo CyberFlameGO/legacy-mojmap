@@ -10,12 +10,7 @@ CLASS agv net/minecraft/world/level/block/FireBlock
 	FIELD b FLIP Lamk;
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> ()V
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
 	METHOD a registerFlammable (Lafh;II)V
-	METHOD a updateState (Lalz;Ladq;Lcj;)Lalz;
-	METHOD c onPlace (Ladm;Lcj;Lalz;)V
-	METHOD c toLegacyData (Lalz;)I
-	METHOD d canPlace (Ladm;Lcj;)Z
-	METHOD e getStateList ()Lama;
+		ARG 1 block
+		ARG 2 flammabilty
 	METHOD l bootStrap ()V

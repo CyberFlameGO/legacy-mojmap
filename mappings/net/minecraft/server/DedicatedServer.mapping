@@ -5,30 +5,9 @@ CLASS ko net/minecraft/server/DedicatedServer
 	FIELD q generateStructures Z
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> (Ljava/io/File;)V
-	METHOD C getAllowNether ()Z
-	METHOD W getSpawnMonsters ()Z
-	METHOD a setGamemode (Ladp$a;)V
 	METHOD a issueCommand (Ljava/lang/String;Lm;)V
-	METHOD aB announcePlayerAchievements ()Z
-	METHOD aK getNetworkCompressionThreshold ()I
-	METHOD aP getPlayerList ()Lkn;
 	METHOD aS getMaxTickTime ()J
 	METHOD aU sleepFor5 ()V
-	METHOD a_ executeRemoteCommand (Ljava/lang/String;)Ljava/lang/String;
-	METHOD ad getSnooperEnabled ()Z
-	METHOD al getEnableCommandBlock ()Z
-	METHOD ap getPlayerList ()Llx;
-	METHOD aw getSpawnProtection ()I
-	METHOD d setIdleTimeout (I)V
-	METHOD d_ getPlugins ()Ljava/lang/String;
-	METHOD i init ()Z
-	METHOD l getGenerateStructures ()Z
-	METHOD m getGamemode ()Ladp$a;
-	METHOD n getDifficulty ()Loj;
-	METHOD o isHardcore ()Z
-	METHOD p getOpPermissionLevel ()I
-	METHOD q broadcastRconToOps ()Z
-	METHOD r broadcastConsoleToOps ()Z
 	CLASS 1 1
 		METHOD <init> <init> (Lko;Ljava/lang/String;)V
 		METHOD run run ()V
@@ -38,9 +17,7 @@ CLASS ko net/minecraft/server/DedicatedServer
 		METHOD run run ()V
 	CLASS 3 3
 		METHOD <init> <init> (Lko;)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;
 	CLASS 4 4
 		METHOD <init> <init> (Lko;)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;

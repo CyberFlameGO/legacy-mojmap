@@ -1,9 +1,4 @@
 CLASS bj net/minecraft/server/commands/SpreadPlayersCommand
-	METHOD <init> <init> ()V
-	METHOD a execute (Lm;[Ljava/lang/String;)V
-	METHOD a tabComplete (Lm;[Ljava/lang/String;Lcj;)Ljava/util/List;
-	METHOD c getCommand ()Ljava/lang/String;
-	METHOD c getUsage (Lm;)Ljava/lang/String;
 	CLASS a Location2D
 		METHOD <init> <init> ()V
 		METHOD <init> <init> (DD)V

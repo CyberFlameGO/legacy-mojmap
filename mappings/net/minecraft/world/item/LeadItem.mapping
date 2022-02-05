@@ -1,3 +1,1 @@
 CLASS zz net/minecraft/world/item/LeadItem
-	METHOD <init> <init> ()V
-	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z

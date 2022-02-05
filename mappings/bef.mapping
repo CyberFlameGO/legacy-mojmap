@@ -1,4 +1,3 @@
 CLASS bef bef
-	METHOD <init> <init> (Ladm;DDDDDD)V
 	CLASS a a
 		METHOD <init> <init> ()V

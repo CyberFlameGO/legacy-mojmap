@@ -1,5 +1,4 @@
 CLASS wt net/minecraft/world/entity/projectile/FireworkRocketEntity
 	FIELD a ticksFlown I
 	FIELD b expectedLifespan I
-	METHOD <init> <init> (Ladm;)V
 	METHOD <init> <init> (Ladm;DDDLzx;)V

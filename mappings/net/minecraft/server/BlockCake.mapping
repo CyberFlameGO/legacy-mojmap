@@ -1,2 +1,0 @@
-CLASS afp net/minecraft/server/BlockCake
-	FIELD a BITES Lamn;

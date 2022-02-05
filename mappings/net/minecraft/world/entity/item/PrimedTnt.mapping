@@ -1,8 +1,6 @@
 CLASS vj net/minecraft/world/entity/item/PrimedTnt
 	FIELD a fuseTicks I
 	FIELD b source Lpr;
-	METHOD <init> <init> (Ladm;)V
 	METHOD <init> <init> (Ladm;DDDLpr;)V
-	METHOD aS getHeadHeight ()F
 	METHOD j getSource ()Lpr;
 	METHOD l explode ()V

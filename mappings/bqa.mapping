@@ -1,3 +1,0 @@
-CLASS bqa
-	METHOD <init> <init> ()V
-	METHOD b createMap ()Ljava/util/Map;

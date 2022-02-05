@@ -1,5 +1,2 @@
 CLASS qi net/minecraft/world/entity/ai/attributes/ModifiableAttributeMap
-	METHOD <init> <init> ()V
 	METHOD b getAttributes ()Ljava/util/Set;
-	METHOD b a (Ljava/lang/String;)Lqh;
-	METHOD e a (Lqb;)Lqh;

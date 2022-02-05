@@ -2,11 +2,6 @@ CLASS aho net/minecraft/server/BlockHugeMushroom
 	FIELD a VARIANT Lamm;
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> (Larm;Larn;Lafh;)V
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a getPlacedState (Ladm;Lcj;Lcq;FFFILpr;)Lalz;
-	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;
 	CLASS 1 1
 		METHOD <clinit> <clinit> ()V
 	CLASS a EnumHugeMushroomVariant
@@ -25,7 +20,6 @@ CLASS aho net/minecraft/server/BlockHugeMushroom
 		FIELD m ALL_STEM Laho$a;
 		METHOD <clinit> <clinit> ()V
 		METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;)V
-		METHOD l getName ()Ljava/lang/String;
 		METHOD toString toString ()Ljava/lang/String;
 		METHOD valueOf valueOf (Ljava/lang/String;)Laho$a;
 		METHOD values values ()[Laho$a;

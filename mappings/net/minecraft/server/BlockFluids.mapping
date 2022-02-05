@@ -1,3 +1,0 @@
-CLASS ahv net/minecraft/server/BlockFluids
-	FIELD b LEVEL Lamn;
-	METHOD e fizz (Ladm;Lcj;)V

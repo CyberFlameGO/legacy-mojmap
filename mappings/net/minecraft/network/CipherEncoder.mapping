@@ -1,5 +1,4 @@
 CLASS eh net/minecraft/network/CipherEncoder
 	FIELD a cipher Lef;
 	METHOD <init> <init> (Ljavax/crypto/Cipher;)V
-	METHOD a encode (Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Lio/netty/buffer/ByteBuf;)V
 	METHOD encode encode (Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;Lio/netty/buffer/ByteBuf;)V

@@ -1,2 +1,0 @@
-CLASS oy net/minecraft/server/EntityDamageSourceIndirect
-	FIELD r owner Lpk;

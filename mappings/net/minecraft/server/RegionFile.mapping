@@ -1,2 +1,0 @@
-CLASS anh net/minecraft/server/RegionFile
-	CLASS a ChunkBuffer

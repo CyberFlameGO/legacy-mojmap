@@ -1,3 +1,2 @@
 CLASS aop net/minecraft/server/WorldGenClay
 	METHOD <init> <init> (I)V
-	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

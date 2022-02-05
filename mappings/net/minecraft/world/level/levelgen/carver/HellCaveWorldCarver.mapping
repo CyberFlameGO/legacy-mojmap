@@ -1,2 +1,1 @@
 CLASS anz net/minecraft/world/level/levelgen/carver/HellCaveWorldCarver
-	METHOD <init> <init> ()V

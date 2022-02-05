@@ -1,4 +1,2 @@
 CLASS bas bas
-	METHOD <init> <init> ()V
-	METHOD <init> <init> (F)V
 	METHOD <init> <init> (FII)V

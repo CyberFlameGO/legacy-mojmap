@@ -2,11 +2,7 @@ CLASS uz net/minecraft/world/entity/item/ItemEntity
 	FIELD c age I
 	FIELD d pickupDelay I
 	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Ladm;)V
 	METHOD <init> <init> (Ladm;DDD)V
 	METHOD <init> <init> (Ladm;DDDLzx;)V
-	METHOD a damageEntity (Low;F)Z
 	METHOD a setItemStack (Lzx;)V
-	METHOD e_ getName ()Ljava/lang/String;
-	METHOD f burn (I)V
 	METHOD l getItemStack ()Lzx;

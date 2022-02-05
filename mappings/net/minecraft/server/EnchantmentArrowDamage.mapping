@@ -1,3 +1,2 @@
 CLASS acb net/minecraft/server/EnchantmentArrowDamage
 	METHOD <init> <init> (ILjy;I)V
-	METHOD b getMaxLevel ()I

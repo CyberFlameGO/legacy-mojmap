@@ -2,9 +2,7 @@ CLASS ase net/minecraft/world/level/newbiome/layer/Layer
 	METHOD <init> <init> (J)V
 	CLASS 1 1
 		METHOD <init> <init> (Lady;)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;
 	CLASS 2 2
 		METHOD <init> <init> (Lady;)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;

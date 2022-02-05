@@ -1,8 +1,0 @@
-CLASS ahw net/minecraft/server/BlockLogAbstract
-	FIELD a AXIS Lamm;
-	CLASS 1 1
-	CLASS a EnumLogRotation
-		FIELD a X Lahw$a;
-		FIELD b Y Lahw$a;
-		FIELD c Z Lahw$a;
-		FIELD d NONE Lahw$a;

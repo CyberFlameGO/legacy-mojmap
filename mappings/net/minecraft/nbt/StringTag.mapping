@@ -1,12 +1,3 @@
 CLASS ea net/minecraft/nbt/StringTag
 	FIELD b data Ljava/lang/String;
-	METHOD <init> <init> ()V
 	METHOD <init> <init> (Ljava/lang/String;)V
-	METHOD a getTypeId ()B
-	METHOD a load (Ljava/io/DataInput;ILdw;)V
-	METHOD a write (Ljava/io/DataOutput;)V
-	METHOD b clone ()Leb;
-	METHOD c_ isEmpty ()Z
-	METHOD equals equals (Ljava/lang/Object;)Z
-	METHOD hashCode hashCode ()I
-	METHOD toString toString ()Ljava/lang/String;

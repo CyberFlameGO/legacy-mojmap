@@ -1,5 +1,4 @@
 CLASS qe net/minecraft/world/entity/ai/attributes/BaseAttribute
 	METHOD <init> <init> (Lqb;Ljava/lang/String;D)V
-	METHOD a getName ()Ljava/lang/String;
 	METHOD equals equals (Ljava/lang/Object;)Z
 	METHOD hashCode hashCode ()I

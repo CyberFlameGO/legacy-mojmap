@@ -1,3 +1,2 @@
 CLASS cc net/minecraft/server/ExceptionInvalidSyntax
 	METHOD <init> <init> ()V
-	METHOD <init> <init> (Ljava/lang/String;[Ljava/lang/Object;)V

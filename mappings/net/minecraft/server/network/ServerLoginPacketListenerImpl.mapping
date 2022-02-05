@@ -8,7 +8,6 @@ CLASS lo net/minecraft/server/network/ServerLoginPacketListenerImpl
 	METHOD a disconnect (Ljava/lang/String;)V
 	CLASS 1 1
 		METHOD <init> <init> (Llo;)V
-		METHOD a operationComplete (Lio/netty/channel/ChannelFuture;)V
 		METHOD operationComplete operationComplete (Lio/netty/util/concurrent/Future;)V
 	CLASS 2 2
 		METHOD <init> <init> (Llo;Ljava/lang/String;)V

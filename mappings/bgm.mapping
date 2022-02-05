@@ -6,7 +6,6 @@ CLASS bgm bgm
 	METHOD hashCode hashCode ()I
 	CLASS a a
 		METHOD <init> <init> ()V
-		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lbgm;
 		METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
 	CLASS b b
 		METHOD <init> <init> (Lbgm;)V
@@ -16,7 +15,6 @@ CLASS bgm bgm
 		METHOD hashCode hashCode ()I
 		CLASS a a
 			METHOD <init> <init> ()V
-			METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lbgm$c;
 			METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
 	CLASS d d
 		METHOD <init> <init> (Ljava/lang/String;Ljava/util/List;)V

@@ -1,2 +1,0 @@
-CLASS abs net/minecraft/server/IRecipe
-	METHOD a craftItem (Lxp;)Lzx;

@@ -1,8 +1,3 @@
 CLASS aim net/minecraft/world/level/block/OreBlock
 	METHOD <init> <init> ()V
 	METHOD <init> <init> (Larn;)V
-	METHOD a getDropCount (ILjava/util/Random;)I
-	METHOD a dropNaturally (Ladm;Lcj;Lalz;FI)V
-	METHOD a getDropData (Lalz;)I
-	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
-	METHOD j getDropData (Ladm;Lcj;)I

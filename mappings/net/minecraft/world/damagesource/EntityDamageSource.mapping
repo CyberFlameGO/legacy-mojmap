@@ -1,4 +1,2 @@
 CLASS ox net/minecraft/world/damagesource/EntityDamageSource
 	METHOD <init> <init> (Ljava/lang/String;Lpk;)V
-	METHOD b getLocalizedDeathMessage (Lpr;)Leu;
-	METHOD j getEntity ()Lpk;

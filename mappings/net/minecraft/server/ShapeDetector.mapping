@@ -2,7 +2,6 @@ CLASS amd net/minecraft/server/ShapeDetector
 	METHOD <init> <init> ([[[Lcom/google/common/base/Predicate;)V
 	CLASS a BlockCacheLoader
 		METHOD <init> <init> (Ladm;Z)V
-		METHOD a load (Lcj;)Lamc;
 		METHOD load load (Ljava/lang/Object;)Ljava/lang/Object;
 	CLASS b ShapeDetectorCollection
 		METHOD <init> <init> (Lcj;Lcq;Lcq;Lcom/google/common/cache/LoadingCache;III)V

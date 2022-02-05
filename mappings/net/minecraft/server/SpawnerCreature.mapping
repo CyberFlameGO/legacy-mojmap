@@ -1,2 +1,0 @@
-CLASS adt net/minecraft/server/SpawnerCreature
-	METHOD a getRandomPosition (Ladm;II)Lcj;

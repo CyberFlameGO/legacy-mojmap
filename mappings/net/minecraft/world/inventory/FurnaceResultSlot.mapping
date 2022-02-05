@@ -1,3 +1,2 @@
 CLASS xv net/minecraft/world/inventory/FurnaceResultSlot
 	METHOD <init> <init> (Lwn;Log;III)V
-	METHOD a isAllowed (Lzx;)Z

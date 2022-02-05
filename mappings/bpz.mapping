@@ -8,6 +8,5 @@ CLASS bpz
 		METHOD getRawType getRawType ()Ljava/lang/reflect/Type;
 	CLASS 2
 		METHOD <init> <init> (Lbpz;Ljava/lang/String;Lbph$a;)V
-		METHOD b g ()Lbpw;
 	CLASS 3
 		METHOD <clinit> <clinit> ()V

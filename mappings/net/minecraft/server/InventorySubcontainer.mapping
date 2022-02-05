@@ -1,2 +1,0 @@
-CLASS oq net/minecraft/server/InventorySubcontainer
-	FIELD c items [Lzx;

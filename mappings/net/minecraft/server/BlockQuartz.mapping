@@ -2,11 +2,6 @@ CLASS aiw net/minecraft/server/BlockQuartz
 	FIELD a VARIANT Lamm;
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> ()V
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a getPlacedState (Ladm;Lcj;Lcq;FFFILpr;)Lalz;
-	METHOD a getDropData (Lalz;)I
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;
 	CLASS 1 1
 		METHOD <clinit> <clinit> ()V
 	CLASS a EnumQuartzVariant
@@ -17,7 +12,6 @@ CLASS aiw net/minecraft/server/BlockQuartz
 		FIELD e LINES_Z Laiw$a;
 		METHOD <clinit> <clinit> ()V
 		METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;)V
-		METHOD l getName ()Ljava/lang/String;
 		METHOD toString toString ()Ljava/lang/String;
 		METHOD valueOf valueOf (Ljava/lang/String;)Laiw$a;
 		METHOD values values ()[Laiw$a;

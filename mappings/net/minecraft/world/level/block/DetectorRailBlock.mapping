@@ -3,13 +3,6 @@ CLASS agc net/minecraft/world/level/block/DetectorRailBlock
 	FIELD b SHAPE Lamm;
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> ()V
-	METHOD O isComplexRedstone ()Z
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD c onPlace (Ladm;Lcj;Lalz;)V
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;
-	METHOD i isPowerSource ()Z
 	CLASS 1 1
 		METHOD <init> <init> ()V
-		METHOD a apply (Lafe$b;)Z
 		METHOD apply apply (Ljava/lang/Object;)Z

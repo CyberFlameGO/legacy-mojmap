@@ -1,3 +1,0 @@
-CLASS tk net/minecraft/server/EntityBat
-	METHOD a setAsleep (Z)V
-	METHOD n isAsleep ()Z

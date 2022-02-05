@@ -2,7 +2,5 @@ CLASS co net/minecraft/core/DefaultedRegistry
 	FIELD d defaultKey Ljava/lang/Object;
 	FIELD e defaultValue Ljava/lang/Object;
 	METHOD <init> <init> (Ljava/lang/Object;)V
+		ARG 1 defaultKey
 	METHOD a validateDefaultKey ()V
-	METHOD a getById (I)Ljava/lang/Object;
-	METHOD a register (ILjava/lang/Object;Ljava/lang/Object;)V
-	METHOD a get (Ljava/lang/Object;)Ljava/lang/Object;

@@ -1,3 +1,2 @@
 CLASS yt net/minecraft/world/item/BowItem
 	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> ()V

@@ -3,7 +3,6 @@ CLASS bnp
 	METHOD <init> <init> (Lbmj;Ljava/io/File;Lcom/mojang/authlib/minecraft/MinecraftSessionService;)V
 	CLASS 1
 		METHOD <init> <init> (Lbnp;)V
-		METHOD a load (Lcom/mojang/authlib/GameProfile;)Ljava/util/Map;
 		METHOD load load (Ljava/lang/Object;)Ljava/lang/Object;
 	CLASS 2
 		METHOD <init> <init> (Lbnp;Lbfm;Lbnp$a;Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;Ljy;Lcom/mojang/authlib/minecraft/MinecraftProfileTexture;)V
@@ -13,4 +12,3 @@ CLASS bnp
 		CLASS 1
 			METHOD <init> <init> (Lbnp$3;Ljava/util/Map;)V
 			METHOD run run ()V
-	CLASS a

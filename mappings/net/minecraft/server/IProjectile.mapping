@@ -1,2 +1,0 @@
-CLASS wv net/minecraft/server/IProjectile
-	METHOD c shoot (DDDFF)V

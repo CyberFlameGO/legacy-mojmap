@@ -1,3 +1,0 @@
-CLASS ahr net/minecraft/server/BlockLadder
-	FIELD a FACING Laml;
-	CLASS 1 1

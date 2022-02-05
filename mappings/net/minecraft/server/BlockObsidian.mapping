@@ -1,3 +1,2 @@
 CLASS aij net/minecraft/server/BlockObsidian
 	METHOD <init> <init> ()V
-	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;

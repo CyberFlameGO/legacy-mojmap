@@ -5,24 +5,12 @@ CLASS agh net/minecraft/world/level/block/DoorBlock
 	FIELD a FACING Laml;
 	FIELD b OPEN Lamk;
 	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Larm;)V
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
-	METHOD a interact (Ladm;Lcj;Lalz;Lwn;Lcq;FFF)Z
 	METHOD a setDoor (Ladm;Lcj;Z)V
-	METHOD a updateShape (Ladq;Lcj;)V
-	METHOD a updateState (Lalz;Ladq;Lcj;)Lalz;
-	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
-	METHOD c toLegacyData (Lalz;)I
-	METHOD d canPlace (Ladm;Lcj;)Z
-	METHOD e getStateList ()Lama;
-	METHOD f getName ()Ljava/lang/String;
 	CLASS a EnumDoorHalf
 		FIELD a UPPER Lagh$a;
 		FIELD b LOWER Lagh$a;
 		METHOD <clinit> <clinit> ()V
 		METHOD <init> <init> (Ljava/lang/String;I)V
-		METHOD l getName ()Ljava/lang/String;
 		METHOD toString toString ()Ljava/lang/String;
 		METHOD valueOf valueOf (Ljava/lang/String;)Lagh$a;
 		METHOD values values ()[Lagh$a;
@@ -31,7 +19,6 @@ CLASS agh net/minecraft/world/level/block/DoorBlock
 		FIELD b RIGHT Lagh$b;
 		METHOD <clinit> <clinit> ()V
 		METHOD <init> <init> (Ljava/lang/String;I)V
-		METHOD l getName ()Ljava/lang/String;
 		METHOD toString toString ()Ljava/lang/String;
 		METHOD valueOf valueOf (Ljava/lang/String;)Lagh$b;
 		METHOD values values ()[Lagh$b;

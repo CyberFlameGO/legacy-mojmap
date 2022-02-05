@@ -1,2 +1,0 @@
-CLASS bz net/minecraft/server/CommandException
-	METHOD a getArgs ()[Ljava/lang/Object;

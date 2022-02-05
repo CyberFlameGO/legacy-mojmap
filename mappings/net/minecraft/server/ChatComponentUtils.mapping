@@ -1,2 +1,0 @@
-CLASS ev net/minecraft/server/ChatComponentUtils
-	METHOD a filterForDisplay (Lm;Leu;Lpk;)Leu;

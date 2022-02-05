@@ -1,5 +1,0 @@
-CLASS agt net/minecraft/server/BlockFence
-	FIELD N SOUTH Lamk;
-	FIELD O WEST Lamk;
-	FIELD a NORTH Lamk;
-	FIELD b EAST Lamk;

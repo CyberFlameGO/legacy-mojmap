@@ -1,3 +1,0 @@
-CLASS ahs net/minecraft/server/BlockLeaves
-	FIELD a DECAYABLE Lamk;
-	FIELD b CHECK_DECAY Lamk;

@@ -1,5 +1,2 @@
 CLASS big
 	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Lbiu;)V
-	METHOD a b ()Lbat;
-	METHOD b a (Lum;)Z

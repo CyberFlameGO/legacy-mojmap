@@ -4,14 +4,6 @@ CLASS ajx net/minecraft/world/level/block/StemBlock
 	FIELD b FACING Laml;
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> (Lafh;)V
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a dropNaturally (Ladm;Lcj;Lalz;FI)V
-	METHOD a updateShape (Ladq;Lcj;)V
-	METHOD a updateState (Lalz;Ladq;Lcj;)Lalz;
-	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;
 	CLASS 1 1
 		METHOD <init> <init> ()V
-		METHOD a apply (Lcq;)Z
 		METHOD apply apply (Ljava/lang/Object;)Z

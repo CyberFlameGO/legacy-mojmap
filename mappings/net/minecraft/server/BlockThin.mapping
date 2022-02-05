@@ -5,8 +5,3 @@ CLASS akd net/minecraft/server/BlockThin
 	FIELD b NORTH Lamk;
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> (Larm;Z)V
-	METHOD a updateShape (Ladq;Lcj;)V
-	METHOD a updateState (Lalz;Ladq;Lcj;)Lalz;
-	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;

@@ -1,7 +1,2 @@
 CLASS mc net/minecraft/server/GameProfileBanList
-	METHOD <init> <init> (Ljava/io/File;)V
-	METHOD a getEntries ()[Ljava/lang/String;
-	METHOD a getEntryFromObject (Lcom/google/gson/JsonObject;)Lma;
 	METHOD a isBanned (Lcom/mojang/authlib/GameProfile;)Z
-	METHOD a getProfileUUID (Ljava/lang/Object;)Ljava/lang/String;
-	METHOD b getProfileUUID (Lcom/mojang/authlib/GameProfile;)Ljava/lang/String;

@@ -2,6 +2,3 @@ CLASS mq net/minecraft/server/Achievement
 	METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;IILafh;Lmq;)V
 	METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;IILzw;Lmq;)V
 	METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;IILzx;Lmq;)V
-	METHOD a i ()Lmq;
-	METHOD a b (Ljava/lang/Class;)Lmq;
-	METHOD c h ()Lmq;

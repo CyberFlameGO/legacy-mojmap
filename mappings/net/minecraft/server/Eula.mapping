@@ -4,5 +4,7 @@ CLASS kf net/minecraft/server/Eula
 	FIELD c agreed Z
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> (Ljava/io/File;)V
+		ARG 1 file
 	METHOD a agreed ()Z
 	METHOD a load (Ljava/io/File;)Z
+		ARG 1 eula

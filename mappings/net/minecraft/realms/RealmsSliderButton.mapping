@@ -9,10 +9,6 @@ CLASS net/minecraft/realms/RealmsSliderButton net/minecraft/realms/RealmsSliderB
 	METHOD clamp clamp (F)F
 	METHOD clampSteps clampSteps (F)F
 	METHOD clicked clicked (F)V
-	METHOD clicked clicked (II)V
 	METHOD getMessage getMessage ()Ljava/lang/String;
-	METHOD getYImage getYImage (Z)I
-	METHOD released released (II)V
-	METHOD renderBg renderBg (II)V
 	METHOD toPct toPct (F)F
 	METHOD toValue toValue (F)F

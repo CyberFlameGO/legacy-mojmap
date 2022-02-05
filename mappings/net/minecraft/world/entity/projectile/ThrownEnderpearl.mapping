@@ -1,4 +1,1 @@
 CLASS xa net/minecraft/world/entity/projectile/ThrownEnderpearl
-	METHOD <init> <init> (Ladm;)V
-	METHOD <init> <init> (Ladm;DDD)V
-	METHOD <init> <init> (Ladm;Lpr;)V

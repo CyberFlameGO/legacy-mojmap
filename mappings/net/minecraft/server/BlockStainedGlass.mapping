@@ -1,2 +1,0 @@
-CLASS ajs net/minecraft/server/BlockStainedGlass
-	FIELD a COLOR Lamm;

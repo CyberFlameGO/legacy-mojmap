@@ -1,7 +1,2 @@
 CLASS wd net/minecraft/world/entity/monster/Witch
 	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Ladm;)V
-	METHOD aS getHeadHeight ()F
-	METHOD aX initAttributes ()V
-	METHOD b dropDeathLoot (ZI)V
-	METHOD c applyMagicModifier (Low;F)F

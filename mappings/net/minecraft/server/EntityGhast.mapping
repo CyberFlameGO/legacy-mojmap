@@ -1,5 +1,0 @@
-CLASS vr net/minecraft/server/EntityGhast
-	CLASS a PathfinderGoalGhastMoveTowardsTarget
-	CLASS b ControllerGhast
-	CLASS c PathfinderGoalGhastAttackTarget
-	CLASS d PathfinderGoalGhastIdleMove

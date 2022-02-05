@@ -6,13 +6,18 @@ CLASS mb net/minecraft/server/players/StoredUserList
 	FIELD e enabled Z
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> (Ljava/io/File;)V
+		ARG 1 opsFile
 	METHOD a getEntries ()[Ljava/lang/String;
 	METHOD a getEntryFromObject (Lcom/google/gson/JsonObject;)Lma;
+		ARG 1 object
 	METHOD a getProfileUUID (Ljava/lang/Object;)Ljava/lang/String;
+		ARG 1 profile
 	METHOD a add (Lma;)V
 	METHOD a setEnabled (Z)V
+		ARG 1 enabled
 	METHOD b isEnabled ()Z
 	METHOD b get (Ljava/lang/Object;)Lma;
+		ARG 1 key
 	METHOD c getJsonFile ()Ljava/io/File;
 	METHOD c remove (Ljava/lang/Object;)V
 	METHOD d isEmpty ()Z
@@ -27,7 +32,5 @@ CLASS mb net/minecraft/server/players/StoredUserList
 	CLASS a Serializer
 		METHOD <init> <init> (Lmb;)V
 		METHOD <init> <init> (Lmb;Lmb$1;)V
-		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lma;
-		METHOD a serialize (Lma;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
 		METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
 		METHOD serialize serialize (Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;

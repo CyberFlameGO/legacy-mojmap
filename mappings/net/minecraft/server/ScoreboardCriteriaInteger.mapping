@@ -1,5 +1,2 @@
 CLASS aur net/minecraft/server/ScoreboardCriteriaInteger
 	METHOD <init> <init> (Ljava/lang/String;La;)V
-	METHOD a getName ()Ljava/lang/String;
-	METHOD a getScoreModifier (Ljava/util/List;)I
-	METHOD b isReadOnly ()Z

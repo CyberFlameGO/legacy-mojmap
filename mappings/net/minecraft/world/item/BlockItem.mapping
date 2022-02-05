@@ -1,6 +1,2 @@
 CLASS yo net/minecraft/world/item/BlockItem
 	METHOD <init> <init> (Lafh;)V
-	METHOD a getName ()Ljava/lang/String;
-	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z
-	METHOD b setName (Ljava/lang/String;)Lyo;
-	METHOD c setName (Ljava/lang/String;)Lzw;

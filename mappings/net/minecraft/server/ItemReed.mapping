@@ -1,3 +1,2 @@
 CLASS yp net/minecraft/server/ItemReed
 	METHOD <init> <init> (Lafh;)V
-	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z

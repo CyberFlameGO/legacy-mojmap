@@ -1,2 +1,0 @@
-CLASS aqv net/minecraft/server/WorldGenVillage
-	CLASS a WorldGenVillageStart

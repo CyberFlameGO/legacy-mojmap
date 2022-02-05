@@ -1,3 +1,2 @@
 CLASS kx net/minecraft/server/DemoWorldServer
 	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Latp;Lato;ILnt;)V

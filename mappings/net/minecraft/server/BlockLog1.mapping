@@ -1,14 +1,8 @@
 CLASS ail net/minecraft/server/BlockLog1
 	FIELD b VARIANT Lamm;
 	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> ()V
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a getDropData (Lalz;)I
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;
 	CLASS 1 1
 		METHOD <init> <init> ()V
-		METHOD a apply (Laio$a;)Z
 		METHOD apply apply (Ljava/lang/Object;)Z
 	CLASS 2 2
 		METHOD <clinit> <clinit> ()V

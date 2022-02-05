@@ -1,3 +1,0 @@
-CLASS alv net/minecraft/server/BlockPistonMoving
-	FIELD a FACING Laml;
-	FIELD b TYPE Lamm;

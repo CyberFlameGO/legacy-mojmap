@@ -5,42 +5,26 @@ CLASS kb net/minecraft/server/Bootstrap
 	METHOD <clinit> <clinit> ()V
 	METHOD a isBootstrapped ()Z
 	METHOD a readStdoutPrintln (Ljava/lang/String;)V
+		ARG 0 str
 	METHOD b registerDispenserBehaviors ()V
 	METHOD c bootStrap ()V
 	METHOD d wrapStreams ()V
 	CLASS 1 1
-		METHOD <init> <init> ()V
 	CLASS 2 10
-		METHOD <init> <init> ()V
 	CLASS 3 11
-		METHOD <init> <init> ()V
 	CLASS 4 12
-		METHOD <init> <init> ()V
 	CLASS 5 13
-		METHOD <init> <init> ()V
 	CLASS 6 14
-		METHOD <init> <init> ()V
 	CLASS 7 15
-		METHOD <init> <init> ()V
 	CLASS 8 16
-		METHOD <init> <init> ()V
 	CLASS 9 17
-		METHOD <init> <init> ()V
 	CLASS 10 2
-		METHOD <init> <init> ()V
 	CLASS 11 3
-		METHOD <init> <init> ()V
-		METHOD b getPower ()F
 	CLASS 12 4
 		METHOD <init> <init> ()V
 		CLASS 1 1
 			METHOD <init> <init> (Lkb$12;Lzx;)V
-			METHOD b getPower ()F
 	CLASS 13 5
-		METHOD <init> <init> ()V
 	CLASS 14 6
-		METHOD <init> <init> ()V
 	CLASS 15 7
-		METHOD <init> <init> ()V
 	CLASS 16 8
-		METHOD <init> <init> ()V

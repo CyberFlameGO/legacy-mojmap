@@ -1,4 +1,3 @@
 CLASS awv awv
 	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> ()V
 	METHOD <init> <init> (Ljava/lang/String;)V

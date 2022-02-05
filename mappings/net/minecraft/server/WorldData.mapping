@@ -30,37 +30,28 @@ CLASS ato net/minecraft/server/WorldData
 	METHOD z isDifficultyLocked ()Z
 	CLASS 1 1
 		METHOD <init> <init> (Lato;)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;
 	CLASS 2 2
 		METHOD <init> <init> (Lato;)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;
 	CLASS 3 3
 		METHOD <init> <init> (Lato;)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;
 	CLASS 4 4
 		METHOD <init> <init> (Lato;)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;
 	CLASS 5 5
 		METHOD <init> <init> (Lato;)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;
 	CLASS 6 6
 		METHOD <init> <init> (Lato;)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;
 	CLASS 7 7
 		METHOD <init> <init> (Lato;)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;
 	CLASS 8 8
 		METHOD <init> <init> (Lato;)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;
 	CLASS 9 9
 		METHOD <init> <init> (Lato;)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;

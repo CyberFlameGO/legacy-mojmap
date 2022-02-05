@@ -1,4 +1,3 @@
 CLASS yl net/minecraft/world/item/AxeItem
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> (Lzw$a;)V
-	METHOD a getDestroySpeed (Lzx;Lafh;)F

@@ -1,2 +1,0 @@
-CLASS kk net/minecraft/server/ScoreboardServer
-	METHOD d getScoreboardScorePacketsForObjective (Lauk;)Ljava/util/List;

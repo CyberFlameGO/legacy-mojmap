@@ -1,4 +1,3 @@
 CLASS ue net/minecraft/world/entity/boss/EnderDragonPart
 	FIELD a owner Lud;
 	METHOD <init> <init> (Lud;Ljava/lang/String;FF)V
-	METHOD a damageEntity (Low;F)Z

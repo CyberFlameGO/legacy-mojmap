@@ -13,5 +13,4 @@ CLASS aum net/minecraft/world/scores/Score
 	METHOD e getPlayerName ()Ljava/lang/String;
 	CLASS 1 1
 		METHOD <init> <init> ()V
-		METHOD a compare (Laum;Laum;)I
 		METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I

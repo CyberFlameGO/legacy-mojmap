@@ -14,6 +14,3 @@ CLASS net/minecraft/realms/RealmsServerStatusPinger net/minecraft/realms/RealmsS
 		FIELD d d Lnet/minecraft/realms/RealmsServerStatusPinger;
 		FIELD e e Z
 		METHOD <init> <init> (Lnet/minecraft/realms/RealmsServerStatusPinger;Lnet/minecraft/realms/RealmsServerPing;Lek;Ljava/lang/String;)V
-		METHOD a a (Leu;)V
-		METHOD a a (Ljq;)V
-		METHOD a a (Ljr;)V

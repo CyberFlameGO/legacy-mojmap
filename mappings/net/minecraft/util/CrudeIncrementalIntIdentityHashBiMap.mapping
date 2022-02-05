@@ -3,6 +3,10 @@ CLASS ct net/minecraft/util/CrudeIncrementalIntIdentityHashBiMap
 	FIELD b list Ljava/util/List;
 	METHOD <init> <init> ()V
 	METHOD a byId (I)Ljava/lang/Object;
+		ARG 1 index
 	METHOD a set (Ljava/lang/Object;I)V
+		ARG 1 value
+		ARG 2 index
 	METHOD b getId (Ljava/lang/Object;)I
+		ARG 1 value
 	METHOD iterator iterator ()Ljava/util/Iterator;

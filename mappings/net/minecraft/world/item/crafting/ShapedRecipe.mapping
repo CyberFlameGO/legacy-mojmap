@@ -4,4 +4,3 @@ CLASS abv net/minecraft/world/item/crafting/ShapedRecipe
 	FIELD c items [Lzx;
 	FIELD d result Lzx;
 	METHOD <init> <init> (II[Lzx;Lzx;)V
-	METHOD a craftItem (Lxp;)Lzx;

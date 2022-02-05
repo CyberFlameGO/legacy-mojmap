@@ -1,6 +1,0 @@
-CLASS vw net/minecraft/server/EntityPigZombie
-	FIELD bm angerLevel I
-	FIELD bn soundDelay I
-	FIELD bo hurtBy Ljava/util/UUID;
-	CLASS a PathfinderGoalAnger
-	CLASS b PathfinderGoalAngerOther

@@ -1,3 +1,0 @@
-CLASS ads net/minecraft/server/EnumSkyBlock
-	FIELD a SKY Lads;
-	FIELD b BLOCK Lads;

@@ -2,8 +2,6 @@ CLASS ahw net/minecraft/world/level/block/LogBlock
 	FIELD a AXIS Lamm;
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> ()V
-	METHOD a getPlacedState (Ladm;Lcj;Lcq;FFFILpr;)Lalz;
-	METHOD b remove (Ladm;Lcj;Lalz;)V
 	CLASS 1 1
 		METHOD <clinit> <clinit> ()V
 	CLASS a EnumLogRotation
@@ -13,7 +11,6 @@ CLASS ahw net/minecraft/world/level/block/LogBlock
 		FIELD d NONE Lahw$a;
 		METHOD <clinit> <clinit> ()V
 		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
-		METHOD l getName ()Ljava/lang/String;
 		METHOD toString toString ()Ljava/lang/String;
 		METHOD valueOf valueOf (Ljava/lang/String;)Lahw$a;
 		METHOD values values ()[Lahw$a;

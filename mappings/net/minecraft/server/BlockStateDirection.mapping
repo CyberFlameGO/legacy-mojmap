@@ -1,3 +1,0 @@
-CLASS aml net/minecraft/server/BlockStateDirection
-	METHOD a of (Ljava/lang/String;)Laml;
-	METHOD a of (Ljava/lang/String;Lcom/google/common/base/Predicate;)Laml;

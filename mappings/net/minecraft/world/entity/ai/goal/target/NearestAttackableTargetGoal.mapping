@@ -4,9 +4,7 @@ CLASS sp net/minecraft/world/entity/ai/goal/target/NearestAttackableTargetGoal
 	METHOD <init> <init> (Lpy;Ljava/lang/Class;ZZ)V
 	CLASS 1 1
 		METHOD <init> <init> (Lsp;Lcom/google/common/base/Predicate;)V
-		METHOD a apply (Lpr;)Z
 		METHOD apply apply (Ljava/lang/Object;)Z
 	CLASS a DistanceComparator
 		METHOD <init> <init> (Lpk;)V
-		METHOD a compare (Lpk;Lpk;)I
 		METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I

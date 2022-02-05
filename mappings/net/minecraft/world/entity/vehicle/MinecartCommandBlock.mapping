@@ -1,8 +1,4 @@
 CLASS vc net/minecraft/world/entity/vehicle/MinecartCommandBlock
-	METHOD <init> <init> (Ladm;)V
-	METHOD <init> <init> (Ladm;DDD)V
 	METHOD j getCommandBlock ()Ladc;
 	CLASS 1 1
 		METHOD <init> <init> (Lvc;)V
-		METHOD c getChunkCoordinates ()Lcj;
-		METHOD e getWorld ()Ladm;

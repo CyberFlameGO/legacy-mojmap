@@ -1,5 +1,2 @@
 CLASS bff bff
 	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Ladm;Lcj;Lcj;I)V
-	METHOD p getType (Lcj;)Lalz;
-	METHOD s getTileEntity (Lcj;)Lakw;

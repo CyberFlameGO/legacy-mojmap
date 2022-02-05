@@ -1,3 +1,2 @@
 CLASS azu azu
 	METHOD <init> <init> (Lave;IILjava/util/List;)V
-	METHOD c b (I)Lazp;

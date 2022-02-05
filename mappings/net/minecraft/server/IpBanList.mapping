@@ -1,3 +1,0 @@
-CLASS lu net/minecraft/server/IpBanList
-	METHOD a isBanned (Ljava/net/SocketAddress;)Z
-	METHOD b get (Ljava/net/SocketAddress;)Llv;

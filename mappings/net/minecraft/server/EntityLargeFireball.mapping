@@ -1,2 +1,0 @@
-CLASS wu net/minecraft/server/EntityLargeFireball
-	FIELD e yield I

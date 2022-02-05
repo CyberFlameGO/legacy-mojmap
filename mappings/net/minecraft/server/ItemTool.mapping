@@ -1,3 +1,2 @@
 CLASS za net/minecraft/server/ItemTool
 	METHOD <init> <init> (FLzw$a;Ljava/util/Set;)V
-	METHOD a getDestroySpeed (Lzx;Lafh;)F

@@ -4,6 +4,5 @@ CLASS box
 		METHOD <init> <init> ()V
 	CLASS b
 		METHOD <init> <init> (Lboq;I)V
-		METHOD a compareTo (Lbox$b;)I
 		METHOD compareTo compareTo (Ljava/lang/Object;)I
 		METHOD toString toString ()Ljava/lang/String;

@@ -1,7 +1,5 @@
 CLASS aqk net/minecraft/world/level/levelgen/feature/OceanMonumentFeature
 	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> ()V
 	METHOD <init> <init> (Ljava/util/Map;)V
 	CLASS a WorldGenMonumentStart
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (Ladm;Ljava/util/Random;II)V

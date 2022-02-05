@@ -1,2 +1,0 @@
-CLASS xp net/minecraft/server/InventoryCrafting
-	FIELD a items [Lzx;

@@ -5,5 +5,4 @@ CLASS awh awh
 	CLASS a a
 		METHOD <init> <init> ()V
 		METHOD <init> <init> (Lawh$1;)V
-		METHOD a compare (Lbdc;Lbdc;)I
 		METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I

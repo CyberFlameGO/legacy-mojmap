@@ -3,55 +3,37 @@ CLASS aqj net/minecraft/world/level/levelgen/structure/NetherBridgePieces
 	CLASS 1 1
 		METHOD <clinit> <clinit> ()V
 	CLASS a BridgeCrossing
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (ILjava/util/Random;Laqe;Lcq;)V
 		METHOD <init> <init> (Ljava/util/Random;II)V
 	CLASS b BridgeEndFiller
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (ILjava/util/Random;Laqe;Lcq;)V
 	CLASS c WorldGenNetherPiece3
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (ILjava/util/Random;Laqe;Lcq;)V
 	CLASS d WorldGenNetherPiece4
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (ILjava/util/Random;Laqe;Lcq;)V
 	CLASS e WorldGenNetherPiece5
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (ILjava/util/Random;Laqe;Lcq;)V
 	CLASS f WorldGenNetherPiece6
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (ILjava/util/Random;Laqe;Lcq;)V
 	CLASS g WorldGenNetherPiece7
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (ILjava/util/Random;Laqe;Lcq;)V
 	CLASS h WorldGenNetherPiece8
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (ILjava/util/Random;Laqe;Lcq;)V
 	CLASS i WorldGenNetherPiece9
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (ILjava/util/Random;Laqe;Lcq;)V
 	CLASS j WorldGenNetherPiece10
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (ILjava/util/Random;Laqe;Lcq;)V
 	CLASS k WorldGenNetherPiece11
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (ILjava/util/Random;Laqe;Lcq;)V
 	CLASS l MonsterThrone
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (ILjava/util/Random;Laqe;Lcq;)V
 	CLASS m NetherBridgePiece
 		METHOD <clinit> <clinit> ()V
-		METHOD <init> <init> ()V
-		METHOD <init> <init> (I)V
 	CLASS n PieceWeight
 		METHOD <init> <init> (Ljava/lang/Class;II)V
 		METHOD <init> <init> (Ljava/lang/Class;IIZ)V
 	CLASS o WorldGenNetherPiece13
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (ILjava/util/Random;Laqe;Lcq;)V
 	CLASS p WorldGenNetherPiece14
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (ILjava/util/Random;Laqe;Lcq;)V
 	CLASS q WorldGenNetherPiece15
-		METHOD <init> <init> ()V
-		METHOD <init> <init> (Ljava/util/Random;II)V

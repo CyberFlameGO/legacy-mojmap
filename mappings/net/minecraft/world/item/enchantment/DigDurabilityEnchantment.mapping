@@ -1,4 +1,2 @@
 CLASS acg net/minecraft/world/item/enchantment/DigDurabilityEnchantment
 	METHOD <init> <init> (ILjy;I)V
-	METHOD a canEnchant (Lzx;)Z
-	METHOD b getMaxLevel ()I

@@ -1,4 +1,2 @@
 CLASS bkl
 	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Lbiu;Lbbo;F)V
-	METHOD a b (Lua;F)F

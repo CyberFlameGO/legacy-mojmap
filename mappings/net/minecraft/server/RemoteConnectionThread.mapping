@@ -1,4 +1,0 @@
-CLASS ml net/minecraft/server/RemoteConnectionThread
-	FIELD b server Lkj;
-	METHOD b logInfo (Ljava/lang/String;)V
-	METHOD c logWarning (Ljava/lang/String;)V

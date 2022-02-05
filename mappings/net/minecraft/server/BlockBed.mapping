@@ -1,6 +1,0 @@
-CLASS afg net/minecraft/server/BlockBed
-	FIELD a PART Lamm;
-	FIELD b OCCUPIED Lamk;
-	CLASS a EnumBedPart
-		FIELD a HEAD Lafg$a;
-		FIELD b FOOT Lafg$a;

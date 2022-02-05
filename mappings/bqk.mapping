@@ -32,4 +32,3 @@ CLASS bqk
 		METHOD <init> <init> (Ljava/lang/String;I)V
 		METHOD valueOf valueOf (Ljava/lang/String;)Lbqk$d;
 		METHOD values values ()[Lbqk$d;
-	CLASS e

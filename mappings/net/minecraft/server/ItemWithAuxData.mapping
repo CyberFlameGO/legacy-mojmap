@@ -1,3 +1,2 @@
 CLASS aaz net/minecraft/server/ItemWithAuxData
 	METHOD <init> <init> (Lafh;Z)V
-	METHOD a filterData (I)I

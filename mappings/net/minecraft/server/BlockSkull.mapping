@@ -1,5 +1,0 @@
-CLASS ajm net/minecraft/server/BlockSkull
-	FIELD a FACING Laml;
-	FIELD b NODROP Lamk;
-	CLASS 1 1
-	CLASS 2 2

@@ -1,10 +1,4 @@
 CLASS vz net/minecraft/world/entity/monster/Silverfish
-	METHOD <init> <init> (Ladm;)V
-	METHOD A getLoot ()Lzw;
-	METHOD a damageEntity (Low;F)Z
-	METHOD aS getHeadHeight ()F
-	METHOD aX initAttributes ()V
-	METHOD bz getMonsterType ()Lpw;
 	CLASS a SilverfishMergeWithStoneGoal
 		FIELD a silverfish Lvz;
 		METHOD <init> <init> (Lvz;)V

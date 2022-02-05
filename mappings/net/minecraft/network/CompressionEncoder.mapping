@@ -4,5 +4,4 @@ CLASS ej net/minecraft/network/CompressionEncoder
 	FIELD c threshold I
 	METHOD <init> <init> (I)V
 	METHOD a setThreshold (I)V
-	METHOD a encode (Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Lio/netty/buffer/ByteBuf;)V
 	METHOD encode encode (Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;Lio/netty/buffer/ByteBuf;)V

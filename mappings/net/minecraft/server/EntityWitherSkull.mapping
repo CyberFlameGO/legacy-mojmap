@@ -1,3 +1,0 @@
-CLASS xd net/minecraft/server/EntityWitherSkull
-	METHOD a setCharged (Z)V
-	METHOD l isCharged ()Z

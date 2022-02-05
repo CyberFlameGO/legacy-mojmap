@@ -1,13 +1,8 @@
 CLASS un net/minecraft/world/entity/decoration/HangingEntity
 	FIELD a blockPosition Lcj;
 	FIELD b direction Lcq;
-	METHOD <init> <init> (Ladm;)V
 	METHOD <init> <init> (Ladm;Lcj;)V
 	METHOD a setDirection (Lcq;)V
-	METHOD a damageEntity (Low;F)Z
-	METHOD aP getDirection ()Lcq;
-	METHOD b setPosition (DDD)V
-	METHOD d move (DDD)V
 	METHOD j survives ()Z
 	METHOD n getBlockPosition ()Lcj;
 	METHOD o updateBoundingBox ()V

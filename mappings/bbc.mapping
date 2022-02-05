@@ -1,3 +1,2 @@
 CLASS bbc bbc
-	METHOD <init> <init> ()V
 	METHOD <init> <init> (F)V

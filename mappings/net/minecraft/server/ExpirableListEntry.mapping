@@ -1,7 +1,5 @@
 CLASS ls net/minecraft/server/ExpirableListEntry
 	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Ljava/lang/Object;Lcom/google/gson/JsonObject;)V
 	METHOD <init> <init> (Ljava/lang/Object;Ljava/util/Date;Ljava/lang/String;Ljava/util/Date;Ljava/lang/String;)V
 	METHOD c getExpires ()Ljava/util/Date;
 	METHOD d getReason ()Ljava/lang/String;
-	METHOD e hasExpired ()Z

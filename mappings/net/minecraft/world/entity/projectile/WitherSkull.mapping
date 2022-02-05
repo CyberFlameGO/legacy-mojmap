@@ -1,8 +1,3 @@
 CLASS xd net/minecraft/world/entity/projectile/WitherSkull
-	METHOD <init> <init> (Ladm;)V
-	METHOD <init> <init> (Ladm;DDDDDD)V
-	METHOD <init> <init> (Ladm;Lpr;DDD)V
-	METHOD a damageEntity (Low;F)Z
 	METHOD a setCharged (Z)V
-	METHOD at isBurning ()Z
 	METHOD l isCharged ()Z

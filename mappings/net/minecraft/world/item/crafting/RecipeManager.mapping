@@ -9,5 +9,4 @@ CLASS abt net/minecraft/world/item/crafting/RecipeManager
 	METHOD b registerShapelessRecipe (Lzx;[Ljava/lang/Object;)V
 	CLASS 1 1
 		METHOD <init> <init> (Labt;)V
-		METHOD a compare (Labs;Labs;)I
 		METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I

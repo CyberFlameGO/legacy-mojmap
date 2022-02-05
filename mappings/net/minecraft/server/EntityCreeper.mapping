@@ -1,5 +1,0 @@
-CLASS vn net/minecraft/server/EntityCreeper
-	FIELD b fuseTicks I
-	FIELD bm explosionRadius I
-	FIELD c maxFuseTicks I
-	METHOD n isPowered ()Z

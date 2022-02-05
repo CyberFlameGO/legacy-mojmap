@@ -12,5 +12,4 @@ CLASS la net/minecraft/server/EntityTracker
 	METHOD b sendPacketToEntity (Lpk;Lff;)V
 	CLASS 1 1
 		METHOD <init> <init> (Lla;I)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;

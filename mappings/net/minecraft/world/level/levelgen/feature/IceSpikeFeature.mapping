@@ -1,3 +1,1 @@
 CLASS apb net/minecraft/world/level/levelgen/feature/IceSpikeFeature
-	METHOD <init> <init> ()V
-	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

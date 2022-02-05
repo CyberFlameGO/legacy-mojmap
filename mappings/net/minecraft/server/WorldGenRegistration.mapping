@@ -3,18 +3,14 @@ CLASS aqn net/minecraft/server/WorldGenRegistration
 		METHOD <clinit> <clinit> ()V
 	CLASS a WorldGenPyramidPiece
 		METHOD <clinit> <clinit> ()V
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (Ljava/util/Random;II)V
 	CLASS b WorldGenJungleTemple
 		METHOD <clinit> <clinit> ()V
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (Ljava/util/Random;II)V
 		CLASS a WorldGenJungleTemplePiece
 			METHOD <init> <init> ()V
 			METHOD <init> <init> (Laqn$1;)V
 	CLASS c WorldGenScatteredPiece
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (Ljava/util/Random;IIIIII)V
 	CLASS d WorldGenWitchHut
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (Ljava/util/Random;II)V

@@ -1,3 +1,2 @@
 CLASS aai net/minecraft/world/item/PotionItem
 	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> ()V

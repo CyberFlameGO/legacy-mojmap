@@ -5,12 +5,9 @@ CLASS wq net/minecraft/world/entity/projectile/AbstractArrow
 	FIELD b shake I
 	FIELD c shooter Lpk;
 	FIELD i inGround Z
-	METHOD <init> <init> (Ladm;)V
 	METHOD <init> <init> (Ladm;DDD)V
 	METHOD <init> <init> (Ladm;Lpr;F)V
 	METHOD <init> <init> (Ladm;Lpr;Lpr;FF)V
 	METHOD a setKnockbackStrength (I)V
 	METHOD a setCritical (Z)V
-	METHOD aS getHeadHeight ()F
-	METHOD c shoot (DDDFF)V
 	METHOD l isCritical ()Z

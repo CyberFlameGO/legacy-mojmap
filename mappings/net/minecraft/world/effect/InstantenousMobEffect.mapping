@@ -1,3 +1,1 @@
 CLASS pd net/minecraft/world/effect/InstantenousMobEffect
-	METHOD <init> <init> (ILjy;ZI)V
-	METHOD b isInstant ()Z

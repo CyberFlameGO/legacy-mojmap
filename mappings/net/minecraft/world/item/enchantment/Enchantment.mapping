@@ -32,10 +32,12 @@ CLASS aci net/minecraft/world/item/enchantment/Enchantment
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> (ILjy;ILacj;)V
 	METHOD a canEnchant (Lzx;)Z
+		ARG 1 item
 	METHOD b getMaxLevel ()I
 	METHOD b getByName (Ljava/lang/String;)Laci;
 	METHOD c getEffects ()Ljava/util/Set;
 	METHOD c getById (I)Laci;
 	METHOD c setName (Ljava/lang/String;)Laci;
+		ARG 1 name
 	METHOD d getRandomWeight ()I
 	METHOD e getStartLevel ()I

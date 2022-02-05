@@ -23,47 +23,32 @@ CLASS aql net/minecraft/server/WorldGenMonumentPieces
 		METHOD <init> <init> ()V
 		METHOD <init> <init> (Laql$1;)V
 	CLASS h MonumentBuilding
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (Ljava/util/Random;IILcq;)V
 	CLASS i MonumentRoomFitter
 	CLASS j WorldGenMonumentPiece2
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (Lcq;Laql$v;Ljava/util/Random;)V
 	CLASS k WorldGenMonumentPiece3
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (Lcq;Laql$v;Ljava/util/Random;)V
 	CLASS l WorldGenMonumentPiece4
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (Lcq;Laql$v;Ljava/util/Random;)V
 	CLASS m WorldGenMonumentPiece5
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (Lcq;Laql$v;Ljava/util/Random;)V
 	CLASS n WorldGenMonumentPiece6
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (Lcq;Laql$v;Ljava/util/Random;)V
 	CLASS o WorldGenMonumentPiece7
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (Lcq;Laql$v;Ljava/util/Random;)V
 	CLASS p WorldGenMonumentPieceEntry
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (Lcq;Laql$v;)V
 	CLASS q WorldGenMonumentPiecePenthouse
-		METHOD <init> <init> ()V
-		METHOD <init> <init> (Lcq;Laqe;)V
 	CLASS r OceanMonumentPiece
 		METHOD <clinit> <clinit> ()V
-		METHOD <init> <init> ()V
-		METHOD <init> <init> (I)V
 		METHOD <init> <init> (ILcq;Laql$v;III)V
 		METHOD <init> <init> (Lcq;Laqe;)V
 	CLASS s OceanMonumentSimpleRoom
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (Lcq;Laql$v;Ljava/util/Random;)V
 	CLASS t WorldGenMonumentPieceSimpleT
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (Lcq;Laql$v;Ljava/util/Random;)V
 	CLASS u OceanMonumentWingRoom
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (Lcq;Laqe;I)V
 	CLASS v RoomDefinition
 		METHOD <init> <init> (I)V

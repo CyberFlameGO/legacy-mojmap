@@ -3,7 +3,6 @@ CLASS bot
 	METHOD <init> <init> (Lbni;Lbmh;Lbgc;)V
 	CLASS 1
 		METHOD <init> <init> (Lbot;)V
-		METHOD a compare (Lbov;Lbov;)I
 		METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I
 	CLASS 2
 		METHOD <init> <init> (Lbot;Ljava/util/Set;)V

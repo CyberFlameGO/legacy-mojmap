@@ -1,7 +1,0 @@
-CLASS un net/minecraft/server/EntityHanging
-	FIELD a blockPosition Lcj;
-	FIELD b direction Lcq;
-	METHOD a setDirection (Lcq;)V
-	METHOD j survives ()Z
-	METHOD n getBlockPosition ()Lcj;
-	METHOD o updateBoundingBox ()V

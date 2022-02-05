@@ -1,3 +1,0 @@
-CLASS atr net/minecraft/server/Convertable
-	METHOD a convert (Ljava/lang/String;Lnu;)Z
-	METHOD b isConvertable (Ljava/lang/String;)Z

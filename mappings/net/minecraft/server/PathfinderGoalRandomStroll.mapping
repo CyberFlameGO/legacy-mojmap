@@ -1,2 +1,0 @@
-CLASS rz net/minecraft/server/PathfinderGoalRandomStroll
-	METHOD b setTimeBetweenMovement (I)V

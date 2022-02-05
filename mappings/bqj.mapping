@@ -28,4 +28,3 @@ CLASS bqj
 		METHOD <init> <init> (Ljava/lang/String;I)V
 		METHOD valueOf valueOf (Ljava/lang/String;)Lbqj$a;
 		METHOD values values ()[Lbqj$a;
-	CLASS b

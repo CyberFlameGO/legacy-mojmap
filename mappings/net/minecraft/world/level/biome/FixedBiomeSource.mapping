@@ -1,6 +1,2 @@
 CLASS aef net/minecraft/world/level/biome/FixedBiomeSource
 	METHOD <init> <init> (Lady;F)V
-	METHOD a getBiome (Lcj;)Lady;
-	METHOD a getWetness ([FIIII)[F
-	METHOD a getBiomes ([Lady;IIII)[Lady;
-	METHOD b getBiomeBlock ([Lady;IIII)[Lady;

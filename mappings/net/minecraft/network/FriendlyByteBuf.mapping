@@ -11,7 +11,6 @@ CLASS em net/minecraft/network/FriendlyByteBuf
 	METHOD capacity capacity ()I
 	METHOD capacity capacity (I)Lio/netty/buffer/ByteBuf;
 	METHOD clear clear ()Lio/netty/buffer/ByteBuf;
-	METHOD compareTo compareTo (Lio/netty/buffer/ByteBuf;)I
 	METHOD compareTo compareTo (Ljava/lang/Object;)I
 	METHOD copy copy ()Lio/netty/buffer/ByteBuf;
 	METHOD copy copy (II)Lio/netty/buffer/ByteBuf;
@@ -101,9 +100,7 @@ CLASS em net/minecraft/network/FriendlyByteBuf
 	METHOD release release (I)Z
 	METHOD resetReaderIndex resetReaderIndex ()Lio/netty/buffer/ByteBuf;
 	METHOD resetWriterIndex resetWriterIndex ()Lio/netty/buffer/ByteBuf;
-	METHOD retain retain ()Lio/netty/buffer/ByteBuf;
 	METHOD retain retain ()Lio/netty/util/ReferenceCounted;
-	METHOD retain retain (I)Lio/netty/buffer/ByteBuf;
 	METHOD retain retain (I)Lio/netty/util/ReferenceCounted;
 	METHOD setBoolean setBoolean (IZ)Lio/netty/buffer/ByteBuf;
 	METHOD setByte setByte (II)Lio/netty/buffer/ByteBuf;

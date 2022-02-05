@@ -2,5 +2,4 @@ CLASS axd axd
 	METHOD <init> <init> (Laxu;Ljava/lang/String;)V
 	CLASS 1 1
 		METHOD <init> <init> (Laxd;)V
-		METHOD a apply (Ljava/lang/String;)Z
 		METHOD apply apply (Ljava/lang/Object;)Z

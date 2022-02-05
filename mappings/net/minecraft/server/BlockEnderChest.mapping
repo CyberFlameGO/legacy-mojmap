@@ -1,2 +1,0 @@
-CLASS agp net/minecraft/server/BlockEnderChest
-	FIELD a FACING Laml;

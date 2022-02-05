@@ -1,3 +1,0 @@
-CLASS f net/minecraft/server/SharedConstants
-	FIELD a allowedCharacters [C
-	METHOD a isAllowedChatCharacter (C)Z

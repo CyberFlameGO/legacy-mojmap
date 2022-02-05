@@ -1,3 +1,2 @@
 CLASS aou net/minecraft/world/level/levelgen/feature/FlowerFeature
 	METHOD <init> <init> (Lagw;Lagw$a;)V
-	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

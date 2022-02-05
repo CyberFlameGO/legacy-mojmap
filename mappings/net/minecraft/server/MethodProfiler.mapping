@@ -1,2 +1,0 @@
-CLASS nt net/minecraft/server/MethodProfiler
-	CLASS a ProfilerInfo

@@ -3,5 +3,4 @@ CLASS qs net/minecraft/world/entity/ai/goal/AvoidEntityGoal
 	METHOD <init> <init> (Lpy;Ljava/lang/Class;Lcom/google/common/base/Predicate;FDD)V
 	CLASS 1 1
 		METHOD <init> <init> (Lqs;)V
-		METHOD a apply (Lpk;)Z
 		METHOD apply apply (Ljava/lang/Object;)Z

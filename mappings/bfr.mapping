@@ -3,7 +3,6 @@ CLASS bfr bfr
 	METHOD <init> <init> (Lave;)V
 	CLASS 1 1
 		METHOD <init> <init> (Lbfr;DDD)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;
 	CLASS 2 2
 		METHOD <clinit> <clinit> ()V

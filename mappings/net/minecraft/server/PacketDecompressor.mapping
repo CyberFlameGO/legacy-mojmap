@@ -1,4 +1,0 @@
-CLASS ei net/minecraft/server/PacketDecompressor
-	FIELD a inflater Ljava/util/zip/Inflater;
-	FIELD b threshold I
-	METHOD a setThreshold (I)V

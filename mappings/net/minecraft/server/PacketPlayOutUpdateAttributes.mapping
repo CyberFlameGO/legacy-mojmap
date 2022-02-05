@@ -1,2 +1,0 @@
-CLASS ia net/minecraft/server/PacketPlayOutUpdateAttributes
-	CLASS a AttributeSnapshot

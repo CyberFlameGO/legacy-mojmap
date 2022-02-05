@@ -1,3 +1,0 @@
-CLASS fh net/minecraft/server/PlayerConnectionUtils
-	METHOD a ensureMainThread (Lff;Lep;Lod;)V
-	CLASS 1 1

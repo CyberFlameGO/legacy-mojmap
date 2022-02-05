@@ -1,3 +1,1 @@
 CLASS agb net/minecraft/world/level/block/DeadBushBlock
-	METHOD <init> <init> ()V
-	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;

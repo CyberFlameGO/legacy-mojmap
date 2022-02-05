@@ -1,3 +1,0 @@
-CLASS wt net/minecraft/server/EntityFireworks
-	FIELD a ticksFlown I
-	FIELD b expectedLifespan I

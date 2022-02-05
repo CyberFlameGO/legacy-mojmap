@@ -1,6 +1,0 @@
-CLASS tv net/minecraft/server/EntitySheep
-	METHOD b setColor (Lzd;)V
-	METHOD cl getColor ()Lzd;
-	METHOD cm isSheared ()Z
-	METHOD l setSheared (Z)V
-	CLASS 1 1

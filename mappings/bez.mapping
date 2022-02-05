@@ -1,5 +1,2 @@
 CLASS bez bez
 	METHOD <init> <init> (Ljava/lang/String;Leu;I)V
-	METHOD a createContainer (Lwm;Lwn;)Lxi;
-	METHOD a_ getProperty (I)I
-	METHOD k getContainerName ()Ljava/lang/String;

@@ -1,2 +1,0 @@
-CLASS aer net/minecraft/server/BiomeSavanna
-	CLASS a BiomeSavannaSub

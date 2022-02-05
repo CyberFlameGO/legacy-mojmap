@@ -4,5 +4,3 @@ CLASS xy net/minecraft/world/inventory/InventoryMenu
 	METHOD <init> <init> (Lwm;ZLwn;)V
 	CLASS 1 2
 		METHOD <init> <init> (Lxy;Log;IIII)V
-		METHOD a getMaxStackSize ()I
-		METHOD a isAllowed (Lzx;)Z

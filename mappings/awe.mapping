@@ -1,4 +1,2 @@
 CLASS awe awe
-	METHOD <init> <init> (IIIIILjava/lang/String;)V
 	METHOD <init> <init> (IIILavh$a;Ljava/lang/String;)V
-	METHOD <init> <init> (IIILjava/lang/String;)V

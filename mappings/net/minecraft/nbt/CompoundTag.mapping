@@ -1,9 +1,5 @@
 CLASS dn net/minecraft/nbt/CompoundTag
 	FIELD b map Ljava/util/Map;
-	METHOD <init> <init> ()V
-	METHOD a getTypeId ()B
-	METHOD a load (Ljava/io/DataInput;ILdw;)V
-	METHOD a write (Ljava/io/DataOutput;)V
 	METHOD a get (Ljava/lang/String;)Leb;
 	METHOD a setByte (Ljava/lang/String;B)V
 	METHOD a setDouble (Ljava/lang/String;D)V
@@ -16,18 +12,14 @@ CLASS dn net/minecraft/nbt/CompoundTag
 	METHOD a setBoolean (Ljava/lang/String;Z)V
 	METHOD a setByteArray (Ljava/lang/String;[B)V
 	METHOD a setIntArray (Ljava/lang/String;[I)V
-	METHOD b clone ()Leb;
 	METHOD b hasKeyOfType (Ljava/lang/String;I)Z
 	METHOD c hasKey (Ljava/lang/String;)Z
 	METHOD c getList (Ljava/lang/String;I)Ldu;
-	METHOD c_ isEmpty ()Z
 	METHOD d getByte (Ljava/lang/String;)B
 	METHOD e getShort (Ljava/lang/String;)S
-	METHOD equals equals (Ljava/lang/Object;)Z
 	METHOD f getInt (Ljava/lang/String;)I
 	METHOD g getLong (Ljava/lang/String;)J
 	METHOD h getFloat (Ljava/lang/String;)F
-	METHOD hashCode hashCode ()I
 	METHOD i getDouble (Ljava/lang/String;)D
 	METHOD j getString (Ljava/lang/String;)Ljava/lang/String;
 	METHOD k getByteArray (Ljava/lang/String;)[B
@@ -35,12 +27,9 @@ CLASS dn net/minecraft/nbt/CompoundTag
 	METHOD m getCompound (Ljava/lang/String;)Ldn;
 	METHOD n getBoolean (Ljava/lang/String;)Z
 	METHOD o remove (Ljava/lang/String;)V
-	METHOD toString toString ()Ljava/lang/String;
 	CLASS 1 1
 		METHOD <init> <init> (Ldn;Ljava/lang/String;)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;
 	CLASS 2 2
 		METHOD <init> <init> (Ldn;I)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;

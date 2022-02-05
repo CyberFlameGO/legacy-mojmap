@@ -1,2 +1,0 @@
-CLASS ajg net/minecraft/server/BlockRotatable
-	FIELD N AXIS Lamm;

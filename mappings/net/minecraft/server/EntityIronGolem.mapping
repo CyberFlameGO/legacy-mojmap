@@ -1,5 +1,0 @@
-CLASS ty net/minecraft/server/EntityIronGolem
-	METHOD cn isPlayerCreated ()Z
-	METHOD l setPlayerCreated (Z)V
-	CLASS a PathfinderGoalNearestGolemTarget
-		CLASS 1 1

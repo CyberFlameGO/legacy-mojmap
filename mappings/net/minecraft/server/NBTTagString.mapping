@@ -1,2 +1,0 @@
-CLASS ea net/minecraft/server/NBTTagString
-	FIELD b data Ljava/lang/String;

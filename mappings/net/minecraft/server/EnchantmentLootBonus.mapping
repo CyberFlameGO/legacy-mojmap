@@ -1,3 +1,1 @@
 CLASS acp net/minecraft/server/EnchantmentLootBonus
-	METHOD <init> <init> (ILjy;ILacj;)V
-	METHOD b getMaxLevel ()I

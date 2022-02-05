@@ -1,3 +1,2 @@
 CLASS xj net/minecraft/server/InventoryHorseChest
-	METHOD <init> <init> (Leu;I)V
 	METHOD <init> <init> (Ljava/lang/String;I)V

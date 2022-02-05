@@ -1,7 +1,1 @@
 CLASS vu net/minecraft/world/entity/monster/MagmaCube
-	METHOD <init> <init> (Ladm;)V
-	METHOD A getLoot ()Lzw;
-	METHOD aX initAttributes ()V
-	METHOD at isBurning ()Z
-	METHOD b dropDeathLoot (ZI)V
-	METHOD bS canSpawn ()Z

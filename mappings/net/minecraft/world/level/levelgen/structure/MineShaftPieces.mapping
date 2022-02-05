@@ -3,14 +3,10 @@ CLASS aqg net/minecraft/world/level/levelgen/structure/MineShaftPieces
 	CLASS 1 1
 		METHOD <clinit> <clinit> ()V
 	CLASS a MineShaftCorridor
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (ILjava/util/Random;Laqe;Lcq;)V
 	CLASS b MineShaftCrossing
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (ILjava/util/Random;Laqe;Lcq;)V
 	CLASS c MineShaftRoom
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (ILjava/util/Random;II)V
 	CLASS d MineShaftStairs
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (ILjava/util/Random;Laqe;Lcq;)V

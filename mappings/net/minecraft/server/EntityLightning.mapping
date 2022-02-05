@@ -1,2 +1,0 @@
-CLASS uv net/minecraft/server/EntityLightning
-	FIELD b lifeTicks I

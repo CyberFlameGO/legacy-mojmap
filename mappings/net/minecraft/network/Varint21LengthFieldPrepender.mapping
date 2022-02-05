@@ -1,4 +1,3 @@
 CLASS er net/minecraft/network/Varint21LengthFieldPrepender
 	METHOD <init> <init> ()V
-	METHOD a encode (Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Lio/netty/buffer/ByteBuf;)V
 	METHOD encode encode (Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;Lio/netty/buffer/ByteBuf;)V

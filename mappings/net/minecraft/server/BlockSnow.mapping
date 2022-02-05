@@ -1,2 +1,0 @@
-CLASS ajp net/minecraft/server/BlockSnow
-	FIELD a LAYERS Lamn;

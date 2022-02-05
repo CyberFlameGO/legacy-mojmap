@@ -61,21 +61,9 @@ CLASS afh net/minecraft/world/level/block/Block
 	METHOD y isTicking ()Z
 	METHOD z isTileEntity ()Z
 	CLASS 1 1
-		METHOD <init> <init> (Ljava/lang/String;FF)V
-		METHOD a getBreakSound ()Ljava/lang/String;
-		METHOD b getPlaceSound ()Ljava/lang/String;
 	CLASS 2 2
-		METHOD <init> <init> (Ljava/lang/String;FF)V
-		METHOD a getBreakSound ()Ljava/lang/String;
 	CLASS 3 3
-		METHOD <init> <init> (Ljava/lang/String;FF)V
-		METHOD a getBreakSound ()Ljava/lang/String;
-		METHOD b getPlaceSound ()Ljava/lang/String;
 	CLASS 4 4
-		METHOD <init> <init> (Ljava/lang/String;FF)V
-		METHOD a getBreakSound ()Ljava/lang/String;
-		METHOD b getPlaceSound ()Ljava/lang/String;
-		METHOD c getStepSound ()Ljava/lang/String;
 	CLASS a a
 		METHOD <clinit> <clinit> ()V
 		METHOD <init> <init> (Ljava/lang/String;I)V

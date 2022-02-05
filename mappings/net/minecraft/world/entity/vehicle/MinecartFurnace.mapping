@@ -1,3 +1,1 @@
 CLASS ve net/minecraft/world/entity/vehicle/MinecartFurnace
-	METHOD <init> <init> (Ladm;)V
-	METHOD <init> <init> (Ladm;DDD)V

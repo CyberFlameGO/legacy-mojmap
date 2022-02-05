@@ -1,2 +1,0 @@
-CLASS mv net/minecraft/server/ServerStatisticManager
-	METHOD b updateStatistics (Llf;)V

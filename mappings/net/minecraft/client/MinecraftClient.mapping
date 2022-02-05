@@ -19,37 +19,28 @@ CLASS ave net/minecraft/client/MinecraftClient
 	METHOD O getProxy ()Ljava/net/Proxy;
 	METHOD a init ()V
 	METHOD a setScreen (Laxu;)V
-	METHOD a postToMainThread (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;
 	METHOD a setConnectedToRealms (Z)V
-	METHOD aJ isMainThread ()Z
 	METHOD aa getSessionService ()Lcom/mojang/authlib/minecraft/MinecraftSessionService;
-	METHOD ad getSnooperEnabled ()Z
 	METHOD al isConnectedToRealms ()Z
 	CLASS 1 1
 		METHOD <init> <init> (Lave;)V
 	CLASS 2 2
 		METHOD <init> <init> (Lave;)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;
 	CLASS 3 3
 		METHOD <init> <init> (Lave;)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;
 	CLASS 4 4
 		METHOD <init> <init> (Lave;)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;
 	CLASS 5 5
 		METHOD <init> <init> (Lave;)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;
 	CLASS 6 6
 		METHOD <init> <init> (Lave;)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;
 	CLASS 7 7
 		METHOD <init> <init> (Lave;)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;
 	CLASS 8 8
 		METHOD <init> <init> (Lave;)V
@@ -63,29 +54,22 @@ CLASS ave net/minecraft/client/MinecraftClient
 		METHOD run run ()V
 	CLASS 12 12
 		METHOD <init> <init> (Lave;)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;
 	CLASS 13 13
 		METHOD <init> <init> (Lave;)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;
 	CLASS 14 14
 		METHOD <init> <init> (Lave;)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;
 	CLASS 15 15
 		METHOD <init> <init> (Lave;)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;
 	CLASS 16 16
 		METHOD <init> <init> (Lave;)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;
 	CLASS 17 17
 		METHOD <init> <init> (Lave;)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;
 	CLASS 18 18
 		METHOD <init> <init> (Lave;)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;

@@ -1,4 +1,3 @@
 CLASS acr net/minecraft/world/item/enchantment/ProtectionEnchantment
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> (ILjy;II)V
-	METHOD b getMaxLevel ()I

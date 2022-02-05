@@ -1,3 +1,2 @@
 CLASS zu net/minecraft/world/item/HangingEntityItem
 	METHOD <init> <init> (Ljava/lang/Class;)V
-	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z

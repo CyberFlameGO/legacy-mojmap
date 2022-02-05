@@ -3,5 +3,4 @@ CLASS nt net/minecraft/util/profiling/ActiveProfiler
 	METHOD <init> <init> ()V
 	CLASS a ProfilerInfo
 		METHOD <init> <init> (Ljava/lang/String;DD)V
-		METHOD a compareTo (Lnt$a;)I
 		METHOD compareTo compareTo (Ljava/lang/Object;)I

@@ -1,3 +1,2 @@
 CLASS py net/minecraft/world/entity/PathfinderMob
 	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Ladm;)V

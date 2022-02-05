@@ -14,7 +14,6 @@ CLASS cq net/minecraft/core/Direction
 	METHOD g getAdjacentX ()I
 	METHOD h getAdjacentY ()I
 	METHOD i getAdjacentZ ()I
-	METHOD l getName ()Ljava/lang/String;
 	METHOD toString toString ()Ljava/lang/String;
 	METHOD valueOf valueOf (Ljava/lang/String;)Lcq;
 	METHOD values values ()[Lcq;
@@ -26,9 +25,7 @@ CLASS cq net/minecraft/core/Direction
 		FIELD c Z Lcq$a;
 		METHOD <clinit> <clinit> ()V
 		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Lcq$c;)V
-		METHOD a apply (Lcq;)Z
 		METHOD apply apply (Ljava/lang/Object;)Z
-		METHOD l getName ()Ljava/lang/String;
 		METHOD toString toString ()Ljava/lang/String;
 		METHOD valueOf valueOf (Ljava/lang/String;)Lcq$a;
 		METHOD values values ()[Lcq$a;
@@ -45,7 +42,6 @@ CLASS cq net/minecraft/core/Direction
 		FIELD b VERTICAL Lcq$c;
 		METHOD <clinit> <clinit> ()V
 		METHOD <init> <init> (Ljava/lang/String;I)V
-		METHOD a apply (Lcq;)Z
 		METHOD apply apply (Ljava/lang/Object;)Z
 		METHOD iterator iterator ()Ljava/util/Iterator;
 		METHOD valueOf valueOf (Ljava/lang/String;)Lcq$c;

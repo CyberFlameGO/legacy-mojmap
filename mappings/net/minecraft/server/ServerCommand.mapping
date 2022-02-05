@@ -1,3 +1,0 @@
-CLASS kd net/minecraft/server/ServerCommand
-	FIELD a command Ljava/lang/String;
-	FIELD b source Lm;

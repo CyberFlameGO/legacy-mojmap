@@ -1,7 +1,4 @@
 CLASS ug net/minecraft/world/entity/boss/enderdragon/EnderDragon
 	FIELD bA target Lpk;
 	FIELD bm children [Lue;
-	METHOD <init> <init> (Ladm;)V
-	METHOD a damageEntity (Low;F)Z
-	METHOD aX initAttributes ()V
 	METHOD e dealDamage (Low;F)Z

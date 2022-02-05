@@ -1,2 +1,0 @@
-CLASS go net/minecraft/server/PacketPlayOutMapChunk
-	CLASS a ChunkMap

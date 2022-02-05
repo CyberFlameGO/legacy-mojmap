@@ -1,5 +1,3 @@
 CLASS apv net/minecraft/world/level/levelgen/feature/TreeFeature
 	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Z)V
 	METHOD <init> <init> (ZILalz;Lalz;Z)V
-	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

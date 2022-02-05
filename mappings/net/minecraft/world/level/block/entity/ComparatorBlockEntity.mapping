@@ -1,2 +1,1 @@
 CLASS ala net/minecraft/world/level/block/entity/ComparatorBlockEntity
-	METHOD <init> <init> ()V

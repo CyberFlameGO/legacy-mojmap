@@ -1,7 +1,4 @@
 CLASS agr net/minecraft/world/level/block/FallingBlock
 	FIELD N instaFall Z
 	METHOD <init> <init> ()V
-	METHOD <init> <init> (Larm;)V
-	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
-	METHOD c onPlace (Ladm;Lcj;Lalz;)V
 	METHOD e canFall (Ladm;Lcj;)Z

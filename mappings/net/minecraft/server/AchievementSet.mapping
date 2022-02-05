@@ -2,4 +2,3 @@ CLASS nc net/minecraft/server/AchievementSet
 	METHOD <init> <init> ()V
 	METHOD delegate delegate ()Ljava/lang/Object;
 	METHOD delegate delegate ()Ljava/util/Collection;
-	METHOD delegate delegate ()Ljava/util/Set;

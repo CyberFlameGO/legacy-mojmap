@@ -1,5 +1,0 @@
-CLASS vj net/minecraft/server/EntityTNTPrimed
-	FIELD a fuseTicks I
-	FIELD b source Lpr;
-	METHOD j getSource ()Lpr;
-	METHOD l explode ()V

@@ -1,5 +1,1 @@
 CLASS ww net/minecraft/world/entity/projectile/SmallFireball
-	METHOD <init> <init> (Ladm;)V
-	METHOD <init> <init> (Ladm;DDDDDD)V
-	METHOD <init> <init> (Ladm;Lpr;DDD)V
-	METHOD a damageEntity (Low;F)Z

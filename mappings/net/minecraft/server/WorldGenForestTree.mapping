@@ -1,4 +1,2 @@
 CLASS apn net/minecraft/server/WorldGenForestTree
 	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Z)V
-	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

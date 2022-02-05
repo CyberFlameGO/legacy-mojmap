@@ -4,5 +4,4 @@ CLASS bmi
 	METHOD toString toString ()Ljava/lang/String;
 	CLASS 1
 		METHOD <init> <init> (Lbmi;[[I)V
-		METHOD a call ()Ljava/lang/String;
 		METHOD call call ()Ljava/lang/Object;

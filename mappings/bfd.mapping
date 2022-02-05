@@ -2,7 +2,6 @@ CLASS bfd bfd
 	METHOD <init> <init> (I)V
 	CLASS 1 1
 		METHOD <init> <init> (Lbfd;[F)V
-		METHOD a compare (Ljava/lang/Integer;Ljava/lang/Integer;)I
 		METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I
 	CLASS 2 2
 		METHOD <clinit> <clinit> ()V

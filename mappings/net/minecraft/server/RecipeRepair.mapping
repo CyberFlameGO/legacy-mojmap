@@ -1,3 +1,2 @@
 CLASS abu net/minecraft/server/RecipeRepair
 	METHOD <init> <init> ()V
-	METHOD a craftItem (Lxp;)Lzx;

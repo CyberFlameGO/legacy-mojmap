@@ -1,7 +1,0 @@
-CLASS qa net/minecraft/server/EntityTameableAnimal
-	METHOD b setOwnerUUID (Ljava/lang/String;)V
-	METHOD cl isTamed ()Z
-	METHOD cn isSitting ()Z
-	METHOD cp getGoalSit ()Lse;
-	METHOD m setTamed (Z)V
-	METHOD n setSitting (Z)V

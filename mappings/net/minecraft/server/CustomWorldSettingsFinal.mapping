@@ -10,7 +10,5 @@ CLASS ant net/minecraft/server/CustomWorldSettingsFinal
 		METHOD toString toString ()Ljava/lang/String;
 	CLASS b CustomWorldSettingsSerializer
 		METHOD <init> <init> ()V
-		METHOD a serialize (Lant$a;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
-		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lant$a;
 		METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
 		METHOD serialize serialize (Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;

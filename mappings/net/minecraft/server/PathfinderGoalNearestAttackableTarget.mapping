@@ -1,3 +1,0 @@
-CLASS sp net/minecraft/server/PathfinderGoalNearestAttackableTarget
-	CLASS 1 1
-	CLASS a DistanceComparator

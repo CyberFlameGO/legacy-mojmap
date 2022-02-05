@@ -1,3 +1,2 @@
 CLASS yf net/minecraft/server/SlotResult
 	METHOD <init> <init> (Lwn;Lxp;Log;III)V
-	METHOD a isAllowed (Lzx;)Z

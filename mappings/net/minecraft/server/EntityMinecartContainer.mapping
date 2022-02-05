@@ -1,2 +1,0 @@
-CLASS vd net/minecraft/server/EntityMinecartContainer
-	FIELD a items [Lzx;

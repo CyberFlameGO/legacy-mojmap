@@ -3,9 +3,3 @@ CLASS ago net/minecraft/world/level/block/EndPortalFrameBlock
 	FIELD b EYE Lamk;
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> ()V
-	METHOD O isComplexRedstone ()Z
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a getPlacedState (Ladm;Lcj;Lcq;FFFILpr;)Lalz;
-	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;

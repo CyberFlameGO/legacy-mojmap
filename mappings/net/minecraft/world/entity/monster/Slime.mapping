@@ -1,12 +1,6 @@
 CLASS wb net/minecraft/world/entity/monster/Slime
-	METHOD <init> <init> (Ladm;)V
-	METHOD A getLoot ()Lzw;
-	METHOD J die ()V
 	METHOD a setSize (I)V
-	METHOD a prepare (Lok;Lpu;)Lpu;
-	METHOD aS getHeadHeight ()F
 	METHOD cm getSize ()I
-	METHOD i collide (Lpk;)V
 	CLASS a SlimeAttackGoal
 		METHOD <init> <init> (Lwb;)V
 	CLASS b SlimeFloatGoal

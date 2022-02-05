@@ -1,9 +1,5 @@
 CLASS i net/minecraft/server/CommandAbstract
 	METHOD <init> <init> ()V
-	METHOD a compareTo (Lk;)I
-	METHOD a canUse (Lm;)Z
-	METHOD a tabComplete (Lm;[Ljava/lang/String;Lcj;)Ljava/util/List;
-	METHOD b isListStart ([Ljava/lang/String;I)Z
 	METHOD compareTo compareTo (Ljava/lang/Object;)I
 	CLASS a CommandNumber
 		METHOD <init> <init> (DDZ)V

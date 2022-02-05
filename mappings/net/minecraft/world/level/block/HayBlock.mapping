@@ -1,6 +1,2 @@
 CLASS ahm net/minecraft/world/level/block/HayBlock
 	METHOD <init> <init> ()V
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a getPlacedState (Ladm;Lcj;Lcq;FFFILpr;)Lalz;
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;

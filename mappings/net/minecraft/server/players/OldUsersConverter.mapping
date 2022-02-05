@@ -2,7 +2,6 @@ CLASS lw net/minecraft/server/players/OldUsersConverter
 	METHOD <clinit> <clinit> ()V
 	CLASS 1 1
 		METHOD <init> <init> ()V
-		METHOD a apply (Ljava/lang/String;)Z
 		METHOD apply apply (Ljava/lang/Object;)Z
 	CLASS 2 2
 		METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Ljava/util/Map;Lmc;)V

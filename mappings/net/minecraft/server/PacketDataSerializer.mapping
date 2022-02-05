@@ -1,5 +1,0 @@
-CLASS em net/minecraft/server/PacketDataSerializer
-	METHOD b writeVarInt (I)V
-	METHOD c readUtf (I)Ljava/lang/String;
-	METHOD e readVarInt ()I
-	METHOD g readUUID ()Ljava/util/UUID;

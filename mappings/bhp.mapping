@@ -8,6 +8,5 @@ CLASS bhp
 		METHOD run run ()V
 	CLASS 2
 		METHOD <init> <init> (Lbhp;Lbhn;Lbhq;)V
-		METHOD a onSuccess (Ljava/util/List;)V
 		METHOD onFailure onFailure (Ljava/lang/Throwable;)V
 		METHOD onSuccess onSuccess (Ljava/lang/Object;)V

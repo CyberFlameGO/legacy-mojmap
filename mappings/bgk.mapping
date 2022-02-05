@@ -2,5 +2,4 @@ CLASS bgk bgk
 	METHOD <init> <init> ([FI)V
 	CLASS a a
 		METHOD <init> <init> ()V
-		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lbgk;
 		METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;

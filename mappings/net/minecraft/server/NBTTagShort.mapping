@@ -1,2 +1,0 @@
-CLASS dz net/minecraft/server/NBTTagShort
-	FIELD b data S

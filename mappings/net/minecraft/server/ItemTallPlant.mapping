@@ -1,2 +1,1 @@
 CLASS zc net/minecraft/server/ItemTallPlant
-	METHOD <init> <init> (Lafh;Lafh;Lcom/google/common/base/Function;)V

@@ -2,14 +2,5 @@ CLASS afu net/minecraft/world/level/block/CocoaBlock
 	FIELD a AGE Lamn;
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> ()V
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a dropNaturally (Ladm;Lcj;Lalz;FI)V
-	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
-	METHOD a postPlace (Ladm;Lcj;Lalz;Lpr;Lzx;)V
-	METHOD a getPlacedState (Ladm;Lcj;Lcq;FFFILpr;)Lalz;
-	METHOD a updateShape (Ladq;Lcj;)V
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;
-	METHOD j getDropData (Ladm;Lcj;)I
 	CLASS 1 1
 		METHOD <clinit> <clinit> ()V

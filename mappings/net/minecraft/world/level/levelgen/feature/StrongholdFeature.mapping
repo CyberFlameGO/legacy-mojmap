@@ -1,6 +1,4 @@
 CLASS aqo net/minecraft/world/level/levelgen/feature/StrongholdFeature
-	METHOD <init> <init> ()V
 	METHOD <init> <init> (Ljava/util/Map;)V
 	CLASS a WorldGenStronghold2Start
-		METHOD <init> <init> ()V
 		METHOD <init> <init> (Ladm;Ljava/util/Random;II)V

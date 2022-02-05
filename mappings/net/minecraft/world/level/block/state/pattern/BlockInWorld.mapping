@@ -3,5 +3,4 @@ CLASS amc net/minecraft/world/level/block/state/pattern/BlockInWorld
 	METHOD d getPosition ()Lcj;
 	CLASS 1 1
 		METHOD <init> <init> (Lcom/google/common/base/Predicate;)V
-		METHOD a apply (Lamc;)Z
 		METHOD apply apply (Ljava/lang/Object;)Z

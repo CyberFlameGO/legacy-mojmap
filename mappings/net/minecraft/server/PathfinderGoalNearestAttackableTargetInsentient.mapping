@@ -3,5 +3,4 @@ CLASS sn net/minecraft/server/PathfinderGoalNearestAttackableTargetInsentient
 	METHOD <init> <init> (Lps;Ljava/lang/Class;)V
 	CLASS 1 1
 		METHOD <init> <init> (Lsn;)V
-		METHOD a apply (Lpr;)Z
 		METHOD apply apply (Ljava/lang/Object;)Z

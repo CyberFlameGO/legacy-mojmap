@@ -1,3 +1,0 @@
-CLASS akv net/minecraft/server/TileEntityBeacon
-	FIELD m inventorySlot Lzx;
-	CLASS a BeaconColorTracker

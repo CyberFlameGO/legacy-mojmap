@@ -1,4 +1,2 @@
 CLASS bjz
 	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Lbiu;)V
-	METHOD g b ()Lbcd;

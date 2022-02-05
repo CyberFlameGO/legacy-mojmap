@@ -1,5 +1,3 @@
 CLASS amn net/minecraft/world/level/block/state/properties/IntegerProperty
 	METHOD <init> <init> (Ljava/lang/String;II)V
 	METHOD a of (Ljava/lang/String;II)Lamn;
-	METHOD equals equals (Ljava/lang/Object;)Z
-	METHOD hashCode hashCode ()I

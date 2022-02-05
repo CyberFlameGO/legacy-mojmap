@@ -7,8 +7,6 @@ CLASS wy net/minecraft/world/entity/projectile/ThrowableProjectile
 	FIELD f inBlockId Lafh;
 	FIELD g shooter Lpr;
 	FIELD h shooterName Ljava/lang/String;
-	METHOD <init> <init> (Ladm;)V
 	METHOD <init> <init> (Ladm;DDD)V
 	METHOD <init> <init> (Ladm;Lpr;)V
-	METHOD c shoot (DDDFF)V
 	METHOD n getShooter ()Lpr;

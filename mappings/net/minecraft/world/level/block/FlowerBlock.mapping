@@ -1,13 +1,7 @@
 CLASS agw net/minecraft/world/level/block/FlowerBlock
 	FIELD a TYPE Lamm;
-	METHOD <init> <init> ()V
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a getDropData (Lalz;)I
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;
 	CLASS 1 1
 		METHOD <init> <init> (Lagw;)V
-		METHOD a apply (Lagw$a;)Z
 		METHOD apply apply (Ljava/lang/Object;)Z
 	CLASS a EnumFlowerVarient
 		FIELD a DANDELION Lagw$a;
@@ -23,13 +17,11 @@ CLASS agw net/minecraft/world/level/block/FlowerBlock
 		METHOD <clinit> <clinit> ()V
 		METHOD <init> <init> (Ljava/lang/String;ILagw$b;ILjava/lang/String;)V
 		METHOD <init> <init> (Ljava/lang/String;ILagw$b;ILjava/lang/String;Ljava/lang/String;)V
-		METHOD l getName ()Ljava/lang/String;
 		METHOD toString toString ()Ljava/lang/String;
 		METHOD valueOf valueOf (Ljava/lang/String;)Lagw$a;
 		METHOD values values ()[Lagw$a;
 		CLASS 1 1
 			METHOD <init> <init> (Lagw$b;)V
-			METHOD a apply (Lagw$a;)Z
 			METHOD apply apply (Ljava/lang/Object;)Z
 	CLASS b EnumFlowerType
 		FIELD a YELLOW Lagw$b;

@@ -3,12 +3,6 @@ CLASS n net/minecraft/server/CommandObjectiveExecutor
 	METHOD <init> <init> ()V
 	CLASS 1 1
 		METHOD <init> <init> (Ln;Lm;)V
-		METHOD a sendMessage (Leu;)V
-		METHOD c getChunkCoordinates ()Lcj;
-		METHOD e getWorld ()Ladm;
-		METHOD e_ getName ()Ljava/lang/String;
-		METHOD f_ getScoreboardDisplayName ()Leu;
-		METHOD u_ getSendCommandFeedback ()Z
 	CLASS a EnumCommandResult
 		FIELD a SUCCESS_COUNT Ln$a;
 		FIELD b AFFECTED_BLOCKS Ln$a;

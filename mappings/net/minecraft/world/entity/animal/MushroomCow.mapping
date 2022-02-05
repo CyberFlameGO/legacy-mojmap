@@ -1,5 +1,1 @@
 CLASS tr net/minecraft/world/entity/animal/MushroomCow
-	METHOD <init> <init> (Ladm;)V
-	METHOD a createChild (Lph;)Lph;
-	METHOD b createChild (Lph;)Lto;
-	METHOD c createChild (Lph;)Ltr;

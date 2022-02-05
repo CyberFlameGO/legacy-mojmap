@@ -4,8 +4,6 @@ CLASS abj net/minecraft/server/RecipesBanner
 	CLASS a AddRecipe
 		METHOD <init> <init> ()V
 		METHOD <init> <init> (Labj$1;)V
-		METHOD a craftItem (Lxp;)Lzx;
 	CLASS b DuplicateRecipe
 		METHOD <init> <init> ()V
 		METHOD <init> <init> (Labj$1;)V
-		METHOD a craftItem (Lxp;)Lzx;

@@ -2,11 +2,7 @@ CLASS xk net/minecraft/world/inventory/AnvilMenu
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> (Lwm;Ladm;Lcj;Lwn;)V
 	METHOD <init> <init> (Lwm;Ladm;Lwn;)V
-	METHOD a addSlotListener (Lxn;)V
 	CLASS 1 1
 		METHOD <init> <init> (Lxk;Ljava/lang/String;ZI)V
-		METHOD p_ update ()V
 	CLASS 2 2
 		METHOD <init> <init> (Lxk;Log;IIILadm;Lcj;)V
-		METHOD a isAllowed (Lwn;)Z
-		METHOD a isAllowed (Lzx;)Z

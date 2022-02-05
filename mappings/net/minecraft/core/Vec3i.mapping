@@ -5,7 +5,6 @@ CLASS df net/minecraft/core/Vec3i
 	METHOD <init> <init> (III)V
 	METHOD compareTo compareTo (Ljava/lang/Object;)I
 	METHOD equals equals (Ljava/lang/Object;)Z
-	METHOD g compareTo (Ldf;)I
 	METHOD hashCode hashCode ()I
 	METHOD n getX ()I
 	METHOD o getY ()I
