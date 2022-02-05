@@ -1,9 +1,0 @@
-CLASS bmf
-	METHOD <init> <init> (IIZII)V
-	CLASS a
-		METHOD <init> <init> (Lbmi;I)V
-		METHOD compareTo compareTo (Ljava/lang/Object;)I
-		METHOD toString toString ()Ljava/lang/String;
-	CLASS b
-		METHOD <init> <init> (IIII)V
-		METHOD toString toString ()Ljava/lang/String;

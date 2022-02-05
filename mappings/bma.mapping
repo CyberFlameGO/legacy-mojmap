@@ -1,6 +1,0 @@
-CLASS bma
-	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Ljava/io/File;Ljava/lang/String;Ljy;Lbfm;)V
-	CLASS 1
-		METHOD <init> <init> (Lbma;Ljava/lang/String;)V
-		METHOD run run ()V

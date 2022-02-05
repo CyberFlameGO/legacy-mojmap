@@ -1,5 +1,0 @@
-CLASS bds bds
-	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Lbmj;Ladm;DDD)V
-	CLASS a a
-		METHOD <init> <init> ()V

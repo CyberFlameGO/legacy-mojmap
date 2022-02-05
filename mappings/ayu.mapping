@@ -1,7 +1,0 @@
-CLASS ayu ayu
-	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Lwn;)V
-	CLASS a a
-		METHOD <init> <init> (Lwn;)V
-	CLASS b b
-		METHOD <init> <init> (Layu;Lyg;I)V

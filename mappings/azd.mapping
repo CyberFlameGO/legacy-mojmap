@@ -1,5 +1,0 @@
-CLASS azd azd
-	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Lwm;Lacy;Ladm;)V
-	CLASS a a
-		METHOD <init> <init> (IIIZ)V

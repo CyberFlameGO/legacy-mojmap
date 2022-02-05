@@ -1,6 +1,0 @@
-CLASS bgi bgi
-	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Lcq;ILjava/lang/String;Lbgk;)V
-	CLASS a a
-		METHOD <init> <init> ()V
-		METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;

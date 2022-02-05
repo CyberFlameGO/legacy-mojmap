@@ -1,7 +1,0 @@
-CLASS awz awz
-	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Laxu;Lave;Lbde;)V
-	METHOD <init> <init> (Laxu;Lave;Ljava/lang/String;I)V
-	CLASS 1 1
-		METHOD <init> <init> (Lawz;Ljava/lang/String;Ljava/lang/String;I)V
-		METHOD run run ()V

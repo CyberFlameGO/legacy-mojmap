@@ -1,5 +1,0 @@
-CLASS axv axv
-	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Laxu;)V
-	CLASS a a
-		METHOD <init> <init> (Laxv;Lave;)V

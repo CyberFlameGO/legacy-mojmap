@@ -1,9 +1,0 @@
-CLASS bpq
-	METHOD <clinit> <clinit> ()V
-	CLASS a
-		METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;)V
-	CLASS b
-		METHOD <init> <init> (Lbpq$c;)V
-		METHOD run run ()V
-	CLASS c
-		METHOD <init> <init> ()V

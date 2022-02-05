@@ -1,8 +1,0 @@
-CLASS box
-	METHOD <init> <init> (Ljava/util/List;)V
-	CLASS a
-		METHOD <init> <init> ()V
-	CLASS b
-		METHOD <init> <init> (Lboq;I)V
-		METHOD compareTo compareTo (Ljava/lang/Object;)I
-		METHOD toString toString ()Ljava/lang/String;

@@ -1,6 +1,0 @@
-CLASS bnn
-	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Lbny;)V
-	CLASS 1
-		METHOD <init> <init> (Lbnn;)V
-		METHOD apply apply (Ljava/lang/Object;)Ljava/lang/Object;

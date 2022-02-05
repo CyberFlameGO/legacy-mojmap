@@ -1,7 +1,0 @@
-CLASS bde bde
-	METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;Z)V
-	CLASS a a
-		METHOD <clinit> <clinit> ()V
-		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
-		METHOD valueOf valueOf (Ljava/lang/String;)Lbde$a;
-		METHOD values values ()[Lbde$a;

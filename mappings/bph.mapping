@@ -1,9 +1,0 @@
-CLASS bph
-	METHOD <init> <init> ()V
-	CLASS a
-		METHOD <init> <init> ()V
-		CLASS a
-			METHOD <clinit> <clinit> ()V
-			METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
-			METHOD valueOf valueOf (Ljava/lang/String;)Lbph$a$a;
-			METHOD values values ()[Lbph$a$a;

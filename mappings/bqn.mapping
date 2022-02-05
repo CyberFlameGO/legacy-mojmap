@@ -1,9 +1,0 @@
-CLASS bqn
-	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Lave;Lcom/mojang/authlib/properties/Property;)V
-	CLASS 1
-		METHOD <init> <init> (Lbqn;Ljava/lang/String;Lcom/mojang/authlib/properties/Property;)V
-		METHOD run run ()V
-		CLASS 1
-			METHOD <init> <init> (Lbqn$1;Ljava/lang/String;)V
-			METHOD run run ()V

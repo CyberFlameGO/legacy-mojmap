@@ -1,8 +1,0 @@
-CLASS blo
-	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> ()V
-	METHOD <init> <init> (III)V
-	METHOD <init> <init> (IIIII)V
-	METHOD <init> <init> (ZZIIIII)V
-	METHOD equals equals (Ljava/lang/Object;)Z
-	METHOD hashCode hashCode ()I

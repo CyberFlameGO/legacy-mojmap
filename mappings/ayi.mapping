@@ -1,8 +1,0 @@
-CLASS ayi ayi
-	METHOD <init> <init> (Layj;Lave;)V
-	CLASS 1 1
-	CLASS a a
-		METHOD <init> <init> (Layi;Ljava/lang/String;)V
-	CLASS b b
-		METHOD <init> <init> (Layi;Lavb;)V
-		METHOD <init> <init> (Layi;Lavb;Layi$1;)V

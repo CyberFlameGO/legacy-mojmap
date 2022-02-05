@@ -1,7 +1,0 @@
-CLASS bgh bgh
-	METHOD <init> <init> (Lorg/lwjgl/util/vector/Vector3f;Lorg/lwjgl/util/vector/Vector3f;Ljava/util/Map;Lbgj;Z)V
-	CLASS 1 1
-		METHOD <clinit> <clinit> ()V
-	CLASS a a
-		METHOD <init> <init> ()V
-		METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;

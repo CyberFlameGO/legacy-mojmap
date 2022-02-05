@@ -1,6 +1,0 @@
-CLASS bdm bdm
-	METHOD <init> <init> (Ladm;DDDDDDF)V
-	CLASS a a
-		METHOD <init> <init> ()V
-	CLASS b b
-		METHOD <init> <init> ()V

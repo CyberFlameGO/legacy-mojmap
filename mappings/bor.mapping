@@ -1,5 +1,0 @@
-CLASS bor
-	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Ljava/lang/String;III)V
-	METHOD valueOf valueOf (Ljava/lang/String;)Lbor;
-	METHOD values values ()[Lbor;

@@ -1,5 +1,0 @@
-CLASS bpg
-	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;I)V
-	METHOD valueOf valueOf (Ljava/lang/String;)Lbpg;
-	METHOD values values ()[Lbpg;

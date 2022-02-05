@@ -1,7 +1,0 @@
-CLASS blt
-	METHOD <init> <init> (Lblt$a;ILjava/lang/String;)V
-	CLASS a
-		METHOD <clinit> <clinit> ()V
-		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;I)V
-		METHOD valueOf valueOf (Ljava/lang/String;)Lblt$a;
-		METHOD values values ()[Lblt$a;

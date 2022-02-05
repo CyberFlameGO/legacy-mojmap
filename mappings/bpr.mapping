@@ -1,5 +1,0 @@
-CLASS bpr
-	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;)V
-	METHOD interrupt interrupt ()V
-	METHOD run run ()V

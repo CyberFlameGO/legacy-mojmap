@@ -1,7 +1,0 @@
-CLASS bpv
-	METHOD <init> <init> (Lave;)V
-	CLASS a
-		METHOD <clinit> <clinit> ()V
-		METHOD <init> <init> (Ljava/lang/String;ILjy;II)V
-		METHOD valueOf valueOf (Ljava/lang/String;)Lbpv$a;
-		METHOD values values ()[Lbpv$a;

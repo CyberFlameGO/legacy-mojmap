@@ -1,5 +1,0 @@
-CLASS bdu bdu
-	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Lbmj;Ladm;DDDDDD)V
-	CLASS a a
-		METHOD <init> <init> ()V

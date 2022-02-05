@@ -1,7 +1,0 @@
-CLASS axq axq
-	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Laxa;)V
-	CLASS a a
-		METHOD <init> <init> (Lzw;ILjava/lang/String;Ljava/lang/String;)V
-	CLASS b b
-		METHOD <init> <init> (Laxq;)V

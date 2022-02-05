@@ -1,8 +1,0 @@
-CLASS bdq bdq
-	CLASS a a
-	CLASS b b
-		METHOD <init> <init> (Ladm;DDDDDDLbec;)V
-	CLASS c c
-		METHOD <init> <init> (Ladm;DDDDDDLbec;Ldn;)V
-	CLASS d d
-		METHOD <init> <init> ()V

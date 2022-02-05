@@ -1,5 +1,0 @@
-CLASS bqh
-	METHOD <clinit> <clinit> ()V
-	METHOD <init> <init> (Ljava/lang/String;)V
-	METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;)V
-	METHOD toString toString ()Ljava/lang/String;
