@@ -1,2 +1,0 @@
-CLASS boe
-	METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
