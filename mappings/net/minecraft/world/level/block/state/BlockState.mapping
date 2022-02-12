@@ -1,4 +1,4 @@
-CLASS alz net/minecraft/server/IBlockData
+CLASS alz net/minecraft/world/level/block/state/BlockState
 	METHOD a set (Lamo;Ljava/lang/Comparable;)Lalz;
 	METHOD b get (Lamo;)Ljava/lang/Comparable;
 	METHOD c getBlock ()Lafh;

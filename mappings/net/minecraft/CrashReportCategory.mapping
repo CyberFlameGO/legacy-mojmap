@@ -1,5 +1,40 @@
 CLASS c net/minecraft/CrashReportCategory
+	FIELD a report Lb;
+	FIELD b title Ljava/lang/String;
+	FIELD c entries Ljava/util/List;
+	FIELD d stackTrace [Ljava/lang/StackTraceElement;
 	METHOD <init> <init> (Lb;Ljava/lang/String;)V
+		ARG 1 report
+		ARG 2 title
+	METHOD a getStackTrace ()[Ljava/lang/StackTraceElement;
+	METHOD a formatLocation (DDD)Ljava/lang/String;
+		ARG 0 x
+		ARG 2 y
+		ARG 4 z
+	METHOD a fillInStackTrace (I)I
+	METHOD a populateBlockDetails (Lc;Lcj;Lafh;I)V
+		ARG 0 category
+		ARG 1 pos
+		ARG 2 block
+	METHOD a populateBlockDetails (Lc;Lcj;Lalz;)V
+		ARG 0 category
+		ARG 1 pos
+		ARG 2 state
+	METHOD a formatLocation (Lcj;)Ljava/lang/String;
+		ARG 0 pos
+	METHOD a validateStackTrace (Ljava/lang/StackTraceElement;Ljava/lang/StackTraceElement;)Z
+	METHOD a setDetail (Ljava/lang/String;Ljava/lang/Object;)V
+		ARG 1 key
+		ARG 2 value
+	METHOD a setDetailError (Ljava/lang/String;Ljava/lang/Throwable;)V
+		ARG 1 key
+		ARG 2 error
+	METHOD a setDetail (Ljava/lang/String;Ljava/util/concurrent/Callable;)V
+		ARG 1 key
+		ARG 2 callable
+	METHOD a getDetails (Ljava/lang/StringBuilder;)V
+		ARG 1 builder
+	METHOD b trimStackTrace (I)V
 	CLASS 1 1
 		METHOD <init> <init> (ILafh;)V
 		METHOD call call ()Ljava/lang/Object;
@@ -16,4 +51,10 @@ CLASS c net/minecraft/CrashReportCategory
 		METHOD <init> <init> (Lcj;)V
 		METHOD call call ()Ljava/lang/Object;
 	CLASS a Entry
+		FIELD a key Ljava/lang/String;
+		FIELD b value Ljava/lang/String;
 		METHOD <init> <init> (Ljava/lang/String;Ljava/lang/Object;)V
+			ARG 1 key
+			ARG 2 value
+		METHOD a getKey ()Ljava/lang/String;
+		METHOD b getValue ()Ljava/lang/String;

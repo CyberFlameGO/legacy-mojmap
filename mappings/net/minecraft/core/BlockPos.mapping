@@ -1,4 +1,4 @@
-CLASS cj net/minecraft/server/BlockPosition
+CLASS cj net/minecraft/core/BlockPos
 	FIELD a ZERO Lcj;
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> (Laui;)V

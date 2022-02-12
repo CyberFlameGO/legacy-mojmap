@@ -79,6 +79,8 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 	METHOD az currentTimeMillis ()J
 	METHOD b setPort (I)V
 	METHOD c setMaxBuildHeight (I)V
+	METHOD c setServerIp (Ljava/lang/String;)V
+		ARG 1 serverIp
 	METHOD d setIdleTimeout (I)V
 	METHOD d setOnlineMode (Z)V
 	METHOD e info (Ljava/lang/String;)V
@@ -106,6 +108,7 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 	METHOD u getServerIp ()Ljava/lang/String;
 	METHOD v isRunning ()Z
 	METHOD w safeShutdown ()V
+	METHOD x setInstance ()V
 	CLASS 1 1
 		METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;)V
 	CLASS 2 2

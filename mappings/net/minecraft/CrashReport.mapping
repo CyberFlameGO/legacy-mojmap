@@ -1,6 +1,35 @@
 CLASS b net/minecraft/CrashReport
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b title Ljava/lang/String;
+	FIELD c exception Ljava/lang/Throwable;
+	FIELD d systemDetails Lc;
+	FIELD e details Ljava/util/List;
+	FIELD f saveFile Ljava/io/File;
+	FIELD g trackingStackTrace Z
+	FIELD h uncategorizedStackTrace [Ljava/lang/StackTraceElement;
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> (Ljava/lang/String;Ljava/lang/Throwable;)V
+		ARG 1 title
+		ARG 2 exception
+	METHOD a getTitle ()Ljava/lang/String;
+	METHOD a saveToFile (Ljava/io/File;)Z
+		ARG 1 saveFile
+	METHOD a addCategory (Ljava/lang/String;)Lc;
+		ARG 1 category
+	METHOD a addCategory (Ljava/lang/String;I)Lc;
+		ARG 1 category
+	METHOD a getDetails (Ljava/lang/StringBuilder;)V
+		ARG 1 builder
+	METHOD a forThrowable (Ljava/lang/Throwable;Ljava/lang/String;)Lb;
+		ARG 0 exception
+		ARG 1 title
+	METHOD b getException ()Ljava/lang/Throwable;
+	METHOD d getExceptionMessage ()Ljava/lang/String;
+	METHOD e getFriendlyReport ()Ljava/lang/String;
+	METHOD f getSaveFile ()Ljava/io/File;
+	METHOD g getSystemDetails ()Lc;
+	METHOD h initDetails ()V
+	METHOD i getWittyComment ()Ljava/lang/String;
 	CLASS 1 1
 		METHOD <init> <init> (Lb;)V
 		METHOD call call ()Ljava/lang/Object;

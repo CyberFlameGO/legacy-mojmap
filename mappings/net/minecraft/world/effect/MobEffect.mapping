@@ -28,6 +28,12 @@ CLASS pe net/minecraft/world/effect/MobEffect
 	METHOD <init> <init> (ILjy;ZI)V
 	METHOD a applyInstantEffect (Lpk;Lpk;Lpr;ID)V
 	METHOD a tick (Lpr;I)V
+	METHOD a removeAttributeModifers (Lpr;Lqf;I)V
+		ARG 1 entity
+		ARG 2 attributes
 	METHOD b isInstant ()Z
+	METHOD b addAttributeModifers (Lpr;Lqf;I)V
+		ARG 1 entity
+		ARG 2 attributes
 	METHOD d getId ()I
 	METHOD h getDurationModifier ()D

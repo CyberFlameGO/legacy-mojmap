@@ -1,6 +1,8 @@
 CLASS ave net/minecraft/client/MinecraftClient
 	FIELD K LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD S INSTANCE Lave;
+	FIELD V hasCrashed Z
+	FIELD W delayedCrash Lb;
 	FIELD X connectedToRealms Z
 	FIELD aK sessionService Lcom/mojang/authlib/minecraft/MinecraftSessionService;
 	FIELD aO mainThread Ljava/lang/Thread;
@@ -19,9 +21,13 @@ CLASS ave net/minecraft/client/MinecraftClient
 	METHOD O getProxy ()Ljava/net/Proxy;
 	METHOD a init ()V
 	METHOD a setScreen (Laxu;)V
+	METHOD a delayCrash (Lb;)V
+		ARG 1 report
 	METHOD a setConnectedToRealms (Z)V
 	METHOD aa getSessionService ()Lcom/mojang/authlib/minecraft/MinecraftSessionService;
 	METHOD al isConnectedToRealms ()Z
+	METHOD c crash (Lb;)V
+		ARG 1 report
 	CLASS 1 1
 		METHOD <init> <init> (Lave;)V
 	CLASS 2 2

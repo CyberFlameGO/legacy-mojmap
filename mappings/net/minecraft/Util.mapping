@@ -1,5 +1,14 @@
 CLASS g net/minecraft/Util
-	CLASS a a
+	METHOD a getPlatform ()Lg$a;
+	METHOD a runTask (Ljava/util/concurrent/FutureTask;Lorg/apache/logging/log4j/Logger;)Ljava/lang/Object;
+		ARG 0 task
+		ARG 1 logger
+	CLASS a OS
+		FIELD a LINUX Lg$a;
+		FIELD b SOLARIS Lg$a;
+		FIELD c WINDOWS Lg$a;
+		FIELD d OSX Lg$a;
+		FIELD e UNKNOWN Lg$a;
 		METHOD <clinit> <clinit> ()V
 		METHOD <init> <init> (Ljava/lang/String;I)V
 		METHOD valueOf valueOf (Ljava/lang/String;)Lg$a;

@@ -1,10 +1,21 @@
 CLASS df net/minecraft/core/Vec3i
+	FIELD a x I
 	FIELD b ZERO Ldf;
+	FIELD c y I
+	FIELD d z I
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
 	METHOD <init> <init> (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD compareTo compareTo (Ljava/lang/Object;)I
+		ARG 1 other
 	METHOD equals equals (Ljava/lang/Object;)Z
+		ARG 1 other
 	METHOD hashCode hashCode ()I
 	METHOD n getX ()I
 	METHOD o getY ()I

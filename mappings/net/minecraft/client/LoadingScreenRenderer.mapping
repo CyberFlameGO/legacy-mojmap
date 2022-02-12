@@ -1,0 +1,2 @@
+CLASS avi net/minecraft/client/LoadingScreenRenderer
+	FIELD b client Lave;
