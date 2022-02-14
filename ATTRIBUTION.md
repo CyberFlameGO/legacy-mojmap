@@ -12,4 +12,4 @@ The Spigot Mappings are licensed under the terms of the [SpigotMC Contributing L
 
 ### TacoSpigot, and NachoSpigot obfuscation helpers
 
-All three of this projects are licensed under the terms of the [GNU General Public License version 3](GPL.md).
+Licensed under the terms of the [GNU General Public License version 3](GPL.md).
