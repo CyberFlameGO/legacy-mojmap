@@ -33,6 +33,7 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> (Ljava/io/File;Ljava/net/Proxy;Ljava/io/File;)V
 	METHOD <init> <init> (Ljava/net/Proxy;Ljava/io/File;)V
+	METHOD A tickServer ()V
 	METHOD C getAllowNether ()Z
 	METHOD D startThread ()V
 	METHOD F getServerPort ()I
@@ -47,9 +48,18 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 	METHOD W getSpawnMonsters ()Z
 	METHOD Y getConvertable ()Latr;
 	METHOD a getWorldServer (I)Lle;
-	METHOD a setGamemode (Ladp$a;)V
+	METHOD a setDefaultGameMode (Ladp$a;)V
+		ARG 1 gameMode
+	METHOD a publishServer (Ladp$a;Z)Ljava/lang/String;
+		ARG 1 gameType
+		ARG 2 useCheats
+	METHOD a onServerCrash (Lb;)V
+		ARG 1 report
+	METHOD a loadLevel (Ljava/lang/String;Ljava/lang/String;JLadr;Ljava/lang/String;)V
 	METHOD a setPlayerList (Llx;)V
 	METHOD a tabCompleteCommand (Lm;Ljava/lang/String;Lcj;)Ljava/util/List;
+	METHOD a setDifficulty (Loj;)V
+		ARG 1 difficulty
 	METHOD a saveChunks (Z)V
 	METHOD aA getIdleTimeout ()I
 	METHOD aB announcePlayerAchievements ()Z
@@ -63,12 +73,14 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 	METHOD a_ setResourcePack (Ljava/lang/String;Ljava/lang/String;)V
 	METHOD ab getResourcePack ()Ljava/lang/String;
 	METHOD ac getResourcePackHash ()Ljava/lang/String;
+	METHOD ae isDedicatedServer ()Z
 	METHOD af getOnlineMode ()Z
 	METHOD ag getSpawnAnimals ()Z
 	METHOD ah getSpawnNPCs ()Z
+	METHOD ai isEpollEnabled ()Z
 	METHOD aj getPVP ()Z
 	METHOD ak getAllowFlight ()Z
-	METHOD al getEnableCommandBlock ()Z
+	METHOD al isCommandBlockEnabled ()Z
 	METHOD am getMotd ()Ljava/lang/String;
 	METHOD an getMaxBuildHeight ()I
 	METHOD ao isStopped ()Z
@@ -78,6 +90,8 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 	METHOD ay getProxy ()Ljava/net/Proxy;
 	METHOD az currentTimeMillis ()J
 	METHOD b setPort (I)V
+	METHOD b fillReport (Lb;)Lb;
+		ARG 1 report
 	METHOD c setMaxBuildHeight (I)V
 	METHOD c setServerIp (Ljava/lang/String;)V
 		ARG 1 serverIp
@@ -91,24 +105,25 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 	METHOD g setPVP (Z)V
 	METHOD getServerModName getServerModName ()Ljava/lang/String;
 	METHOD h setAllowFlight (Z)V
-	METHOD i init ()Z
+	METHOD i initServer ()Z
 	METHOD i setForceGamemode (Z)V
 	METHOD j setWorld (Ljava/lang/String;)V
-	METHOD l getGenerateStructures ()Z
+	METHOD l canGenerateStructures ()Z
 	METHOD l setMotd (Ljava/lang/String;)V
-	METHOD m getGamemode ()Ladp$a;
+	METHOD m getDefaultGameType ()Ladp$a;
 	METHOD main main ([Ljava/lang/String;)V
-	METHOD n getDifficulty ()Loj;
+	METHOD n getDefaultDifficulty ()Loj;
 	METHOD o isHardcore ()Z
-	METHOD p getOpPermissionLevel ()I
-	METHOD q broadcastRconToOps ()Z
-	METHOD r broadcastConsoleToOps ()Z
+	METHOD p getOperatorUserPermissionLevel ()I
+	METHOD q shouldRconBroadcast ()Z
+	METHOD r shouldInformAdmins ()Z
 	METHOD run run ()V
-	METHOD t stop ()V
+	METHOD t stopServer ()V
 	METHOD u getServerIp ()Ljava/lang/String;
 	METHOD v isRunning ()Z
 	METHOD w safeShutdown ()V
-	METHOD x setInstance ()V
+	METHOD x setServerInstance ()V
+	METHOD y getServerDirectory ()Ljava/io/File;
 	CLASS 1 1
 		METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;)V
 	CLASS 2 2

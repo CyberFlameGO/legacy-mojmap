@@ -1,0 +1,58 @@
+CLASS adp net/minecraft/world/level/LevelSettings
+	FIELD a seed J
+	FIELD b gameType Ladp$a;
+	FIELD c generateMapFeatures Z
+	FIELD d hardcore Z
+	FIELD e levelType Ladr;
+	FIELD f allowCommands Z
+	FIELD g startingBonusItems Z
+	FIELD h levelTypeOptions Ljava/lang/String;
+	METHOD <init> <init> (JLadp$a;ZZLadr;)V
+		ARG 1 seed
+		ARG 3 gameType
+		ARG 4 generateMapFeatures
+		ARG 5 hardcore
+		ARG 6 levelType
+	METHOD <init> <init> (Lato;)V
+		ARG 1 worldData
+	METHOD a enableStartingBonusItems ()Ladp;
+	METHOD a getGameTypeById (I)Ladp$a;
+		COMMENT @deprecated Use {@link GameType#byId}
+		COMMENT @see GameType#byId
+		ARG 0 id
+	METHOD a setLevelTypeOptions (Ljava/lang/String;)Ladp;
+		ARG 1 levelTypeOptions
+	METHOD b enableSinglePlayerCommands ()Ladp;
+	METHOD c hasStartingBonusItems ()Z
+	METHOD d getSeed ()J
+	METHOD e getGameType ()Ladp$a;
+	METHOD f isHardcore ()Z
+	METHOD g isGenerateMapFeatures ()Z
+	METHOD h getLevelType ()Ladr;
+	METHOD i getAllowCommands ()Z
+	METHOD j getLevelTypeOptions ()Ljava/lang/String;
+	CLASS a GameType
+		FIELD a NOT_SET Ladp$a;
+		FIELD b SURVIVAL Ladp$a;
+		FIELD c CREATIVE Ladp$a;
+		FIELD d ADVENTURE Ladp$a;
+		FIELD e SPECTATOR Ladp$a;
+		FIELD f id I
+		FIELD g name Ljava/lang/String;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;)V
+			ARG 3 id
+			ARG 4 name
+		METHOD a getId ()I
+		METHOD a byId (I)Ladp$a;
+			ARG 0 id
+		METHOD a byName (Ljava/lang/String;)Ladp$a;
+			ARG 0 name
+		METHOD a updatePlayerAbilities (Lwl;)V
+			ARG 1 playerAbilities
+		METHOD b getName ()Ljava/lang/String;
+		METHOD c isBlockPlacingRestricted ()Z
+		METHOD d isCreative ()Z
+		METHOD e isSurvival ()Z
+		METHOD valueOf valueOf (Ljava/lang/String;)Ladp$a;
+		METHOD values values ()[Ladp$a;

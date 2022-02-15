@@ -1,9 +1,18 @@
 CLASS bpo net/minecraft/client/server/IntergratedServer
 	FIELD k LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD l client Lave;
+	FIELD l minecraft Lave;
+	FIELD m settings Ladp;
+	FIELD o published Z
+	FIELD p lanPinger Lbpr;
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> (Lave;)V
+		ARG 1 minecraft
 	METHOD <init> <init> (Lave;Ljava/lang/String;Ljava/lang/String;Ladp;)V
+		ARG 1 minecraft
+		ARG 2 worldName
+		ARG 4 settings
+	METHOD a setInstance ()V
+	METHOD b isPublished ()Z
 	CLASS 1 1
 		METHOD <init> <init> (Lbpo;)V
 		METHOD call call ()Ljava/lang/Object;

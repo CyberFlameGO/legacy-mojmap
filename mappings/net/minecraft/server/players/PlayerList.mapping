@@ -10,15 +10,19 @@ CLASS lx net/minecraft/server/players/PlayerList
 	FIELD q hasWhitelist Z
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 server
 	METHOD a reloadWhitelist ()V
 	METHOD a sendPacketNearby (DDDDILff;)V
+	METHOD a setDefaultGameMode (Ladp$a;)V
 	METHOD a addOp (Lcom/mojang/authlib/GameProfile;)V
 		ARG 1 profile
 	METHOD a sendMessage (Leu;)V
 	METHOD a sendMessage (Leu;Z)V
 	METHOD a sendAll (Lff;)V
 	METHOD a getPlayer (Ljava/lang/String;)Llf;
-	METHOD a attemptLogin (Ljava/net/SocketAddress;Lcom/mojang/authlib/GameProfile;)Ljava/lang/String;
+	METHOD a canPlayerLogin (Ljava/net/SocketAddress;Lcom/mojang/authlib/GameProfile;)Ljava/lang/String;
+		ARG 1 address
+		ARG 2 profile
 	METHOD a sendScoreboard (Lkk;Llf;)V
 	METHOD a changeDimension (Llf;I)V
 	METHOD a moveToWorld (Llf;IZ)Llf;
@@ -28,7 +32,8 @@ CLASS lx net/minecraft/server/players/PlayerList
 	METHOD a setPlayerFileData ([Lle;)V
 	METHOD b removeOp (Lcom/mojang/authlib/GameProfile;)V
 		ARG 1 profile
-	METHOD b savePlayerFile (Llf;)V
+	METHOD b save (Llf;)V
+		ARG 1 player
 	METHOD c getServer ()Lnet/minecraft/server/MinecraftServer;
 	METHOD c removeWhitelist (Lcom/mojang/authlib/GameProfile;)V
 	METHOD c onPlayerJoin (Llf;)V
@@ -52,5 +57,6 @@ CLASS lx net/minecraft/server/players/PlayerList
 	METHOD p getMaxPlayers ()I
 	METHOD q getSeenPlayers ()[Ljava/lang/String;
 	METHOD r getHasWhitelist ()Z
+	METHOD t getSingleplayerData ()Ldn;
 	CLASS 1 1
 		METHOD <init> <init> (Llx;)V

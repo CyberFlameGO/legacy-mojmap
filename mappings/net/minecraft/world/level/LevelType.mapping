@@ -1,4 +1,4 @@
-CLASS adr net/minecraft/server/WorldType
+CLASS adr net/minecraft/world/level/LevelType
 	FIELD a types [Ladr;
 	FIELD b NORMAL Ladr;
 	FIELD c FLAT Ladr;

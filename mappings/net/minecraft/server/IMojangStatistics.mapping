@@ -1,2 +1,4 @@
 CLASS os net/minecraft/server/IMojangStatistics
-	METHOD ad getSnooperEnabled ()Z
+	METHOD a populateSnooper (Lor;)V
+		ARG 1 snooper
+	METHOD ad isSnooperEnabled ()Z

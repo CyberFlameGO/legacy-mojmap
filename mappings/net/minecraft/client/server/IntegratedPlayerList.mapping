@@ -1,0 +1,4 @@
+CLASS bpn net/minecraft/client/server/IntegratedPlayerList
+	FIELD f playerData Ldn;
+	METHOD <init> (Lbpo;)V
+		ARG 1 server
