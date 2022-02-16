@@ -1,0 +1,16 @@
+CLASS bnt net/minecraft/client/resources/language/Locale
+	FIELD a storage Ljava/util/Map;
+	FIELD b SPILTTER Lcom/google/common/base/Splitter;
+	FIELD c UNSUPPORTED_FORMAT_PATTERN Ljava/util/regex/Pattern;
+	METHOD a loadFrom (Lbni;Ljava/util/List;)V
+		ARG 1 manager
+		ARG 2 languages
+	METHOD a appendFrom (Ljava/io/InputStream;)V
+		ARG 1 input
+	METHOD a get (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+		ARG 1 key
+		ARG 2 format
+	METHOD a appendFrom (Ljava/util/List;)V
+		ARG 1 resources
+	METHOD b getOrDefault (Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 key

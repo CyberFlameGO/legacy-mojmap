@@ -1,0 +1,7 @@
+CLASS bnh net/minecraft/server/packs/resources/Resource
+	METHOD a getLocation ()Ljy;
+	METHOD a getMetadata (Ljava/lang/String;)Lbnw;
+		ARG 1 id
+	METHOD b getInputStream ()Ljava/io/InputStream;
+	METHOD c hasMetadata ()Z
+	METHOD d getSourceName ()Ljava/lang/String;
