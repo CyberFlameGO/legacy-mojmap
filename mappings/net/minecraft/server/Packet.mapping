@@ -1,1 +1,7 @@
 CLASS ff net/minecraft/server/Packet
+	METHOD a read (Lem;)V
+		ARG 1 buf
+	METHOD a handle (Lep;)V
+		ARG 1 listener
+	METHOD b write (Lem;)V
+		ARG 1 buf

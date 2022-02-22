@@ -1,10 +1,31 @@
 CLASS eu net/minecraft/network/chat/Component
+	METHOD a getSiblings ()Ljava/util/List;
 	METHOD a addSibling (Leu;)Leu;
-	METHOD a setChatModifier (Lez;)Leu;
-	METHOD b getChatModifier ()Lez;
-	METHOD e getText ()Ljava/lang/String;
+		ARG 1 sibling
+	METHOD a setStyle (Lez;)Leu;
+		ARG 1 style
+	METHOD a addSibling (Ljava/lang/String;)Leu;
+		ARG 1 sibling
+	METHOD b getStyle ()Lez;
+	METHOD e getContents ()Ljava/lang/String;
+	METHOD f copy ()Leu;
 	CLASS a Serializer
+		FIELD a GSON Lcom/google/gson/Gson;
 		METHOD <clinit> <clinit> ()V
 		METHOD <init> <init> ()V
+		METHOD a toJson (Leu;)Ljava/lang/String;
+			ARG 0 component
+		METHOD a serializeStyle (Lez;Lcom/google/gson/JsonObject;Lcom/google/gson/JsonSerializationContext;)V
+			ARG 1 style
+			ARG 2 object
+			ARG 3 context
+		METHOD a fromJson (Ljava/lang/String;)Leu;
+			ARG 0 json
 		METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+			ARG 1 element
+			ARG 2 type
+			ARG 3 context
 		METHOD serialize serialize (Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+			ARG 1 component
+			ARG 2 type
+			ARG 3 context

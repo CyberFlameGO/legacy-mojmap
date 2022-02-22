@@ -1,0 +1,21 @@
+CLASS aug net/minecraft/world/phys/AABB
+	FIELD a minX D
+	FIELD b minY D
+	FIELD c minZ D
+	FIELD d maxX D
+	FIELD e maxY D
+	FIELD f maxZ D
+	METHOD <init> <init> (DDDDDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 x2
+		ARG 9 y2
+		ARG 11 z2
+	METHOD <init> <init> (Lcj;Lcj;)V
+		ARG 1 min
+		ARG 2 max
+	METHOD b hasNaN ()Z
+	METHOD b grow (DDD)Laug;
+	METHOD d shrink (DDD)Laug;
+	METHOD toString toString ()Ljava/lang/String;

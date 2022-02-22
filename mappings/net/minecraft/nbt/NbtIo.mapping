@@ -1,1 +1,29 @@
 CLASS dx net/minecraft/nbt/NbtIo
+	METHOD a writeUnnamedTag (Ldn;Ljava/io/DataOutput;)V
+		ARG 0 tag
+		ARG 1 output
+	METHOD a safeWrite (Ldn;Ljava/io/File;)V
+		ARG 0 nbt
+		ARG 1 file
+	METHOD a writeCompressed (Ldn;Ljava/io/OutputStream;)V
+		ARG 0 nbt
+		ARG 1 output
+	METHOD a writeUnnamedTag (Leb;Ljava/io/DataOutput;)V
+		ARG 0 tag
+		ARG 1 output
+	METHOD a readUnnamedTag (Ljava/io/DataInput;ILdw;)Leb;
+		ARG 0 input
+		ARG 1 depth
+		ARG 2 accounter
+	METHOD a read (Ljava/io/DataInput;Ldw;)Ldn;
+		ARG 0 input
+		ARG 1 accounter
+	METHOD a read (Ljava/io/DataInputStream;)Ldn;
+		ARG 0 input
+	METHOD a read (Ljava/io/File;)Ldn;
+		ARG 0 file
+	METHOD a readCompressed (Ljava/io/InputStream;)Ldn;
+		ARG 0 input
+	METHOD b write (Ldn;Ljava/io/File;)V
+		ARG 0 tag
+		ARG 1 file

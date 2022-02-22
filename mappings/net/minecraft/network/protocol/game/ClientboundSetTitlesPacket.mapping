@@ -1,0 +1,35 @@
+CLASS hv net/minecraft/network/protocol/game/ClientboundSetTitlesPacket
+	FIELD a type Lhv$a;
+	FIELD b text Leu;
+	FIELD c fadeInTime I
+	FIELD d stayTime I
+	FIELD e fadeOutTime I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (III)V
+		ARG 1 fadeInTime
+		ARG 2 stayTime
+		ARG 3 fadeOutTime
+	METHOD <init> <init> (Lhv$a;Leu;)V
+		ARG 1 type
+		ARG 2 text
+	METHOD <init> <init> (Lhv$a;Leu;III)V
+		ARG 1 type
+		ARG 2 text
+		ARG 3 fadeInTime
+		ARG 4 stayTime
+		ARG 5 fadeOutTime
+	METHOD a getType ()Lhv$a;
+	METHOD b getText ()Leu;
+	METHOD c getFadeInTime ()I
+	METHOD d getStayTime ()I
+	METHOD e getFadeOutTime ()I
+	CLASS a Type
+		FIELD a TITLE Lhv$a;
+		FIELD b SUBTITLE Lhv$a;
+		FIELD c TIMES Lhv$a;
+		FIELD d CLEAR Lhv$a;
+		FIELD e RESET Lhv$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lhv$a;
+		METHOD values values ()[Lhv$a;

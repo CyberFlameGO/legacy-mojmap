@@ -1,13 +1,21 @@
 CLASS eb net/minecraft/nbt/Tag
+	FIELD a TAG_NAMES [Ljava/lang/String;
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> ()V
-	METHOD a getTypeId ()B
-	METHOD a createTag (B)Leb;
+	METHOD a getId ()B
+	METHOD a newTag (B)Leb;
+		ARG 0 b
 	METHOD a load (Ljava/io/DataInput;ILdw;)V
+		ARG 1 input
+		ARG 2 depth
+		ARG 3 accounter
 	METHOD a write (Ljava/io/DataOutput;)V
-	METHOD b clone ()Leb;
+		ARG 1 output
+	METHOD a_ getAsString ()Ljava/lang/String;
+	METHOD b copy ()Leb;
 	METHOD c_ isEmpty ()Z
 	METHOD equals equals (Ljava/lang/Object;)Z
+		ARG 1 other
 	METHOD hashCode hashCode ()I
 	METHOD toString toString ()Ljava/lang/String;
 	CLASS a NBTNumber

@@ -1,4 +1,10 @@
 CLASS dw net/minecraft/nbt/NbtAccounter
+	FIELD a UNLIMITED Ldw;
+	FIELD b quota J
+	FIELD c usage J
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> (J)V
+		ARG 1 quota
+	METHOD a accountBits (J)V
+		ARG 1 bits
 	CLASS 1 1
