@@ -45,6 +45,7 @@ CLASS ady net/minecraft/world/level/biome/Biome
 	FIELD z FROZEN_OCEAN Lady;
 	METHOD <clinit> <clinit> ()V
 	METHOD <init> <init> (I)V
+		ARG 1 id
 	METHOD a getBiome (ILady;)Lady;
 	METHOD a getMobs (Lpt;)Ljava/util/List;
 	METHOD e getBiome (I)Lady;

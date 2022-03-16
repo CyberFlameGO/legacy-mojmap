@@ -1,2 +1,0 @@
-CLASS aee net/minecraft/server/BiomeBigHills
-	METHOD <init> <init> (IZ)V

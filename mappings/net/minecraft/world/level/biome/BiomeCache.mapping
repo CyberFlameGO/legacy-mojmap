@@ -1,4 +1,4 @@
-CLASS adz net/minecraft/server/BiomeCache
+CLASS adz net/minecraft/world/level/biome/BiomeCache
 	METHOD <init> <init> (Laec;)V
 	CLASS a BiomeCacheBlock
 		METHOD <init> <init> (Ladz;II)V

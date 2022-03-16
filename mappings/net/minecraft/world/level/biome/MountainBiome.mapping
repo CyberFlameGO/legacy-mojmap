@@ -1,0 +1,2 @@
+CLASS aee net/minecraft/world/level/biome/MountainBiome
+	METHOD <init> <init> (IZ)V

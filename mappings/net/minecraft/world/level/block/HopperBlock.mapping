@@ -1,4 +1,4 @@
-CLASS ahn net/minecraft/server/BlockHopper
+CLASS ahn net/minecraft/world/level/block/HopperBlock
 	FIELD a FACING Laml;
 	FIELD b ENABLED Lamk;
 	METHOD <clinit> <clinit> ()V
